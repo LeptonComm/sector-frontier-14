@@ -209,6 +209,7 @@ public sealed class DebrisFeaturePlacerSystem : BaseWorldSystem
         if (!TryComp<MapComponent>(chunkMap, out var map))
             return;
 
+        var chunk = Comp<WorldChunkComponent>(args.Chunk);
         var densityChannel = component.DensityNoiseChannel;
         var density = _noiseIndex.Evaluate(uid, densityChannel, chunk.Coordinates + new Vector2(0.5f, 0.5f));
         if (density == 0)
@@ -311,24 +312,30 @@ public sealed class DebrisFeaturePlacerSystem : BaseWorldSystem
 
             var coords = new EntityCoordinates(chunkMap, point);
 
-            var preEv = new PrePlaceDebrisFeatureEvent(coords, chunkUid);
+            if (_mapManager
+                .FindGridsIntersecting(Comp<MapComponent>(chunk.Map).MapId, safetyBounds.Translated(point)).Any())
+                continue; // Oops, gonna collide.
+
+            var preEv = new PrePlaceDebrisFeatureEvent(coords, args.Chunk);
             RaiseLocalEvent(uid, ref preEv);
-            if (uid != chunkUid)
-                RaiseLocalEvent(chunkUid, ref preEv);
+            if (uid != args.Chunk)
+                RaiseLocalEvent(args.Chunk, ref preEv);
 
             if (preEv.Handled)
                 continue;
 
-            var debrisFeatureEv = new TryGetPlaceableDebrisFeatureEvent(coords, chunkUid);
+            var debrisFeatureEv = new TryGetPlaceableDebrisFeatureEvent(coords, args.Chunk);
             RaiseLocalEvent(uid, ref debrisFeatureEv);
 
             if (debrisFeatureEv.DebrisProto == null)
             {
-                if (uid != chunkUid)
-                    RaiseLocalEvent(chunkUid, ref debrisFeatureEv);
+                // Try on the chunk...?
+                if (uid != args.Chunk)
+                    RaiseLocalEvent(args.Chunk, ref debrisFeatureEv);
 
                 if (debrisFeatureEv.DebrisProto == null)
                 {
+                    // Nope.
                     failures++;
                     continue;
                 }
@@ -346,9 +353,28 @@ public sealed class DebrisFeaturePlacerSystem : BaseWorldSystem
         }
 
         if (failures > 0)
-            _sawmill.Error($"Failed to place {failures} debris at chunk {chunkUid}");
+            _sawmill.Error($"Failed to place {failures} debris at chunk {args.Chunk}");
+    }
 
-        return points.Count;
+    /// <summary>
+    ///     Generates the points to put into a chunk using a poisson disk sampler.
+    /// </summary>
+    private List<Vector2> GeneratePointsInChunk(EntityUid chunk, float density, Vector2 coords, EntityUid map)
+    {
+        var offs = (int) ((WorldGen.ChunkSize - WorldGen.ChunkSize / 8.0f) / 2.0f);
+        var topLeft = (-offs, -offs);
+        var lowerRight = (offs, offs);
+        var enumerator = _sampler.SampleRectangle(topLeft, lowerRight, density);
+        var debrisPoints = new List<Vector2>();
+
+        var realCenter = WorldGen.ChunkToWorldCoordsCentered(coords.Floored());
+
+        while (enumerator.MoveNext(out var debrisPoint))
+        {
+            debrisPoints.Add(realCenter + debrisPoint.Value);
+        }
+
+        return debrisPoints;
     }
 }
 

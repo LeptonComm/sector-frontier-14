@@ -38,11 +38,7 @@ public sealed class LocalityLoaderSystem : BaseWorldSystem
         while (e.MoveNext(out var uid, out var loadable, out var xform))
         {
             if (!controllerQuery.TryGetComponent(xform.MapUid, out var controller))
-            {
-                RaiseLocalEvent(uid, new LocalStructureLoadedEvent());
-                RemCompDeferred<LocalityLoaderComponent>(uid);
-                continue;
-            }
+                return;
 
             var coords = GetChunkCoords(uid, xform);
             var done = false;
@@ -50,9 +46,7 @@ public sealed class LocalityLoaderSystem : BaseWorldSystem
             {
                 for (var j = -1; j < 2 && !done; j++)
                 {
-                    if (!controller.Chunks.TryGetValue(coords + (i, j), out var chunk))
-                        continue;
-
+                    var chunk = GetOrCreateChunk(coords + (i, j), xform.MapUid!.Value, controller);
                     if (!loadedQuery.TryGetComponent(chunk, out var loaded) || loaded.Loaders is null)
                         continue;
 
@@ -61,11 +55,8 @@ public sealed class LocalityLoaderSystem : BaseWorldSystem
                         if (!xformQuery.TryGetComponent(loader, out var loaderXform))
                             continue;
 
-                        if ((_xformSys.GetWorldPosition(loaderXform) - _xformSys.GetWorldPosition(xform)).Length() > loadable.LoadingDistance)
+                        if ((_xformSys.GetWorldPosition(loaderXform) - _xformSys.GetWorldPosition(xform)).Length > loadable.LoadingDistance)
                             continue;
-
-                        // Reset the TimedDespawnComponent's lifetime when loaded
-                        ResetTimedDespawn(uid);
 
                         RaiseLocalEvent(uid, new LocalStructureLoadedEvent());
                         RemCompDeferred<LocalityLoaderComponent>(uid);
@@ -76,44 +67,6 @@ public sealed class LocalityLoaderSystem : BaseWorldSystem
             }
         }
     }
-    private void ResetTimedDespawn(EntityUid uid)
-    {
-        if (TryComp<ClaimableGridComponent>(uid, out var claimable) && claimable.Claimed ||
-            TryComp<SafeMiningComponent>(uid, out var safeMining) && safeMining.RefCount > 0)
-        {
-            if (HasComp<TimedDespawnComponent>(uid))
-                RemCompDeferred<TimedDespawnComponent>(uid);
-            return;
-        }
-
-        if (TryComp<TimedDespawnComponent>(uid, out var timedDespawn))
-        {
-            timedDespawn.Lifetime = DebrisActiveDuration;
-        }
-        else
-        {
-            // Add TimedDespawnComponent if it does not exist
-            timedDespawn = AddComp<TimedDespawnComponent>(uid);
-            timedDespawn.Lifetime = DebrisActiveDuration;
-        }
-    }
-
-    // Frontier
-    private void OnDebrisDespawn(EntityUid entity, SpaceDebrisComponent component, EntityTerminatingEvent e)
-    {
-        // Handle mobrestrictions getting deleted
-        var query = AllEntityQuery<NFSalvageMobRestrictionsComponent>();
-
-        while (query.MoveNext(out var salvUid, out var salvMob))
-        {
-            if (entity == salvMob.LinkedGridEntity)
-                QueueDel(salvUid);
-        }
-
-        // Do not delete the grid, it is being deleted.
-        _linkedLifecycleGrid.UnparentPlayersFromGrid(grid: entity, deleteGrid: false, ignoreLifeStage: true);
-    }
-    // End Frontier
 }
 
 /// <summary>

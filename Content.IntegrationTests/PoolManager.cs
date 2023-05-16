@@ -32,6 +32,28 @@ public static partial class PoolManager
     private static int _pairId;
     private static readonly object PairLock = new();
     private static bool _initialized;
+    private static readonly (string cvar, string value)[] ServerTestCvars =
+    {
+        // @formatter:off
+        (CCVars.DatabaseSynchronous.Name,     "true"),
+        (CCVars.DatabaseSqliteDelay.Name,     "0"),
+        (CCVars.HolidaysEnabled.Name,         "false"),
+        (CCVars.GameMap.Name,                 "Empty"),
+        (CCVars.AdminLogsQueueSendDelay.Name, "0"),
+        (CVars.NetPVS.Name,                   "false"),
+        (CCVars.NPCMaxUpdates.Name,           "999999"),
+        (CVars.ThreadParallelCount.Name,      "1"),
+        (CCVars.GameRoleTimers.Name,          "false"),
+        (CCVars.CargoShuttles.Name,           "false"),
+        (CCVars.ArrivalsShuttles.Name,        "false"),
+        (CCVars.EmergencyShuttleEnabled.Name, "false"),
+        (CCVars.ProcgenPreload.Name,          "false"),
+        (CCVars.WorldgenEnabled.Name,         "false"),
+        // @formatter:on
+    };
+
+    private static int PairId;
+    private static object PairLock = new();
 
     // Pair, IsBorrowed
     private static readonly Dictionary<TestPair, bool> Pairs = new();

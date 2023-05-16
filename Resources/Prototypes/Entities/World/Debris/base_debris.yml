@@ -4,8 +4,8 @@
   components:
     - type: OwnedDebris
     - type: LocalityLoader
-    - type: TimedDespawn
-      lifetime: 1800
-    - type: IFF
-      flags: HideLabel
-      color: "#d67e27"
+    # - type: TimedDespawn
+    #   lifetime: 1800
+    # - type: IFF
+    #   flags: HideLabel
+    #   color: "#d67e27"

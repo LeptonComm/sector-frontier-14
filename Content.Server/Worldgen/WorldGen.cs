@@ -22,7 +22,7 @@ public static class WorldGen
     [Pure]
     public static Vector2i WorldToChunkCoords(Vector2i inp)
     {
-        return (inp * new Vector2(1.0f / ChunkSize, 1.0f / ChunkSize)).Floored();
+        return ((Vector2) inp * (1.0f / ChunkSize, 1.0f / ChunkSize)).Floored();
     }
 
     /// <summary>
@@ -33,7 +33,7 @@ public static class WorldGen
     [Pure]
     public static Vector2 WorldToChunkCoords(Vector2 inp)
     {
-        return inp * new Vector2(1.0f / ChunkSize, 1.0f / ChunkSize);
+        return inp * (1.0f / ChunkSize, 1.0f / ChunkSize);
     }
 
     /// <summary>

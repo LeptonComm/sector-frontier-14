@@ -148,7 +148,7 @@
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
   name: Scrap Debris Small
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -158,7 +158,7 @@
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
   name: Scrap Debris Medium
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -168,7 +168,7 @@
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
   name: Scrap Debris Large
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -181,7 +181,7 @@
   id: ScrapDebrisExtraLarge
   parent: BaseScrapDebris
   name: Scrap Debris Extra Large
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -194,7 +194,7 @@
   id: ScrapDebrisExtraLargeScattered
   parent: BaseScrapDebris
   name: Scrap Debris Extra Large Scattered
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -207,7 +207,7 @@
   id: ScrapDebrisHuge
   parent: BaseScrapDebris
   name: Scrap Debris Huge
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -219,7 +219,7 @@
   id: ScrapDebrisFortress
   parent: BaseScrapDebris
   name: Fortress Scrap
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -231,7 +231,7 @@
   id: ScrapDebrisBehemoth
   parent: BaseScrapDebris
   name: Behemoth Scrap
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder

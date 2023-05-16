@@ -60,7 +60,7 @@ public sealed class BlobFloorPlanBuilderSystem : BaseWorldSystem
                 spawnPoints.Add(west);
 
             var tileDef = _tileDefinition[_random.Pick(comp.FloorTileset)];
-            taken.Add(point, new Tile(tileDef.TileId, 0, _tiles.PickVariant((ContentTileDefinition) tileDef)));
+            taken.Add(point, new Tile(tileDef.TileId, 0, _random.Pick(((ContentTileDefinition)tileDef).PlacementVariants)));
         }
 
         PlaceTile(Vector2i.Zero);
@@ -83,7 +83,7 @@ public sealed class BlobFloorPlanBuilderSystem : BaseWorldSystem
             }
         }
 
-        _map.SetTiles(gridUid, grid, taken.Select(x => (x.Key, x.Value)).ToList());
+        grid.SetTiles(taken.Select(x => (x.Key, x.Value)).ToList());
     }
 }
 

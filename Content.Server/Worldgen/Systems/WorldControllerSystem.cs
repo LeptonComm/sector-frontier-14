@@ -1,6 +1,7 @@
+using System.Linq;
+using Content.Server.Ghost.Components;
+using Content.Server.Mind.Components;
 using Content.Server.Worldgen.Components;
-using Content.Shared.Ghost;
-using Content.Shared.Mind.Components;
 using JetBrains.Annotations;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map;
@@ -66,9 +67,6 @@ public sealed class WorldControllerSystem : EntitySystem
     /// </summary>
     private void OnChunkLoadedCore(EntityUid uid, LoadedChunkComponent component, ComponentStartup args)
     {
-        if (_evictQuery.HasComponent(uid))
-            RemCompDeferred<ChunkEvictionComponent>(uid);
-
         if (!TryComp<WorldChunkComponent>(uid, out var chunk))
             return;
 
@@ -93,9 +91,6 @@ public sealed class WorldControllerSystem : EntitySystem
         RaiseLocalEvent(chunk.Map, ref ev);
         RaiseLocalEvent(uid, ref ev);
         //_sawmill.Debug($"Unloaded chunk {ToPrettyString(uid)} at {coords}");
-
-        var evict = EnsureComp<ChunkEvictionComponent>(uid);
-        evict.EvictAt = _gameTiming.RealTime + ChunkEvictionDelay;
     }
 
     /// <inheritdoc />
@@ -136,81 +131,66 @@ public sealed class WorldControllerSystem : EntitySystem
             if (mapOrNull is null)
                 continue;
             var map = mapOrNull.Value;
-            if (!_controllerMaps.Contains(map))
+            if (!chunksToLoad.ContainsKey(map))
                 continue;
 
             var wc = _xformSys.GetWorldPosition(xform);
             var coords = WorldGen.WorldToChunkCoords(wc);
             var chunks = new GridPointsNearEnumerator(coords.Floored(),
                 (int) Math.Ceiling(worldLoader.Radius / (float) WorldGen.ChunkSize) + 1);
-            var controller = _controllerQuery.GetComponent(map);
+
+            var set = chunksToLoad[map];
 
             while (chunks.MoveNext(out var chunk))
             {
-                anyChunksRequested = true;
-                var ent = GetOrCreateChunk(chunk.Value, map, controller);
-                if (ent is null) continue;
-
-                if (!_loadedQuery.TryGetComponent(ent.Value, out var loaded))
-                {
-                    loaded = AddComp<LoadedChunkComponent>(ent.Value);
-                    loadedCount++;
-                }
-
-                loaded.Loaders ??= new List<EntityUid>(4);
-                loaded.Loaders.Add(uid);
+                if (!set.TryGetValue(chunk.Value, out _))
+                    set[chunk.Value] = new List<EntityUid>(4);
+                set[chunk.Value].Add(uid);
             }
         }
 
-        var mindEnum = EntityQueryEnumerator<MindContainerComponent, TransformComponent>();
+        var mindEnum = EntityQueryEnumerator<MindComponent, TransformComponent>();
+        var ghostQuery = GetEntityQuery<GhostComponent>();
 
         // Mindful entities get special privilege as they're always a player and we don't want the illusion being broken around them.
         while (mindEnum.MoveNext(out var uid, out var mind, out var xform))
         {
             if (!mind.HasMind)
                 continue;
-            if (_ghostQuery.HasComponent(uid))
+            if (ghostQuery.HasComponent(uid))
                 continue;
             var mapOrNull = xform.MapUid;
             if (mapOrNull is null)
                 continue;
             var map = mapOrNull.Value;
-            if (!_controllerMaps.Contains(map))
+            if (!chunksToLoad.ContainsKey(map))
                 continue;
 
             var wc = _xformSys.GetWorldPosition(xform);
             var coords = WorldGen.WorldToChunkCoords(wc);
             var chunks = new GridPointsNearEnumerator(coords.Floored(), PlayerLoadRadius);
-            var controller = _controllerQuery.GetComponent(map);
+
+            var set = chunksToLoad[map];
 
             while (chunks.MoveNext(out var chunk))
             {
-                anyChunksRequested = true;
-                var ent = GetOrCreateChunk(chunk.Value, map, controller);
-                if (ent is null) continue;
-
-                if (!_loadedQuery.TryGetComponent(ent.Value, out var loaded))
-                {
-                    loaded = AddComp<LoadedChunkComponent>(ent.Value);
-                    loadedCount++;
-                }
-
-                loaded.Loaders ??= new List<EntityUid>(4);
-                loaded.Loaders.Add(uid);
+                if (!set.TryGetValue(chunk.Value, out _))
+                    set[chunk.Value] = new List<EntityUid>(4);
+                set[chunk.Value].Add(uid);
             }
         }
 
+        var loadedEnum = EntityQueryEnumerator<LoadedChunkComponent, WorldChunkComponent>();
         var chunksUnloaded = 0;
 
         // Make sure these chunks get unloaded at the end of the tick.
-        foreach (var loadedUid in _loadedChunksBuffer)
+        while (loadedEnum.MoveNext(out var uid, out var _, out var chunk))
         {
-            if (!_loadedQuery.TryGetComponent(loadedUid, out var loadedChunk) ||
-                !TryComp<WorldChunkComponent>(loadedUid, out var chunk)) continue;
+            var coords = chunk.Coordinates;
 
-            if (loadedChunk.Loaders is null || loadedChunk.Loaders.Count == 0)
+            if (!chunksToLoad[chunk.Map].ContainsKey(coords))
             {
-                RemCompDeferred<LoadedChunkComponent>(loadedUid);
+                RemCompDeferred<LoadedChunkComponent>(uid);
                 chunksUnloaded++;
             }
         }
@@ -218,37 +198,35 @@ public sealed class WorldControllerSystem : EntitySystem
         if (chunksUnloaded > 0)
             _sawmill.Debug($"Queued {chunksUnloaded} chunks for unload.");
 
-        if (!anyChunksRequested)
-        {
-            ProcessChunkEvictions();
+        if (chunksToLoad.All(x => x.Value.Count == 0))
             return;
+
+        var startTime = _gameTiming.RealTime;
+        var count = 0;
+        var loadedQuery = GetEntityQuery<LoadedChunkComponent>();
+        var controllerQuery = GetEntityQuery<WorldControllerComponent>();
+        foreach (var (map, chunks) in chunksToLoad)
+        {
+            var controller = controllerQuery.GetComponent(map);
+            foreach (var (chunk, loaders) in chunks)
+            {
+                var ent = GetOrCreateChunk(chunk, map, controller); // Ensure everything loads.
+                LoadedChunkComponent? c = null;
+                if (ent is not null && !loadedQuery.TryGetComponent(ent.Value, out c))
+                {
+                    c = AddComp<LoadedChunkComponent>(ent.Value);
+                    count += 1;
+                }
+
+                if (c is not null)
+                    c.Loaders = loaders;
+            }
         }
 
-        if (loadedCount > 0)
+        if (count > 0)
         {
             var timeSpan = _gameTiming.RealTime - startTime;
-            _sawmill.Debug($"Loaded {loadedCount} chunks in {timeSpan.TotalMilliseconds:N2}ms.");
-        }
-
-        ProcessChunkEvictions();
-    }
-
-    private void ProcessChunkEvictions()
-    {
-        var now = _gameTiming.RealTime;
-        var q = EntityQueryEnumerator<ChunkEvictionComponent, WorldChunkComponent>();
-        while (q.MoveNext(out var uid, out var evict, out _))
-        {
-            if (now < evict.EvictAt)
-                continue;
-
-            if (_loadedQuery.HasComponent(uid))
-            {
-                RemCompDeferred<ChunkEvictionComponent>(uid);
-                continue;
-            }
-
-            QueueDel(uid);
+            _sawmill.Debug($"Loaded {count} chunks in {timeSpan.TotalMilliseconds:N2}ms.");
         }
     }
 
@@ -281,7 +259,8 @@ public sealed class WorldControllerSystem : EntitySystem
     {
         var chunk = Spawn(controller.ChunkProto, MapCoordinates.Nullspace);
         StartupChunkEntity(chunk, chunkCoords, map, controller);
-        _metaData.SetEntityName(chunk, $"Chunk {chunkCoords.X}/{chunkCoords.Y}");
+        var md = MetaData(chunk);
+        md.EntityName = $"Chunk {chunkCoords.X}/{chunkCoords.Y}";
         return chunk;
     }
 

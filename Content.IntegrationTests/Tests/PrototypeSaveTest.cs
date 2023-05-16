@@ -67,6 +67,14 @@ public sealed class PrototypeSaveTest
             if (!prototype.MapSavable)
                 continue;
 
+            // Yea this test just doesn't work with this, it parents a grid to another grid and causes game logic to explode.
+            if (prototype.Components.ContainsKey("MapGrid"))
+                continue;
+
+            // Currently mobs and such can't be serialized, but they aren't flagged as serializable anyways.
+            if (!prototype.MapSavable)
+                continue;
+
             if (prototype.SetSuffix == "DEBUG")
                 continue;
 

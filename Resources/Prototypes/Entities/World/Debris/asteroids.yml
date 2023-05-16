@@ -84,8 +84,8 @@
 - type: entity
   id: AsteroidDebrisSmall
   parent: BaseAsteroidDebris
-  name: asteroid debris small
-  categories: [ HideSpawnMenu ]
+  name: Asteroid Debris Small
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -94,8 +94,8 @@
 - type: entity
   id: AsteroidDebrisMedium
   parent: BaseAsteroidDebris
-  name: asteroid debris medium
-  categories: [ HideSpawnMenu ]
+  name: Asteroid Debris Medium
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -104,8 +104,8 @@
 - type: entity
   id: AsteroidDebrisLarge
   parent: BaseAsteroidDebris
-  name: asteroid debris large
-  categories: [ HideSpawnMenu ]
+  name: Asteroid Debris Large
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -114,8 +114,8 @@
 - type: entity
   id: AsteroidDebrisLarger
   parent: BaseAsteroidDebris
-  name: asteroid debris larger
-  categories: [ HideSpawnMenu ]
+  name: Asteroid Debris Larger
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -126,7 +126,7 @@
   id: AsteroidSalvageSmall
   parent: BaseAsteroidDebris
   name: salvage asteroid small
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -138,7 +138,7 @@
   id: AsteroidSalvageMedium
   parent: BaseAsteroidDebris
   name: salvage asteroid medium
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -150,7 +150,7 @@
   id: AsteroidSalvageLarge
   parent: BaseAsteroidDebris
   name: salvage asteroid large
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder
@@ -162,7 +162,7 @@
   id: AsteroidSalvageHuge
   parent: BaseAsteroidDebris
   name: salvage asteroid huge
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: MapGrid
     - type: BlobFloorPlanBuilder

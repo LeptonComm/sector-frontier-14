@@ -26,7 +26,7 @@ public abstract class BaseWorldSystem : EntitySystem
         if (!Resolve(ent, ref xform))
             throw new Exception("Failed to resolve transform, somehow.");
 
-        return WorldGen.WorldToChunkCoords(_transformSystem.GetWorldPosition(xform)).Floored();
+        return WorldGen.WorldToChunkCoords(xform.WorldPosition).Floored();
     }
 
     /// <summary>
@@ -41,7 +41,7 @@ public abstract class BaseWorldSystem : EntitySystem
         if (!Resolve(ent, ref xform))
             throw new Exception("Failed to resolve transform, somehow.");
 
-        return WorldGen.WorldToChunkCoords(_transformSystem.GetWorldPosition(xform));
+        return WorldGen.WorldToChunkCoords(xform.WorldPosition);
     }
 
     /// <summary>

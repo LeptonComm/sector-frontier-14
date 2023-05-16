@@ -13,21 +13,9 @@
     - type: SimpleDebrisSelector
       debrisTable:
         - id: AsteroidDebrisSmall
-          prob: 0.05
-
-- type: spaceBiome
-  id: AsteroidSectorFallback
-  priority: -999998 # This probably shouldn't get selected.
-  noiseRanges: {}
-  chunkComponents:
-    - type: DebrisFeaturePlacerController
-      densityNoiseChannel: Density
-    - type: SimpleDebrisSelector
-      debrisTable:
         - id: AsteroidDebrisMedium
-          prob: 0.07 # Mono
         - id: AsteroidDebrisLarge
-          prob: 0.05 # Mono
+          prob: 0.7
         - id: AsteroidDebrisLarger
-          prob: 0.02 # Mono
+          prob: 0.4
 
