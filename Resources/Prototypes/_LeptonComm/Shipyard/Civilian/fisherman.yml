@@ -1,0 +1,32 @@
+# LuaWorld - This file is licensed under AGPLv3
+# Copyright (c) 2025 LuaWorld Contributors
+# See AGPLv3.txt for details.
+
+- type: vessel
+  parent: BaseVessel
+  id: GFSYFisherman
+  name: GF Fisherman
+  description: Старинный корабль некогда крупной судоверфи Гефест. Имеет на борту бар, кухню, ботанику и небольшой пруд с рыбой, окруженный декоративным садом.
+  price: 100000
+  category: Large
+  group: Shipyard # Lua ShipyardLarge<Shipyard
+  shuttlePath: /Maps/_LeptonComm/Shuttles/Civilian/fisherman.yml
+  addComponents:
+    - type: IFF
+      color: "#ffffff"
+    - type: NanotrasenFtl
+
+- type: gameMap
+  id: GFSYFisherman
+  mapName: 'GF Fisherman'
+  mapPath: /Maps/_LeptonComm/Shuttles/Civilian/fisherman.yml
+  minPlayers: 0
+  stations:
+    GFSYFisherman:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Fisherman {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
