@@ -1,9 +1,9 @@
 # Frontier
-job-name-bailiff = Маршал
-job-name-brigmedic = Фельдшер
-job-name-cadet-nf = Кадет
-job-name-contractor = Исследователь
-job-name-deputy = Рейнджер
+job-name-bailiff = Смотритель СРБС
+job-name-brigmedic = Фельдшер СРБС
+job-name-cadet-nf = Рядовой СРБС
+job-name-contractor = Гражданский
+job-name-deputy = Сержант СРБС
 job-name-nf-detective = Детектив
 job-name-ertmailcarrier = Почтальон ОБР
 job-name-mercenary = Наёмник

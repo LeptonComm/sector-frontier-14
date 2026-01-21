@@ -5,7 +5,7 @@
 - type: job
   id: OutpostTypanResearcher
   name: job-name-typan-researcher
-  playTimeTracker: JobOutpostSyndicateResearcher
+  playTimeTracker: JobOutpostTypanResearcher
   salary: 25000
   description: Исследователь из далёкого космоса.
   startingGear: SyndicateResearcher
@@ -28,15 +28,15 @@
     #   time: 33600
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 100000 #Lua 39<100
+      time: 39000
     - !type:DepartmentTimeRequirement
       department: Antag
-      time: 50000 #Lua 36<50
+      time: 36000
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 50000 #Lua 43<50
+      time: 43000
     - !type:OverallPlaytimeRequirement
-      time: 250000 #Lua 360<250
+      time: 360000
   access:
   - SyndicateAgent
   - NuclearOperative

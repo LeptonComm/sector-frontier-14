@@ -5,7 +5,7 @@
 - type: job
   id: OutpostTypanRD
   name: job-name-typan-rd
-  playTimeTracker: JobOutpostSyndicateRD
+  playTimeTracker: JobOutpostTypanRD
   salary: 45000
   description: Директор исследований из далёкого космоса.
   startingGear: SyndicateRD
@@ -14,17 +14,20 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobOutpostTypanCargotech
-      time: 50000 #Lua
-    - !type:DepartmentTimeRequirement
-      department: Frontier
-      time: 100000 #Lua 83<100
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 100000 #Lua 83000<100000
+      time: 32000
+    - !type:DepartmentTimeRequirement
+      department: Antag
+      time: 34000
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 73000
+    - !type:DepartmentTimeRequirement
+      department: Frontier
+      time: 83000
     - !type:OverallPlaytimeRequirement
-      time: 200000 #Lua 150<200
+      time: 150000
   access:
   - SyndicateAgent
   - NuclearOperative

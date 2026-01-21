@@ -5,7 +5,7 @@
 - type: job
   id: OutpostTypanMedic
   name: job-name-typan-medic
-  playTimeTracker: JobOutpostSyndicateMedic
+  playTimeTracker: JobOutpostTypanMedic
   salary: 35000
   description: Медик из далёкого космоса.
   startingGear: SyndicateParamedic
@@ -17,21 +17,17 @@
     # - !type:RoleTimeRequirement
     #   role: JobOutpostSyndicateBotanist
     #   time: 20600
-
-    - !type:RoleTimeRequirement
-      role: JobChemist
-      time: 25000 #Lua
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 75000 #Lua
     - !type:DepartmentTimeRequirement
       department: Antag
-      time: 50000 #Lua 31<50
+      time: 31000
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 18000
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 100000 #Lua 72<100
+      time: 72000 # 20 hours
     - !type:OverallPlaytimeRequirement
-      time: 100000 #Lua 360<100
+      time: 360000
   access:
   - SyndicateAgent
   - NuclearOperative
