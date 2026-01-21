@@ -76,6 +76,17 @@
   - type: NFWeaponDetails
     class: weapon-details-class-sniper
 
+- type: entity #Lua
+  parent: BaseAction
+  id: ActionToggleScope
+  name: Toggle Scope
+  description: Toggles the scope up or down.
+  components:
+  - type: Action
+    itemIconStyle: BigItem
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
 #region manufacturer
 - type: entity
   id: NFBaseWeaponFrameEnergyRifleSniperNanotrasen
