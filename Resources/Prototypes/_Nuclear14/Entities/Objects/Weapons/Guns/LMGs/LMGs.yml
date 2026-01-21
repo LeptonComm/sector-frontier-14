@@ -16,15 +16,16 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
   - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -22
-    maxAngle: -59
+#  - type: GunWieldBonus #comment from _Lua
+#    minAngle: -22
+#    maxAngle: -59
+  - type: GunRequiresWield #Lua
   - type: Gun
-    minAngle: 24
-    maxAngle: 60
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 4
+    minAngle: 1 #Lua 24<1
+    maxAngle: 11 #Lua 60<11
+    angleIncrease: 3 #Lua 4<3
+    angleDecay: 34 #Lua 16<34
+    fireRate: 5.6 #Lua 4<5.6
     soundGunshot:
       collection: N14AutoRifleGunshot
     selectedMode: FullAuto
@@ -34,20 +35,20 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine308Rifle
+        startingItem: Magazine68x52mmCaselessBig #Lua Magazine308Rifle<Magazine68x52mmCaselessBig
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - N14Magazine308Rifle
+            - Magazine68x52mmCaseless #Lua N14Magazine308Rifle<Magazine68x52mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: N14Cartridge308Rifle
+        startingItem: Cartridge68x52mmCaseless #Lua N14Cartridge308Rifle<Cartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
-            - N14Cartridge308Rifle
+            - Cartridge68x52mmCaseless #Lua N14Cartridge308Rifle<Cartridge68x52mmCaseless
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -76,15 +77,16 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
   - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -55
+  - type: GunRequiresWield
+#  - type: GunWieldBonus #comment from _Lua
+#    minAngle: -20
+#    maxAngle: -55
   - type: Gun
-    minAngle: 24
-    maxAngle: 60
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 6
+    minAngle: 1 #Lua 24<1
+    maxAngle: 11 #Lua 60<11
+    angleIncrease: 3 #Lua 4<3
+    angleDecay: 34 #Lua 16<34
+    fireRate: 4.67 #Lua 6<4.67
     soundGunshot:
       collection: N14LMGGunshot
     selectedMode: FullAuto
@@ -94,23 +96,23 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: LMGMagazine556Rifle
+        startingItem: Magazine8x65mmSKRBox #Lua LMGMagazine556Rifle<Magazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - N14LMGMagazine556Rifle
+            - MagazineBox8x65mmSKR #Lua N14LMGMagazine556Rifle<MagazineBox8x65mmSKR
       gun_chamber:
         name: Chamber
-        startingItem: N14Cartridge556Rifle
+        startingItem: Cartridge8x65mmSKR #Lua N14Cartridge556Rifle<Cartridge8x65mmSKR
         priority: 1
         whitelist:
           tags:
-            - N14Cartridge556Rifle
+            - Cartridge8x65mmSKR #Lua N14Cartridge556Rifle<Cartridge8x65mmSKR
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.8 #Lua 0.9<0.8
+    sprintModifier: 0.8 #Lua 0.9<0.8
   - type: HeldSpeedModifier
   - type: MagazineVisuals
     magState: mag

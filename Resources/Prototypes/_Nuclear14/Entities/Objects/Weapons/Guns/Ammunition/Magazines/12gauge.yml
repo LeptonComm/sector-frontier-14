@@ -11,7 +11,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - N14ShellShotgun12
+        - ShellShotgun23x75mmBuckshot #Lua N14ShellShotgun12<ShellShotgun23x75mmBuckshot
     capacity: 8
     soundRack:
       path: /Audio/Weapons/Guns/Cock/smg_cock.ogg
@@ -38,7 +38,7 @@
   parent: N14BaseMagazineShotgun12
   components:
   - type: BallisticAmmoProvider
-    proto: N14ShellShotgun12
+    proto: ShellShotgun23x75mmBuckshot #Lua N14ShellShotgun12<ShellShotgun23x75mmBuckshot
   - type: Sprite
     layers:
     - state: base

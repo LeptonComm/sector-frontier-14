@@ -31,10 +31,11 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - N14CartridgePistol10
+        - Cartridge45_ACPFMJ #Lua N14CartridgePistol10<Cartridge45_ACPFMJ
         - SpeedLoader10
-    proto: N14CartridgePistol10
+    proto: Cartridge45_ACPFMJ #Lua N14CartridgePistol10<Cartridge45_ACPFMJ
   - type: Gun
+    firerate: 5
     soundGunshot:
       collection: N14Revolver10mmGunshot
 
@@ -48,13 +49,20 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/magnum.rsi
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Revolvers/magnum.rsi
-  - type: RevolverAmmoProvider
+#  - type: RevolverAmmoProvider #comment from _Lua
+#    whitelist:
+#      tags:
+#        - N14Cartridge44Magnum
+#        - SpeedLoader44
+#    proto: N14Cartridge44Magnum
+  - type: RevolverAmmoProvider #Lua
     whitelist:
       tags:
-        - N14Cartridge44Magnum
-        - SpeedLoader44
-    proto: N14Cartridge44Magnum
+        - Cartridge45_magnumFMJ
+        - SpeedLoaderMagnum
+    proto: Cartridge45_magnumFMJ
   - type: Gun
+    firerate: 2.4
     soundGunshot:
       collection: N14RevolverMagnunGunshot
 
@@ -65,7 +73,7 @@
   description: A true freedom fighter carries his flag everywhere, even on his gun. Uses .44 magnum ammo.
   components:
   - type: Gun
-    fireRate: 2
+    fireRate: 3 #Lua 2<3
     resetOnHandSelected: false
     soundGunshot:
       collection: N14RevolverMagnunGunshot
@@ -76,9 +84,9 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - N14Cartridge44Magnum
-        - SpeedLoader44
-    proto: N14Cartridge44Magnum
+        - Cartridge45_magnumFMJ #Lua N14Cartridge44Magnum<Cartridge45_magnumFMJ
+        - SpeedLoaderMagnum #Lua SpeedLoader44<SpeedLoaderMagnum
+    proto: Cartridge45_magnumFMJ #Lua N14Cartridge44Magnum<Cartridge45_magnumFMJ
 
 - type: entity
   name: hunting revolver
@@ -87,6 +95,7 @@
   description: A heavy revolver with a long cannon designed to hunt small animals, but it also works for people. Uses .45-70 gov't ammo.
   components:
   - type: Gun
+    firerate: 3 #Lua
     soundGunshot:
       collection: N14HunterRevolverGunshot
   - type: Sprite
@@ -96,9 +105,9 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - N14Cartridge45-70
-        - SpeedLoader45-70
-    proto: N14Cartridge45-70
+        - Cartridge45_magnumFMJ #Lua N14Cartridge45-70<Cartridge45_magnumFMJ
+        - SpeedLoaderMagnum #Lua SpeedLoader45-70<SpeedLoaderMagnum
+    proto: Cartridge45_magnumFMJ #Lua N14Cartridge45-70<Cartridge45_magnumFMJ
 
 - type: entity
   name: wild whisper

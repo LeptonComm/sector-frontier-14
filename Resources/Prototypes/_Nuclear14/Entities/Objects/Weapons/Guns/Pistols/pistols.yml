@@ -21,6 +21,10 @@
     - suitStorage
     - Belt
   - type: Gun
+    minAngle: 2 #Lua
+    maxAngle: 16 #Lua
+    angleIncrease: 1.1 #Lua
+    angleDecay: 7.7 #Lua
     fireRate: 6
     selectedMode: SemiAuto
     availableModes:
@@ -76,30 +80,30 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 6 #Lua 5<6
     soundGunshot:
       collection: N14Pistol9mmGunshot
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: N14MagazinePistol9mm
+        startingItem: Magazine9x19mmPistolFMJ #lua N14MagazinePistol9mm<Magazine9x19mmPistolFMJ
         whitelist:
           tags:
-            - N14MagazinePistol9mm
+            - Magazine9x19mmPistolFMJ #Lua N14MagazinePistol9mm<Magazine9x19mmPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol9
+        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol9<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol9
+            - Cartridge9x19mmFMJ #Lua N14CartridgePistol9<Cartridge9x19mmFMJ
 
 - type: entity
   name: 10mm Pistol
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
   id: N14WeaponPistol10mm
-  description: A cheap, ubiquitous sidearm, chambered in 10mm. # TODO: Need to create projectiles, magazines and boxes for 10mm.
+  description: A cheap, ubiquitous sidearm, chambered in 10mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
@@ -111,24 +115,24 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
   - type: Gun
-    fireRate: 4
+    fireRate: 7.5 #Lua 4<7.5
     soundGunshot:
       collection: N14Pistol10mmGunshot
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: N14MagazinePistol10mm
+        startingItem: Magazine9x19mmPistolFMJ #Lua N14MagazinePistol10mm<Magazine9x19mmPistolFMJ
         whitelist:
           tags:
-            - N14MagazinePistol10mm
+            - Magazine9x19mmPistolFMJ #Lua N14MagazinePistol10mm<Magazine9x19mmPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol10
+        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol10
+            - Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
 
 - type: entity
   name: .45 handgun
@@ -176,7 +180,7 @@
   name: 12.7mm handgun
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
   id: N14WeaponPistol12mm
-  description: A rugged, robust handgun chambered in 12.7mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
+  description: A rugged, robust handgun chambered in 12.7mm.
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
@@ -188,27 +192,27 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 4 #Lua 3<4
     soundGunshot:
       collection: N14Pistol12mmGunshot
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: N14MagazinePistol12mm
+        startingItem: Magazine45_ACPPistolFMJ #Lua N14MagazinePistol12mm<Magazine45_ACPPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - N14MagazinePistol12mm
+            - Magazine45_ACPPistolFMJ #Lua N14MagazinePistol12mm<Magazine45_ACPPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol127
+        startingItem: Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol127
+            - Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -268,7 +272,7 @@
     - suitStorage
     - Belt
   - type: Gun
-    fireRate: 6
+    fireRate: 8 #Lua 6<8
     soundGunshot:
       collection: N14PistolChineseGunshot
     selectedMode: Semiauto
@@ -278,21 +282,21 @@
     slots:
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol9
+        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol9
+            - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
       gun_chamber: !type:ContainerSlot
   - type: BallisticAmmoProvider
     capacity: 14
-    proto: N14CartridgePistol9
+    proto: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
     whitelist:
       tags:
-      - N14CartridgePistol9
+      - NCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
 
 - type: entity
   name: the spy
@@ -313,7 +317,7 @@
     - suitStorage
     - Belt
   - type: Gun
-    fireRate: 6
+    fireRate: 10 #Lua 6<10
     soundGunshot:
       collection: N14PistolSpyGunshot
     selectedMode: Fullauto
@@ -323,17 +327,17 @@
     slots:
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol9
+        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
-            - N14CartridgePistol9
+            - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
   - type: BallisticAmmoProvider
     capacity: 24
-    proto: N14CartridgePistol9
+    proto: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
     whitelist:
       tags:
-      - N14CartridgePistol9
+      - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
   - type: ContainerContainer
     containers:
       gun_chamber: !type:ContainerSlot

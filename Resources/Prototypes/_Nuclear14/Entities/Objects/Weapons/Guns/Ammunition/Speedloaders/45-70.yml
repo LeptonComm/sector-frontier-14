@@ -53,7 +53,7 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - N14Cartridge45-70
+      - Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
     capacity: 10
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Ammunition/Speedloaders/45_70loadertube.rsi
@@ -68,7 +68,7 @@
   parent: BaseSpeedLoaderInternal4570
   components:
   - type: BallisticAmmoProvider
-    proto: N14Cartridge45-70
+    proto: Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
   - type: Sprite
     layers:
     - state: base

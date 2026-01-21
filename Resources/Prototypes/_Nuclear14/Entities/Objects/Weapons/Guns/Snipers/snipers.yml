@@ -11,6 +11,23 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/hunting.rsi
   - type: Wieldable
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 2.5
+      pvsIncrease: 0.15
+  - type: ItemTogglePrefix #Lua
+    prefixOn: on
+  - type: ToggleClothingPrefix #Lua
+    prefixOn: on
+  - type: GunRequiresWield #Lua
   - type: GunWieldBonus
     minAngle: -23
     maxAngle: -104
@@ -50,6 +67,7 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
   - type: Wieldable
+  - type: GunRequiresWield #Lua
   - type: GunWieldBonus
     minAngle: -23
     maxAngle: -104
@@ -58,7 +76,7 @@
     maxAngle: 105
     angleIncrease: 4
     angleDecay: 16
-    fireRate: 1.2
+    fireRate: 1.5 #Lua 1.2<1.5
     soundGunshot:
       collection: N14AntiMaterielGunshot
     selectedMode: SemiAuto
@@ -68,27 +86,43 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: N14Magazine50AMR
+        startingItem: Magazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - N14Magazine50AMR
-            - N14Magazine50AMRHEIAP
+            - Magazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
+#            - N14Magazine50AMRHEIAP
       gun_chamber:
         name: Chamber
-        startingItem: N14Cartridge50
+        startingItem: Cartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
         priority: 1
         whitelist:
           tags:
-            - N14Cartridge50
-            - N14Cartridge50HEIAP
+            - Cartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
+#            - N14Cartridge50HEIAP
   - type: MagazineVisuals
     magState: mag
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 2.5
+      pvsIncrease: 0.15
+  - type: ItemTogglePrefix #Lua
+    prefixOn: on
+  - type: ToggleClothingPrefix #Lua
+    prefixOn: on
 
 - type: entity
   name: .50 NCR rifle
@@ -163,7 +197,7 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
   - type: Gun
-    fireRate: 1.2
+    fireRate: 2.4 #Lua 1.2<2.4
     soundGunshot:
       collection: N14LeverRifleGunshot
 
@@ -180,16 +214,16 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
   - type: Gun
-    fireRate: 2
+    fireRate: 1.5 #Lua 2<1.5
     soundGunshot:
       collection: N14BrushGunGunshot
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - N14Cartridge45-70
+      - Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
       - SpeedLoaderInternal
     capacity: 10
-    proto: N14Cartridge45-70
+    proto: Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
 
 - type: entity
   name: pipe rifle

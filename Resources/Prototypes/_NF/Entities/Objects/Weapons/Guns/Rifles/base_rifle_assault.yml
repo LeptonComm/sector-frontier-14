@@ -54,6 +54,7 @@
     fireRate: 5 #Lua 3.4<5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-nanotrasen-munitions
+  - type: GunRequiresWield #Lua
 
 - type: entity
   abstract: true
