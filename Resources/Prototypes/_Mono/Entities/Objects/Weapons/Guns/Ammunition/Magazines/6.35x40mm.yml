@@ -64,7 +64,6 @@
     zeroVisible: false
   - type: Appearance
 
-<<<<<<< Updated upstream
 - type: entity
   id: Magazine635x40mmCaselessBig
   name: "box magazine (635x40mm Caseless)"
@@ -80,10 +79,8 @@
     steps: 8
     zeroVisible: false
 
-=======
 # Pistol mags
 # Standart
->>>>>>> Stashed changes
 - type: entity
   id: Magazine635x40mmCaselessPistol
   name: "pistol magazine (635x40mm Caseless)"
