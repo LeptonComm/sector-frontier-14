@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Nfsd
   parent: BasePOI
-  name: 'Аванспост ДСБФ'
+  name: 'Аванпост СРБС'
   minimumDistance: 2000 #750 Lua
   maximumDistance: 3000 #1000 Lua
   spawnGroup: Required
@@ -26,7 +26,7 @@
 
 - type: gameMap
   id: Nfsd
-  mapName: 'Аванспост ДСБФ'
+  mapName: 'Аванпост СРБС'
   mapPath: /Maps/_Lua/POI/nfsd.yml
   minPlayers: 0
   stations:
