@@ -5,9 +5,9 @@
 - type: job
   id: OutpostSyndicateMedic
   name: job-name-typan-medic
-  playTimeTracker: JobOutpostTypanMedic
-  salary: 50000 #Lua 35000<50000
-  description: Боевой медик, конвертирующий фарш обратно в оперативников Нордфолла
+  playTimeTracker: JobOutpostSyndicateMedic
+  salary: 35000
+  description: Медик из далёкого космоса.
   startingGear: SyndicateParamedic
   icon: "JobIconSyndicateParamedic"
   supervisors: job-supervisors-typan-telecommunications-officer
@@ -15,7 +15,7 @@
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanBotanist
+    #   role: JobOutpostSyndicateBotanist
     #   time: 20600
 
     - !type:RoleTimeRequirement

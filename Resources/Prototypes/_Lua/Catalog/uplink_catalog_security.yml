@@ -2,12 +2,12 @@
 
 - type: listing
   id: UplinkSecurityHardsuitM73
-  name:  uplink-security-hardsuit-name
-  description: uplink-security-hardsuit-desc
+  name:  uplink-security-hardsuitM73-name
+  description: uplink-security-hardsuitM73-desc
   productEntity: ClothingOuterHardsuitTSFMCM73
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M73-outer.rsi, state: icon }
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73-helmet.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 6
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -17,29 +17,13 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitM74
-  name:  uplink-security-hardsuit-patrol-name
-  description: uplink-security-hardsuit-patrol-desc
-  productEntity: ClothingOuterHardsuitTSFMCM74
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M74-outer.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 6
-  categories:
-    - UplinkSecurityHardsuits
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityHardsuitM73-C
-  name:  uplink-security-hardsuit-brigmedic-name
-  description: uplink-security-hardsuit-brigmedic-desc
+  id: UplinkSecurityHardsuitM73C
+  name:  uplink-security-hardsuitM73C-name
+  description: uplink-security-hardsuitM73C-desc
   productEntity: ClothingOuterHardsuitTSFMCM73-C
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M73c-outer.rsi, state: icon }
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73c-helmet.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 6
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -47,41 +31,15 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
-        - Brigmedic
-
-- type: listing
-  id: UplinkSecurityHardsuitM75
-  name:  uplink-security-hardsuit-warden-name
-  description: uplink-security-hardsuit-warden-desc
-  productEntity: ClothingOuterHardsuitTSFMCM75
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M75-outer.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 6
-  categories:
-    - UplinkSecurityHardsuits
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityHardsuitM93
-  name:  uplink-security-hardsuit-combat-name
-  description: uplink-security-hardsuit-combat-desc
+  name:  uplink-security-hardsuitM93-name
+  description: uplink-security-hardsuitM93-desc
   productEntity: ClothingOuterHardsuitTSFMCM93
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M93-outer.rsi, state: icon }
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93-helmet.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 15
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -92,12 +50,12 @@
 
 - type: listing
   id: UplinkSecurityCommandM93-C
-  name: uplink-security-hardsuit-command-name
-  description: uplink-security-hardsuit-command-desc
+  name: uplink-security-hardsuitM93C-name
+  description: uplink-security-hardsuitM93C-desc
   productEntity: ClothingOuterHardsuitTSFMCM93-C
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M93c-outer.rsi, state: icon }
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93c-helmet.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 15
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -105,38 +63,31 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
 
-# - type: listing
-#   id: UplinkSecurityHardsuitJuggernaut
-#   name:  uplink-security-hardsuit-experimental-name
-#   description: uplink-security-hardsuit-experimental-desc
-#   productEntity: ClothingOuterHardsuitTSFMCM92-X
-#   icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M92x-outer.rsi, state: icon }
-#   cost:
-#     FrontierUplinkCoin: 40
-#   categories:
-#     - UplinkSecurityHardsuits
-#   conditions:
-#     - !type:StoreWhitelistCondition
-#       whitelist:
-#         tags:
-#           - SecurityUplink
-#     - !type:BuyerJobCondition
-#       whitelist:
-#         - Sheriff
+- type: listing
+  id: UplinkSecurityHardsuitJuggernaut
+  name:  uplink-security-hardsuitM92X-name
+  description: uplink-security-hardsuitM92X-desc
+  productEntity: ClothingOuterHardsuitTSFMCM92-X
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92x-helmet.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 5
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
 
 - type: listing
   id: UplinkSecurityHardsuitM92
-  name:  uplink-security-hardsuit-sheriff-name
-  description: uplink-security-hardsuit-sheriff-desc
+  name:  uplink-security-hardsuitM92-name
+  description: uplink-security-hardsuitM92-desc
   productEntity: ClothingOuterHardsuitTSFMCM92
-  icon: { sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M92-outer.rsi, state: icon }
+  icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92-helmet.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 8
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -144,9 +95,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Sheriff
 
 #region clothing
 
@@ -197,11 +145,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
 
 #region weapons
 
@@ -220,12 +163,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-          - Bailiff
-          - SeniorOfficer
-          - Sheriff
-          - Deputy
 
 - type: listing
   id: UplinkSecurityVector45ACPBundle # LWC Vector SBR (.45 ACP)
@@ -273,12 +210,6 @@
     whitelist:
       tags:
       - SecurityUplink
-  - !type:BuyerJobCondition
-    whitelist:
-      - Bailiff
-      - SeniorOfficer
-      - Sheriff
-      - Deputy
 
 - type: listing
   id: UplinkSecurityMR8BBundle # VFD MR-8B LWMMG (7.62x51mm)
@@ -295,9 +226,6 @@
     whitelist:
       tags:
       - SecurityUplink
-  - !type:BuyerJobCondition
-    whitelist:
-      - Sheriff
 
 - type: listing
   id: UplinkSecurityAshstorm # EM72 Ashstorm
@@ -314,9 +242,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Sheriff
 
 - type: listing
   id: UplinkSecurityNavyOfficerSword # Navy Officer Sabre
@@ -333,11 +258,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-          - Bailiff
-          - Sheriff
-          - SeniorOfficer
 
 - type: listing
   id: UplinkSecurityNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm,6.8x52mm Caseless)
@@ -402,10 +322,6 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Sheriff
-        - Bailiff
 
 - type: listing
   id: UplinkSecurityWT550 # WT-550 (9x19mm)
@@ -1230,7 +1146,7 @@
   productEntity: EnergyShieldNfsd
   icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   cost:
-    FrontierUplinkCoin: 6
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityUtility
   conditions:

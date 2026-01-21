@@ -5,7 +5,7 @@
 - type: job
   id: OutpostSyndicateTelecommunicationsOfficer
   name: job-name-typan-telecommunications-officer
-  playTimeTracker: JobOutpostTypanTelecommunicationsOfficer
+  playTimeTracker: JobOutpostSyndicateTelecommunicationsOfficer
   salary: 65000
   description: Офицер телекомуникаций из далёкого космоса.
   startingGear: SyndicateFormal

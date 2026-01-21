@@ -5,9 +5,9 @@
 - type: job
   id: OutpostSyndicateAtmosTech
   name: job-name-typan-atmos-tech
-  playTimeTracker: JobOutpostTypanAtmosTech
-  salary: 45000 #Lua 35000<45000
-  description: Взлом, постройка баррикад, обслуживание шаттлов и Нордфолла - ваша работа.
+  playTimeTracker: JobOutpostSyndicateAtmosTech
+  salary: 35000
+  description: Атмосферный инженер из далёкого космоса.
   startingGear: SyndicateAtmos
   icon: "JobIconSyndicateAtmos"
   supervisors: job-supervisors-typan-telecommunications-officer

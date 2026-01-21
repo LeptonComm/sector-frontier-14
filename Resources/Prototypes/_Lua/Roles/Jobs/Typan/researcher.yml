@@ -5,9 +5,9 @@
 - type: job
   id: OutpostSyndicateResearcher
   name: job-name-typan-researcher
-  playTimeTracker: JobOutpostTypanResearcher
-  salary: 35000 #Lua 25<35
-  description: Самый мирный человек в секторе, распространяющий исключительно добро и позитив.
+  playTimeTracker: JobOutpostSyndicateResearcher
+  salary: 25000
+  description: Исследователь из далёкого космоса.
   startingGear: SyndicateResearcher
   icon: "JobIconSyndicateResearcher"
   supervisors: job-supervisors-typan-telecommunications-officer
@@ -15,16 +15,16 @@
   hideConsoleVisibility: true
   requirements:
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanAtmosTech
+    #   role: JobOutpostSyndicateAtmosTech
     #   time: 29600
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanMedic
+    #   role: JobOutpostSyndicateMedic
     #   time: 25600
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanScience
+    #   role: JobOutpostSyndicateScience
     #   time: 32500
     # - !type:RoleTimeRequirement
-    #   role: JobOutpostTypanBotanist
+    #   role: JobOutpostSyndicateBotanist
     #   time: 33600
     - !type:DepartmentTimeRequirement
       department: Security
