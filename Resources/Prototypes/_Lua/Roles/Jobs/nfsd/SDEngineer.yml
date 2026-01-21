@@ -1,33 +1,28 @@
 - type: job
-  id: SeniorOfficer
-  name: job-name-senior-officer
-  description: job-description-senior-officer
-  playTimeTracker: JobSeniorOfficer
-  salary: 50000
+  id: SDEngineer
+  name: job-name-nfsd-engineer
+  description: job-description-nfsd-engineer
+  playTimeTracker: JobNfsdEngineer
+  salary: 35000
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # 30 hours
+      time: 43200 # 12 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 64800 # 18 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 43200 # 12 hours
+      time: 21600 # 6 hours
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 540000 # 150 hours
+      time: 360000 # 100 hours
     - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 21600 # 6 hours
-  startingGear: SeniorOfficerGear
-  icon: JobIconSergeant
+      role: JobSecurityGuard
+      time: 21600 # 6 hours as security guard
+  startingGear: SDBaseLuaGear
+  icon: JobIconSDEngineerNF #
   supervisors: job-supervisors-bailiff
-  weight: 140
-  displayWeight: 50
+  weight: 125
+  displayWeight: 35
   canBeAntag: false
-  access:
-  - Sergeant
   accessGroups:
   - GeneralNfsdAccess
   special:
@@ -42,27 +37,28 @@
         companyName: Security
 
 - type: startingGear
-  id: SeniorOfficerGear
+  id: SDBaseLuaGear
   equipment:
-    pocket1: NFWeaponRevolverWard45 #Lua NFWeaponPistolUniversalNfsdLessLethal<NFWeaponRevolverWard45
+    pocket1: NFWeaponRevolverWard45
   storage:
     back:
     - Flash
-    - Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
-    - Magazine9x19mmPistolHighCapacityRubber #Lua 35 -> 9x19
-    - BaseSecurityUplinkRadioOfficer
-    - ShipVoucherNfsdSergeant
+    - NFSpeedLoaderPistol45Overpressure
+    - FrontierUplinkCoin10
 
 - type: chameleonOutfit
-  id: SeniorOfficerChameleonOutfit
-  job: SeniorOfficer
+  id: SDEngineerChameleonOutfit
+  job: SDEngineer
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdBeretBrown
     mask: ClothingMaskGasNfsd
     eyes: ClothingEyesGlassesNfsd
     outerClothing: ClothingOuterArmorNfsd
-    neck: ClothingNeckNfsdBadgeSeniorOfficer
+    neck: ClothingNeckNfsdBadgeSecurity
     belt: ClothingBeltNfsdFilled
     gloves: ClothingHandsGlovesCombatNfsdBrown
     shoes: ClothingShoesBootsNfsdBrownFilled
+
+- type: playTimeTracker
+  id: JobNfsdEngineer

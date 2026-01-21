@@ -44,13 +44,14 @@
           availableJobs:
             Sheriff: [ 1, 1 ]
             Bailiff: [ 1, 1 ]
-            SeniorOfficer: [ 1, 1 ]
-            Brigmedic: [ 1, 1 ]
-            NFDetective: [ 1, 1 ]
-            Deputy: [ 3, 3 ]
-            Cadet: [ 2, 2 ]
+            SeniorOfficer: [ 2, 2 ]
+            Brigmedic: [ 2, 2 ]
+            SDEngineer: [ 2, 2 ]
+#            NFDetective: [ 1, 1 ]
+            Deputy: [ 4, 4 ]
+            Cadet: [ 8, 8 ]
             # Others:
-            PublicAffairsLiaison: [ 1, 1 ]
+#            PublicAffairsLiaison: [ 1, 1 ]
             Prisoner: [ 0, 0 ]
           tags:
           - HeadOfPersonnel

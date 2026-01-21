@@ -3,7 +3,7 @@
   name: job-name-brigmedic
   description: job-description-brigmedic-nf
   playTimeTracker: JobBrigmedic
-  salary: 45000
+  salary: 40000 #Lua 45000<40000
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # 12 hours
@@ -17,7 +17,7 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 21600 # 6 hours as security guard
-  startingGear: BrigmedicGear
+  startingGear: SDBaseLuaGear #Lua BrigmedicGear<SDBaseLuaGear
   icon: JobIconBrigmedicNF
   supervisors: job-supervisors-bailiff
   weight: 125

@@ -17,7 +17,7 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 21600 # 6 hours as security guard
-  startingGear: DeputyGear
+  startingGear: SDBaseLuaGear #Lua DeputyGear<SDBaseLuaGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant
   weight: 130
