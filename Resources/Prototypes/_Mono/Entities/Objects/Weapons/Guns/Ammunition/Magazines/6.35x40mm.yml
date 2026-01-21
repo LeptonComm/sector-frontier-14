@@ -64,21 +64,6 @@
     zeroVisible: false
   - type: Appearance
 
-- type: entity
-  id: Magazine635x40mmCaselessBig
-  name: "box magazine (635x40mm Caseless)"
-  parent: BaseMagazine635x40mmCaseless
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaseless
-    capacity: 60 # Lua 99 -> 60
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/6.35x40mm_caseless/6.35x40mm_caseless_lmg_mag.rsi
-  - type: MagazineVisuals
-    magState: mag
-    steps: 8
-    zeroVisible: false
-
 # Pistol mags
 # Standart
 - type: entity
