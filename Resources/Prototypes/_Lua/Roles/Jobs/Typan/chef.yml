@@ -3,13 +3,13 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostSyndicateChef
+  id: OutpostTypanChef
   name: job-name-typan-chef
   playTimeTracker: JobOutpostSyndicateChef
   salary: 25000
   description: Повар из далёкого космоса.
   startingGear: SyndicateChef
-  icon: "JobIconOutpostSyndicateChef"
+  icon: "JobIconOutpostTypanChef"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
@@ -37,6 +37,8 @@
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -53,10 +55,10 @@
 - type: startingGear
   id: SyndicateChef
   equipment:
-    ears: ClothingHeadsetAltOutpostSyndicate
-    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateChef
+    ears: ClothingHeadsetAltOutpostTypan
+    jumpsuit: ClothingUniformJumpsuitOutpostTypanChef
     back: ClothingBackpackSyndicateFilled
-    outerClothing: ClothingOuterApronOutpostSyndicateChef
+    outerClothing: ClothingOuterApronOutpostTypanChef
     shoes: ClothingShoesColorBlack
     id: SyndiPDAChef
 

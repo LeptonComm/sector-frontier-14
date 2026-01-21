@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostSyndicateScience
+  id: OutpostTypanScience
   name: job-name-typan-science
   playTimeTracker: JobOutpostSyndicateScience
   salary: 35000
@@ -34,6 +34,8 @@
   accessGroups:
   - AllAccess
   special:
+  - !type:AddImplantSpecial
+    implants: [ DeathAcidifierImplantLWTypan ]
   - !type:AddComponentSpecial
     components:
       - type: Company
@@ -50,10 +52,10 @@
 - type: startingGear
   id: SyndicateScience
   equipment:
-    ears: ClothingHeadsetAltOutpostSyndicate
-    jumpsuit: ClothingUniformScienceOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostTypan
+    jumpsuit: ClothingUniformScienceOutpostTypan
     outerClothing: ClothingOuterCoatLabOpened
-    gloves: ClothingHandsScienceOutpostSyndicate
+    gloves: ClothingHandsScienceOutpostTypan
     shoes: ClothingShoesBootsCombat
     back: ClothingBackpackSyndicateFilled
     id: SyndiPDAScience

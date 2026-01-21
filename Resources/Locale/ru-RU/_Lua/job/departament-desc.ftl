@@ -3,3 +3,5 @@ department-Silicon-description = Подчиняйтесь своим закон�
 department-Law-description = Занимайтесь аудитом станции.
 department-Outpost-Syndicate-description = Наблюдайте, соблюдайте секретность и исследуйте, а после создавате опасные штуки.
 department-LuaTech-description = Соберите данные о секторе, соблюдайте политику наблюдения и осторожность.
+department-Outpost-Typan-description = Наблюдайте, соблюдайте секретность и исследуйте, а после создавате опасные штуки.
+
