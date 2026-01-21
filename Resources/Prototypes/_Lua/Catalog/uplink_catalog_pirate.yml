@@ -7,7 +7,7 @@
   productEntity: ClothingOuterHardsuitPirateScaf
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi, state: icon }
   cost:
-    Doubloon: 2
+    Doubloon: 5 #Lua 2<5
   categories:
   - UplinkPirateEquipment
   conditions:
@@ -23,7 +23,7 @@
   productEntity: ClothingOuterHardsuitViperGroupStandard
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi, state: icon }
   cost:
-    Doubloon: 10
+    Doubloon: 5 #Lua 10<5
   categories:
   - UplinkPirateEquipment
   conditions:
@@ -48,71 +48,48 @@
       tags:
       - PirateUplink
 
-- type: listing
-  id: UplinkPirateHardsuit
-  name:  uplink-pirate-hardsuit-name
-  description: uplink-pirate-hardsuit-desc
-  productEntity: ClothingOuterEVASuitPirate
-  icon: { sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi, state: icon }
+- type: listing #Lua
+  id: UplinkPirateEVAHardsuit
+  name: uplink-pirate-EVA-hardsuit-name
+  description: uplink-pirate-EVA-hardsuit-desc
+  productEntity: LuaClothingOuterHardsuitPirateEVA
+  icon: { sprite: _Lua/Clothing/OuterClothing/Hardsuits/pirateva.rsi, state: icon }
   cost:
-    Doubloon: 2
+    Doubloon: 5
   categories:
-    - UplinkPirateHardsuits
+  - UplinkPirateEquipment
   conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - PirateUplink
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
-- type: listing
-  id: UplinkPirateHardsuitCaptain
-  name:  uplink-pirate-hardsuit-captain-name
-  description: uplink-pirate-hardsuit-captain-desc
-  productEntity: ClothingOuterHardsuitPirateCap
-  icon: { sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi, state: icon }
+- type: listing #Lua
+  id: UplinkBloodRedPirateHardsuit
+  name: uplink-pirate-bloodred-hardsuit-name
+  description: uplink-pirate-bloodred-hardsuit-desc
+  productEntity: ClothingOuterHardsuitBloodRedPirate
+  icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
   cost:
-    Doubloon: 3
+    Doubloon: 5
   categories:
-    - UplinkPirateHardsuits
+  - UplinkPirateEquipment
   conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - PirateUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - NFPirateCaptain
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
-- type: listing
-  id: UplinkPirateHardsuitElite
-  name:  uplink-pirate-hardsuit-elite-name
-  description: uplink-pirate-hardsuit-elite-desc
-  productEntity: ClothingOuterHardsuitPirateElite
-  icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi, state: icon }
+- type: listing #Lua
+  id: UplinkPirateBloodRedEliteHardsuit
+  name: uplink-pirate-bloodred-elite-hardsuit-name
+  description: uplink-pirate-bloodred-elite-hardsuit-desc
+  productEntity: ClothingOuterHardsuitBloodRedElitePirate
+  icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   cost:
-    Doubloon: 10
+    Doubloon: 5
   categories:
-    - UplinkPirateHardsuits
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - PirateUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - NFPirateCaptain
-
-#region clothings
-
-- type: listing
-  id: UplinkPirateVoicemask
-  name: uplink-pirate-voicemask-name
-  description: uplink-pirate-voicemask-desc
-  productEntity: ClothingMaskGasVoiceChameleon
-  cost:
-    Doubloon: 4
-  categories:
-  - UplinkPirateUtility
+  - UplinkPirateEquipment
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
