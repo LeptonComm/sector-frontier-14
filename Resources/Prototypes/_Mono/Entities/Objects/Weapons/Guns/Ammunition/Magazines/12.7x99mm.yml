@@ -1,3 +1,4 @@
+# Base
 - type: entity
   id: BaseMagazine127x99mm
   name: "magazine (12.7x99mm)"
@@ -32,6 +33,7 @@
     zeroVisible: false
   - type: Appearance
 
+# Standart
 - type: entity
   id: Magazine127x99mmEmpty
   name: "magazine (12.7x99mm empty)"
@@ -48,6 +50,90 @@
   - type: BallisticAmmoProvider
     proto: Cartridge127x99mm
 
+# Mechanical
+- type: entity
+  id: Magazine127x99mmHP
+  name: "magazine (12.7x99mm HP)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: red
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Physical
+- type: entity
+  id: Magazine127x99mmIncendiary
+  name: "magazine (12.7x99mm Incendiary)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: incendiary
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: Magazine127x99mmUranium
+  name: "magazine (12.7x99mm Uranium)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: uranium
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Special
+- type: entity
+  id: Magazine127x99mmEMP
+  name: "magazine (12.7x99mm EMP)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmEMP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: emp
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: Magazine127x99mmCaustic
+  name: "magazine (12.7x99mm Caustic)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmCaustic
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: caustic
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Out of balance
 - type: entity
   id: Magazine127x99mmExplosive
   name: "magazine (12.7x99mm high-explosive)"

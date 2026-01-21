@@ -33,6 +33,7 @@
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
 # Boxes
+# Standart
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaseless
@@ -64,6 +65,101 @@
 
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessRubber
+  name: ammunition box (635x40mm Caseless rubber)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessRubber
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/6.35x40mm_caseless.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
+
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessHP
+  name: ammunition box (635x40mm HP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+# Physical
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessIncendiary
+  name: ammunition box (635x40mm Incendiary)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessUranium
+  name: ammunition box (635x40mm Uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+
+# Special
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessEMP
+  name: ammunition box (635x40mm EMP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessEMP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: emp
+
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaselessCaustic
+  name: ammunition box (635x40mm Caustic)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge635x40mmCaselessCaustic
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: caustic
+
+# Out of balance
+- type: entity
+  parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessBigRubber
   name: big ammunition box (635x40mm Caseless rubber)
   suffix: Big
@@ -87,22 +183,6 @@
     steps: 4
     zeroVisible: false
   - type: Appearance
-
-- type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessRubber
-  name: ammunition box (635x40mm Caseless rubber)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessRubber
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/6.35x40mm_caseless.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: rubber
 
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless

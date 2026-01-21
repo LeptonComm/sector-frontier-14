@@ -36,6 +36,7 @@
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
 # Boxes
+# Standart
 - type: entity
   parent: BaseAmmoBox68x52mmCaseless
   id: AmmoBox68x52mmCaseless
@@ -81,6 +82,85 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: rubber
 
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaselessHP
+  name: ammunition box (6.8x52mm STANAG Caseless HP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge68x52mmCaselessHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+# Physical
+- type: entity
+  parent: BaseAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaselessIncendiary
+  name: ammunition box (6.8x52mm STANAG Caseless Incendiary)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge68x52mmCaselessIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  parent: BaseAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaselessUranium
+  name: ammunition box (6.8x52mm STANAG Caseless Uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge68x52mmCaselessUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+
+# Special
+- type: entity
+  parent: BaseAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaselessEMP
+  name: ammunition box (6.8x52mm STANAG Caseless EMP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge68x52mmCaselessEMP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: emp
+
+- type: entity
+  parent: BaseAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaselessCaustic
+  name: ammunition box (6.8x52mm STANAG Caseless Caustic)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge68x52mmCaselessCaustic
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: caustic
+
+#Out of balance
 - type: entity
   parent: BaseAmmoBox68x52mmCaseless
   id: AmmoBox68x52mmCaselessBig

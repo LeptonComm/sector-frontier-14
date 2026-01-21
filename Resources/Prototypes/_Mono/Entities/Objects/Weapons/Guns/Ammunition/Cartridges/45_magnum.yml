@@ -22,6 +22,7 @@
   - type: StaticPrice
     price: 1
 
+# Standart
 - type: entity
   id: Cartridge45_magnumFMJ
   name: cartridge (.45 magnum)
@@ -46,51 +47,6 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: Cartridge45_magnumIncendiary
-  name: cartridge (.45 magnum incendiary)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumIncendiary
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#ff6e52"
-
-- type: entity
-  id: Cartridge45_magnumAP
-  name: cartridge (.45 magnum armor-piercing)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumAP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#0a0a0a"
-
-- type: entity
-  id: Cartridge45_magnumUranium
-  name: cartridge (.45 magnum uranium)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumUranium
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#65fe08"
-
-- type: entity
   id: Cartridge45_magnumRubber
   name: cartridge (.45 magnum rubber)
   parent: BaseCartridge45_magnum
@@ -105,8 +61,7 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"
 
-# Mono AP syst
-#anti-flesh:
+# Mechanical
 - type: entity
   id: Cartridge45_magnumHP
   name: cartridge (.45 magnum hollow-point)
@@ -120,8 +75,71 @@
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#90EE90"
+        color: "#991d39"
 
+# Physical
+- type: entity
+  id: Cartridge45_magnumIncendiary
+  name: cartridge (.45 magnum Incendiary)
+  parent: BaseCartridge45_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet45_magnumIncendiary
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#f44336"
+
+- type: entity
+  id: Cartridge45_magnumUranium
+  name: cartridge (.45 magnum Uranium)
+  parent: BaseCartridge45_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet45_magnumUranium
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#6b9747"
+
+# Special
+- type: entity
+  id: Cartridge45_magnumEMP
+  name: cartridge (.45 magnum EMP)
+  parent: BaseCartridge45_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet45_magnumEMP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#044492"
+
+- type: entity
+  id: Cartridge45_magnumCaustic
+  name: cartridge (.45 magnum Caustic)
+  parent: BaseCartridge45_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet45_magnumCaustic
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#8b9229"
+
+# Out of balance
 - type: entity
   id: Cartridge45_magnumRIP
   name: cartridge (.45 magnum RIP)
@@ -137,8 +155,6 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#C04000"
 
-#armor-piercing:
-
 - type: entity
   id: Cartridge45_magnumPlasteelAP
   name: cartridge (.45 magnum AP)
@@ -153,3 +169,18 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#888888"
+
+- type: entity
+  id: Cartridge45_magnumAP
+  name: cartridge (.45 magnum armor-piercing)
+  parent: BaseCartridge45_magnum
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet45_magnumAP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#0a0a0a"

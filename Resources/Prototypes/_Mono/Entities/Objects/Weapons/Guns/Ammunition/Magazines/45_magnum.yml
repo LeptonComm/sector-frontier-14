@@ -1,3 +1,5 @@
+# All of magazines here is out-of-balance - .45 magnum only for revolvers because it has AP and max COO = 3
+# Out of balance
 - type: entity
   id: BaseMagazine45_magnum
   name: pistol magazine (.45 magnum FMJ)
@@ -31,7 +33,6 @@
     zeroVisible: false
   - type: Appearance
 
-#Start Pistol mags
 - type: entity
   id: Magazine45_magnumPistolFMJ
   name: pistol magazine (.45 magnum FMJ)

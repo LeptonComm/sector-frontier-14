@@ -38,10 +38,85 @@
     sound:
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
+# Standart
 - type: entity
   parent: BaseAmmoBox127x99mm
   id: AmmoBox127x99mm
 
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox127x99mm
+  id: AmmoBox127x99mmHP
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+# Physical
+- type: entity
+  parent: BaseAmmoBox127x99mm
+  id: AmmoBox127x99mmIncendiary
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  parent: BaseAmmoBox127x99mm
+  id: AmmoBox127x99mmUranium
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+
+# Special
+- type: entity
+  parent: BaseAmmoBox127x99mm
+  id: AmmoBox127x99mmEMP
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmEMP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: emp
+
+- type: entity
+  parent: BaseAmmoBox127x99mm
+  id: AmmoBox127x99mmCaustic
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge127x99mmCaustic
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: caustic
+
+# Out of balance
 - type: entity
   parent: BaseAmmoBox127x99mm
   id: AmmoBox127x99mmExplosive

@@ -22,6 +22,7 @@
   - type: StaticPrice
     price: 1
 
+# Standart
 - type: entity
   id: Cartridge556x45mmFMJ
   name: cartridge (5.56x45mm FMJ)
@@ -46,36 +47,6 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: Cartridge556x45mmIncendiary
-  name: cartridge (5.56x45mm incendiary)
-  parent: BaseCartridge556x45mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet556x45mmIncendiary
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#ff6e52"
-
-- type: entity
-  id: Cartridge556x45mmUranium
-  name: cartridge (5.56x45mm uranium)
-  parent: BaseCartridge556x45mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet556x45mmUranium
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#65fe08"
-
-- type: entity
   id: Cartridge556x45mmRubber
   name: cartridge (5.56x45mm rubber)
   parent: BaseCartridge556x45mm
@@ -90,8 +61,7 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"
 
-# Mono AP syst
-#anti-flesh:
+# Mechanical
 - type: entity
   id: Cartridge556x45mmHP
   name: cartridge (5.56x45mm hollow-point)
@@ -105,8 +75,71 @@
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#90EE90"
+        color: "#991d39"
 
+# Physical
+- type: entity
+  id: Cartridge556x45mmIncendiary
+  name: cartridge (5.56x45mm incendiary)
+  parent: BaseCartridge556x45mm
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet556x45mmIncendiary
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#f44336"
+
+- type: entity
+  id: Cartridge556x45mmUranium
+  name: cartridge (5.56x45mm uranium)
+  parent: BaseCartridge556x45mm
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet556x45mmUranium
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#6b9747"
+
+# Special
+- type: entity
+  id: Cartridge556x45mmEMP
+  name: cartridge (5.56x45mm EMP)
+  parent: BaseCartridge556x45mm
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet556x45mmEMP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#044492"
+
+- type: entity
+  id: Cartridge556x45mmCaustic
+  name: cartridge (5.56x45mm Caustic)
+  parent: BaseCartridge556x45mm
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet556x45mmCaustic
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#8b9229"
+
+# Out of balance
 - type: entity
   id: Cartridge556x45mmRIP
   name: cartridge (5.56x45mm RIP)
@@ -121,8 +154,6 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#C04000"
-
-#armor-piercing:
 
 - type: entity
   id: Cartridge556x45mmPlasteelAP

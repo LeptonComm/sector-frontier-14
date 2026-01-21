@@ -34,6 +34,7 @@
   - type: Appearance
 
 # Magazines
+# Standart
 - type: entity
   id: Magazine762x51mmFMJ
   name: "magazine (7.62x51mm FMJ)"
@@ -78,34 +79,6 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x51mmUranium
-  name: "magazine (7.62x51mm uranium)"
-  parent: BaseMagazine762x51mm
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge762x51mmUranium
-  - type: Sprite
-    layers:
-    - state: uranium
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
-  id: Magazine762x51mmIncendiary
-  name: "magazine (7.62x51mm incendiary)"
-  parent: Magazine762x51mmFMJ
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge762x51mmIncendiary
-  - type: Sprite
-    layers:
-    - state: red
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
   id: Magazine762x51mmRubber
   name: "magazine (7.62x51mm rubber)"
   parent: Magazine762x51mmFMJ
@@ -120,6 +93,80 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
+# Mechanical
+- type: entity
+  id: Magazine762x51mmHP
+  name: "magazine (7.62x51mm hollow-point)"
+  parent: BaseMagazine762x51mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x51mmHP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Physical
+- type: entity
+  id: Magazine762x51mmIncendiary
+  name: "magazine (7.62x51mm incendiary)"
+  parent: Magazine762x51mmFMJ
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x51mmIncendiary
+  - type: Sprite
+    layers:
+    - state: incendiary
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: Magazine762x51mmUranium
+  name: "magazine (7.62x51mm uranium)"
+  parent: BaseMagazine762x51mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x51mmUranium
+  - type: Sprite
+    layers:
+    - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Special
+- type: entity
+  id: Magazine762x51mmEMP
+  name: "magazine (7.62x51mm EMP)"
+  parent: BaseMagazine762x51mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x51mmEMP
+  - type: Sprite
+    layers:
+    - state: emp
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: Magazine762x51mmCaustic
+  name: "magazine (7.62x51mm Caustic)"
+  parent: BaseMagazine762x51mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x51mmCaustic
+  - type: Sprite
+    layers:
+    - state: caustic
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+# Low capacity
 - type: entity
   id: Magazine762x51mmLowCapacityEmpty
   name: "low cap magazine (7.62x51mm any)"
@@ -217,22 +264,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
-# Mono AP syst
-#anti-flesh:
-- type: entity
-  id: Magazine762x51mmHP
-  name: "magazine (7.62x51mm hollow-point)"
-  parent: BaseMagazine762x51mm
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge762x51mmHP
-  - type: Sprite
-    layers:
-    - state: HP
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
+# Out of balance
 - type: entity
   id: Magazine762x51mmRIP
   name: "magazine (7.62x51mm RIP)"
@@ -246,8 +278,6 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-
-#armor-piercing:
 
 - type: entity
   id: Magazine762x51mmPlasteelAP

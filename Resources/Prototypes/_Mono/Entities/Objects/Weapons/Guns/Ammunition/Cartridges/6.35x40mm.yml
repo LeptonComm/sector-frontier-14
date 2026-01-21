@@ -22,6 +22,7 @@
   - type: StaticPrice
     price: 1
 
+# Standart
 - type: entity
   id: Cartridge635x40mmCaseless
   name: cartridge (635x40mm Caseless)
@@ -53,3 +54,80 @@
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#dbdbdb"
 
+# Mechanical
+- type: entity
+  id: Cartridge635x40mmCaselessHP
+  name: cartridge (635x40mm HP)
+  parent: BaseCartridge635x40mmCaseless
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet635x40mmCaselessHP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#991d39"
+
+# Physical
+- type: entity
+  id: Cartridge635x40mmCaselessIncendiary
+  name: cartridge (635x40mm Incendiary)
+  parent: BaseCartridge635x40mmCaseless
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet635x40mmCaselessIncendiary
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#f44336"
+
+- type: entity
+  id: Cartridge635x40mmCaselessUranium
+  name: cartridge (635x40mm Uranium)
+  parent: BaseCartridge635x40mmCaseless
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet635x40mmCaselessUranium
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#6b9747"
+
+# Special
+- type: entity
+  id: Cartridge635x40mmCaselessEMP
+  name: cartridge (635x40mm EMP)
+  parent: BaseCartridge635x40mmCaseless
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet635x40mmCaselessEMP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#044492"
+
+- type: entity
+  id: Cartridge635x40mmCaselessCaustic
+  name: cartridge (635x40mm Caustic)
+  parent: BaseCartridge635x40mmCaseless
+  components:
+  - type: CartridgeAmmo
+    proto: Bullet635x40mmCaselessCaustic
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#8b9229"

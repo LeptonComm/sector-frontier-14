@@ -15,12 +15,12 @@
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
-    zeroVisible: false
+#  - type: Sprite
+#    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
+#  - type: MagazineVisuals
+#    magState: mag
+#    steps: 5
+#    zeroVisible: false
   - type: Appearance
   - type: EmitSoundOnPickup
     sound:
@@ -33,6 +33,7 @@
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
 # Boxes
+# Standart
 - type: entity
   parent: BaseAmmoBox8x65mm
   id: AmmoBox8x65mmSKR
@@ -62,6 +63,24 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox8x65mm
+  id: AmmoBox8x65mmSKRHP
+  name: ammunition box (8x65mm SKR HP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge8x65mmSKRHP
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: hollowpoint
+
+# Physical
 - type: entity
   id: AmmoBox8x65mmSKRIncendiary
   parent: BaseAmmoBox8x65mm
@@ -76,3 +95,52 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseAmmoBox8x65mm
+  id: AmmoBox8x65mmSKRUranium
+  name: ammunition box (8x65mm SKR uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge8x65mmSKRUranium
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+
+# Special
+- type: entity
+  parent: BaseAmmoBox8x65mm
+  id: AmmoBox8x65mmSKREMP
+  name: ammunition box (8x65mm SKR EMP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge8x65mmSKREMP
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: emp
+
+- type: entity
+  parent: BaseAmmoBox8x65mm
+  id: AmmoBox8x65mmSKRCaustic
+  name: ammunition box (8x65mm SKR Caustic)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge8x65mmSKRCaustic
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: caustic

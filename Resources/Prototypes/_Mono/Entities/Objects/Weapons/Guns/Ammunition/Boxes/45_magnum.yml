@@ -34,6 +34,7 @@
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
 #small ammo boxes
+# Standart
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumFMJ
@@ -65,6 +66,38 @@
 
 - type: entity
   parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumRubber
+  name: ammunition box (.45 magnum rubber)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge45_magnumRubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
+
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumHP
+  name: ammunition box (.45 magnum hollow-point)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge45_magnumHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: HP
+
+# Physical
+- type: entity
+  parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumIncendiary
   name: ammunition box (.45 magnum incendiary)
   components:
@@ -93,55 +126,38 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: uranium
 
-# Upstream
+# Special
 - type: entity
+  id: AmmoBox45_magnumEMP
   parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumRubber
-  name: ammunition box (.45 magnum rubber)
+  name: ammunition box (.45 magnum EMP)
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumRubber
+    proto: Cartridge45_magnumEMP
   - type: Sprite
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: rubber
+    - state: emp
 
-#deprecated AP
 - type: entity
-  id: AmmoBox45_magnumAP
+  id: AmmoBox45_magnumCaustic
   parent: BaseAmmoBox45_magnum
-  name: ammunition box (.45 magnum extreme armor-piercing)
+  name: ammunition box (.45 magnum Caustic)
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumAP
+    proto: Cartridge45_magnumCaustic
   - type: Sprite
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: piercing
+    - state: caustic
 
-# Mono AP syst
-#anti-flesh:
-- type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumHP
-  name: ammunition box (.45 magnum hollow-point)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumHP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: HP
-
+# Out of balance
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumRIP
@@ -157,8 +173,6 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: RIP
 
-#armor-piercing:
-
 - type: entity
   parent: BaseAmmoBox45_magnum
   id: AmmoBox45_magnumPlasteelAP
@@ -173,6 +187,22 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: plasteelAP
+
+## deprecated AP
+- type: entity
+  id: AmmoBox45_magnumAP
+  parent: BaseAmmoBox45_magnum
+  name: ammunition box (.45 magnum extreme armor-piercing)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge45_magnumAP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: piercing
 
 #big ammo boxes
 - type: entity

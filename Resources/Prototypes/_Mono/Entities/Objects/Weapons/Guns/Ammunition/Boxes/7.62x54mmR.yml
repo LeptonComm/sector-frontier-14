@@ -37,6 +37,7 @@
       path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
 
 #small ammo boxes
+# Standart
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRFMJ
@@ -68,6 +69,38 @@
 
 - type: entity
   parent: BaseAmmoBox762x54mmR
+  id: AmmoBox762x54mmRRubber
+  name: ammunition box (7.62x54mmR rubber)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x54mmRRubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
+
+# Mechanical
+- type: entity
+  parent: BaseAmmoBox762x54mmR
+  id: AmmoBox762x54mmRHP
+  name: ammunition box (7.62x54mmR hollow-point)
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge762x54mmRHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: HP
+
+# Physical
+- type: entity
+  parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRIncendiary
   name: ammunition box (7.62x54mmR incendiary)
   components:
@@ -96,39 +129,38 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: uranium
 
-# Upstream
+# Special
 - type: entity
+  id: AmmoBox762x54mmREMP
   parent: BaseAmmoBox762x54mmR
-  id: AmmoBox762x54mmRRubber
-  name: ammunition box (7.62x54mmR rubber)
+  name: ammunition box (7.62x54mmR EMP)
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRRubber
+    proto: Cartridge762x54mmREMP
   - type: Sprite
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: rubber
+    - state: emp
 
-# Mono AP syst
-#anti-flesh:
 - type: entity
+  id: AmmoBox762x54mmRCaustic
   parent: BaseAmmoBox762x54mmR
-  id: AmmoBox762x54mmRHP
-  name: ammunition box (7.62x54mmR hollow-point)
+  name: ammunition box (7.62x54mmR caustic)
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRHP
+    proto: Cartridge762x54mmRCaustic
   - type: Sprite
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: HP
+    - state: caustic
 
+# Out of balance
 - type: entity
   parent: BaseAmmoBox762x54mmR
   id: AmmoBox762x54mmRRIP
@@ -143,8 +175,6 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: RIP
-
-#armor-piercing:
 
 - type: entity
   parent: BaseAmmoBox762x54mmR
