@@ -5,6 +5,12 @@
   name: mk58
   description: A cheap semiauto sidearm.
   components:
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 4.5
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: Clothing
@@ -24,6 +30,12 @@
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 6
 
 - type: entity
   id: NFWeaponPistolCobra
@@ -50,6 +62,11 @@
   description: The Mark 32 Offensive Handgun.
   components:
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 9 #Lua
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/universal.ogg
   - type: Sprite

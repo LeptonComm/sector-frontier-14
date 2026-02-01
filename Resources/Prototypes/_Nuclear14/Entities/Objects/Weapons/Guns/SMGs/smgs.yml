@@ -20,6 +20,10 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmSMG.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
     fireRate: 7.5 #Lua 8<7.5
     soundGunshot:
       collection: N14Pistol10mmGunshot
@@ -28,8 +32,8 @@
     - Fullauto
 #    minAngle: 8 #comment from _Lua
 #    maxAngle: 48
-    angleIncrease: 1.1 #Lua 6<1.1
-    angleDecay: 7.7 #Lua 16<7.7
+#    angleIncrease: 6
+#    angleDecay: 16
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_cock.ogg
@@ -151,8 +155,12 @@
     - Fullauto
 #    minAngle: 8 #comment from _Lua
 #    maxAngle: 56
-    angleIncrease: 1.1 #Lua 4<1.1
-    angleDecay: 7.7 #Lua 16<7.7
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_cock.ogg
@@ -214,8 +222,12 @@
     - Fullauto
 #    minAngle: 8 #comment from _Lua
 #    maxAngle: 56
-    angleIncrease: 1.1 #Lua 4<1.1
-    angleDecay: 7.7 #Lua 16<7.7
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_cock.ogg
@@ -274,8 +286,12 @@
     - FullAuto
 #    minAngle: 16 #comment from _Lua
 #    maxAngle: 30
-    angleIncrease: 1.1 #Lua 4<1.1
-    angleDecay: 7.7 #Lua 16<7.7
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_cock.ogg

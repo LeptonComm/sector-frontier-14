@@ -21,6 +21,12 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 5 #Lua
 
 - type: entity # TODO: switch to .25 rifle (caseless)
   id: NFWeaponRifleAssaultM90GrenadeLauncher
@@ -33,6 +39,34 @@
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 8.4
+  - type: HeldSpeedModifier #Lua
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: ItemSlots #Lua
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: Magazine762x51mmFMJ
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist: &mag20Whitelist
+          tags:
+            - Magazine762x51mmFMJ
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber: &chamber20Standard
+        name: Chamber
+        startingItem: Cartridge762x51mmFMJ
+        priority: 1
+        whitelist:
+          tags:
+            - Cartridge762x51mmFMJ
 
 - type: entity
   id: NFWeaponRifleAssaultLecter
@@ -52,8 +86,33 @@
     steps: 1
     zeroVisible: true
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 6 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: Magazine762x39mmFMJ #Lua Magazine556x45mmFMJ<Magazine762x39mmFMJ
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist: # &mag20Whitelist #comment from _Lua
+          tags:
+            - Magazine762x39mmFMJ #Lua Magazine556x45mmFMJ<Magazine762x39mmFMJ
+#            - NFMagazineDrumRifle556x45 #comment from _Lua
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber: # &chamber20Standard #comment from _Lua
+        name: Chamber
+        startingItem: Cartridge762x39mmFMJ #Lua Cartridge556x45mmFMJ<Cartridge762x39mmFMJ
+        priority: 1
+        whitelist:
+          tags:
+            - Cartridge762x39mmFMJ #Lua Cartridge556x45mmFMJ<Cartridge762x39mmFMJ
 
 #region WizDen: Rubber
 - type: entity
@@ -81,11 +140,18 @@
     magState: mag
     steps: 3
     zeroVisible: true
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 4
 
 - type: entity
   id: NFWeaponRifleAssaultJackdaw
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 25 -> 556x45
   name: Jackdaw
+  categories: [ HideSpawnMenu ] #Lua
   description: |-
     The beginning of the end is heralded by the song of a Jackdaw.
   components:
@@ -121,13 +187,19 @@
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Item
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
-  - type: Gun
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 3
     burstFireRate: 5
     shotsPerBurst: 2
     burstCooldown: 0.8
-    selectedMode: Burst
+    selectedMode: FullAuto #Lua Burst<FullAuto
     availableModes:
-      - Burst
+      - FullAuto
+#      - Burst
     soundGunshot:
       path: /Audio/_NF/Weapons/Guns/Gunshots/rifle.ogg
 
@@ -143,6 +215,11 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.12 #Lua
+    angleDecay: 0.24 #Lua
+    fireRate: 3.6 #Lua
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto

@@ -8,8 +8,16 @@
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi
+  - type: Gun #Lua
+#    minAngle: 1 # comment from _Lua
+#    maxAngle: 2
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.3 #Lua
+    angleDecay: 0.6 #Lua
+    fireRate: 4.2
   - type: RevolverAmmoProvider
-    proto: RMCCartridgeRevolver44
+    proto: Cartridge45_magnumFMJ #Lua RMCCartridgeRevolver44<Cartridge45_magnumFMJ
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]

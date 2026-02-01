@@ -212,6 +212,7 @@
         map: ["enum.GunVisualLayers.Mag"]
       - state: incendiary
 
+# Out of balance
 - type: entity
   name: shotgun shell box (4 gauge flechette)
   parent: AmmoProvider23x75mmShotgunShell
@@ -231,7 +232,6 @@
         map: ["enum.GunVisualLayers.Mag"]
       - state: flechette
 
-# Out of balance
 - type: entity
   name: shotgun shell box (4 gauge RIP)
   parent: AmmoProvider23x75mmShotgunShell

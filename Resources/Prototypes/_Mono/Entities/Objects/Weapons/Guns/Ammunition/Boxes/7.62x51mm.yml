@@ -115,8 +115,8 @@
     - state: incendiary
 
 - type: entity
-  id: AmmoBox762x51mmUranium
   parent: BaseAmmoBox762x51mm
+  id: AmmoBox762x51mmUranium
   name: ammunition box (7.62x51mm uranium)
   components:
   - type: BallisticAmmoProvider

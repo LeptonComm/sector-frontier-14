@@ -17,7 +17,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/bigshotgun_fire.ogg
-    fireRate: 1.5 #Lua 1 -> 1.5
+    fireRate: 2.5 #Lua 1<2.5
   - type: Tag
     tags:
     - WeaponShotgunBigLeady
@@ -52,7 +52,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/bigshotgun_fire.ogg
-    fireRate: 1.5 #Lua 1 -> 1.5
+    fireRate: 3 #Lua 1<3
   - type: Tag
     tags:
     - WeaponShotgunBigLeady
@@ -60,7 +60,7 @@
     whitelist:
       tags:
       - ShellShotgun23x75mmBuckshot
-    capacity: 3
+    capacity: 6 #Lua 3<6
     proto: ShellShotgun23x75mmBuckshot
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
@@ -87,7 +87,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/bigshotgun_fire.ogg
-    fireRate: 1.5 #Lua 1 -> 1.5
+    fireRate: 3 #Lua 1<3
   - type: Tag
     tags:
     - WeaponShotgunBigBuddy

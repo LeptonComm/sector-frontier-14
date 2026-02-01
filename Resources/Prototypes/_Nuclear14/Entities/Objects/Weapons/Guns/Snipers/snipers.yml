@@ -11,6 +11,17 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/hunting.rsi
   - type: Wieldable
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
   - type: ToggleClothing #Lua
     action: ActionToggleScope
     mustEquip: false
@@ -21,12 +32,8 @@
       sprintModifier: 0.8
     - type: CursorOffsetRequiresWield
     - type: EyeCursorOffset
-      maxOffset: 2.5
-      pvsIncrease: 0.15
-  - type: ItemTogglePrefix #Lua
-    prefixOn: on
-  - type: ToggleClothingPrefix #Lua
-    prefixOn: on
+      maxOffset: 10
+      pvsIncrease: 1
   - type: GunRequiresWield #Lua
   - type: GunWieldBonus
     minAngle: -23
@@ -68,14 +75,18 @@
   - type: Item
   - type: Wieldable
   - type: GunRequiresWield #Lua
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -104
+#  - type: GunWieldBonus # comment (78-80; 82-85) from _Lua
+#    minAngle: -23
+#    maxAngle: -104
   - type: Gun
-    minAngle: 24
-    maxAngle: 105
-    angleIncrease: 4
-    angleDecay: 16
+#    minAngle: 24
+#    maxAngle: 105
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.06 #Lua
+    angleDecay: 0.12 #Lua
     fireRate: 1.5 #Lua 1.2<1.5
     soundGunshot:
       collection: N14AntiMaterielGunshot
@@ -107,22 +118,29 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
   - type: ToggleClothing #Lua
     action: ActionToggleScope
     mustEquip: false
   - type: ComponentToggler #Lua
     components:
-    - type: ClothingSpeedModifier
+    - type: ClothingSpeedModifier #Lua
       walkModifier: 0.8
       sprintModifier: 0.8
     - type: CursorOffsetRequiresWield
     - type: EyeCursorOffset
-      maxOffset: 2.5
-      pvsIncrease: 0.15
-  - type: ItemTogglePrefix #Lua
-    prefixOn: on
-  - type: ToggleClothingPrefix #Lua
-    prefixOn: on
+      maxOffset: 10
+      pvsIncrease: 1
 
 - type: entity
   name: .50 NCR rifle
@@ -137,21 +155,48 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - N14Cartridge50
-    capacity: 1
-    proto: N14Cartridge50
+      - Cartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
+    capacity: 10 #Lua 1<10
+    proto: Cartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
   - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -104
+#  - type: GunWieldBonus # comment (162-164; 166-169) from _Lua
+#    minAngle: -23
+#    maxAngle: -104
   - type: Gun
-    minAngle: 24
-    maxAngle: 105
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 1.2
+#    minAngle: 24
+#    maxAngle: 105
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.06 #Lua
+    angleDecay: 0.12 #Lua
+    fireRate: 1.8 #Lua 1.2<1.8
     soundGunshot:
       collection: N14AntiMaterielGunshot
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 - type: entity
   name: lever action carbine
@@ -197,9 +242,42 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.08 #Lua
+    angleDecay: 0.16 #Lua
     fireRate: 2.4 #Lua 1.2<2.4
     soundGunshot:
       collection: N14LeverRifleGunshot
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - Cartridge762x54mmRFMJ #Lua N14Cartridge308Rifle<Cartridge762x54mmRFMJ
+    capacity: 10
+    proto: Cartridge762x54mmRFMJ #Lua N14Cartridge308Rifle<Cartridge762x54mmRFMJ
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 7.5
+      pvsIncrease: 1
 
 - type: entity
   name: brush gun
@@ -214,7 +292,11 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
   - type: Gun
-    fireRate: 1.5 #Lua 2<1.5
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.06 #Lua
+    angleDecay: 0.12 #Lua
+    fireRate: 1.2 #Lua 2<1.2
     soundGunshot:
       collection: N14BrushGunGunshot
   - type: BallisticAmmoProvider
@@ -235,6 +317,12 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
+      state: barrel
+      offset: 0.525, 0.0925
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
   - type: Wieldable

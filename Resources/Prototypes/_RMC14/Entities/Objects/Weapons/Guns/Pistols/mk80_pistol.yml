@@ -13,16 +13,20 @@
       types:
         Blunt: 8
   - type: Gun
-    minAngle: 0
-    maxAngle: 25
-    angleIncrease: 1
-    angleDecay: 1
-    fireRate: 0.2
+#    minAngle: 0 # comment from _Lua
+#    maxAngle: 25
+#    angleIncrease: 1
+#    angleDecay: 1
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 10.5 #Lua 0.2<10.5
     shotsPerBurst: 6
-    selectedMode: Burst
+    selectedMode: SemiAuto #Lua Burst<SemiAuto
     availableModes:
     - SemiAuto
-    - Burst
+#    - Burst
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_mk80.ogg
   # - type: RMCSelectiveFire
@@ -51,8 +55,8 @@
         priority: 2
         whitelist:
           tags:
-          - CMMagazinePistolMK80
-        startingItem: CMMagazinePistolMK80
+          - Magazine9x19mmPistolFMJ #Lua CMMagazinePistolMK80<Magazine9x19mmPistolFMJ
+        startingItem: Magazine9x19mmPistolFMJ #Lua CMMagazinePistolMK80<Magazine9x19mmPistolFMJ
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.685, 0.125

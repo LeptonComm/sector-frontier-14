@@ -21,10 +21,10 @@
 #    maxAngle: -59
   - type: GunRequiresWield #Lua
   - type: Gun
-    minAngle: 1 #Lua 24<1
-    maxAngle: 11 #Lua 60<11
-    angleIncrease: 3 #Lua 4<3
-    angleDecay: 34 #Lua 16<34
+    minAngle: 0 #Lua 24<0
+    maxAngle: 0.6 #Lua 60<0.6
+    angleIncrease: 0.04 #Lua 4<0.04
+    angleDecay: 0.08 #Lua 16<0.08
     fireRate: 5.6 #Lua 4<5.6
     soundGunshot:
       collection: N14AutoRifleGunshot
@@ -82,10 +82,14 @@
 #    minAngle: -20
 #    maxAngle: -55
   - type: Gun
-    minAngle: 1 #Lua 24<1
-    maxAngle: 11 #Lua 60<11
-    angleIncrease: 3 #Lua 4<3
-    angleDecay: 34 #Lua 16<34
+#    minAngle: 24 # comment from _Lua
+#    maxAngle: 60
+#    angleIncrease: 4
+#    angleDecay: 16
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
     fireRate: 4.67 #Lua 6<4.67
     soundGunshot:
       collection: N14LMGGunshot

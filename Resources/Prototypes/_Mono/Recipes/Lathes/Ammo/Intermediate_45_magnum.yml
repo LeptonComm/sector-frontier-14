@@ -36,6 +36,16 @@
   id: Magazine45_magnumPistolUranium
   result: Magazine45_magnumPistolUranium
 
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPIntermediateMagazineRecipe
+  id: Magazine45_magnumPistolEMP
+  result: Magazine45_magnumPistolEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticIntermediateMagazineRecipe
+  id: Magazine45_magnumPistolCaustic
+  result: Magazine45_magnumPistolCaustic
+
 - type: latheRecipe
   parent: BaseAmmoHPIntermediateMagazineRecipe
   id: Magazine45_magnumPistolHP
@@ -123,6 +133,16 @@
   parent: BaseAmmoPracticeIntermediateMagazineRecipe
   id: AmmoBox45_magnumPractice
   result: AmmoBox45_magnumPractice
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPIntermediateMagazineRecipe
+  id: AmmoBox45_magnumEMP
+  result: AmmoBox45_magnumEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticIntermediateMagazineRecipe
+  id: AmmoBox45_magnumCaustic
+  result: AmmoBox45_magnumCaustic
 
 - type: latheRecipe
   parent: BaseAmmoUraniumIntermediateMagazineRecipe

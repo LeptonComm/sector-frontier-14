@@ -35,7 +35,11 @@
         - SpeedLoader10
     proto: Cartridge45_ACPFMJ #Lua N14CartridgePistol10<Cartridge45_ACPFMJ
   - type: Gun
-    firerate: 5
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 5
     soundGunshot:
       collection: N14Revolver10mmGunshot
 
@@ -62,7 +66,11 @@
         - SpeedLoaderMagnum
     proto: Cartridge45_magnumFMJ
   - type: Gun
-    firerate: 2.4
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.3 #Lua
+    angleDecay: 0.6 #Lua
+    fireRate: 2.4
     soundGunshot:
       collection: N14RevolverMagnunGunshot
 
@@ -73,6 +81,10 @@
   description: A true freedom fighter carries his flag everywhere, even on his gun. Uses .44 magnum ammo.
   components:
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.3 #Lua
+    angleDecay: 0.6 #Lua
     fireRate: 3 #Lua 2<3
     resetOnHandSelected: false
     soundGunshot:
@@ -95,7 +107,11 @@
   description: A heavy revolver with a long cannon designed to hunt small animals, but it also works for people. Uses .45-70 gov't ammo.
   components:
   - type: Gun
-    firerate: 3 #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.3 #Lua
+    angleDecay: 0.6 #Lua
+    fireRate: 3 #Lua
     soundGunshot:
       collection: N14HunterRevolverGunshot
   - type: Sprite

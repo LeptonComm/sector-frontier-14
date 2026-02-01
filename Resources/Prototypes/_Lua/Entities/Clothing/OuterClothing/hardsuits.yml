@@ -96,6 +96,175 @@
     enabled: false
 
 #region FSF
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitFSFBaseBravo
+  name: скафандр командира рейнджеров
+  suffix: КСО, Браво
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: ThermalCloak
+    enabled: false
+  - type: Sprite
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravobaseouter.rsi
+  - type: Clothing
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravobaseouter.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.475
+        Slash: 0.475
+        Piercing: 0.475
+        Heat: 0.475
+        Radiation: 0.475
+        Shock: 0.475
+        Caustic: 0.475
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitFSFBaseBravo
+  - type: Inject
+    openCloseDelay: 1
+    autoClose: true
+    autoCloseDelay: 3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HardsuitIdentification
+    emaggable: false
+  - type: HardsuitDNARadial
+  - type: Speech
+  - type: TTS
+    voice: Adjutant
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitFSFCommandBravo
+  name: скафандр командира рейнджеров
+  suffix: КСО, Браво
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: ThermalCloak
+    enabled: false
+  - type: Sprite
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravocommouter.rsi
+  - type: Clothing
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/bravocommouter.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Reflect
+    reflectProb: 0.1
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.475
+        Slash: 0.475
+        Piercing: 0.475
+        Heat: 0.475
+        Radiation: 0.475
+        Shock: 0.475
+        Caustic: 0.475
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitFSFCommandBravo
+  - type: Inject #Lua
+    openCloseDelay: 1
+    autoClose: true
+    autoCloseDelay: 3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HardsuitIdentification
+    emaggable: false
+  - type: HardsuitDNARadial
+  - type: Speech
+  - type: TTS
+    voice: Adjutant
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitFSFBaseCharlie
+  name: скафандр командира рейнджеров
+  suffix: КСО, Чарли
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: ThermalCloak
+    enabled: false
+  - type: Sprite
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliebaseouter.rsi
+  - type: Clothing
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliebaseouter.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.375
+        Slash: 0.375
+        Piercing: 0.375
+        Heat: 0.375
+        Radiation: 0.375
+        Shock: 0.375
+        Caustic: 0.375
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitFSFBaseCharlie
+  - type: Inject #Lua
+    openCloseDelay: 1
+    autoClose: true
+    autoCloseDelay: 3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HardsuitIdentification
+    emaggable: false
+  - type: HardsuitDNARadial
+  - type: Speech
+  - type: TTS
+    voice: Adjutant
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitFSFCommandCharlie
+  name: скафандр командира рейнджеров
+  suffix: КСО, Чарли
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: ThermalCloak
+    enabled: false
+  - type: Sprite
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliecommouter.rsi
+  - type: Clothing
+    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/charliecommouter.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Reflect
+    reflectProb: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.375
+        Slash: 0.375
+        Piercing: 0.375
+        Heat: 0.375
+        Radiation: 0.375
+        Shock: 0.375
+        Caustic: 0.375
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitFSFCommandCharlie
+  - type: Inject #Lua
+    openCloseDelay: 1
+    autoClose: true
+    autoCloseDelay: 3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HardsuitIdentification
+    emaggable: false
+  - type: HardsuitDNARadial
+  - type: Speech
+  - type: TTS
+    voice: Adjutant
+
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFCommanderBravo

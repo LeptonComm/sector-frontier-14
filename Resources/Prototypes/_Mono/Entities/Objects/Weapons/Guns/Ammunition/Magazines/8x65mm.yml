@@ -33,14 +33,14 @@
   - type: Appearance
 
 # Standart
+
 - type: entity
-  id: Magazine8x65mmEmptyBox
-  name: SAW box (8x65mm SKR any)
-  suffix: empty
+  id: Magazine8x65mmSKRBox
+  name: SAW box (8x65mm SKR)
   parent: BaseMagazine8x65mmBox
   components:
   - type: BallisticAmmoProvider
-    proto: null
+    proto: Cartridge8x65mmSKR
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm_box.rsi
     layers:
@@ -50,12 +50,13 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine8x65mmSKRBox
-  name: SAW box (8x65mm SKR)
+  id: Magazine8x65mmEmptyBox
+  name: SAW box (8x65mm SKR any)
+  suffix: empty
   parent: BaseMagazine8x65mmBox
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge8x65mmSKR
+    proto: null
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm_box.rsi
     layers:

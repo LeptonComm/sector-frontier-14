@@ -35,20 +35,20 @@
 
 # Standart
 - type: entity
-  id: Magazine127x99mmEmpty
-  name: "magazine (12.7x99mm empty)"
-  parent: BaseMagazine127x99mm
-  components:
-  - type: BallisticAmmoProvider
-    proto: null
-
-- type: entity
   id: Magazine127x99mm
   name: "magazine (12.7x99mm anti-material)"
   parent: BaseMagazine127x99mm
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge127x99mm
+
+- type: entity
+  id: Magazine127x99mmEmpty
+  name: "magazine (12.7x99mm empty)"
+  parent: BaseMagazine127x99mm
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
 
 # Mechanical
 - type: entity
@@ -63,7 +63,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: red
-      map: ["enum.GunVisualLayers.Mag"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
@@ -80,7 +79,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: incendiary
-      map: ["enum.GunVisualLayers.Mag"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
@@ -96,7 +94,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: uranium
-      map: ["enum.GunVisualLayers.Mag"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
@@ -113,7 +110,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: emp
-      map: ["enum.GunVisualLayers.Mag"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
@@ -129,7 +125,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: caustic
-      map: ["enum.GunVisualLayers.Mag"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 

@@ -3,6 +3,7 @@
   parent: BaseWeaponRifle
   id: BaseWeaponMinigun
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
@@ -15,10 +16,14 @@
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
     size: Ginormous
   - type: Gun
-    minAngle: 1 #Lua 4<1
-    maxAngle: 11 #Lua 12<11
-    angleIncrease: 3
-    angleDecay: 34
+#    minAngle: 4 # comment from _Lua
+#    maxAngle: 12
+#    angleIncrease: 3
+#    angleDecay: 34
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
     fireRate: 7 #Lua 12<7
     soundGunshot:
       collection: N14MinigunGunshot
@@ -61,8 +66,8 @@
   - type: Item
     size: Huge
   - type: ClothingSpeedModifier
-    walkModifier: 0.8 #Lua 0.7<0.8
-    sprintModifier: 0.8 #Lua 0.7<0.8
+    walkModifier: 0.7
+    sprintModifier: 0.7
 
 - type: entity
   name: avenger minigun
@@ -85,8 +90,8 @@
 #    maxAngle: 6
     fireRate: 5.83
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.7 #Lua 0.8<0.7
+    sprintModifier: 0.7 #Lua 0.8<0.7
   - type: ItemSlots #Lua
     slots:
       gun_magazine: 

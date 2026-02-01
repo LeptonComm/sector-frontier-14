@@ -32,6 +32,7 @@
   #       unwieldedScatterMultiplier: 2
   #       shotsToMaxScatter: 4
   - type: Wieldable
+  - type: GunRequiresWield #Lua
   - type: Item
     size: Large
   - type: Clothing
@@ -46,7 +47,40 @@
   - type: StaticPrice
     price: 500
   - type: MagazineAmmoProvider
-    autoEject: true
+    autoEject: false #Lua true<false
+  # - type: RMCAmmoEject
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity #Lua
+  abstract: true
+  parent: [ CMBaseWeaponGun, BaseItem ]
+  id: CMBaseWeaponRifleUnwieldable
+  components:
+  - type: Gun
+    shotsPerBurst: 3
+    selectedMode: Burst
+    availableModes:
+    - SemiAuto
+    - Burst
+  - type: Item
+    size: Large
+  - type: Clothing
+    slots:
+    - suitStorage
+    - Back
+  - type: AmmoCounter
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: StaticPrice
+    price: 500
+  - type: MagazineAmmoProvider
+    autoEject: false #Lua true<false
   # - type: RMCAmmoEject
   - type: MagazineVisuals
     magState: mag

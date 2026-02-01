@@ -81,7 +81,11 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi
   - type: Gun
-    fireRate: 2
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.08 #Lua
+    angleDecay: 0.16 #Lua
+    fireRate: 2.4 #Lua 2<2.4
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -89,10 +93,10 @@
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: BallisticAmmoProvider
     capacity: 5
-    proto: Cartridge762x51mmFMJ
+    proto: Cartridge762x54mmRFMJ #Lua Cartridge762x51mmFMJ<Cartridge762x54mmRFMJ
     whitelist:
       tags:
-      - Cartridge762x51mmFMJ
+      - Cartridge762x54mmRFMJ #Lua Cartridge762x51mmFMJ<Cartridge762x54mmRFMJ
   - type: CursorOffsetRequiresWield # Frontier
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
@@ -100,10 +104,33 @@
   - type: SpeedModifiedOnWield # Mono
     walkModifier: 0.95
     sprintModifier: 0.95
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 5
+      pvsIncrease: 1
 
 - type: entity
   name: CS CAWS-25 Jackdaw (635x40mm)
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC3Contraband] # Frontier: add BaseC3Contraband
+  parent: [BaseWeaponRifleUnwieldable, BaseC3Contraband] # Frontier: add BaseC3Contraband #Lua BaseGunWieldable #Lua BaseWeaponRifle<BaseWeaponRifleUnwieldable
   id: WeaponRifleJackdaw
   description: The beginning of the end is heralded by the song of a Jackdaw. Uses 6.35x40mm Caseless ammo.
   components:
@@ -116,12 +143,15 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: HeldSpeedModifier #Lua
+    walkModifier: 0.7
+    sprintModifier: 0.7
   - type: Gun
-    minAngle: 22
-    maxAngle: 36
+    minAngle: 2 #Lua 22<2
+    maxAngle: 6 #Lua 36<6
     angleIncrease: 2
     angleDecay: 8
-    fireRate: 8
+    fireRate: 4.8 #Lua 8<4.8
     projectileSpeed: 35 # Mono
     selectedMode: FullAuto
     availableModes:
@@ -136,21 +166,21 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine635x40mmCaseless
+        startingItem: Magazine762x51mmFMJ #Lua Magazine635x40mmCaseless<Magazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - Magazine635x40mmCaseless
+            - Magazine762x51mmFMJ #Lua Magazine635x40mmCaseless<Magazine762x51mmFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless
+        startingItem: Cartridge762x51mmFMJ #Lua Cartridge635x40mmCaseless<Cartridge762x51mmFMJ
         priority: 1
         whitelist:
           tags:
-            - Cartridge635x40mmCaseless
+            - Cartridge762x51mmFMJ #Lua Cartridge635x40mmCaseless<Cartridge762x51mmFMJ
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

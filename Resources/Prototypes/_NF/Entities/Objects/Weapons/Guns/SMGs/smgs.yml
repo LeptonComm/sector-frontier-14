@@ -23,7 +23,11 @@
     An illegal firearm that is often used by the infamous nuclear operatives.
   components:
   - type: Gun
-    fireRate: 6 #_Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 4 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
   - type: Sprite
@@ -31,11 +35,30 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
   - type: ChamberMagazineAmmoProvider
-    autoEject: true
+    autoEject: false #Lua true<false
   - type: MagazineVisuals
     magState: mag
     steps: 6
     zeroVisible: true
+  - type: ItemSlots #Lua
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua Magazine9x19mmSubMachineGunFMJ<Magazine45_ACPSubMachineGunFMJ
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist: &mag35Whitelist
+          tags:
+            - Magazine45_ACPSubMachineGunFMJ #Lua Magazine9x19mmSubMachineGunFMJ<Magazine45_ACPSubMachineGunFMJ
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber: &chamber35Standard
+        name: Chamber
+        startingItem: Cartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
+        priority: 1
+        whitelist:
+          tags:
+            - Cartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
 
 - type: entity
   id: NFWeaponSubMachineGunDrozd
@@ -44,7 +67,11 @@
   description: A fully automatic SMG.
   components: &drozdComponents
   - type: Gun
-    fireRate: 5.5 #_Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 4.5 #Lua 5.5<4.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: Sprite
@@ -68,7 +95,11 @@
     An excellent SMG. On the receiver is a label that says 'for authorized use only.'
   components:
   - type: Gun
-    fireRate: 6 #_Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 6 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
   - type: Sprite

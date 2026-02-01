@@ -25,8 +25,8 @@
 - type: startingGear
   id: MercenaryGear
 #Lua add uplink for limited mercenary
-  equipment:
-    pocket1: BaseMercenaryUplinkRadioMercenary
+#  equipment: #comment from _Lua because mercenary uplink has been replaced by black market uplink
+#    pocket1: BaseMercenaryUplinkRadioMercenary
 
 - type: chameleonOutfit
   id: MercenaryBaseChameleonOutfit

@@ -10,8 +10,8 @@
   description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
   price: 255000
   category: Large
-  group: Mercenary
-  access: Mercenary
+  group: ASBlackMarket
+#  access: Mercenary
   whitelist:
   - Luna
   - Frontier

@@ -80,7 +80,12 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
     fireRate: 6 #Lua 5<6
+    projectileSpeed: 30 #Lua
     soundGunshot:
       collection: N14Pistol9mmGunshot
   - type: ItemSlots
@@ -115,6 +120,10 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
     fireRate: 7.5 #Lua 4<7.5
     soundGunshot:
       collection: N14Pistol10mmGunshot
@@ -192,7 +201,12 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
     fireRate: 4 #Lua 3<4
+    projectileSpeed: 30 #Lua
     soundGunshot:
       collection: N14Pistol12mmGunshot
   - type: ItemSlots
@@ -213,10 +227,6 @@
         whitelist:
           tags:
             - Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
 
 - type: entity
   name: 10mm pipe pistol
@@ -296,7 +306,7 @@
     proto: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
     whitelist:
       tags:
-      - NCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+      - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
 
 - type: entity
   name: the spy
@@ -320,9 +330,9 @@
     fireRate: 10 #Lua 6<10
     soundGunshot:
       collection: N14PistolSpyGunshot
-    selectedMode: Fullauto
+    selectedMode: SemiAuto #Lua Fullauto<SemiAuto
     availableModes:
-    - Fullauto
+    - SemiAuto #Lua Fullauto<SemiAuto
   - type: ItemSlots
     slots:
       gun_chamber:

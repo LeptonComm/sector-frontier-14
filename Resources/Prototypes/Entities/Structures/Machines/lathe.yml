@@ -154,7 +154,8 @@
 
   - type: EmagLatheRecipes
     emagStaticPacks:
-    - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
+     - MonoAmmoPackModified #Lua
+#    - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -527,11 +528,11 @@
       idleState: icon
       runningState: icon
       staticPacks:
-      - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
-      - NFMercenaryMagazineStatic
+#      - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
+#      - N14AmmoPack # comment (531-533) from _Lua
+#      - NFMercenaryMagazineStatic
       - RMCAmmoPack
-      - N14AmmoPack
-      - MonoAmmoPack
+      - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
     - type: MaterialStorage
       whitelist:
         tags:

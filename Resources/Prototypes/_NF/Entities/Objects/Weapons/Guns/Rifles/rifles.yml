@@ -64,6 +64,14 @@
     sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi
+  - type: Gun #Lua
+    fireRate: 2.4
+  - type: BallisticAmmoProvider #Lua
+    capacity: 15
+    proto: Cartridge762x54mmRFMJ
+    whitelist:
+      tags:
+      - Cartridge762x54mmRFMJ
 
 #region Frontier
 - type: entity
@@ -76,8 +84,43 @@
     sprite: _NF/Objects/Weapons/Guns/Rifles/repeater.rsi
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Rifles/repeater.rsi
-  - type: BallisticAmmoProvider
-    capacity: 8
+#  - type: BallisticAmmoProvider # comment from _Lua
+#    capacity: 8
+  - type: Gun #Lua
+    minAngle: 0
+    maxAngle: 0.4
+    angleIncrease: 0.06
+    angleDecay: 0.12
+    fireRate: 0.9
+  - type: BallisticAmmoProvider #Lua
+    capacity: 15
+    proto: Cartridge127x99mm
+    whitelist:
+      tags:
+      - Cartridge127x99mm
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 5
+      pvsIncrease: 1
 
 - type: entity
   id: NFWeaponRifleSVS

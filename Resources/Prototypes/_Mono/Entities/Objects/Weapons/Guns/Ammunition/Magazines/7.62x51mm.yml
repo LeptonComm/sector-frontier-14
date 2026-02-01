@@ -166,7 +166,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
-# Low capacity
+# Low capacity (out of balance)
 - type: entity
   id: Magazine762x51mmLowCapacityEmpty
   name: "low cap magazine (7.62x51mm any)"

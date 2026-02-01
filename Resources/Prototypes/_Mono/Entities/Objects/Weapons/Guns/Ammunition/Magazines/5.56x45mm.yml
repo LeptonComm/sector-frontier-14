@@ -228,8 +228,6 @@
     - state: mag-15
       map: ["enum.GunVisualLayers.Mag"]
 
-
-
 # Out of balance
 - type: entity
   id: Magazine556x45mmRIP

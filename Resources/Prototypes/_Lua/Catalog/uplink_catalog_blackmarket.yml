@@ -64,8 +64,8 @@
 
 - type: listing
   id: UplinkBMStelsJetpack
-  name:  uplink-bm-stealth-jetpack-name
-  description: uplink-bm-stealth-jetpack-desc
+  name:  uplink-pirate-stealth-jetpack-name
+  description: uplink-pirate-stealth-jetpack-desc
   productEntity: JetpackStealthFilled
   cost:
     Speso: 12500
@@ -159,9 +159,9 @@
 # 12.7mm Bolt-action rifles
 - type: listing
   id: UplinkBMBrushGun
-  name:  uplink-bm-LMG-name
-  description: uplink-bm-LMG-desc
-  productEntity: N14WeaponLMG
+  name:  uplink-bm-brushgun-name
+  description: uplink-bm-brushgun-desc
+  productEntity: N14WeaponBrushGun
   cost:
     Speso: 25000
   categories:
@@ -725,8 +725,8 @@
 
 - type: listing
   id: UplinkBMEmpGrenadeBox
-  name:  uplink-vm-empgrenade-box-name
-  description: uplink-bm-empgrenade-box-desc
+  name:  uplink-security-empgrenade-box-name
+  description: uplink-security-empgrenade-box-desc
   productEntity: BoxEMPGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/empgrenade.rsi, state: icon}
   cost:
@@ -741,8 +741,8 @@
 
 - type: listing
   id: UplinkBMSmokeGrenadeBox
-  name:  uplink-bm-smokegrenade-box-name
-  description: uplink-bm-smokegrenade-box-desc
+  name:  uplink-security-smokegrenade-box-name
+  description: uplink-security-smokegrenade-box-desc
   productEntity: BoxSmokeGrenades
   icon: { sprite: Objects/Weapons/Grenades/smoke.rsi, state: icon}
   cost:
@@ -757,12 +757,12 @@
 
 - type: listing
   id: UplinkBMFlashbangGrenadeBox
-  name:  uplink-bm-flashbanggrenade-box-name
-  description: uplink-bm-flashbanggrenade-box-desc
+  name:  uplink-security-flashbanggrenade-box-name
+  description: uplink-security-flashbanggrenade-box-desc
   productEntity: BoxFlashBangGrenades
   icon: { sprite: Objects/Weapons/Grenades/flashbang.rsi, state: icon}
   cost:
-    FrontierUplinkCoin: 12500
+    Speso: 12500
   categories:
     - UplinkBMExplosives
   conditions:
@@ -775,8 +775,8 @@
 
 - type: listing
   id: UplinkBMCombatMedkit
-  name:  uplink-bm-combatmedkit-name
-  description: uplink-bm-combatmedkit-desc
+  name:  uplink-security-medkit-name
+  description: uplink-security-medkit-desc
   productEntity: MedkitCombatFilled
   icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
   cost:
@@ -794,7 +794,6 @@
   name:  uplink-bm-mechmedipen-name
   description: uplink-bm-mechmedipen-desc
   productEntity: BruteAutoInjector
-  icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
   cost:
     Speso: 5000
   categories:
@@ -810,7 +809,6 @@
   name:  uplink-bm-burnmedipen-name
   description: uplink-bm-burnmedipen-desc
   productEntity: BurnAutoInjector
-  icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit }
   cost:
     Speso: 5000
   categories:
@@ -926,13 +924,12 @@
     currencyWhitelist:
     - Speso
     balance:
-      FrontierUplinkCoin: 0
       Speso: 0
 
 # Uplink console
 - type: entity
   name: стационарный аплинк чёрного рынка
-  parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetSecurityUplink, BaseStructureIndestructible, BaseStructureComputer]
+  parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetBMUplink, BaseStructureIndestructible, BaseStructureComputer]
   id: LuaComputerUplinkBM
   description: Все самые запрещённые штучки теперь прямо перед вами!
   placement:

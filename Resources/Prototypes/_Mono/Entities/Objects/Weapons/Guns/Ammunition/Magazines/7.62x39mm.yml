@@ -166,7 +166,7 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
 
-# For LMG's
+# For LMG's (out of balance)
 - type: entity
   id: Magazine762x39mmMaxim
   name: "pan magazine (7.62x39mm FMJ)"
@@ -200,7 +200,7 @@
     zeroVisible: false
   - type: Appearance
 
-# Low capacity
+# Low capacity (out of balance)
 - type: entity
   id: Magazine762x39mmLowCapacityEmpty
   name: "low cap magazine (7.62x39mm any)"

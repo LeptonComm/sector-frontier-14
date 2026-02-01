@@ -13,6 +13,12 @@
   #   scatterUnwielded: 6
   #   baseFireRate: 10
   #   burstScatterMult: 3
+  - type: Gun #Lua
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 12
   - type: Item
     size: Tiny
   # - type: GunDamageModifier
@@ -30,8 +36,8 @@
         priority: 2
         whitelist:
           tags:
-          - RMCMagazinePistolD18
-        startingItem: RMCMagazinePistolD18
+          - Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolD18<Magazine635x40mmCaselessPistol
+        startingItem: Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolD18<Magazine635x40mmCaselessPistol
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.620, 0.05

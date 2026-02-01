@@ -19,21 +19,21 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 40/40/65//40/40//65/60 summ = 350 for pirate hardsuits
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.35
+        #Mechanical 30/30/60//30/30//60/60 summ = 300 for pirate hardsuits
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.4
         #Physical
-        Heat: 0.6
-        Radiation: 0.6
+        Heat: 0.7
+        Radiation: 0.7
         #Special
-        Shock: 0.35
+        Shock: 0.4
         Caustic: 0.4
   - type: StaminaDamageResistance
     coefficient: 0.3
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.85
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LuaClothingHeadHelmetHardsuitPirateEVA
@@ -68,16 +68,16 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 60/60/40//30/30//65/65 summ = 350 for pirate hardsuits
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.6
+        #Mechanical 55/55/30//30/30//50/50 summ = 300 for pirate hardsuits
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.3
         #Physical
         Heat: 0.7
         Radiation: 0.7
         #Special
-        Shock: 0.35
-        Caustic: 0.35
+        Shock: 0.5
+        Caustic: 0.5
   - type: StaminaDamageResistance
     coefficient: 0.7
   - type: ClothingSpeedModifier
@@ -117,13 +117,13 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 60/60/40//65/65//30/30 summ = 350 for pirate hardsuits
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.6
+        #Mechanical 55/55/30//50/50//30/30 summ = 300 for pirate hardsuits
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.7
         #Physical
-        Heat: 0.35
-        Radiation: 0.35
+        Heat: 0.5
+        Radiation: 0.5
         #Special
         Shock: 0.7
         Caustic: 0.7

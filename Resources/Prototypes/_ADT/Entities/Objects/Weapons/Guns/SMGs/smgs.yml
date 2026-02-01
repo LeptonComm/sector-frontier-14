@@ -14,7 +14,11 @@
   - type: Clothing
     sprite: ADT/Objects/Weapons/Guns/SMGs/ppch_45u.rsi
   - type: Gun
-    fireRate: 6
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 12 #Lua 6<12
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
@@ -24,21 +28,22 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: NFMagazineSubMachineGun45
+        startingItem: Magazine635x40mmCaseless #Lua NFMagazineSubMachineGun45<Magazine635x40mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - NFMagazineSubMachineGunPistol45
+            - Magazine635x40mmCaseless #Lua NFMagazineSubMachineGunPistol45<Magazine635x40mmCaseless
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgePistol45
         priority: 1
         whitelist:
           tags:
-            - CartridgeMagnum
-            - NFCartridgePistol45
+            - Cartridge635x40mmCaseless #Lua
+#            - CartridgeMagnum #comment (41-42) from _Lua
+#            - NFCartridgePistol45
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

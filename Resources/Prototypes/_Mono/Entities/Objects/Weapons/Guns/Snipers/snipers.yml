@@ -20,13 +20,17 @@
     slots:
     - Back
     - suitStorage
-  - type: GunWieldBonus
-    minAngle: -27
-    maxAngle: -36
+#  - type: GunWieldBonus # comment from _Lua
+#    minAngle: -27
+#    maxAngle: -36
   - type: Gun
-    minAngle: 27
-    maxAngle: 39
-    fireRate: 3.8 #Lua + 0.8
+#    minAngle: 27 # comment from _Lua
+#    maxAngle: 39
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.08 #Lua
+    angleDecay: 0.16 #Lua
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -63,10 +67,29 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 13 #Lua 2.5 -> 13
-    pvsIncrease: 0.4
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 7.5
+      pvsIncrease: 1
   - type: SpeedModifiedOnWield # Mono
     walkModifier: 0.80 #Lua 0.85 -> 0.80
     sprintModifier: 0.80 #Lua 0.85 -> 0.80

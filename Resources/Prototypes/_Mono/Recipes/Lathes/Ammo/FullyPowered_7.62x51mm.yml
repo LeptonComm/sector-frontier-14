@@ -34,6 +34,16 @@
   id: Magazine762x51mmUranium
   result: Magazine762x51mmUranium
 
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPFullyPoweredMagazineRecipe
+  id: Magazine762x51mmEMP
+  result: Magazine762x51mmEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticFullyPoweredMagazineRecipe
+  id: Magazine762x51mmCaustic
+  result: Magazine762x51mmCaustic
+
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredMagazineRecipe
   id: Magazine762x51mmHP
@@ -75,6 +85,16 @@
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe
   id: AmmoBox762x51mmUranium
   result: AmmoBox762x51mmUranium
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPFullyPoweredAmmoBoxRecipe
+  id: AmmoBox762x51mmEMP
+  result: AmmoBox762x51mmEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
+  id: AmmoBox762x51mmCaustic
+  result: AmmoBox762x51mmCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe

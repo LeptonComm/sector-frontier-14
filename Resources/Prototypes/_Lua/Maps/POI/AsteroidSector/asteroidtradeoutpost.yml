@@ -40,6 +40,10 @@
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Trade Outpost'
+        - type: ExtraStationInformation #Lua
+          iconPath: /Textures/Structures/Wallmounts/flags.rsi/pirate_flag.png
+          stationSubtext: 'frontier-lobby-blackmarket-subtext'
+          stationDescription: 'frontier-lobby-blackmarket-description'
         - type: StationDeadDrop
           maxDeadDrops: 3
         - type: TradeCrateDestination
@@ -48,5 +52,3 @@
           availableJobs:
             Contractor: [ -1, -1 ]
             MercenaryBase: [ -1, -1 ]
-        - type: StationDeadDrop
-          maxDeadDrops: 1

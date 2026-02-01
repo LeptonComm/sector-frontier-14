@@ -42,6 +42,7 @@
   - type: BallisticAmmoProvider
     proto: Cartridge8x65mmSKR
   - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

@@ -24,7 +24,13 @@
   #   baseFireRate: 1.8
   # - type: GunDamageModifier
   #   multiplier: 1.1 # Lower to allow for normal M4SPR mags to have lower damage. A19 mags do more damage to compensate.
+  - type: GunRequiresWield #Lua
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.4 #Lua
+    angleIncrease: 0.08 #Lua
+    angleDecay: 0.16 #Lua
+    fireRate: 4.2 #Lua
     shotsPerBurst: 2
     selectedMode: SemiAuto
     availableModes:
@@ -45,14 +51,38 @@
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/l42_unload.ogg
         priority: 2
-        startingItem: RMCMagazineRifleM4SPRA19
+        startingItem: Magazine762x54mmRFMJ #Lua RMCMagazineRifleM4SPRA19<Magazine762x54mmRFMJ
         whitelist:
           tags:
-          - CMMagazineRifleM4SPR
-          - CMMagazineRifleM4SPRAP
-          - CMMagazineRifleM4SPRExt
-          - RMCMagazineRifleM4SPRA19
-          - RMCMagazineRifleM4SPRA19Impact
+           - Magazine762x54mmRFMJ #Lua
+#          - CMMagazineRifleM4SPR #comment (53-57) from _Lua
+#          - CMMagazineRifleM4SPRAP
+#          - CMMagazineRifleM4SPRExt
+#          - RMCMagazineRifleM4SPRA19
+#          - RMCMagazineRifleM4SPRA19Impact
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 7.5
+      pvsIncrease: 1
 
 - type: entity
   parent: CMMagazineRifleBase

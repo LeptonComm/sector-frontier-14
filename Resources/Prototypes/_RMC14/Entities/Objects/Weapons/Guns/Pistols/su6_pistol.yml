@@ -18,12 +18,17 @@
       types:
         Blunt: 8
   - type: Gun
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+    fireRate: 14 #Lua
     shotsPerBurst: 3
-    selectedMode: FullAuto
+    selectedMode: SemiAuto #Lua FullAuto<SemiAuto
     availableModes:
     - SemiAuto
-    - FullAuto
-    - Burst
+#    - FullAuto # comment (26-27) from _Lua
+#    - Burst
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/su6_shoot.ogg
   # - type: RMCSelectiveFire
@@ -56,8 +61,8 @@
         priority: 2
         whitelist:
           tags:
-          - RMCMagazinePistolSU6
-        startingItem: RMCMagazinePistolSU6
+          - Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolSU6<Magazine635x40mmCaselessPistol
+        startingItem: Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolSU6<Magazine635x40mmCaselessPistol
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.65, 0.09375

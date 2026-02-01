@@ -79,15 +79,19 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -20
+#  - type: GunWieldBonus # comment (82-84; 86-89) from _Lua
+#    minAngle: -20
+#    maxAngle: -20
   - type: Gun
-    minAngle: 24
-    maxAngle: 36
-    angleIncrease: 1.5 #Lua 3 -> 1.5
-    angleDecay: 34
-    fireRate: 6.2 #Lua -> 0.2
+#    minAngle: 24
+#    maxAngle: 36
+#    angleIncrease: 1.5 #Lua 3 -> 1.5
+#    angleDecay: 34
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
+    fireRate: 7 # Lua 6.2<7
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -101,23 +105,23 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: AmmoBox762x51mmFMJ #Lua
+        startingItem: Magazine8x65mmSKRBox #Lua
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - Magazine762x51mmFMJ #Lua
-          - Magazine762x51mmBoxSmall #Lua
-          - Magazine762x51mmLowCapacityFMJ #Lua
+          - Magazine762x39mmFMJ #Lua
+          - MagazineBox8x65mmSKR #Lua
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x51mmFMJ #Lua
+        startingItem: Cartridge8x65mmSKR #Lua
         priority: 1
         whitelist:
           tags:
-          - Cartridge762x51mmFMJ #Lua
+          - Cartridge762x39mmFMJ #Lua
+          - Cartridge8x65mmSKR #Lua
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -131,15 +135,19 @@
     sprite: _Mono/Objects/Weapons/Guns/LMGs/mr8b.rsi
   - type: StaticPrice
     price: 2500
+  - type: HeldSpeedModifier #Lua
+  - type: ClothingSpeedModifier #Lua
+    sprintModifier: 0.85
+    walkModifier: 0.85
   - type: SpeedModifiedOnWield
     walkModifier: 0.85
-    sprintModifier: 0.75
+    sprintModifier: 0.85 #Lua 0.65<0.85
   - type: GunRequiresWield
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
 
 - type: entity
-  name: NCI AK-150 HAMMER (7.62x39mm)
+  name: NCI AK-150 HAMMER (6.8x52mm)
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponLMGHammer
   description: A modified old style AK from earth which has been improved with USSP engineering and new design philosophies. At a base level? It's been turned into an LMG with a box magazine attached alongside various recoil lessening upgrades and a stylized chassis. Hail The Commissariat.
@@ -153,15 +161,19 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-inhands.rsi
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -28
+#  - type: GunWieldBonus # comment (160-162; 164-167) from _Lua
+#    minAngle: -23
+#    maxAngle: -28
   - type: Gun
-    minAngle: 24
-    maxAngle: 36
-    angleIncrease: 3
-    angleDecay: 34
-    fireRate: 6.5 #Lua +0.5
+#    minAngle: 24
+#    maxAngle: 36
+#    angleIncrease: 3
+#    angleDecay: 34
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
+    fireRate: 7 #Lua 6.5<7
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -175,22 +187,24 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x39mmBox
+        startingItem: Magazine68x52mmCaselessBig #Lua Magazine762x39mmBox<Magazine68x52mmCaselessBig
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - Magazine762x39mmFMJ
-          - Magazine762x39mmBox
+#          - Magazine762x39mmFMJ
+          - Magazine556x45mmFMJ #Lua
+          - Magazine556x45mmBox #Lua
+          - Magazine68x52mmCaseless #Lua Magazine762x39mmBox<Magazine68x52mmCaseless
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x39mmFMJ
+        startingItem: Cartridge68x52mmCaseless #Lua Cartridge762x39mmFMJ<Cartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
-          - Cartridge762x39mmFMJ
+          - Cartridge68x52mmCaseless #Lua Cartridge762x39mmFMJ<Cartridge68x52mmCaseless
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -204,9 +218,13 @@
     sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-inhands.rsi
   - type: StaticPrice
     price: 8000
+  - type: HeldSpeedModifier #Lua
+  - type: ClothingSpeedModifier #Lua
+    sprintModifier: 0.85
+    walkModifier: 0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.65
-    sprintModifier: 0.65
+    walkModifier: 0.85 #Lua 0.65<0.85
+    sprintModifier: 0.85 #Lua 0.65<0.85
   - type: GunRequiresWield
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
@@ -226,15 +244,19 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Wieldable
     unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -23 #Lua -20 -> -23
-    maxAngle: -25 #Lua -20 -> -25
+#  - type: GunWieldBonus # comment (239-241; 247-250) from _Lua
+#    minAngle: -23 #Lua -20 -> -23
+#    maxAngle: -25 #Lua -20 -> -25
   - type: Gun
-    minAngle: 24
-    maxAngle: 36
-    angleIncrease: 3
-    angleDecay: 34
-    fireRate: 7 #Lua +1
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
+#    minAngle: 24
+#    maxAngle: 36
+#    angleIncrease: 3
+#    angleDecay: 34
+    fireRate: 8.4 #Lua 7<8.4
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -267,9 +289,9 @@
           - Magazine68x52mmCaseless
           - Magazine556x45mmFMJ
           - Magazine556x45mmBox
-          - Magazine762x39mmFMJ
-          - Magazine762x39mmLowCapacityFMJ
-          - Magazine762x39mmBox
+#          - Magazine762x39mmFMJ # comment (270-272) from _Lua
+#          - Magazine762x39mmLowCapacityFMJ
+#          - Magazine762x39mmBox
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -279,7 +301,7 @@
           tags:
           - Cartridge68x52mmCaseless
           - Cartridge556x45mmFMJ
-          - Cartridge762x39mmFMJ
+#          - Cartridge762x39mmFMJ # comment from _lua
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -299,14 +321,14 @@
     id: ExperimentalFactionWeapon
   - type: HeldSpeedModifier
   - type: ClothingSpeedModifier
-    sprintModifier: 0.65 #Lua 0.9 -> 0.65
-    walkModifier: 0.65 #Lua 0.9 -> 0.65
+    sprintModifier: 0.85 #Lua 0.9<0.85
+    walkModifier: 0.85 #Lua 0.9<0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.7 #Lua 0.4 -> 0.7
-    sprintModifier: 0.5 #Lua 0.35 -> 0.5
+    walkModifier: 0.85 #Lua 0.4<0.85
+    sprintModifier: 0.85 #Lua 0.35<0.85
 
 - type: entity
-  name: VFD PSW "Ratel" (7.62x51mm)
+  name: VFD PSW "Ratel" (8x65 SKR)
   parent: BaseWeaponLightMachineGun
   id: WeaponLMGRatel
   description: The precision support weapon chambered in 7.62x51mm and fits simple ammo box and all kind of magazines. Based on the Vulcan and made with higher quality materials as well as a mounted precision scope. A label on the side that seems to have been tampered with reads "FOR MILI-CENARY USE ONLY".
@@ -324,15 +346,19 @@
     - 0,0,5,2
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-inhands.rsi
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -30
+#  - type: GunWieldBonus # comment (349-351; 353-356) from _Lua
+#    minAngle: -20
+#    maxAngle: -30
   - type: Gun
-    minAngle: 25
-    maxAngle: 40
-    angleIncrease: 5
-    angleDecay: 34
-    fireRate: 5.7 # Lua +0.7
+#    minAngle: 25
+#    maxAngle: 40
+#    angleIncrease: 5
+#    angleDecay: 34
+    minAngle: 0 #Lua
+    maxAngle: 0.6 #Lua
+    angleIncrease: 0.04 #Lua
+    angleDecay: 0.08 #Lua
+    fireRate: 5.83 # Lua 5.7<5.83
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -346,23 +372,27 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: AmmoBox762x51mmFMJ
+        startingItem: Magazine8x65mmSKRBox #Lua AmmoBox762x51mmFMJ<Magazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
         priority: 2
         whitelist:
           tags:
-          - Magazine762x51mmBoxSmall
-          - Magazine762x51mmFMJ
-          - Magazine762x51mmLowCapacityFMJ
+          - Magazine762x39mmFMJ #Lua
+          - MagazineBox8x65mmSKR #Lua
+#          - Magazine762x51mmBoxSmall #comment (359-361) from _Lua
+#          - Magazine762x51mmFMJ
+#          - Magazine762x51mmLowCapacityFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x51mmFMJ
+        startingItem: Cartridge8x65mmSKR #Lua Cartridge762x51mmFMJ<Cartridge8x65mmSKR
         priority: 1
         whitelist:
           tags:
-          - Cartridge762x51mmFMJ
+          - Cartridge762x39mmFMJ #Lua
+          - Cartridge8x65mmSKR #Lua
+#          - Cartridge762x51mmFMJ #comment from _Lua
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -374,9 +404,13 @@
   - type: Appearance
   - type: StaticPrice
     price: 2500
+  - type: HeldSpeedModifier #Lua
+  - type: ClothingSpeedModifier #Lua
+    sprintModifier: 0.85
+    walkModifier: 0.85
   - type: SpeedModifiedOnWield
     walkModifier: 0.85
-    sprintModifier: 0.75
+    sprintModifier: 0.85 #Lua 0.75<0.85
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 3

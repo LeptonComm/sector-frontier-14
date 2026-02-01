@@ -19,29 +19,33 @@
     autoEject: false
     soundAutoEject: null
   - type: Gun
-    minAngle: 0
-    maxAngle: 35
-    angleIncrease: 5
-    angleDecay: 5
-    fireRate: 2
+    minAngle: 0 #Lua
+    maxAngle: 0.8 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 0.4 #Lua
+#    minAngle: 0 # comment from _Lua
+#    maxAngle: 35
+#    angleIncrease: 5
+#    angleDecay: 5
+    fireRate: 5 #Lua 2<5
     soundGunshot:
       collection: N14AntiMaterielGunshot
     selectedMode: SemiAuto
-    shotsPerBurst: 3
+#    shotsPerBurst: 3 # comment (30; 33) from _Lua
     availableModes:
     - SemiAuto
-    - Burst
+#    - Burst
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: RMCMagazinePistolMK45
+        startingItem: Magazine45_ACPPistolFMJ #Lua RMCMagazinePistolMK45<Magazine45_ACPPistolFMJ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_mk80_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/gun_88m4_unload.ogg
         priority: 2
         whitelist:
           tags:
-          - RMCMagazinePistolMK45
+          - Magazine45_ACPPistolFMJ #Lua RMCMagazinePistolMK45<Magazine45_ACPPistolFMJ
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.71, 0.095

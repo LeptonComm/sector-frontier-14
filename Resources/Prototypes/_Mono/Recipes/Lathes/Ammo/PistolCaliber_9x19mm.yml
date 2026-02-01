@@ -34,6 +34,16 @@
   id: Magazine9x19mmPistolUranium
   result: Magazine9x19mmPistolUranium
 
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPPistolCaliberPistolMagazineRecipe
+  id: Magazine9x19mmPistolEMP
+  result: Magazine9x19mmPistolEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticPistolCaliberPistolMagazineRecipe
+  id: Magazine9x19mmPistolCaustic
+  result: Magazine9x19mmPistolCaustic
+
 - type: latheRecipe
   parent: BaseAmmoHPPistolCaliberPistolMagazineRecipe
   id: Magazine9x19mmPistolHP
@@ -80,6 +90,16 @@
   parent: BaseAmmoUraniumPistolCaliberSubMachineGunMagazineRecipe
   id: Magazine9x19mmSubMachineGunUranium
   result: Magazine9x19mmSubMachineGunUranium
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPPistolCaliberSubMachineGunMagazineRecipe
+  id: Magazine9x19mmSubMachineGunEMP
+  result: Magazine9x19mmSubMachineGunEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticPistolCaliberSubMachineGunMagazineRecipe
+  id: Magazine9x19mmSubMachineGunCaustic
+  result: Magazine9x19mmSubMachineGunCaustic
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSubMachineGunMagazineRecipe
@@ -164,6 +184,16 @@
   parent: BaseAmmoUraniumPistolCaliberAmmoBoxRecipe
   id: AmmoBox9x19mmUranium
   result: AmmoBox9x19mmUranium
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPPistolCaliberAmmoBoxRecipe
+  id: AmmoBox9x19mmEMP
+  result: AmmoBox9x19mmEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticPistolCaliberAmmoBoxRecipe
+  id: AmmoBox9x19mmCaustic
+  result: AmmoBox9x19mmCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe

@@ -48,13 +48,12 @@
   components:
   - type: Gun
     minAngle: 1 #Lua 2.3<1
-    maxAngle: 3.5 #Lua 11.5<3
+    maxAngle: 3.5 #Lua 11.5<3.5
     angleIncrease: 0.2 #Lua 0.8<0.2
     angleDecay: 1 #Lua 2.7<1
     fireRate: 5 #Lua 3.4<5
   - type: NFWeaponDetails
     class: weapon-details-manufacturer-nanotrasen-munitions
-  - type: GunRequiresWield #Lua
 
 - type: entity
   abstract: true
