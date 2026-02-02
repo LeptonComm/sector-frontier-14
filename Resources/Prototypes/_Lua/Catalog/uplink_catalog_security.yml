@@ -99,13 +99,28 @@
 #region clothing
 
 - type: listing
+  id: UplinkSecurityStelsJetpack
+  name:  uplink-pirate-stealth-jetpack-name
+  description: uplink-pirate-stealth-jetpack-desc
+  productEntity: JetpackStealthFilled
+  cost:
+    Speso: 2
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
   id: UplinkSecurityJetpack
   name:  uplink-security-jetpack-name
   description: uplink-security-jetpack-desc
   productEntity: JetpackNfsdFilled
   icon: { sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityUtility
   conditions:

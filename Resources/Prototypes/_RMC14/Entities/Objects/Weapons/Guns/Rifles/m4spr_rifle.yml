@@ -17,10 +17,10 @@
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.04 #Lua
-    angleDecay: 0.08 #Lua
+    minAngle: 3 #Lua
+    maxAngle: 15 #Lua
+    angleIncrease: 1.3 #Lua
+    angleDecay: 4.7 #Lua
     fireRate: 8.2 #Lua 2<8.2
     shotsPerBurst: 0
     selectedMode: FullAuto #Lua SemiAuto<FullAuto

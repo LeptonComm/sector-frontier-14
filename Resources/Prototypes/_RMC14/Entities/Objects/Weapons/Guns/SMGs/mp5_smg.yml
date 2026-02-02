@@ -20,10 +20,10 @@
 #    maxAngle: 45
 #    angleIncrease: 10
 #    angleDecay: 10
-    minAngle: 0 #Lua
-    maxAngle: 0.8 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 0.4 #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     shotsPerBurst: 3
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/smg_light.ogg

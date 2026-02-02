@@ -4,7 +4,7 @@
   id: ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit
   name: mercenary hardsuit
   description: A special suit that protects from the danger of space, employed by mercenary forces. Not certified to be blunderbuss-proof.
-  suffix: Гражданский, Тяжелый, Специальный #Lua
+  suffix: BlackMarket, Light, Special #Lua
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
@@ -17,17 +17,19 @@
     damageCoefficient: 0.6 # Removed 10%
   - type: Armor
     modifiers:
-      coefficients: # 10/10/40//10/10//40/40 Civil hardsuits - resist summ = 160
-        Blunt: 0.9 #Lua 0.75<0.9
-        Slash: 0.9 #Lua 0.75<0.9
-        Piercing: 0.6 #Lua 0.75<0.6
-        Heat: 0.9 #Lua 0.8<0.9
-        Radiation: 0.9 #Lua 0.6<0.9
+      coefficients: # 45/45/20//20/20//40/40 black market hardsuits - resist summ = 230
+        Blunt: 0.55 #Lua 0.75<0.55
+        Slash: 0.55 #Lua 0.75<0.55
+        Piercing: 0.8 #Lua 0.75<0.8
+        Heat: 0.2 #Lua 0.8<0.2
+        Radiation: 0.2 #Lua 0.6<0.2
         Shock: 0.6 #Lua
         Caustic: 0.6 #Lua 0.8<0.6
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.7
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.8
+    walkModifier: 0.95 #Lua 0.9<0.95
+    sprintModifier: 0.95 #Lua 0.8<0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMercenary
@@ -37,11 +39,27 @@
   id: ClothingOuterHardsuitPrivateSecurity # stats are of merc hardsuit
   name: private security hardsuit
   description: A special suit that protects from the danger of space, employed by private security forces.
+  suffix: Civil, Heavy, Special
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Hardsuits/private_security.rsi
+  - type: Armor #Lua
+    modifiers:
+      coefficients: # 10/10/40//10/10//40/40 Civil hardsuits - resist summ = 160
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.6
+        Heat: 0.9
+        Radiation: 0.9
+        Shock: 0.6
+        Caustic: 0.6
+  - type: StaminaDamageResistance #Lua
+    damageCoefficient: 0.3
+  - type: ClothingSpeedModifier #Lua
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPrivateSecurity
 

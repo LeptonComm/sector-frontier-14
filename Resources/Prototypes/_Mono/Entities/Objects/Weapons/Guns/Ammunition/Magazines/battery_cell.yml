@@ -53,7 +53,7 @@
     startingCharge: 6000 #Lua 9000 -> 6000
   - type: HitscanBatteryAmmoProvider
     proto: PulsedPlasma
-    fireCost: 3000
+    fireCost: 1200 #Lua 3000<1200
   - type: StaticPrice
     price: 1000
   - type: Tag

@@ -87,10 +87,10 @@
 #  - type: BallisticAmmoProvider # comment from _Lua
 #    capacity: 8
   - type: Gun #Lua
-    minAngle: 0
-    maxAngle: 0.4
-    angleIncrease: 0.06
-    angleDecay: 0.12
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 0.9
   - type: BallisticAmmoProvider #Lua
     capacity: 15

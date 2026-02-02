@@ -2,7 +2,7 @@
 #region Laser
 - type: entity
   id: NFWeaponEnergyPistolLaserSvalinn
-  parent: [BaseC1Contraband, NFBaseWeaponFrameEnergyPistolNanotrasen, BaseWeaponPowerCellSmall]
+  parent: [BaseC1Contraband, NFBaseWeaponFrameEnergyPistolNanotrasen] #Lua BaseWeaponPowerCellSmall
   name: svalinn
   description: A cheap and widely used laser pistol.
   components:
@@ -10,6 +10,22 @@
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
   - type: Item
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+  - type: Gun #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 2.4
+  - type: ItemSlots #Lua
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: N14PowerCellSmall
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - N14PowerCellSmall
 
 - type: entity
   id: NFWeaponEnergyPistolLaserMakeshift
@@ -26,6 +42,12 @@
     startingCharge: 840
   - type: BatterySelfRecharger # doesn't recharge
     autoRecharge: false
+  - type: Gun #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 3.2
 
 - type: entity
   categories: [ DoNotMap ]
@@ -97,6 +119,12 @@
   - type: BatterySelfRecharger # Recharges 1 shot per 3 seconds
     autoRecharge: true
     autoRechargeRate: 20
+  - type: Gun #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 3
 
 # Frontier
 - type: entity
@@ -121,6 +149,12 @@
       - state: inhand-right
       - state: inhand-right-unshaded
         shader: unshaded
+  - type: Gun #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 3
 
 #region Pulse
 - type: entity
@@ -137,6 +171,12 @@
   - type: Battery # 20 shots
     maxCharge: 1200
     startingCharge: 1200
+  - type: Gun #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
+    fireRate: 5.6
 
 #region Disablers
 - type: entity

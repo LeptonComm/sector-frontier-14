@@ -9,7 +9,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 16 #Lua 8<16
+        Shock: 21 #Lua Heat<Shock; 8<16
 
 # Assault Rifles / Carbines
 - type: entity

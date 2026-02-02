@@ -29,10 +29,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 4.8 #Lua
     soundGunshot:
       collection: N14RifleR91Gunshot
@@ -95,10 +95,10 @@
 #    maxAngle: 50
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 4
     soundGunshot:
       collection: N14ChineseRifleGunshot
@@ -157,10 +157,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.5 #Lua
-    angleIncrease: 0.1 #Lua
-    angleDecay: 0.2 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 6 #Lua
     soundGunshot:
       collection: N14CarbineGunshot
@@ -245,10 +245,10 @@
 #    maxAngle: 45
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 5
     soundGunshot:
       collection: N14MarksmanGunshot
@@ -309,10 +309,10 @@
 #    maxAngle: 40
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.5 #Lua
-    angleIncrease: 0.1 #Lua
-    angleDecay: 0.2 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 4.8 #Lua 5<4.8
     soundGunshot:
       collection: N14ServiceGunshot
@@ -395,10 +395,10 @@
 #    maxAngle: 46
 #    angleIncrease: 4
 #    angleDecay: 12
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.08 #Lua
-    angleDecay: 0.16 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 3 #Lua 6<3
     soundGunshot:
       collection: N14ServiceGunshot
@@ -543,10 +543,10 @@
 #    maxAngle: 48
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 6 #Lua 4<6
     soundGunshot:
       collection: N14OldCarbineGunshot

@@ -25,10 +25,10 @@
     burstFireRate: 12
     burstCooldown: 0.8
     shotsPerBurst: 4
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 7 #Lua 6.5<7
     projectileSpeed: 42.5 # Mono
     soundGunshot:
@@ -96,10 +96,10 @@
 #    maxAngle: 3
 #    angleDecay: 5
 #    angleIncrease: 0.2
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     availableModes:
 #    - Burst #comment from _Lua
     - FullAuto
@@ -164,10 +164,10 @@
 #    unwieldOnUse: false
 #  - type: GunRequiresWield
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     availableModes:
     - SemiAuto
     - FullAuto
@@ -219,10 +219,10 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.08 #Lua
-    angleDecay: 0.16 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 3.6 #Lua 1.7<3.6
     projectileSpeed: 40 # Mono
     soundGunshot:

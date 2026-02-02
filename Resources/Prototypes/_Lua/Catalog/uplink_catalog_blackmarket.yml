@@ -1,27 +1,12 @@
 #region hardsuits
 
 - type: listing
-  id: UplinkBMHardsuitPirate
-  name:  uplink-bm-hardsuitpirate-name
-  description: uplink-bm-hardsuitpirate-desc
-  productEntity: ClothingOuterHardsuitPirateCap
+  id: UplinkBMHardsuitWarlord
+  name:  uplink-bm-hardsuitwarlord-name
+  description: uplink-bm-hardsuitwarlord-desc
+  productEntity: ClothingOuterHardsuitWarlord
   cost:
-    Speso: 12500
-  categories:
-    - UplinkBMHardsuits
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - BMUplink
-
-- type: listing
-  id: UplinkBMHardsuitPirateElite
-  name:  uplink-bm-hardsuitpiratelite-name
-  description: uplink-bm-hardsuitpirate-desc
-  productEntity: ClothingOuterHardsuitPirateElite
-  cost:
-    Speso: 25000
+    Speso: 50000
   categories:
     - UplinkBMHardsuits
   conditions:
@@ -36,7 +21,7 @@
   description: uplink-bm-mercenary-hardsuit-desc
   productEntity: ClothingOuterHardsuitMercenary
   cost:
-    Speso: 12500
+    Speso: 50000
   categories:
     - UplinkBMHardsuits
   conditions:
@@ -46,12 +31,42 @@
           - BMUplink
 
 - type: listing
-  id: UplinkBMHardsuitCaptain
-  name:  uplink-bm-hardsuitcaptain-name
-  description: uplink-bm-hardsuitcaptain-desc
-  productEntity: ClothingOuterHardsuitCap
+  id: UplinkBMHardsuitUSSPLightOfficer
+  name:  uplink-bm-hardsuitussplightofficer-name
+  description: uplink-bm-hardsuitussplightofficer-desc
+  productEntity: ClothingOuterHardsuitUSSPLightOfficer
   cost:
-    Speso: 12500
+    Speso: 50000
+  categories:
+    - UplinkBMHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - BMUplink
+
+- type: listing
+  id: UplinkBMHardsuitUSSPLightMK2
+  name:  uplink-bm-hardsuitlightmk2-name
+  description: uplink-bm-hardsuitlightmk2-desc
+  productEntity: ClothingOuterHardsuitUSSPLightMK2
+  cost:
+    Speso: 50000
+  categories:
+    - UplinkBMHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - BMUplink
+
+- type: listing
+  id: UplinkBMHardsuitUSSPCombat
+  name:  uplink-bm-hardsuitusspcombat-name
+  description: uplink-bm-hardsuitusspcombat-desc
+  productEntity: ClothingOuterHardsuitUSSPCombat
+  cost:
+    Speso: 50000
   categories:
     - UplinkBMHardsuits
   conditions:

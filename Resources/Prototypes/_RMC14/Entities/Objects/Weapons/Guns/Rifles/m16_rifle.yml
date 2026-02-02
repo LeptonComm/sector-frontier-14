@@ -23,10 +23,10 @@
 #    maxAngle: 30
 #    angleIncrease: 5
 #    angleDecay: 10
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.12 #Lua
-    angleDecay: 0.24 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     selectedMode: FullAuto #Lua SemiAuto<FullAuto
     availableModes:
     - SemiAuto

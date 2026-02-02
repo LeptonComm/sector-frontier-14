@@ -17,10 +17,10 @@
 #    maxAngle: 25
 #    angleIncrease: 1
 #    angleDecay: 1
-    minAngle: 0 #Lua
-    maxAngle: 0.8 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 0.4 #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     fireRate: 10.5 #Lua 0.2<10.5
     shotsPerBurst: 6
     selectedMode: SemiAuto #Lua Burst<SemiAuto

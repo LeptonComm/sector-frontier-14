@@ -17,10 +17,10 @@
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
   - type: Gun #Lua
-    minAngle: 0 #Lua
-    maxAngle: 0.8 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 0.4 #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     fireRate: 10
   - type: MagazineAmmoProvider
     autoEject: false

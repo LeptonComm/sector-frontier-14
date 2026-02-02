@@ -11,10 +11,10 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
   - type: Gun #Lua
-    minAngle: 0
-    maxAngle: 0.6
-    angleIncrease: 0.3
-    angleDecay: 0.6
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 3.6
 
 - type: entity
@@ -29,10 +29,10 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.3 #Lua
-    angleDecay: 0.6 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 3.6 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
@@ -76,10 +76,10 @@
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Gun #Lua
     fireRate: 3
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.3 #Lua
-    angleDecay: 0.6 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
 
 - type: entity
   id: NFWeaponRevolverPirate
@@ -123,10 +123,10 @@
     A compact and concealable self defence snub revolver.
   components:
   - type: Gun #Lua
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.3 #Lua
-    angleDecay: 0.6 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 1.8
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
@@ -141,10 +141,10 @@
     Delivers blessings in bullet form.
   components:
   - type: Gun #Lua
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.3 #Lua
-    angleDecay: 0.6 #Lua
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua
+    angleDecay: 1 #Lua
     fireRate: 2.4
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi
@@ -167,10 +167,10 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
   - type: Gun #Lua
-    minAngle: 0
-    maxAngle: 0.8
-    angleIncrease: 0.2
-    angleDecay: 0.4
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     fireRate: 4
   - type: RevolverAmmoProvider #Lua
     whitelist:
@@ -193,10 +193,10 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.8 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 0.4 #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     fireRate: 3 #Lua 2.5<3
     resetOnHandSelected: false
   - type: RevolverAmmoProvider

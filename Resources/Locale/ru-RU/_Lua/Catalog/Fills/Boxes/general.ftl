@@ -4,19 +4,20 @@ ent-BoxEncryptionKeyAllBasic = коробка со всеми основными
 all-basic-encryption-keys-box-uplink-name = Коробка с всеми основными ключами шифрования
 all-basic-encryption-keys-box-uplink-desc = Содержит все ключи шифрования для тех, кто любит подслушивать, либо чьи ушки не устают.
 
-uplink-bm-hardsuitpirate-name = Пиратский скафандр
-uplink-bm-hardsuitpirate-desc = Старая и ржавая стальная банка. Все еще имеет достойную защиту от механического урона, однако легко пробивается любыми нестандартными видами пуль.
-
-uplink-bm-hardsuitpiratelite-name = Элитный пиратский скафандр
-uplink-bm-hardsuitpirateelite-desc = Импровизированная версия пиратского скафандра, заточенная под защиту от специфичного патрона, однако потерявшая смысл против чистого механического урона.
+uplink-bm-hardsuitwarlord-name = Скафандр "Варлорд"
+uplink-bm-hardsuitwarlord-desc = Недавно появившаяся в ассортименте новая модель боевого скафандра наёмников. Защита: 45/45/20//40/40//20/20
 
 uplink-bm-mercenary-hardsuit-name = Скафандр наёмника
-uplink-bm-mercenary-hardsuit-desc = Популярная и надежная модель гражданского скафандра, не раз доказавшая свою устойчивость к колющему и физическому урону.
+uplink-bm-mercenary-hardsuit-desc = Старая, но надежная модель боевого скафандра наёмников. Защита: 45/45/20//20/20//40/40
 
-uplink-bm-hardsuitcaptain-name = Скафандр капитана
-uplink-bm-hardsuitcaptain-desc = Более новая модель скафандра наёмника с защитой от электрического и кислотного урона, усиленной за счет защиты от физических повреждений.
+uplink-bm-hardsuitussplightofficer-name = Офицерский скафандр СССП облегченный
+uplink-bm-hardsuitussplightofficer-desc = Старый скафандр СССП, который раньше носили офицеры Космических Сил. Защита: 50/50/50//20/20//20/20
 
+uplink-bm-hardsuitlightmk2-name = Скафандр mk-2 СССП Облегченный
+uplink-bm-hardsuitlightmk2-desc = Давно устаревший штатный скафандр Космических Сил СССП. Защита: 20/20/20//45/45//45/45
 
+uplink-bm-hardsuitusspcombat-name = Штурмовой скафандр СССП
+uplink-bm-hardsuitusspcombat-desc = Тяжелый скафандр СССП, предназначавшийся для штурмовых операций. Защита: 20/20/50//50/50//20/20
 
 uplink-bm-chameleon-name = Набор "Хамелеон"
 uplink-bm-chameleon-desc = Набор одежды с технологией "Хамелеон", позволяющей блестяще выглядеть в любой ситуации.

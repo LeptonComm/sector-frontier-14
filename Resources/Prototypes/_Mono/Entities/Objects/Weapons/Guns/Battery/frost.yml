@@ -1,6 +1,6 @@
 - type: entity
   name: VFD EN-5 FROST
-  parent: [BaseWeaponBattery, BaseGunWieldable, BaseCommandContraband] # Frontier: added BaseCommandContraband
+  parent: [BaseWeaponBattery, BaseCommandContraband] # Frontier: added BaseCommandContraband #Lua BaseGunWieldable
   id: WeaponEnergyGunFrost
   description: A self-recharging energy gun with lethal rounds that can inflict serious damage. Comes with disabling munitions and improved accuracy compared to it's previous versions.
   components:
@@ -21,12 +21,16 @@
     - Back
     - suitStorage
     sprite: _Mono/Objects/Weapons/Guns/Battery/frost.rsi
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -25
+#  - type: GunWieldBonus # comment from _Lua
+#    minAngle: -20
+#    maxAngle: -25
   - type: Gun
-    minAngle: 21
-    maxAngle: 34
+#    minAngle: 21 # comment from _Lua
+#    maxAngle: 34
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
     fireRate: 5
     selectedMode: FullAuto
     availableModes:

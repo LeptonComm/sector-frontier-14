@@ -20,10 +20,10 @@
 #    maxAngle: 12
 #    angleIncrease: 3
 #    angleDecay: 34
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.04 #Lua
-    angleDecay: 0.08 #Lua
+    minAngle: 3 #Lua
+    maxAngle: 15 #Lua
+    angleIncrease: 1.3 #Lua
+    angleDecay: 4.7 #Lua
     fireRate: 7 #Lua 12<7
     soundGunshot:
       collection: N14MinigunGunshot

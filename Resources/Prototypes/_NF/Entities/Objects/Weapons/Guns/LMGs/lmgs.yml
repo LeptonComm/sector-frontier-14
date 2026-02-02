@@ -16,10 +16,6 @@
     steps: 4
     zeroVisible: true
   - type: Gun #Lua
-    minAngle: 0 #Lua
-    maxAngle: 0.6 #Lua
-    angleIncrease: 0.04 #Lua
-    angleDecay: 0.08 #Lua
     fireRate: 8.4
   - type: ItemSlots #Lua
     slots:

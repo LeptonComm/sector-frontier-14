@@ -19,10 +19,10 @@
     autoEject: false
     soundAutoEject: null
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.8 #Lua
-    angleIncrease: 0.2 #Lua
-    angleDecay: 0.4 #Lua
+    minAngle: 3.1 #Lua
+    maxAngle: 15.5 #Lua
+    angleIncrease: 0.7 #Lua
+    angleDecay: 5 #Lua
 #    minAngle: 0 # comment from _Lua
 #    maxAngle: 35
 #    angleIncrease: 5

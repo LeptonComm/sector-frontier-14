@@ -81,10 +81,10 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/ceremonial_grand.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.08 #Lua
-    angleDecay: 0.16 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 2.4 #Lua 2<2.4
     selectedMode: SemiAuto
     availableModes:
@@ -147,10 +147,10 @@
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: Gun
-    minAngle: 2 #Lua 22<2
-    maxAngle: 6 #Lua 36<6
-    angleIncrease: 2
-    angleDecay: 8
+    minAngle: 1 #Lua
+    maxAngle: 3.5 #Lua
+    angleIncrease: 0.2 #Lua 2<0.2
+    angleDecay: 1 #Lua 8<1
     fireRate: 4.8 #Lua 8<4.8
     projectileSpeed: 35 # Mono
     selectedMode: FullAuto

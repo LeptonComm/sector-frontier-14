@@ -440,7 +440,7 @@
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitFSFCommanderAlt
   name: скафандр командира рейнджеров
-  suffix: СТАРЫЙ, ФСФ, ФРОНТИР
+  suffix: Events, Medium, Standart
   description: A protective hardsuit worn by the leader of an emergency response team.
   components:
   - type: ThermalCloak
@@ -451,6 +451,21 @@
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/FSFSuits_Alt/fsf_commander_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFCommanderAlt
+  - type: Armor
+    modifiers:
+      coefficients: # 70/70/70//40/40//40/40
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.6
+        Radiation: 0.6
+        Shock: 0.6
+        Caustic: 0.6
+  - type: StaminaDamageResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HardsuitIdentification
     emaggable: false
   - type: HardsuitDNARadial
@@ -462,7 +477,7 @@
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitFSFMediumAlt
   name: средний скафандр рейнджера
-  suffix: СТАРЫЙ, ФСФ, ФРОНТИР
+  suffix: Events, Medium, Special
   description: A protective hardsuit worn by the security officers of an emergency response team.
   components:
   - type: ThermalCloak
@@ -477,6 +492,21 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  - type: Armor
+    modifiers:
+      coefficients: # 40/40/40//65/65//60/60
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.35
+        Radiation: 0.35
+        Shock: 0.4
+        Caustic: 0.4
+  - type: StaminaDamageResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HardsuitIdentification
     emaggable: false
   - type: HardsuitDNARadial

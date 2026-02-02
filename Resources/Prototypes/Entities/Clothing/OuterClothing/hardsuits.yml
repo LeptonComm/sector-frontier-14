@@ -48,7 +48,7 @@
   id: ClothingOuterHardsuitEngineering
   name: engineering hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
-  suffix: Гражданский, Средний, Стандартный #Lua
+  suffix: Civil, Medium, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/engineering.rsi #Lua
@@ -87,7 +87,7 @@
   id: ClothingOuterHardsuitSpatio
   name: spationaut hardsuit
   description: A lightweight hardsuit designed for industrial EVA in zero gravity.
-  suffix: Гражданский, Легкий, Стандартный #Lua
+  suffix: Civil, Light, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/spatio.rsi #Lua
@@ -333,7 +333,7 @@
   id: ClothingOuterHardsuitCap
   name: captain's armored spacesuit
   description: A formal armored spacesuit, made for the station's captain.
-  suffix: Гражданский, Тяжелый, Стандартный #Lua
+  suffix: Civil, Heavy, Standart #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/capspace.rsi #Lua
@@ -354,6 +354,8 @@
         Radiation: 0.6 #Lua 0.5<0.6
         Shock: 0.9 #Lua 
         Caustic: 0.9 #Lua 0.6<0.9
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -448,7 +450,7 @@
   id: ClothingOuterHardsuitRd
   name: experimental research hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
-  suffix: Гражданский, Средний, Специальный #Lua
+  suffix: Civil, Medium, Special #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/rd.rsi #Lua
@@ -463,10 +465,12 @@
         Blunt: 0.9 #Lua 0.6<0.9
         Slash: 0.9 #Lua 0.8<0.9
         Piercing: 0.9
-        Heat: 0.65 #Lua 0.3<0.65
-        Radiation: 0.65 #Lua 0.1<0.65
+        Heat: 0.3 # Heat and Radiation resistance is out-of-balance because rd is special hardsuit for work with high radiation background
+        Radiation: 0.1
         Shock: 0.65 #Lua
         Caustic: 0.65 #Lua 0.2<0.65
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: ClothingSpeedModifier
@@ -564,7 +568,7 @@
   id: ClothingOuterHardsuitSyndie
   name: blood-red hardsuit
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
-  suffix: Геймрулы, Легкий, Стандартный #Lua
+  suffix: Events, Light, Standart #Lua
   components:
   - type: Inject
     openCloseDelay: 1.5
@@ -615,7 +619,7 @@
   id: ClothingOuterHardsuitSyndieMedic
   name: blood-red medic hardsuit
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
-  suffix: Геймрулы, Легкий, Специальный #Lua
+  suffix: Events, Light, Special #Lua
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
@@ -644,7 +648,7 @@
   id: ClothingOuterHardsuitSyndieElite
   name: syndicate elite hardsuit
   description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
-  suffix: Геймрулы, Тяжелый, Стандартный #Lua
+  suffix: Events, Heavy, Standart #Lua
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -663,7 +667,7 @@
   - type: FireProtection
     reduction: 0.8
   - type: StaminaResistance # do not add these to other equipment or mobs, we don't want to microbalance these everywhere
-    damageCoefficient: 0.6
+    damageCoefficient: 0.3 #Lua 0.6<0.3
   - type: Armor
     modifiers:
       coefficients: # 40/40/70//70/70//40/40 # Hardsuits from caches/armories = SD harsuits; resist summ = 370
@@ -785,7 +789,7 @@
   id: ClothingOuterHardsuitWizard
   name: wizard hardsuit
   description: A bizarre gem-encrusted suit that radiates magical energies.
-  suffix: Геймрулы, Тяжелый, Специальный #Lua
+  suffix: Events, Heavy, Special #Lua
   components:
   - type: Sprite
     sprite: _Lua/Clothing/OuterClothing/Hardsuits/wizard.rsi #Lua
@@ -808,6 +812,8 @@
         Radiation: 0.6 #Lua 0.25<0.6
         Shock: 0.3 #Lua
         Caustic: 0.3 #Lua 0.75<0.3
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8

@@ -83,10 +83,10 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.06 #Lua
-    angleDecay: 0.12 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 1.5 #Lua 1.2<1.5
     soundGunshot:
       collection: N14AntiMaterielGunshot
@@ -167,10 +167,10 @@
 #    maxAngle: 105
 #    angleIncrease: 4
 #    angleDecay: 16
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.06 #Lua
-    angleDecay: 0.12 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 1.8 #Lua 1.2<1.8
     soundGunshot:
       collection: N14AntiMaterielGunshot
@@ -242,10 +242,10 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.08 #Lua
-    angleDecay: 0.16 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 2.4 #Lua 1.2<2.4
     soundGunshot:
       collection: N14LeverRifleGunshot
@@ -292,10 +292,10 @@
   - type: Item
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
   - type: Gun
-    minAngle: 0 #Lua
-    maxAngle: 0.4 #Lua
-    angleIncrease: 0.06 #Lua
-    angleDecay: 0.12 #Lua
+    minAngle: 1.4 #Lua
+    maxAngle: 7 #Lua
+    angleIncrease: 5.6 #Lua
+    angleDecay: 3.7 #Lua
     fireRate: 1.2 #Lua 2<1.2
     soundGunshot:
       collection: N14BrushGunGunshot
