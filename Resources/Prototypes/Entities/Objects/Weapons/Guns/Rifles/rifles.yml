@@ -191,6 +191,8 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+  - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-76251
   - type: ItemSlots
     slots:
       gun_magazine:

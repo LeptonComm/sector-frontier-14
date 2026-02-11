@@ -70,7 +70,7 @@
     contents:
     - id: NFWeaponPistolUniversalExpedition
       amount: 1
-    - id: Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
 
 - type: entity
@@ -519,7 +519,7 @@
       amount: 2
 
 - type: entity
-  parent: [WeaponCaseLong] #Lua
+  parent: [WeaponCaseHeavy] #Lua WeaponCaseLong<WeaponCaseHeavy
   id: WeaponCaseLongHristovExpedition
   suffix: Dungeon, Hristov
   categories: [ HideSpawnMenu ]
@@ -528,11 +528,11 @@
     contents:
     - id: NFWeaponRifleSniperHristovExpedition
       amount: 1
-    - id: NFAmmunitionBoxRifle60
+    - id: Magazine127x99mm #Lua NFAmmunitionBoxRifle60<Magazine127x99mm
       amount: 2
 
 - type: entity
-  parent: [WeaponCaseLong] #Lua
+  parent: [WeaponCaseHeavy] #Lua WeaponCaseLong<WeaponCaseHeavy
   id: WeaponCaseLongRepeaterExpedition
   suffix: Dungeon, Repeater
   categories: [ HideSpawnMenu ]

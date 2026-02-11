@@ -14,6 +14,8 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,4,3
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
   - type: Wieldable
 #  - type: GunWieldBonus #comment from _Lua
@@ -79,6 +81,8 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,4,3
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
   - type: Wieldable
   - type: GunRequiresWield
@@ -86,6 +90,7 @@
 #    minAngle: -20
 #    maxAngle: -55
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
 #    minAngle: 24 # comment from _Lua
 #    maxAngle: 60
 #    angleIncrease: 4

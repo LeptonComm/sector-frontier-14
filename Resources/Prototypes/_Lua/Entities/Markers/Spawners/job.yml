@@ -86,3 +86,42 @@
     layers:
       - state: green
       - state: securityguard
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: SpawnPointSCSoldierJS
+  name: Солдат Кодекса
+  suffix: Spawner, солдат кодекса
+  components:
+  - type: SpawnPoint
+    job_id: StormCreedSoldier
+  - type: Sprite
+    sprite: Structures/Wallmounts/flags.rsi
+    layers:
+      - state: Stormcreed_flag
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: SpawnPointSCFirstMateJS
+  name: Штурман Кодекса
+  suffix: Spawner, штурман кодекса
+  components:
+  - type: SpawnPoint
+    job_id: StormCreedFirstMate
+  - type: Sprite
+    sprite: Structures/Wallmounts/flags.rsi
+    layers:
+      - state: Stormcreed_flag
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: SpawnPointSCCaptainJS
+  name: Командир Кодекса
+  suffix: Spawner, командир кодекса
+  components:
+  - type: SpawnPoint
+    job_id: StormCreedCaptain
+  - type: Sprite
+    sprite: Structures/Wallmounts/flags.rsi
+    layers:
+      - state: Stormcreed_flag

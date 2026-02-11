@@ -148,13 +148,14 @@
   - PrisonGuard ##nyano
   - Brigmedic # Frontier
 #  - SecurityGuard # Frontier
-  - NFDetective # Frontier
+#  - NFDetective # Frontier #comment from _Lua
   - Cadet # Frontier
   - Deputy # Frontier
   - Bailiff # Frontier
   - Sheriff # Frontier
   - SeniorOfficer # Frontier
-  - PublicAffairsLiaison # Frontier
+#  - PublicAffairsLiaison # Frontier #comment from _Lua
+  - SDEngineer #Lua
 
 - type: department
   id: Science

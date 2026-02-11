@@ -82,7 +82,11 @@
 #  - type: GunWieldBonus # comment (82-84; 86-89) from _Lua
 #    minAngle: -20
 #    maxAngle: -20
+  - type: Item #Lua
+    shape:
+    - 0,0,7,4
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
 #    minAngle: 24
 #    maxAngle: 36
 #    angleIncrease: 1.5 #Lua 3 -> 1.5
@@ -140,8 +144,8 @@
     sprintModifier: 0.85
     walkModifier: 0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.85
-    sprintModifier: 0.85 #Lua 0.65<0.85
+    walkModifier: 0.7 #Lua 0.85<0.7
+    sprintModifier: 0.7 #Lua 0.65<0.7
   - type: GunRequiresWield
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
@@ -160,11 +164,14 @@
     - state: mag-3
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,7,4
     sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-inhands.rsi
 #  - type: GunWieldBonus # comment (160-162; 164-167) from _Lua
 #    minAngle: -23
 #    maxAngle: -28
   - type: Gun
+    examineCaliber: gun-examine-caliber-6852 #Lua
 #    minAngle: 24
 #    maxAngle: 36
 #    angleIncrease: 3
@@ -223,8 +230,8 @@
     sprintModifier: 0.85
     walkModifier: 0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.85 #Lua 0.65<0.85
-    sprintModifier: 0.85 #Lua 0.65<0.85
+    walkModifier: 0.7 #Lua 0.65<0.7
+    sprintModifier: 0.7 #Lua 0.65<0.7
   - type: GunRequiresWield
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
@@ -248,6 +255,7 @@
 #    minAngle: -23 #Lua -20 -> -23
 #    maxAngle: -25 #Lua -20 -> -25
   - type: Gun
+    examineCaliber: gun-examine-caliber-6852 #Lua
     minAngle: 3 #Lua
     maxAngle: 15 #Lua
     angleIncrease: 1.3 #Lua
@@ -324,8 +332,8 @@
     sprintModifier: 0.85 #Lua 0.9<0.85
     walkModifier: 0.85 #Lua 0.9<0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.85 #Lua 0.4<0.85
-    sprintModifier: 0.85 #Lua 0.35<0.85
+    walkModifier: 0.7 #Lua 0.4<0.7
+    sprintModifier: 0.7 #Lua 0.35<0.7
 
 - type: entity
   name: VFD PSW "Ratel" (8x65 SKR)
@@ -342,14 +350,17 @@
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
     sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-inhands.rsi
-    shape:
-    - 0,0,5,2
+#    shape: # comment from _Lua
+#    - 0,0,5,2
+    shape: #Lua
+    - 0,0,7,4
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-inhands.rsi
 #  - type: GunWieldBonus # comment (349-351; 353-356) from _Lua
 #    minAngle: -20
 #    maxAngle: -30
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
 #    minAngle: 25
 #    maxAngle: 40
 #    angleIncrease: 5
@@ -409,9 +420,9 @@
     sprintModifier: 0.85
     walkModifier: 0.85
   - type: SpeedModifiedOnWield
-    walkModifier: 0.85
-    sprintModifier: 0.85 #Lua 0.75<0.85
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 3
-    pvsIncrease: 0.3
+    walkModifier: 0.7 #Lua 0.85<0.7
+    sprintModifier: 0.7 #Lua 0.75<0.7
+#  - type: CursorOffsetRequiresWield # comment from _Lua
+#  - type: EyeCursorOffset
+#    maxOffset: 3
+#    pvsIncrease: 0.3

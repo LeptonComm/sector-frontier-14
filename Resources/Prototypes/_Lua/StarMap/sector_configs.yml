@@ -6,9 +6,10 @@
   station: Beacon # id прототипа нашего грида, основной карты сектора, будь то маяк норд или тортуга
   worldgenConfig: AsteroidSectorDefault # будут ли в нашем секторе спавнится астероиды, тут указывается тип спавна астероидов, есть 2 типа Default где их минимум и AsteroidSectorDefault, где их обилие и большие размеры
   autoStart: true # Необходим для основной группы секторов, более понятно для чего и зачем не буду пояснять, просто включайте если используете в стандартном режиме игры, выключить если не нужно загружать сектор
-  defaultGamePreset: NFPirate # Режим игры который мы используем по дефолту на нашем фронтире
+  defaultGamePreset: NFTest # Режим игры который мы используем по дефолту на нашем фронтире
   requiredGamePresets: [ NFPirate, LuaAdventure ] # Сектор будет автоматически загружаться только в перечисленных режимах
-  parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default, Xmas ] # задний фон сектора, выбирается случайным образом
+#  parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default, Xmas ] # задний фон сектора, выбирается случайным образом
+  parallaxPool: [ Tortuga, LuaDarkSpace ] #Lua
   deadDropEnabled: true # Включаем систему DeadDrop для сектора
   deadDropCount: 8 # Максимальное количество DeadDrop на сектор
   starmapPosition: 3.0, 4.8 # Позиция на StarMap
@@ -71,17 +72,30 @@
   starmapColor: "#2595db"
 
 - type: sectorSystemPrototype
-  id: PirateSector
-  name: "Сектор Пиратов"
-  station: Cove
+  id: StormCreedSector
+  name: "Сектор Кодекса"
+  station: Murena
   autoStart: true
-  defaultGamePreset: NFPirate
+  defaultGamePreset: NFTest
   requiredGamePresets: [ NFPirate ]
-  parallaxPool: [ CoreStation, Tortuga ]
+  parallaxPool: [ Tortuga ]
   deadDropEnabled: true
   deadDropCount: 2
   starmapPosition: 6.6, -6.5
   starmapColor: "#8A6642"
+
+#- type: sectorSystemPrototype # comment from _Lua
+#  id: PirateSector
+#  name: "Сектор Пиратов"
+#  station: Cove
+#  autoStart: true
+#  defaultGamePreset: NFPirate
+#  requiredGamePresets: [ NFPirate ]
+#  parallaxPool: [ CoreStation, Tortuga ]
+#  deadDropEnabled: true
+#  deadDropCount: 2
+#  starmapPosition: 6.6, -6.5
+#  starmapColor: "#8A6642"
 
 - type: sectorSystemPrototype
   id: PirateSectorLua
@@ -96,18 +110,18 @@
   starmapPosition: 6.6, -6.5
   starmapColor: "#8A6642"
 
-- type: sectorSystemPrototype
-  id: MercenarySector
-  name: "Сектор Наёмников"
-  station: MercMap
-  autoStart: true
-  defaultGamePreset: NFPirate
-  requiredGamePresets: [ NFPirate, LuaAdventure ]
-  parallaxPool: [ MercenaryPlanet, Sky ]
-  deadDropEnabled: true
-  deadDropCount: 1
-  starmapPosition: -6.8, -6.2
-  starmapColor: "#182faf"
+#- type: sectorSystemPrototype # comment from _Lua
+#  id: MercenarySector
+#  name: "Сектор Наёмников"
+#  station: MercMap
+#  autoStart: true
+#  defaultGamePreset: NFPirate
+#  requiredGamePresets: [ NFPirate, LuaAdventure ]
+#  parallaxPool: [ MercenaryPlanet, Sky ]
+#  deadDropEnabled: true
+#  deadDropCount: 1
+#  starmapPosition: -6.8, -6.2
+#  starmapColor: "#182faf"
 
 - type: sectorSystemPrototype
   id: ShipVsShipRed

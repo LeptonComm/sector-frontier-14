@@ -13,6 +13,7 @@
       types:
         Blunt: 8
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
 #    minAngle: 0 # comment from _Lua
 #    maxAngle: 25
 #    angleIncrease: 1

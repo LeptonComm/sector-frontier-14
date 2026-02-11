@@ -17,18 +17,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical  65/65/40//60/60//40/40//30/5; summ = 370 for SD hardsuits
-        Blunt: 0.35 #Lua 0.5<35
-        Slash: 0.35 #Lua 0.55<0.35
-        Piercing: 0.6 #Lua 0.55<0.6
+        #Mechanical  75/75/50//75/75//50/50//30/5
+        Blunt: 0.25 #Lua 0.5<25
+        Slash: 0.25 #Lua 0.55<0.25
+        Piercing: 0.5 #Lua 0.55<0.5
         #Physical
-        Heat: 0.4 #Lua 0.6<0.4
-        Radiation: 0.4 #Lua 0.55<0.4
+        Heat: 0.25 #Lua 0.6<0.25
+        Radiation: 0.25 #Lua 0.55<0.25
         #Special
-        Shock: 0.6 #Lua
-        Caustic: 0.6 #Lua 0.75<0.7
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.7
+        Shock: 0.5 #Lua
+        Caustic: 0.5 #Lua 0.75<0.5
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 0.95 #Lua 0.9<0.95
     sprintModifier: 0.95 #Lua 0.9<0.95
@@ -123,18 +123,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 40/40/70//70/70//40/40//70/25; summ = 370 for SD Hardsuits
-        Blunt: 0.6 #Lua 0.4<0.6
-        Slash: 0.6 #Lua 0.25<0.6
-        Piercing: 0.3 #Lua 0.4<0.3
+        #Mechanical 50/50/75//75/75//50/50//70/25
+        Blunt: 0.5 #Lua 0.4<0.5
+        Slash: 0.5 #Lua 0.25<0.5
+        Piercing: 0.25 #Lua 0.4<0.25
         #Physical
-        Heat: 0.3 #Lua 0.55<0.3
-        Radiation: 0.3 #Lua 0.55<0.3
+        Heat: 0.25 #Lua 0.55<0.25
+        Radiation: 0.25 #Lua 0.55<0.25
         #Special
-        Shock: 0.6 #Lua
-        Caustic: 0.6 #Lua 0.75<0.6
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.3
+        Shock: 0.5 #Lua
+        Caustic: 0.5 #Lua 0.75<0.5
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.75 #Lua 0.9<0.75
     sprintModifier: 0.75 #Lua 0.9<0.75
@@ -163,18 +163,21 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 65/65/40//40/40//60/60//30/5; summ = 370 for SD Hardsuits
-        Blunt: 0.35 #Lua 0.7<0.35
-        Slash: 0.35 #Lua 0.7<0.35
-        Piercing: 0.6
+        #Mechanical 75/75/50//50/50//75/75//30/5
+        Blunt: 0.25 #Lua 0.7<0.25
+        Slash: 0.25 #Lua 0.7<0.25
+        Piercing: 0.5
         #Physical
-        Heat: 0.6 #Lua 0.5<0.6
-        Radiation: 0.6 #Lua 0.5<0.6
+        Heat: 0.5
+        Radiation: 0.5
         #Special
-        Shock: 0.4 #Lua
-        Caustic: 0.4 #Lua 0.25<0.4
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.7
+        Shock: 0.25 #Lua
+        Caustic: 0.25
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier #Lua
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: Inject
     openCloseDelay: 1
     autoClose: true
@@ -203,20 +206,20 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 40/40/70//40/40//70/70//70/25; summ = 370 for SD Hardsuits
-        Blunt: 0.6 #Lua 0.3<0.6
-        Slash: 0.6 #Lua 0.35<0.6
-        Piercing: 0.3 #Lua 0.25<0.6
+        #Mechanical 50/50/75//50/50//75/75//70/25
+        Blunt: 0.5 #Lua 0.3<0.5
+        Slash: 0.5 #Lua 0.35<0.5
+        Piercing: 0.25
         #Physical
-        Heat: 0.6 #Lua 0.3<0.6
-        Radiation: 0.6 #Lua 0.25<0.6
+        Heat: 0.5 #Lua 0.3<0.5
+        Radiation: 0.5 #Lua 0.25<0.5
         #Special
-        Shock: 0.3 #Lua
-        Caustic: 0.3 #Lua 0.25<0.3
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.25
+        Shock: 0.25 #Lua
+        Caustic: 0.25
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.25
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
+    walkModifier: 0.75 #Lua 0.85<0.75
     sprintModifier: 0.75
   - type: FactionClothing
     faction: NanoTrasen
@@ -246,18 +249,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 70/70/70//40/40//40/40//50/15; summ = 370 for SD Hardsuits
-        Blunt: 0.3 #Lua 0.25<0.3
-        Slash: 0.3 #Lua 0.35<0.3
-        Piercing: 0.3 #Lua 0.35<0.3
+        #Mechanical 75/75/75//50/50//50/50//50/15
+        Blunt: 0.25
+        Slash: 0.25 #Lua 0.35<0.25
+        Piercing: 0.25 #Lua 0.35<0.25
         #Physical
-        Heat: 0.6 #Lua 0.25<0.6
-        Radiation: 0.6 #Lua 0.2<0.6
+        Heat: 0.5 #Lua 0.25<0.5
+        Radiation: 0.5 #Lua 0.2<0.5
         #Special
-        Shock: 0.6 #Lua
-        Caustic: 0.6 #Lua 0.35<0.6
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.5
+        Shock: 0.5 #Lua
+        Caustic: 0.5 #Lua 0.35<0.5
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.85 #Lua 0.825<0.85
     sprintModifier: 0.85 #Lua 0.825<0.85
@@ -285,18 +288,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 40/40/40//65/65//60/60//50/15; summ = 370 for SD Hardsuits
-        Blunt: 0.6 #Lua 0.225<0.6
-        Slash: 0.6 #Lua 0.325<0.6
-        Piercing: 0.6 #Lua 0.325<0.6
+        #Mechanical 50/50/50//75/75//75/75//50/15
+        Blunt: 0.5 #Lua 0.225<0.5
+        Slash: 0.5 #Lua 0.325<0.5
+        Piercing: 0.5 #Lua 0.325<0.5
         #Physical
-        Heat: 0.35 #Lua 0.25<0.35
-        Radiation: 0.35 #Lua 0.15<0.35
+        Heat: 0.25
+        Radiation: 0.25 #Lua 0.15<0.25
         #Special
-        Shock: 0.4 #Lua
-        Caustic: 0.4 #Lua 0.25<0.4
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.5
+        Shock: 0.25 #Lua
+        Caustic: 0.25
+  - type: StaminaResistance #Lua
+    damageCoefficient: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.85 #Lua 0.8<0.85
     sprintModifier: 0.85 #Lua 0.8<0.85

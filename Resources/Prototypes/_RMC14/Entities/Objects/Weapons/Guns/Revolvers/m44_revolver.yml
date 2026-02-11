@@ -9,13 +9,14 @@
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-45mgn #Lua
 #    minAngle: 1 # comment from _Lua
 #    maxAngle: 2
     minAngle: 1 #Lua
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 4.2
+    fireRate: 3.15
   - type: RevolverAmmoProvider
     proto: Cartridge45_magnumFMJ #Lua RMCCartridgeRevolver44<Cartridge45_magnumFMJ
     capacity: 7

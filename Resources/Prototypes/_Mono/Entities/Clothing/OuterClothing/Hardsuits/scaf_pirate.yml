@@ -19,18 +19,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 30/30/60//60/60//30/30//30/20 summ = 300 for pirate hardsuits
-        Blunt: 0.7 #Lua 0.45<0.7
-        Slash: 0.7 #Lua 0.45<0.7
+        #Mechanical 40/40/60//60/60//40/40//70/20
+        Blunt: 0.6 #Lua 0.45<0.6
+        Slash: 0.6 #Lua 0.45<0.6
         Piercing: 0.4 #Lua 0.55<0.4
         #Physical
         Heat: 0.4 #Lua 0.5<0.4
         Radiation: 0.4
         #Special
-        Shock: 0.7 #Lua
-        Caustic: 0.7 #Lua 0.45<0.7
-  - type: StaminaDamageResistance # Mono - Stamres
-    coefficient: 0.3 #Lua 0.25<0.3
+        Shock: 0.6 #Lua
+        Caustic: 0.6 #Lua 0.45<0.6
+  - type: StaminaResistance
+    damageCoefficient: 0.3 #Lua 0.25<0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8 #Lua 0.95<0.8
     sprintModifier: 0.8 #Lua 0.95<0.8

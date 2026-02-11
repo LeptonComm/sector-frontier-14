@@ -6,6 +6,7 @@
   description: A cheap semiauto sidearm.
   components:
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-919 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
@@ -31,6 +32,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-45acp #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
@@ -62,6 +64,7 @@
   description: The Mark 32 Offensive Handgun.
   components:
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua

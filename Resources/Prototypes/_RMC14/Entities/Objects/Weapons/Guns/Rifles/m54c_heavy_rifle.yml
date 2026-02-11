@@ -1,6 +1,6 @@
 - type: entity
   name: M54CE2 heavy assault rifle
-  parent: [BaseC3Contraband, CMBaseWeaponRifle]
+  parent: [BaseC3Contraband, CMBaseWeaponRifleUnwieldable] #Lua CMBaseWeaponRifle<CMBaseWeaponRifleUnwieldable
   id: WeaponRifleM54CE2
   description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
   components:
@@ -20,7 +20,11 @@
     tags:
     - WeaponRifleM54CE2
     - RMCGunBipodFullAuto
+  - type: Item #Lua
+    shape:
+    - 0,0,2,1
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
 #    minAngle: 1 # comment from _Lua
 #    maxAngle: 10
 #    angleIncrease: 1

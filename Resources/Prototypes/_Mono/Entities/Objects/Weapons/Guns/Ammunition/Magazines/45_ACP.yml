@@ -12,23 +12,24 @@
     whitelist:
       tags:
         - Cartridge45_ACPFMJ
-    capacity: 17
+    capacity: 10 #Lua 17<10
   - type: Item
     size: Small
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk45.rsi #Lua
+#    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: mag
-    steps: 6
-    zeroVisible: false
+#  - type: MagazineVisuals
+#    magState: mag
+#    steps: 6
+#    zeroVisible: false
   - type: Appearance
 
 #Pistol mags
@@ -84,7 +85,8 @@
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPRubber
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi
+#    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi #comment from _Lua
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk45.rsi #Lua
     layers:
     - state: rubber
       map: ["enum.GunVisualLayers.Base"]
@@ -100,7 +102,8 @@
   - type: BallisticAmmoProvider
     proto: Cartridge45_ACPHP
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi
+#    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_pistol_mag.rsi #comment from _Lua
+    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk45.rsi #Lua
     layers:
     - state: red
       map: ["enum.GunVisualLayers.Base"]
@@ -211,7 +214,7 @@
     whitelist:
       tags:
         - Cartridge45_ACPFMJ
-    capacity: 25 #Lua 30 -> 25
+    capacity: 15 #Lua 30<15
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -304,7 +307,7 @@
     whitelist:
       tags:
         - Cartridge45_ACPFMJ
-    capacity: 30
+    capacity: 20 #Lua 30<20
   - type: Item
     size: Small
   - type: ContainerContainer

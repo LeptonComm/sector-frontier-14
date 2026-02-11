@@ -95,7 +95,7 @@
     contents:
     - id: N14WeaponLaserProtoRifle
       amount: 1
-    - id: N14PowerCellAdvanced
+    - id: N14PowerCellHigh #Lua N14PowerCellAdvanced<N14PowerCellHigh
       amount: 2
 
 - type: entity
@@ -637,7 +637,7 @@
       amount: 2
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponAntiMateriel
   categories: [ HideSpawnMenu ]
   components:
@@ -645,11 +645,11 @@
     contents:
     - id: N14WeaponAntiMateriel
       amount: 1
-    - id: N14Magazine50AMR
+    - id: Magazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
       amount: 2
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14Weapon50NcrRifle
   categories: [ HideSpawnMenu ]
   components:
@@ -685,7 +685,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponBrushGun
   categories: [ HideSpawnMenu ]
   components:
@@ -745,7 +745,7 @@
       amount: 2
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponMinigun
   categories: [ HideSpawnMenu ]
   components:
@@ -757,7 +757,7 @@
       amount: 2
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponAvengerMinigun
   categories: [ HideSpawnMenu ]
   components:
@@ -781,7 +781,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongRMCWeaponLMGM60
   categories: [ HideSpawnMenu ]
   components:
@@ -813,7 +813,7 @@
     contents:
     - id: RMCWeaponPistolHoldout
       amount: 1
-    - id: RMCMagazinePistolHoldout
+    - id: Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolHoldout<Magazine635x40mmCaselessPistol
       amount: 2
 
 - type: entity
@@ -825,7 +825,7 @@
     contents:
     - id: RMCWeaponPistolD18
       amount: 1
-    - id: RMCMagazinePistolD18
+    - id: Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolD18<Magazine635x40mmCaselessPistol
       amount: 2
 
 - type: entity
@@ -861,7 +861,7 @@
     contents:
     - id: RMCWeaponPistolMK45
       amount: 1
-    - id: RMCMagazinePistolMK45
+    - id: Magazine45_ACPPistolFMJ #Lua RMCMagazinePistolMK45<Magazine45_ACPPistolFMJ
       amount: 2
 
 - type: entity
@@ -925,7 +925,7 @@
       amount: 2
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongWeaponRifleM4SPR
   categories: [ HideSpawnMenu ]
   components:
@@ -957,7 +957,7 @@
     contents:
     - id: WeaponRifleM54CE2
       amount: 1
-    - id: CMMagazineRifleM54CE2
+    - id: Magazine9x19mmPistolFMJ
       amount: 2
 
 - type: entity
@@ -1053,7 +1053,7 @@
     contents:
     - id: WeaponSMGMP5
       amount: 1
-    - id: CMMagazineSMGMP5
+    - id: Magazine635x40mmCaseless #Lua CMMagazineSMGMP5<Magazine635x40mmCaseless
       amount: 2
 
 - type: entity

@@ -18,7 +18,7 @@
     startingCharge: 3000
   - type: HitscanBatteryAmmoProvider
     proto: MediumOverchargedLaser
-    fireCost: 15
+    fireCost: 30 #Lua 15<30
   - type: Tag
     tags:
     - MilitaryPowerCell

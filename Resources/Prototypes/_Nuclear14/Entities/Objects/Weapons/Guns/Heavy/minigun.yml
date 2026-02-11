@@ -13,6 +13,8 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,7,4
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
     size: Ginormous
   - type: Gun
@@ -68,6 +70,8 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
+  - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-6852
 
 - type: entity
   name: avenger minigun
@@ -86,6 +90,7 @@
     size: Huge
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
 #    minAngle: 3
 #    maxAngle: 6
     fireRate: 5.83

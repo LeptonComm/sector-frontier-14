@@ -12,14 +12,37 @@
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
-  - Wieldable #Lua
-  - GunRequiresWield #Lua
+  - type: Wieldable #Lua
+  - type: GunRequiresWield #Lua
   - type: Gun
     minAngle: 1.4 #Lua
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
     fireRate: 2.4
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 5
+      pvsIncrease: 1
 
 - type: entity
   id: NFWeaponEnergyRifleCarbinePractice
@@ -49,12 +72,37 @@
   - type: Battery # 300 shots. # Frontier, why the fuck did you make a deathsquad gun designed to kill stations without needing to recharge only 30 shots?
     maxCharge: 30000 #Lua edit: from 3000 to 30000
     startingCharge: 30000 #Lua edit: from 3000 to 30000
+  - type: Wieldable #Lua
+  - type: GunRequiresWield #Lua
   - type: Gun #Lua
     minAngle: 1.4 #Lua
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
     fireRate: 4.2
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 #region Other
 - type: entity
@@ -132,6 +180,9 @@
   name: temperature gun
   description: An advanced gun that shoots beams capable of heating or cooling their target.
   components:
+  - type: Item #Lua
+    shape:
+    - 0,0,2,1
   - type: Gun
     selectedMode: FullAuto #Lua
     availableModes:

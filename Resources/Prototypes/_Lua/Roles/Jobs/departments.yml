@@ -28,3 +28,14 @@
   weight: -9
   roles:
   - OpsLuaTech
+
+- type: department
+  id: StormCreed
+  name: department-stormcreed
+  description: department-stormcreed-description
+  color: "#918770"
+  weight: -9
+  roles:
+  - StormCreedCaptain
+  - StormCreedFirstmate
+  - StormCreedSoldier

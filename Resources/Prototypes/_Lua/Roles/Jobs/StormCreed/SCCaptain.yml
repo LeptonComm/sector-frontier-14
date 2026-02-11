@@ -1,0 +1,57 @@
+- type: job
+  id: StormCreedCaptain
+  name: job-name-sc-captain
+  description: job-description-sc-captain
+  playTimeTracker: JobSCCaptain
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 172800 # 48 hours
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 57600 # 16 hours
+    - !type:RoleTimeRequirement
+      role: JobSeniorOfficer
+      time: 29800 # 3 hours
+    - !type:RoleTimeRequirement
+      role: Antag
+      time: 21800 # 3 hours
+  startingGear: StormCreedCaptainGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconNFPirateCaptain"
+  supervisors: job-supervisors-sc-captain
+  weight: 20
+  displayWeight: 20
+  setPreference: true
+  newPlayerMessage: false
+  access:
+  - Pirate
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: SpecialSectorStationRecord
+      recordGeneration: FalseRecord
+    - type: Company
+      companyName: None
+    - type: DisableSuitSensors
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+  - !type:GiveItemOnHolidaySpecial # Even pirates get a piece of cake.
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: startingGear
+  id: StormCreedCaptainGear
+  equipment:
+    belt: ClothingBeltUtility
+    pocket1: BasePirateUplinkPirateCrew
+  storage:
+    back:
+    - AppraisalTool
+
+- type: chameleonOutfit
+  id: SCCaptainChameleonOutfit
+  job: StormCreedCaptain

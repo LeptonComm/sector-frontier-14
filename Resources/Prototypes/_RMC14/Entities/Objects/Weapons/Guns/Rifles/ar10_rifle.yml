@@ -17,7 +17,11 @@
       offset: -0.5, 0
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/ar10.rsi
+  - type: Item #Lua
+    shape:
+    - 0,0,3,2
   - type: Gun
+    examineCaliber: gun-examine-caliber-55645 #Lua
     shotsPerBurst: 4
 #    minAngle: 1 # comment from _Lua
 #    maxAngle: 10

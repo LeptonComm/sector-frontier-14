@@ -14,6 +14,7 @@
   #   baseFireRate: 10
   #   burstScatterMult: 3
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-63540 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua

@@ -17,6 +17,7 @@
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-63540 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua

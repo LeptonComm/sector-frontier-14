@@ -18,8 +18,11 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,2,1
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmSMG.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
@@ -45,12 +48,12 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmPistolHighCapacityFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmPistolHighCapacityFMJ
+        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
           tags:
-            - Magazine9x19mmPistolHighCapacityFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmPistolHighCapacityFMJ
+            - Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
         startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
@@ -83,7 +86,11 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: Item #Lua
+    shape:
+    - 0,0,2,1
   - type: Gun
+    examineCaliber: gun-examine-caliber-63540 #Lua
     fireRate: 10 #Lua 6<10
     soundGunshot:
       collection: N14Pistol12mmGunshot
@@ -149,8 +156,11 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,2,1
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/12mmPIPE.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-45acp #Lua
     fireRate: 4
     soundGunshot:
       collection: N14Pistol12mmGunshot
@@ -216,8 +226,11 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,2,1
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmPIPE.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
     fireRate: 6
     soundGunshot:
       collection: N14Pistol10mmGunshot
@@ -243,12 +256,12 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmPistolHighCapacityFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmPistolHighCapacityFMJ
+        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
           tags:
-            - Magazine9x19mmPistolHighCapacityFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmPistolHighCapacityFMJ
+            - Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
         startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
@@ -281,7 +294,11 @@
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
+  - type: Item #Lua
+    shape:
+    - 0,0,2,1
   - type: Gun
+    examineCaliber: gun-examine-caliber-45acp #Lua
     fireRate: 5 #Lua 7<5
     soundGunshot:
       collection: N14Pistol12mmGunshot
@@ -307,13 +324,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPPistolHighCapacityFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPPistolHighCapacityFMJ
+        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - Magazine45_ACPPistolHighCapacityFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPPistolHighCapacityFMJ
+            - Magazine45_ACPSubMachineGunFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
         name: Chamber
         startingItem: Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
@@ -347,8 +364,11 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
+    shape: #Lua
+    - 0,0,2,1
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/9mmSMG.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-63540 #Lua
     fireRate: 8 #Lua 7<8
     soundGunshot:
       collection: N14Pistol9mmGunshot

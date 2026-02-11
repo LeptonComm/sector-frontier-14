@@ -145,3 +145,12 @@
 
 - type: playTimeTracker # Used as a tracker for all borgs and midround borging.
   id: JobBorgSecurity
+
+- type: playTimeTracker
+  id: JobSCSoldier
+
+- type: playTimeTracker
+  id: JobSCFirstMate
+
+- type: playTimeTracker
+  id: JobSCCaptain

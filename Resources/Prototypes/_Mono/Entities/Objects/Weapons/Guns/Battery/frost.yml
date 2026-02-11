@@ -13,6 +13,8 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Item
+    shape: #Lua
+    - 0,0,2,1
     size: Large
     sprite: _Mono/Objects/Weapons/Guns/Battery/frost.rsi
   - type: Clothing
@@ -45,11 +47,11 @@
     startingCharge: 5250
   - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyGunFrostNonLethal
-    fireCost: 75
+    fireCost: 175 #Lua 75<175
   - type: EnergyGun
     fireModes:
     - proto: BulletEnergyGunFrostNonLethal
-      fireCost: 75
+      fireCost: 175 #Lua 75<175
       name: disable
   - type: MagazineVisuals
     magState: mag

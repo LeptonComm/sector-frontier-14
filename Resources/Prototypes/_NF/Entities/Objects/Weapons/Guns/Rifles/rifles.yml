@@ -86,7 +86,11 @@
     sprite: _NF/Objects/Weapons/Guns/Rifles/repeater.rsi
 #  - type: BallisticAmmoProvider # comment from _Lua
 #    capacity: 8
+  - type: Item #Lua
+    shape:
+    - 0,0,4,3
   - type: Gun #Lua
+    examineCaliber: gun-examine-caliber-127 #Lua
     minAngle: 1.4 #Lua
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua

@@ -211,7 +211,7 @@
     whitelist:
       tags:
         - Cartridge9x19mmFMJ
-    capacity: 25 #Lua 34 -> 25
+    capacity: 22 #Lua 34<22
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -304,7 +304,7 @@
     whitelist:
       tags:
         - Cartridge9x19mmFMJ
-    capacity: 35
+    capacity: 30 #Lua 35<30
   - type: Item
     size: Small
   - type: ContainerContainer

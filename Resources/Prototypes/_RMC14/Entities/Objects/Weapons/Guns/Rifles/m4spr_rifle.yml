@@ -16,7 +16,11 @@
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi
+  - type: Item #Lua
+    shape:
+    - 0,0,7,4
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
     minAngle: 3 #Lua
     maxAngle: 15 #Lua
     angleIncrease: 1.3 #Lua

@@ -13,15 +13,41 @@
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+  - type: Item #Lua
+    shape:
+    - 0,0,4,3
   - type: Gun #Lua
     minAngle: 1.4 #Lua
     maxAngle: 7 #Lua
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
-    firerate: 0.9
+    fireRate: 0.9
   - type: HitscanBatteryAmmoProvider #Lua
     proto: PulsedPlasma
     fireCost: 120
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 - type: entity
   id: NFWeaponEnergyRifleSniperXrayCannon
@@ -41,3 +67,26 @@
     angleIncrease: 5.6 #Lua
     angleDecay: 3.7 #Lua
     fireRate: 1.8
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1

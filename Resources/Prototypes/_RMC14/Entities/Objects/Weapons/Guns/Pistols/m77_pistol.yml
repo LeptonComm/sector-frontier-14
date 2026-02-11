@@ -13,7 +13,8 @@
       types:
         Blunt: 8
   - type: Gun
-    selectedMode: Burst
+    examineCaliber: gun-examine-caliber-45acp #Lua
+    selectedMode: SemiAuto #Lua Burst<SemiAuto
     shotsPerBurst: 3
 #    minAngle: 10 # comment from _Lua
 #    maxAngle: 50
@@ -25,7 +26,7 @@
     angleDecay: 5 #Lua
     fireRate: 7 #Lua 1<7
     availableModes:
-    - Burst
+    - SemiAuto #Lua Burst<SemiAuto
     soundGunshot:
       path: /Audio/_RMC14/Weapons/Guns/Gunshots/gun_88m4_v7.ogg
   # - type: RMCSelectiveFire

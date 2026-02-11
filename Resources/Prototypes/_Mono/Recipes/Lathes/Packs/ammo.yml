@@ -792,7 +792,7 @@
   - Magazine9x19mmPistolPractice
     # 12.7x99 havent practice
   - Magazine45_ACPPistolPractice
-    # 6.8x52 havent practice
+  - Magazine68x52mmPractice
   ## Rubber
   - Magazine556x45mmRubber
   - MagazineNovaliteC1Rubber

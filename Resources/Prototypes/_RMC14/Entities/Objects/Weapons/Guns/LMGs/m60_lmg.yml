@@ -16,6 +16,9 @@
     sprintModifier: 0.85
 #    walkModifier: 0.6 #comment (11-12) from _Lua
 #    sprintModifier: 0.6
+  - type: Item #Lua
+    shape:
+    - 0,0,7,4
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/LMGs/m60.rsi
     layers:
@@ -39,6 +42,7 @@
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
   - type: Gun
+    examineCaliber: gun-examine-caliber-865 #Lua
     minAngle: 3 #Lua
     maxAngle: 15 #Lua
     angleIncrease: 1.3 #Lua

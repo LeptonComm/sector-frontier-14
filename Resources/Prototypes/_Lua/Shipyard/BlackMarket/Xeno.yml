@@ -5,13 +5,13 @@
 
 - type: vessel
   parent: BaseVessel
-  id: MercXeno
-  name: Xeno
+  id: BMXeno
+  name: BM-Xeno
   description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
-  price: 255000
+  price: 1 #test
   category: Large
   group: ASBlackMarket
-#  access: Mercenary
+  access: Mercenary
   whitelist:
   - Luna
   - Frontier
@@ -22,16 +22,16 @@
   shuttlePath: /Maps/_Lua/Shuttles/Mercenary/Xeno.yml
 
 - type: gameMap
-  id: MercXeno
-  mapName: 'Xeno'
+  id: BMXeno
+  mapName: 'BM-Xeno'
   mapPath: /Maps/_Lua/Shuttles/Mercenary/Xeno.yml
   minPlayers: 0
   stations:
-    MercXeno:
+    BMXeno:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Xeno {1}'
+          mapNameTemplate: 'BM-Xeno {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

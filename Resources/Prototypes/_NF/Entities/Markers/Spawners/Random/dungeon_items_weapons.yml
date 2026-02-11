@@ -250,7 +250,7 @@
     - WeaponCaseLongDrozdExpedition
 #    - WeaponCaseLongM90Expedition
     - WeaponCaseLongLecterExpedition
-    - WeaponCaseShortSvalinnExpedition
+#    - WeaponCaseShortSvalinnExpedition # comment from _Lua
     - WeaponCaseLongHristovExpedition
 #    - WeaponCaseLongMusketExpedition
     chance: 1.0

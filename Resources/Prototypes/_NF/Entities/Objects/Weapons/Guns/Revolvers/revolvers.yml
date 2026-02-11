@@ -15,7 +15,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 3.6
+    fireRate: 2.7
 
 - type: entity
   id: NFWeaponRevolverWard45
@@ -33,7 +33,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 3.6 #Lua
+    fireRate: 2.7 #Lua
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
@@ -75,7 +75,7 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
   - type: Gun #Lua
-    fireRate: 3
+    fireRate: 2.25
     minAngle: 1 #Lua
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
@@ -127,7 +127,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 1.8
+    fireRate: 1.35
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
   - type: Clothing
@@ -145,7 +145,7 @@
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
     angleDecay: 1 #Lua
-    fireRate: 2.4
+    fireRate: 1.8
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Revolvers/faith.rsi
   - type: Clothing
@@ -167,10 +167,11 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Revolvers/lucky.rsi
   - type: Gun #Lua
-    minAngle: 3.1 #Lua
-    maxAngle: 15.5 #Lua
-    angleIncrease: 0.7 #Lua
-    angleDecay: 5 #Lua
+    examineCaliber: gun-examine-caliber-45acp
+    minAngle: 3.1
+    maxAngle: 15.5
+    angleIncrease: 0.7
+    angleDecay: 5
     fireRate: 4
   - type: RevolverAmmoProvider #Lua
     whitelist:
@@ -193,6 +194,7 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
   - type: Gun
+    examineCaliber: gun-examine-caliber-45acp #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua

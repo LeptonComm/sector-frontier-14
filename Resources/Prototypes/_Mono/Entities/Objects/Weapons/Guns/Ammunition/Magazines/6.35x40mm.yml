@@ -14,7 +14,7 @@
       tags:
         - Cartridge635x40mmCaseless
     proto: Cartridge635x40mmCaseless
-    capacity: 30
+    capacity: 40 #Lua 30<40
   - type: Item
     size: Small
   - type: ContainerContainer
@@ -48,7 +48,7 @@
       tags:
         - Cartridge635x40mmCaseless
     proto: Cartridge635x40mmCaseless
-    capacity: 10
+    capacity: 20 #Lua 10<20
   - type: Item
     size: Small
   - type: Sprite

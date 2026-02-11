@@ -19,18 +19,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 30/30/60//30/30//60/60 summ = 300 for pirate hardsuits
-        Blunt: 0.7
-        Slash: 0.7
+        #Mechanical 40/40/60//40/40//60/60//70/20
+        Blunt: 0.6
+        Slash: 0.6
         Piercing: 0.4
         #Physical
-        Heat: 0.7
-        Radiation: 0.7
+        Heat: 0.6
+        Radiation: 0.6
         #Special
         Shock: 0.4
         Caustic: 0.4
-  - type: StaminaDamageResistance
-    coefficient: 0.3
+  - type: StaminaResistance
+    damageCoefficient: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -68,18 +68,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 55/55/30//30/30//50/50 summ = 300 for pirate hardsuits
-        Blunt: 0.45
-        Slash: 0.45
-        Piercing: 0.3
+        #Mechanical 60/60/40//40/40//60/60//30/0
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.6
         #Physical
-        Heat: 0.7
-        Radiation: 0.7
+        Heat: 0.6
+        Radiation: 0.6
         #Special
-        Shock: 0.5
-        Caustic: 0.5
-  - type: StaminaDamageResistance
-    coefficient: 0.7
+        Shock: 0.4
+        Caustic: 0.4
+  - type: StaminaResistance
+    damageCoefficient: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
@@ -117,18 +117,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        #Mechanical 55/55/30//50/50//30/30 summ = 300 for pirate hardsuits
-        Blunt: 0.45
-        Slash: 0.45
-        Piercing: 0.7
+        #Mechanical 60/60/40//60/60//40/40//30/0
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.6
         #Physical
-        Heat: 0.5
-        Radiation: 0.5
+        Heat: 0.4
+        Radiation: 0.4
         #Special
-        Shock: 0.7
-        Caustic: 0.7
-  - type: StaminaDamageResistance
-    coefficient: 0.7
+        Shock: 0.6
+        Caustic: 0.6
+  - type: StaminaResistance
+    damageCoefficient: 0.7
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1

@@ -7,10 +7,6 @@
   - type: Item
     size: Small
   - type: AmmoCounter
-  - type: ClothingSpeedModifier #Lua
-    walkModifier: 0.7
-    sprintModifier: 0.7
-  - type: HeldSpeedModifier #Lua
   - type: Gun
     minAngle: 35
     maxAngle: 65
@@ -218,6 +214,29 @@
   - type: HitscanBatteryAmmoProvider
     proto: RedShuttleLaser
     fireCost: 50
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 - type: entity
   name: recharger pistol
@@ -300,6 +319,7 @@
           tags:
             - N14PowerCellHigh
   - type: Gun
+    examineCaliber: gun-examine-caliber-6852 #Lua
     minAngle: 1 #Lua
     maxAngle: 3.5 #Lua
     angleIncrease: 0.2 #Lua
@@ -671,6 +691,29 @@
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 - type: entity
   name: wattz 2000 laser rifle
@@ -722,6 +765,29 @@
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
+  - type: ItemToggle #Lua
+    onUse: false
+    onActivate: false
+    soundActivate:
+      path: /Audio/_Lua/Weapons/mantison.wav
+      params:
+        volume: 3
+    soundDeactivate:
+      path: /Audio/_Lua/Weapons/mantisoff.wav
+      params:
+        volume: 3
+  - type: ToggleClothing #Lua
+    action: ActionToggleScope
+    mustEquip: false
+  - type: ComponentToggler #Lua
+    components:
+    - type: ClothingSpeedModifier #Lua
+      walkModifier: 0.8
+      sprintModifier: 0.8
+    - type: CursorOffsetRequiresWield
+    - type: EyeCursorOffset
+      maxOffset: 10
+      pvsIncrease: 1
 
 #MARK: Heavy
 
@@ -802,6 +868,8 @@
     steps: 5
     zeroVisible: true
   - type: Item
+    shape: #Lua
+    - 0,0,4,3
     size: Huge
   - type: ItemSlots
     slots:

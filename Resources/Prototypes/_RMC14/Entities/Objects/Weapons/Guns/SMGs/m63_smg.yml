@@ -16,7 +16,11 @@
 #  - type: HeldSpeedModifier # comment (16-18) from _Lua
 #    walkModifier: 1.1
 #    sprintModifier: 1.1
+  - type: Item #Lua
+    shape:
+    - 0,0,2,1
   - type: Gun
+    examineCaliber: gun-examine-caliber-919 #Lua
     minAngle: 3.1 #Lua
     maxAngle: 15.5 #Lua
     angleIncrease: 0.7 #Lua
