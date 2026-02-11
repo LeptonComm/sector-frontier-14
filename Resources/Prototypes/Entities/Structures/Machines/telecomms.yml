@@ -195,7 +195,7 @@
     containers:
       key_slots:
       - EncryptionKeyCommon
-      #- EncryptionKeyOutpostTypan # Typan
+      #- EncryptionKeyOutpostSyndicate # Typan
       - EncryptionKeyFreelance #Pirates
       - EncryptionKeyCargo
       - EncryptionKeyEngineering
@@ -223,7 +223,7 @@
       - EncryptionKeyTrade
       - EncryptionKeyMercenary
       - EncryptionKeyVip
-      - EncryptionKeyOutpostTypan
+      - EncryptionKeyOutpostSyndicate
 
 - type: entity
   parent: TelecomServer

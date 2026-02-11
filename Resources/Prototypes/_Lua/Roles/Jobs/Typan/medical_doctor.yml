@@ -3,9 +3,9 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanMedic
+  id: OutpostSyndicateMedic
   name: job-name-typan-medic
-  playTimeTracker: JobOutpostTypanMedic
+  playTimeTracker: JobOutpostSyndicateMedic
   salary: 35000
   description: Медик из далёкого космоса.
   startingGear: SyndicateParamedic
@@ -17,9 +17,6 @@
     # - !type:RoleTimeRequirement
     #   role: JobOutpostSyndicateBotanist
     #   time: 20600
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 31000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 18000
@@ -52,10 +49,10 @@
 - type: startingGear
   id: SyndicateParamedic
   equipment:
-    eyes: ClothingEyesHudSyndicateAgentOutpostTypan
-    ears: ClothingHeadsetAltOutpostTypan
+    eyes: ClothingEyesHudSyndicateAgentOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostSyndicate
     jumpsuit: ClothingUniformJumpsuitParamedicSyndie
-    outerClothing: ClothingOuterMedOutpostTypan
+    outerClothing: ClothingOuterMedOutpostSyndicate
     shoes: ClothingShoesBootsCombat
     id: MedicalPDASyndi
     back: ClothingBackpackSyndicateFilled

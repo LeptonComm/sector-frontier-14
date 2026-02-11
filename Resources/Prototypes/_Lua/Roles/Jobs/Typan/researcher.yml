@@ -3,9 +3,9 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanResearcher
+  id: OutpostSyndicateResearcher
   name: job-name-typan-researcher
-  playTimeTracker: JobOutpostTypanResearcher
+  playTimeTracker: JobOutpostSyndicateResearcher
   salary: 25000
   description: Исследователь из далёкого космоса.
   startingGear: SyndicateResearcher
@@ -29,9 +29,6 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 39000
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 36000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 43000
@@ -61,11 +58,11 @@
 - type: startingGear
   id: SyndicateResearcher
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
+    ears: ClothingHeadsetAltOutpostSyndicate
     jumpsuit: ClothingUniformJumpsuitRecruitSyndie
-    shoes: ClothingShoesBootsOutpostTypan
+    shoes: ClothingShoesBootsOutpostSyndicate
     back: ClothingBackpackSyndicateFilled
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate
     id: SyndiPDAResearcher
 
 - type: chameleonOutfit

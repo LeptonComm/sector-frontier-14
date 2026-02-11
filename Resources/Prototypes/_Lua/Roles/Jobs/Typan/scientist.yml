@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanScience
+  id: OutpostSyndicateScience
   name: job-name-typan-science
   playTimeTracker: JobOutpostSyndicateScience
   salary: 35000
@@ -20,9 +20,6 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 12000
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 25000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 60000
@@ -52,10 +49,10 @@
 - type: startingGear
   id: SyndicateScience
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
-    jumpsuit: ClothingUniformScienceOutpostTypan
+    ears: ClothingHeadsetAltOutpostSyndicate
+    jumpsuit: ClothingUniformScienceOutpostSyndicate
     outerClothing: ClothingOuterCoatLabOpened
-    gloves: ClothingHandsScienceOutpostTypan
+    gloves: ClothingHandsScienceOutpostSyndicate
     shoes: ClothingShoesBootsCombat
     back: ClothingBackpackSyndicateFilled
     id: SyndiPDAScience

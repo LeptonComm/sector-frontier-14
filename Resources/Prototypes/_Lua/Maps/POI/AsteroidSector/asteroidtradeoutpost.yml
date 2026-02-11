@@ -36,7 +36,7 @@
   minPlayers: 0
   stations:
     AsteroidTradeOutpost:
-      stationProto: MarketFrontierOutpost
+      stationProto: Required #MarketFrontierOutpost
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Trade Outpost'

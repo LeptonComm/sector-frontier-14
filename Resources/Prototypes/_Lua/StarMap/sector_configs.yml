@@ -6,7 +6,7 @@
   station: Beacon # id прототипа нашего грида, основной карты сектора, будь то маяк норд или тортуга
   worldgenConfig: AsteroidSectorDefault # будут ли в нашем секторе спавнится астероиды, тут указывается тип спавна астероидов, есть 2 типа Default где их минимум и AsteroidSectorDefault, где их обилие и большие размеры
   autoStart: true # Необходим для основной группы секторов, более понятно для чего и зачем не буду пояснять, просто включайте если используете в стандартном режиме игры, выключить если не нужно загружать сектор
-  defaultGamePreset: NFTest # Режим игры который мы используем по дефолту на нашем фронтире
+  defaultGamePreset: NFPirate # Режим игры который мы используем по дефолту на нашем фронтире
   requiredGamePresets: [ NFPirate, LuaAdventure ] # Сектор будет автоматически загружаться только в перечисленных режимах
 #  parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default, Xmas ] # задний фон сектора, выбирается случайным образом
   parallaxPool: [ Tortuga, LuaDarkSpace ] #Lua
@@ -76,7 +76,7 @@
   name: "Сектор Кодекса"
   station: Murena
   autoStart: true
-  defaultGamePreset: NFTest
+  defaultGamePreset: NFPirate
   requiredGamePresets: [ NFPirate ]
   parallaxPool: [ Tortuga ]
   deadDropEnabled: true

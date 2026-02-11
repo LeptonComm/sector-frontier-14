@@ -3,13 +3,13 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanChef
+  id: OutpostSyndicateChef
   name: job-name-typan-chef
-  playTimeTracker: JobOutpostTypanChef
+  playTimeTracker: JobOutpostSyndicateChef
   salary: 25000
   description: Повар из далёкого космоса.
   startingGear: SyndicateChef
-  icon: "JobIconOutpostTypanChef"
+  icon: "JobIconOutpostSyndicateChef"
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   hideConsoleVisibility: true
@@ -17,9 +17,6 @@
     # - !type:RoleTimeRequirement
     #   role: JobOutpostSyndicateAtmosTech
     #   time: 20600
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 32000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 27000
@@ -52,10 +49,10 @@
 - type: startingGear
   id: SyndicateChef
   equipment:
-    ears: ClothingHeadsetAltOutpostTypan
-    jumpsuit: ClothingUniformJumpsuitOutpostTypanChef
+    ears: ClothingHeadsetAltOutpostSyndicate
+    jumpsuit: ClothingUniformJumpsuitOutpostSyndicateChef
     back: ClothingBackpackSyndicateFilled
-    outerClothing: ClothingOuterApronOutpostTypanChef
+    outerClothing: ClothingOuterApronOutpostSyndicateChef
     shoes: ClothingShoesColorBlack
     id: SyndiPDAChef
 

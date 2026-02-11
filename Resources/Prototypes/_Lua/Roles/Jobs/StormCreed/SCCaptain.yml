@@ -13,7 +13,7 @@
       role: JobSeniorOfficer
       time: 29800 # 3 hours
     - !type:RoleTimeRequirement
-      role: Antag
+      role: JobSCSoldier
       time: 21800 # 3 hours
   startingGear: StormCreedCaptainGear
   alwaysUseSpawner: true

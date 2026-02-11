@@ -1,7 +1,8 @@
 - type: gameMap
   id: Frontier
   mapName: 'Сектор Фронтир'
-  mapPath: /Maps/_Lua/Outpost/frontier.yml
+#  mapPath: /Maps/_Lua/Outpost/frontier.yml
+  mapPath: /Maps/_Lua/Maps/Murena.yml
   minPlayers: 0
   maxPlayers: 100
   randomRotation: false
@@ -28,24 +29,30 @@
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'
         - type: ExtraStationInformation
-          iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png # used the biggest one, looks better when downscaling than upscaling
-          stationSubtext: 'frontier-lobby-frontier-subtext'
-          stationDescription: 'frontier-lobby-frontier-description'
+#          iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png # used the biggest one, looks better when downscaling than upscaling
+          iconPath: /Textures/Structures/Wallmounts/flags.rsi/Stormcreed_flag.png
+          stationSubtext: 'stormcreed-lobby-outpost-subtext'
+          stationDescription: 'stormcreed-lobby-outpost-description'
+#          stationSubtext: 'frontier-lobby-frontier-subtext'
+#          stationDescription: 'frontier-lobby-frontier-description'
           lobbySortOrder: 1
         - type: StationJobs
           availableJobs:
-            Vip: [ -1, -1 ]
-            Contractor: [ -1, -1 ]
-            Pilot: [ -1, -1 ]
+            StormCreedCaptain: [ 1, 1 ]
+            StormCreedFirstmate: [ 2, 2 ]
+            StormCreedSoldier: [ 6, 6 ]
+#            Vip: [ -1, -1 ]
+#            Contractor: [ -1, -1 ]
+#            Pilot: [ -1, -1 ]
 #            MedicalDoctor: [ 1, 1 ] #comment (28-29) from _Lua
 #            Chemist: [ 1, 1 ]
-            Borg: [ -1, -1 ]
-            StationRepresentative: [ 1, 1 ]
-            StationTrafficController: [ 1, 1 ]
-            SecurityGuard: [ 1, 1 ]
-            Valet: [ 1, 1 ]
-            NFJanitor: [ 1, 1 ]
-            MailCarrier: [ 1, 1 ]
+#            Borg: [ -1, -1 ]
+#            StationRepresentative: [ 1, 1 ]
+#            StationTrafficController: [ 1, 1 ]
+#            SecurityGuard: [ 1, 1 ]
+#            Valet: [ 1, 1 ]
+#            NFJanitor: [ 1, 1 ]
+#            MailCarrier: [ 1, 1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

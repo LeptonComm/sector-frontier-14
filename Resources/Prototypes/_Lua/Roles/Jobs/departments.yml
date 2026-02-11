@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: department
-  id: OutpostTypan
+  id: OutpostSyndicate
   name: department-Outpost-Typan
   description: department-Outpost-Typan-description
   color: "#D381C9"

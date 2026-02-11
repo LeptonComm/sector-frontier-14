@@ -48,7 +48,7 @@
         - type: StationNameSetup
           mapNameTemplate: 'SC-RUST/MUR3NA-5.5'
         - type: ExtraStationInformation
-          iconPath: /Textures/Structures/Wallmounts/flags.rsi/Stormcreed_flag.png # used the biggest one, looks better when downscaling than upscaling
+          iconPath: /Textures/Structures/Wallmounts/flags.rsi/Stormcreed_flag.png
           stationSubtext: 'stormcreed-lobby-outpost-subtext'
           stationDescription: 'stormcreed-lobby-outpost-description'
         - type: StationJobs

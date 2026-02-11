@@ -3,7 +3,7 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanTelecommunicationsOfficer
+  id: OutpostSyndicateTelecommunicationsOfficer
   name: job-name-typan-telecommunications-officer
   playTimeTracker: JobOutpostSyndicateTelecommunicationsOfficer
   salary: 65000
@@ -14,9 +14,6 @@
   canBeAntag: true
   hideConsoleVisibility: true
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 30000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 95000
@@ -53,14 +50,14 @@
 - type: startingGear
   id: SyndicateFormal
   equipment:
-    eyes: ClothingEyesHudOutpostTypan
-    ears: ClothingHeadsetAltOutpostTypan
+    eyes: ClothingEyesHudOutpostSyndicate
+    ears: ClothingHeadsetAltOutpostSyndicate
     shoes: ClothingShoesBootsCombat
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     gloves: ClothingHandsGlovesCombat
     id: SyndiPDACom
     back: ClothingBackpackSyndicateFilled
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate
     pocket1: SyndicateWhistle
     pocket2: ClothingMaskGasSyndicate
     outerClothing: ClothingOuterHardsuitSyndieCommander

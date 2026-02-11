@@ -3,9 +3,9 @@
 # See AGPLv3.txt for details.
 
 - type: job
-  id: OutpostTypanRD
+  id: OutpostSyndicateRD
   name: job-name-typan-rd
-  playTimeTracker: JobOutpostTypanRD
+  playTimeTracker: JobOutpostSyndicateRD
   salary: 45000
   description: Директор исследований из далёкого космоса.
   startingGear: SyndicateRD
@@ -17,9 +17,6 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 32000
-    - !type:DepartmentTimeRequirement
-      department: Antag
-      time: 34000
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 73000
@@ -54,14 +51,14 @@
   id: SyndicateRD
   equipment:
     eyes: ClothingEyesGlassesHiddenSecurity
-    ears: ClothingHeadsetAltOutpostTypan
+    ears: ClothingHeadsetAltOutpostSyndicate
     shoes: ClothingShoesBootsCombat
-    outerClothing: ClothingOuterCoatRDOutpostTypan
-    gloves: ClothingHandsRDOutpostTypan
+    outerClothing: ClothingOuterCoatRDOutpostSyndicate
+    gloves: ClothingHandsRDOutpostSyndicate
     id: SyndiPDARD
     back: ClothingBackpackSyndicateFilled
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
-    belt: ClothingBeltAssaultOutpostTypan
+    belt: ClothingBeltAssaultOutpostSyndicate
 
 - type: chameleonOutfit
   id: OutpostSyndicateRDChameleonOutfit
