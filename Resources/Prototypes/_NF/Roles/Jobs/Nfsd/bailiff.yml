@@ -5,24 +5,27 @@
   playTimeTracker: JobWarden
   salary: 50000 #Lua 65000<50000
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 108000 # 30 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 64800 # 18 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 21600 # 6 hours
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 720000 # 200 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 43200 # 12 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 21600 # 6 hours
+  - !type:RoleTimeRequirement #Lua
+    role: SeniorOfficer
+    time: 72000 # 10h
+#    - !type:OverallPlaytimeRequirement # comment from _Lua
+#      time: 108000 # 30 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Security
+#      time: 64800 # 18 hours
+#    - !type:RoleTimeRequirement
+#      role: JobSeniorOfficer
+#      time: 21600 # 6 hours
+#  alternateRequirementSets:
+#    longerPlaytimeLessSec:
+#    - !type:OverallPlaytimeRequirement
+#      time: 720000 # 200 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Security
+#      time: 43200 # 12 hours
+#    - !type:RoleTimeRequirement
+#      role: JobSeniorOfficer
+#      time: 21600 # 6 hours
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

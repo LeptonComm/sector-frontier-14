@@ -3,10 +3,13 @@
   name: job-name-security-guard
   description: job-description-security-guard
   playTimeTracker: JobSecurityGuard
-  salary: 40500
+  salary: 50000
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # Frontier - 10 hrs
+    - !type:DepartmentTimeRequirement #Lua
+      department: Frontier
+      time: 36000
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
   icon: "JobIconSecurityGuard"

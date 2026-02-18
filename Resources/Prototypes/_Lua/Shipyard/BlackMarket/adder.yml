@@ -12,7 +12,6 @@
   category: Small
   group: ASBlackMarket
   whitelist:
-  - Luna
   - Frontier
   class:
   - Salvage

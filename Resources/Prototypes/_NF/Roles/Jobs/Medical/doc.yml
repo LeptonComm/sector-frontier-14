@@ -7,15 +7,18 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobChemist
-      time: 21600 # 6 hours
+      time: 36000 # 10 hours #Lua 21600<36000
     - !type:RoleTimeRequirement
       role: JobParamedic
-      time: 21600 # 6 hours
+      time: 36000 # 10 hours #Lua 21600<36000
     - !type:RoleTimeRequirement
       role: JobMedicalDoctor
-      time: 21600 # 6 hours
-    - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hrs
+      time: 36000 # 10 hours #Lua 21600<36000
+    - !type:DepartmentTimeRequirement #Lua
+      department: Medical
+      time: 144000
+#    - !type:OverallPlaytimeRequirement
+#      time: 72000 # 20 hrs
   whitelisted: false
   startingGear: DocGear
   alwaysUseSpawner: true

@@ -125,3 +125,16 @@
     sprite: Structures/Wallmounts/flags.rsi
     layers:
       - state: Stormcreed_flag
+
+- type: entity
+  id: SpawnPointFrontierEngineer
+  parent: SpawnPointJobBase
+  name: Frontier engineer
+  components:
+  - type: SpawnPoint
+    job_id: FrontierEngineer
+  - type: Sprite
+    sprite: _NF/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: planttechnician

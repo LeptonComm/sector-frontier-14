@@ -1289,6 +1289,22 @@
 #region utility
 
 - type: listing
+  id: UplinkSecurityArmySatchel
+  name:  uplink-security-armysatchel-name
+  description: uplink-security-armysatchel-desc
+  productEntity: ClothingBackpackMilitarySatchel
+  icon: { sprite: Corvax/Back/Satchels/military.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
   id: UplinkSecurityHolo
   name:  uplink-security-holo-name
   description: uplink-security-holo-desc

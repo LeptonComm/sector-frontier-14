@@ -170,7 +170,7 @@
   - type: RandomSpawner
     prototypes:
     - WeaponCaseShortMk58Expedition
-    - WeaponCaseShortUniversalExpedition
+#    - WeaponCaseShortUniversalExpedition # comment from _Lua
     - WeaponCaseShortPollockExpedition
     - WeaponCaseShortFaithExpedition
     - WeaponCaseShortArgentiExpedition
@@ -249,9 +249,9 @@
     - WeaponCaseLongWT550Expedition
     - WeaponCaseLongDrozdExpedition
 #    - WeaponCaseLongM90Expedition
-    - WeaponCaseLongLecterExpedition
+#    - WeaponCaseLongLecterExpedition # comment from _Lua
 #    - WeaponCaseShortSvalinnExpedition # comment from _Lua
-    - WeaponCaseLongHristovExpedition
+#    - WeaponCaseLongHristovExpedition # comment from _Lua
 #    - WeaponCaseLongMusketExpedition
     chance: 1.0
     offset: 0.0
@@ -280,13 +280,13 @@
     prototypes:
     - WeaponCaseLongSm
     - WeaponCaseLongVulcanExpedition
-    - WeaponCaseLongBulldog
+#    - WeaponCaseLongBulldog # comment from _Lua
     - WeaponCaseLongEnforcerExpedition
     - WeaponCaseShortAntiqueLaserExpedition
     - WeaponCaseShortAdvancedLaserExpedition
     - WeaponCaseLongLaserCarbineExpedition
     - WeaponCaseLongXrayCannonExpedition
-    - WeaponCaseLongTemperatureGunExpedition
+#    - WeaponCaseLongTemperatureGunExpedition # comment from _Lua
     chance: 1.0
     offset: 0.0
     rarePrototypes:

@@ -1,0 +1,26 @@
+- type: job
+  id: FrontierEngineer
+  name: job-name-engineer
+  description: job-description-engineer
+  playTimeTracker: JobFrontierEngineer
+  salary: 30000
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 72000 # 20 часов
+  startingGear: StationEngineerGear
+  alwaysUseSpawner: true
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-sr
+  weight: 80
+  displayWeight: 0
+  access:
+  - Engineering
+  - Atmospherics
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant ]
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift

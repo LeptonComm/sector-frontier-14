@@ -1,7 +1,7 @@
 # LuaWorld - This file is licensed under AGPLv3
 # Copyright (c) 2025 LuaWorld Contributors
 # See AGPLv3.txt for details.
-# Author: kideo (discord)
+# Author: germanreutt (discord)
 
 - type: vessel
   parent: BaseVessel
@@ -13,7 +13,6 @@
   group: ASBlackMarket
   access: Mercenary
   whitelist:
-  - Luna
   - Frontier
   class:
   - Mercenary
@@ -32,6 +31,41 @@
       components:
         - type: StationNameSetup
           mapNameTemplate: 'BM-Xeno {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+
+
+
+# Author: kideo (discord)
+- type: vessel
+  parent: BaseVessel
+  id: MCXeno
+  name: Xeno
+  description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
+  price: 1 #test
+  category: Large
+  group: Mercenary
+  access: Mercenary
+  whitelist:
+  - Luna
+  class:
+  - Mercenary
+  engine:
+  - AME
+  shuttlePath: /Maps/_Lua/Shuttles/Luna/Xeno.yml
+
+- type: gameMap
+  id: MCXeno
+  mapName: 'Xeno'
+  mapPath: /Maps/_Lua/Shuttles/Luna/Xeno.yml
+  minPlayers: 0
+  stations:
+    MCXeno:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Xeno {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -14,6 +14,7 @@
   name: 'Аванпост СРБС'
   minimumDistance: 2000 #750 Lua
   maximumDistance: 3000 #1000 Lua
+  spawnGamePreset: [ NFPirate ]
   spawnGroup: Required
   gridPath: /Maps/_Lua/POI/nfsd.yml
   addComponents:
@@ -53,6 +54,60 @@
             # Others:
 #            PublicAffairsLiaison: [ 1, 1 ]
             Prisoner: [ 0, 0 ]
+          tags:
+          - HeadOfPersonnel
+          - HeadOfSecurity
+        - type: StationDeadDropReporting
+          messageSet: Nfsd
+        - type: StationDeadDropHintExempt
+
+
+
+- type: pointOfInterest
+  id: LunaNfsd
+  parent: BasePOI
+  name: 'Аванспост ДСБФ'
+  minimumDistance: 2000 #750 Lua
+  maximumDistance: 3000 #1000 Lua
+  spawnGamePreset: [ LuaAdventure ]
+  spawnGroup: Required
+  gridPath: /Maps/_Lua/Luna/nfsd.yml
+  addComponents:
+  - type: IFF
+    color: "#ae7d57"
+  - type: ProtectedGrid
+    preventEmpEvents: true
+  - type: StationTransit
+    routes:
+      SpawnPoints: 10
+
+- type: gameMap
+  id: LunaNfsd
+  mapName: 'Аванспост ДСБФ'
+  mapPath: /Maps/_Lua/Luna/nfsd.yml
+  minPlayers: 0
+  stations:
+    LunaNfsd:
+      stationProto: SecurityFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Аванспост ДСБФ'
+        - type: ExtraStationInformation
+          iconPath: /Textures/_NF/Structures/Decoration/banner.rsi/nfsd-banner.png
+          stationSubtext: 'frontier-lobby-nfsd-subtext'
+          stationDescription: 'frontier-lobby-nfsd-description'
+          lobbySortOrder: 2
+        - type: StationJobs
+          availableJobs:
+            Sheriff: [ 1, 1 ]
+            Bailiff: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
+            Brigmedic: [ 1, 1 ]
+            NFDetective: [ 1, 1 ]
+            Deputy: [ 3, 3 ]
+            Cadet: [ 2, 2 ]
+            # Others:
+            PublicAffairsLiaison: [ 1, 1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

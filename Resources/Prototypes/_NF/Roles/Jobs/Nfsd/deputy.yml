@@ -5,18 +5,21 @@
   playTimeTracker: JobSecurityOfficer
   salary: 40000
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600 # 6 hours
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 360000 # 100 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityGuard
-      time: 21600 # 6 hours as security guard
+  - !type:RoleTimeRequirement #Lua
+    role: Cadet
+    time: 72000 # 20h
+#    - !type:OverallPlaytimeRequirement # comment from _Lua
+#      time: 43200 # 12 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Security
+#      time: 21600 # 6 hours
+#  alternateRequirementSets:
+#    longerPlaytimeLessSec:
+#    - !type:OverallPlaytimeRequirement
+#      time: 360000 # 100 hours
+#    - !type:RoleTimeRequirement
+#      role: JobSecurityGuard
+#      time: 21600 # 6 hours as security guard
   startingGear: SDBaseLuaGear #Lua DeputyGear<SDBaseLuaGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant

@@ -1,9 +1,9 @@
 ent-NFPouchBase = сумка
   .suffix = Пустая
   .desc = Небольшая сумочка для хранения небольших вещей.
-ent-NFPouchContractor = сумка авантюриста
+ent-NFPouchContractor = сумка Гражданского
   .desc = { ent-NFPouchBase.desc }
-ent-NFPouchSr = сумка представителя фронтира
+ent-NFPouchSr = сумка Директора Исследований
   .desc = { ent-NFPouchBase.desc }
 ent-NFPouchCaptain = капитанская сумка
   .desc = { ent-NFPouchBase.desc }

@@ -34,7 +34,7 @@
   - type: Jetpack
     moleUsage: 0.00085
     weightlessModifier: 0.50
-    acceleration: 0.25
+#    acceleration: 0.25 # comment from _Lua
     friction: 0.5
     radarBlip: false
   - type: Appearance

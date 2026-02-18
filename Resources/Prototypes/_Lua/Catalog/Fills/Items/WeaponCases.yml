@@ -363,7 +363,7 @@
 
 - type: entity
   id: WeaponCaseLongL6Bundle
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   suffix: L6 5.56x45mm
   components:
   - type: StorageFill

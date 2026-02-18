@@ -7,7 +7,7 @@
   setPreference: true # Lua
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 9000 #2.5 hrs
+      time: 36000 #10 hrs #Lua 2.5<10
   startingGear: DoctorGear
   alwaysUseSpawner: true
   icon: "JobIconMedicalDoctor"

@@ -12,7 +12,6 @@
   category: Large
   group: ASBlackMarket
   whitelist:
-  - Luna
   - Frontier
   class:
   - Mercenary

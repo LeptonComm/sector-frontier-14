@@ -1,6 +1,6 @@
 ent-ClothingBackpackArcadia = аркадианский рюкзак
     .desc = Рюкзак производства Arcadia Industries
-ent-ClothingBackpackPilot = рюкзак пилота
+ent-ClothingBackpackPilot = рюкзак исследователя
     .desc = Рюкзак настоящего аса.
 ent-ClothingBackpackERTMailCarrier = рюкзак почтальона ОБР
     .desc = Просторный рюкзак с множеством карманов, который носят почтальоны из Отряда Быстрого Реагирования.

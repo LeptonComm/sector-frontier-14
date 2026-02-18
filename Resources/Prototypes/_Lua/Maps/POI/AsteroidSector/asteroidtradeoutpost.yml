@@ -8,7 +8,7 @@
   name: 'Чёрный Рынок'
   minimumDistance: 2500
   maximumDistance: 3500
-  spawnGroup: AsteroidMarketStation
+  spawnGroup: BlackmarketDefault
   gridPath: /Maps/_Lua/POI/BlackMarket.yml
   addComponents:
   - type: RadarBlipIcon
@@ -52,3 +52,45 @@
           availableJobs:
             Contractor: [ -1, -1 ]
             MercenaryBase: [ -1, -1 ]
+
+
+
+- type: pointOfInterest
+  id: LunaAsteroidTradeOutpost
+  parent: BasePOI
+  name: 'Чёрный Рынок'
+  minimumDistance: 2500
+  maximumDistance: 3500
+  spawnGroup: BlackmarketLuna
+  gridPath: /Maps/_Lua/POI/asteroidtradeoutpost.yml
+  addComponents:
+  - type: IFF
+    color: "#741010"
+  - type: StationTransit
+  - type: ProtectedGrid
+    preventArtifactTriggers: true
+  - type: SolarPoweredGrid
+    trackOnInit: true
+    doNotCull: true
+  - type: WorldGenDistanceCarver
+    distanceThresholds:
+      - maxDistance: 500
+        prob: 0.0
+      - maxDistance: 1000
+        prob: 0.3
+
+- type: gameMap
+  id: LunaAsteroidTradeOutpost
+  mapName: 'Чёрный Рынок'
+  mapPath: /Maps/_Lua/POI/asteroidtradeoutpost.yml
+  minPlayers: 0
+  stations:
+    LunaAsteroidTradeOutpost:
+      stationProto: MarketFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Trade Outpost'
+        - type: StationDeadDrop
+          maxDeadDrops: 3
+        - type: TradeCrateDestination
+          destinationProto: Trade

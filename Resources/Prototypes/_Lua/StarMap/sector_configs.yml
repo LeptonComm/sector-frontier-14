@@ -7,7 +7,7 @@
   worldgenConfig: AsteroidSectorDefault # будут ли в нашем секторе спавнится астероиды, тут указывается тип спавна астероидов, есть 2 типа Default где их минимум и AsteroidSectorDefault, где их обилие и большие размеры
   autoStart: true # Необходим для основной группы секторов, более понятно для чего и зачем не буду пояснять, просто включайте если используете в стандартном режиме игры, выключить если не нужно загружать сектор
   defaultGamePreset: NFPirate # Режим игры который мы используем по дефолту на нашем фронтире
-  requiredGamePresets: [ NFPirate, LuaAdventure ] # Сектор будет автоматически загружаться только в перечисленных режимах
+  requiredGamePresets: [ NFPirate ] # Сектор будет автоматически загружаться только в перечисленных режимах
 #  parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default, Xmas ] # задний фон сектора, выбирается случайным образом
   parallaxPool: [ Tortuga, LuaDarkSpace ] #Lua
   deadDropEnabled: true # Включаем систему DeadDrop для сектора
@@ -17,12 +17,34 @@
   poiGroups: # Ниже перечисляем точки интереса что будут раундстартом в секторе, их id и настройку можно получить из PointOfInterest в папке NF прототипов (либо Lua)
   - group: AsteroidRequired # Группа рекомендаций сектора
     count: 0 # если 0 то спавнится каждый по одному
+  - group: BlackmarketDefault
+    count: 2
   - group: CargoDepot
     count: 4
-    ring: true # Спавн по окружности вокруг цвентра
-  - group: AsteroidMarketStation
-    count: 2
+    ring: true # Спавн по окружности вокруг центра
 #Я рассказал базовые настройки на основе главного сектора, дальше ничего особого, я упростил код и дал больше инструментов но я крайне рекомендую быть осторожным при создании секторов, данная логика и её поведение непредсказуемое, я постарался сделать больше фоллбеков чтобы обезопасить сервер от возможных проблем но человеческий фактор непредсказуем.
+
+- type: sectorSystemPrototype
+  id: AsteroidSectorLuna
+  name: "Поле Астероидов"
+  station: Beacon
+  worldgenConfig: AsteroidSectorDefault
+  autoStart: true
+  defaultGamePreset: LuaAdventure
+  requiredGamePresets: [ LuaAdventure ]
+  parallaxPool: [ MercenaryPlanet, LuaDarkSpace, LuaSpace, AspidParallax, BagelStation, CoreStation, OriginStation, TrainStation, KettleStation, Sky, Asteroids, Default, Xmas ]
+  deadDropEnabled: true
+  deadDropCount: 8
+  starmapPosition: 3.0, 4.8
+  starmapColor: "#c3cf18"
+  poiGroups:
+  - group: AsteroidRequired
+    count: 0
+  - group: BlackmarketLuna
+    count: 2
+  - group: CargoDepot
+    count: 4
+    ring: true
 
 - type: sectorSystemPrototype
   id: TypanSector
@@ -79,7 +101,7 @@
   defaultGamePreset: NFPirate
   requiredGamePresets: [ NFPirate ]
   parallaxPool: [ Tortuga ]
-  deadDropEnabled: true
+  deadDropEnabled: false
   deadDropCount: 2
   starmapPosition: 6.6, -6.5
   starmapColor: "#8A6642"
@@ -110,18 +132,18 @@
   starmapPosition: 6.6, -6.5
   starmapColor: "#8A6642"
 
-#- type: sectorSystemPrototype # comment from _Lua
-#  id: MercenarySector
-#  name: "Сектор Наёмников"
-#  station: MercMap
-#  autoStart: true
-#  defaultGamePreset: NFPirate
-#  requiredGamePresets: [ NFPirate, LuaAdventure ]
-#  parallaxPool: [ MercenaryPlanet, Sky ]
-#  deadDropEnabled: true
-#  deadDropCount: 1
-#  starmapPosition: -6.8, -6.2
-#  starmapColor: "#182faf"
+- type: sectorSystemPrototype
+  id: MercenarySector
+  name: "Сектор Наёмников"
+  station: MercMap
+  autoStart: true
+  defaultGamePreset: LuaAdventure
+  requiredGamePresets: [ LuaAdventure ]
+  parallaxPool: [ MercenaryPlanet, Sky ]
+  deadDropEnabled: true
+  deadDropCount: 1
+  starmapPosition: -6.8, -6.2
+  starmapColor: "#182faf"
 
 - type: sectorSystemPrototype
   id: ShipVsShipRed

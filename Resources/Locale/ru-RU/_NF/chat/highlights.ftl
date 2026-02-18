@@ -1,4 +1,4 @@
-highlights-station-representative = Представитель Фронтира, "ПФ", представитель станции
+highlights-station-representative = Директор Исследований, "ДИ", директор
 highlights-station-traffic-controller = Диспетчер Аванпоста, "ДА", диспетчер, трафик, контроль
 highlights-valet = камердинер
 highlights-mail-carrier = почтальон, почта

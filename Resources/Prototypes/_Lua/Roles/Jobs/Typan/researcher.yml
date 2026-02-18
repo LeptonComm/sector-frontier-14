@@ -14,26 +14,18 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateAtmosTech
-    #   time: 29600
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateMedic
-    #   time: 25600
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateScience
-    #   time: 32500
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateBotanist
-    #   time: 33600
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 39000
-    - !type:DepartmentTimeRequirement
-      department: Civilian
-      time: 43000
-    - !type:OverallPlaytimeRequirement
-      time: 360000
+  - !type:RoleTimeRequirement
+    role: Pilot
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: Contractor
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: FrontierEngineer
+    time: 72000 # 20h
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 72000 # 20h
   access:
   - SyndicateAgent
   - NuclearOperative

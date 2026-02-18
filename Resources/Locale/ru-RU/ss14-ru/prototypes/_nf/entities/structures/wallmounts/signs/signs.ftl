@@ -1,7 +1,7 @@
 ent-BaseSignDirectionalNF = { ent-BaseSignDirectional }
     .desc = { ent-BaseSignDirectional.desc }
 ent-SignDirectionalSr = знак "ПФ"
-    .desc = Этот указатель покажет вам путь к офису представителя фронтира. Следуйте за стрелкой и не заблудитесь!
+    .desc = Этот указатель покажет вам путь к офису Директора Исследований. Следуйте за стрелкой и не заблудитесь!
 ent-SignDirectionalCB1 = карго док 1
     .desc = Знак указывает путь к первому грузовому доку. Если ищете своё отправление, двигайтесь в этом направлении!
 ent-SignDirectionalCB2 = карго док 2

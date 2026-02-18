@@ -4,14 +4,9 @@
   description: job-description-sc-soldier
   playTimeTracker: JobSCSoldier
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 86400 # 24 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 29800 # 3 hrs
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 43200 # 12 hours
+  - !type:RoleTimeRequirement
+    role: SeniorOfficer
+    time: 72000 # 20h
   startingGear: SCSoldierGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

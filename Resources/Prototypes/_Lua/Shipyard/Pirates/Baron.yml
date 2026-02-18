@@ -12,7 +12,6 @@
   category: Large
   group: BlackMarket
   whitelist:
-  - Luna
   - Frontier
   class:
   - Pirate
@@ -27,6 +26,40 @@
   minPlayers: 0
   stations:
     Baron:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Baron {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+
+
+
+- type: vessel
+  parent: BaseVessel
+  id: LunaBaron
+  name: Baron
+  description: Грозный пиратский флагман с химическим оборудованием, для комфортного грабежа.
+  limit: 2
+  price: 290000
+  category: Large
+  group: BlackMarket
+  whitelist:
+  - Luna
+  class:
+  - Pirate
+  engine:
+  - AME
+  shuttlePath: /Maps/_Lua/Shuttles/Luna/Baron.yml
+
+- type: gameMap
+  id: LunaBaron
+  mapName: 'Baron'
+  mapPath: /Maps/_Lua/Shuttles/Luna/Baron.yml
+  minPlayers: 0
+  stations:
+    LunaBaron:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup

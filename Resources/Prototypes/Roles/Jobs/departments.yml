@@ -121,6 +121,7 @@
   # - TechnicalAssistant # Frontier
   - PlantManager # Frontier
   - PlantTechnician # Frontier
+  - FrontierEngineer #Lua
 
 - type: department
   id: Medical

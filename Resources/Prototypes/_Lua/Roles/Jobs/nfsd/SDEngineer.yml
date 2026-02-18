@@ -3,22 +3,13 @@
   name: job-name-nfsd-engineer
   description: job-description-nfsd-engineer
   playTimeTracker: JobNfsdEngineer
-  salary: 35000
+  salary: 40000
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600 # 6 hours
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 360000 # 100 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityGuard
-      time: 21600 # 6 hours as security guard
+  - !type:RoleTimeRequirement #Lua
+    role: Deputy
+    time: 72000 # 20h
   startingGear: SDBaseLuaGear
-  icon: JobIconSDEngineerNF #
+  icon: JobIconSDEngineerNF
   supervisors: job-supervisors-bailiff
   weight: 125
   displayWeight: 35

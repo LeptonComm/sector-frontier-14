@@ -1,4 +1,4 @@
-ent-SpawnPointContractor = авантюрист
+ent-SpawnPointContractor = Гражданский
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointMercenary = наёмник
     .desc = { ent-SpawnPointJobBase.desc }
@@ -16,7 +16,7 @@ ent-SpawnPointSecurityGuard = охранник аванпоста
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointERTMailCarrier = почтальон ОБР
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointStationRepresentative = представитель фронтира
+ent-SpawnPointStationRepresentative = Директор Исследований
     .desc = { ent-SpawnPointHeadOfPersonnel.desc }
 ent-SpawnPointSheriff = Полковник
     .desc = { ent-SpawnPointHeadOfSecurity.desc }

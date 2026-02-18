@@ -3,6 +3,57 @@
 # See AGPLv3.txt for details.
 
 - type: guideEntry
+  id: DSRulesIC
+  name: СРП и Космический Закон
+  priority: -2
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRules.xml"
+  children:
+  - DSJobRulesERC
+  - DSJobRulesSD
+  - DSRegulations
+  - DSJobRulesMerc
+  - DSJobRulesSС
+  - DSJobGuides
+
+- type: guideEntry
+  id: DSJobRulesERC
+  name: Экспедиционно-Исследовательский Корпус NT
+  priority: 1
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesERC.xml"
+
+- type: guideEntry
+  id: DSJobRulesSD
+  name: Служба Разведки и Безопасности Сектора
+  priority: 2
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesSD.xml"
+
+- type: guideEntry
+  id: DSRegulations
+  name: Положения и Режимные Приказы
+  priority: 3
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSRegulations.xml"
+
+- type: guideEntry
+  id: DSJobRulesMerc
+  name: Кодекс Наёмника
+  priority: 4
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesMerc.xml"
+
+- type: guideEntry
+  id: DSJobRulesSС
+  name: Кодекс Бури
+  priority: 5
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesSС.xml"
+
+- type: guideEntry
+  id: DSJobGuides
+  name: Гайды и советы по отыгрышу
+  priority: 6
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobGuides.xml"
+
+
+
+- type: guideEntry
   id: DeadSpaceFrontierRuleset
   name: Правила сервера
   priority: 0
@@ -56,42 +107,42 @@
   id: DSFrontierRule0
   name: Правило 0
   priority: 1
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule0.xml"
 
 - type: guideEntry
   id: DSFrontierRule1
   name: Правило 1
   priority: 2
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule1.xml"
 
 - type: guideEntry
   id: DSFrontierRule2
   name: Правило 2
   priority: 3
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule2.xml"
 
 - type: guideEntry
   id: DSFrontierRule3
   name: Правило 3
   priority: 4
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule3.xml"
 
 - type: guideEntry
   id: DSFrontierRule4
   name: Правило 4
   priority: 5
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule4.xml"
 
 - type: guideEntry
   id: DSFrontierRule5
   name: Правило 5
   priority: 6
-  ruleEntry: true
+  #ruleEntry: true
   text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesOOC/DSFrontierRule5.xml"
 
 #- type: guideEntry

@@ -14,20 +14,18 @@
   canBeAntag: false
   hideConsoleVisibility: true
   requirements:
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateMedic
-    #   time: 20600
-    # - !type:RoleTimeRequirement
-    #   role: JobOutpostSyndicateScience
-    #   time: 12600
-    - !type:DepartmentTimeRequirement
-      department: Civilian
-      time: 40000
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 25000
-    - !type:OverallPlaytimeRequirement
-      time: 360000
+  - !type:RoleTimeRequirement
+    role: Pilot
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: Contractor
+    time: 72000 # 20h
+  - !type:RoleTimeRequirement
+    role: FrontierEngineer
+    time: 72000 # 20h
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 72000 # 20h
   access:
   - SyndicateAgent
   - NuclearOperative

@@ -1,4 +1,4 @@
-job-supervisors-sr = представителю фронтира
+job-supervisors-sr = Директору Исследований
 job-supervisors-sheriff = Полковнику
 job-supervisors-bailiff = помощнику Полковника
 job-supervisors-sergeant = лейтенанту

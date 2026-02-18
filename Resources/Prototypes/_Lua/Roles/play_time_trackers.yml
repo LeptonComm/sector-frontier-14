@@ -154,3 +154,6 @@
 
 - type: playTimeTracker
   id: JobSCCaptain
+
+- type: playTimeTracker
+  id: JobFrontierEngineer

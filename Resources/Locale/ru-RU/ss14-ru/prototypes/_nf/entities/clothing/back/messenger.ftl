@@ -1,4 +1,4 @@
-ent-ClothingBackpackMessengerContractor = сумка авантюриста
+ent-ClothingBackpackMessengerContractor = сумка Гражданского
     .desc = Модная сумка-мессенджер в стильной цветовой гамме.
 ent-ClothingBackpackMessenger = мессенджер
     .desc = Модный мессенджер.
@@ -38,7 +38,7 @@ ent-ClothingBackpackMessengerMailCarrier = мессенджер почтальо
     .desc = Прочная курьерская сумка для борьбы против недоставленной почты.
 ent-ClothingBackpackMessengerChaplain = мессенджер священника
     .desc = Модная сумка-мессенджер в стильной цветовой гамме.
-ent-ClothingBackpackMessengerPilot = мессенджер пилота
+ent-ClothingBackpackMessengerPilot = мессенджер исследователя
     .desc = Прочная сумка для хранения запасных деталей шаттла.
 ent-ClothingBackpackMessengerMercenary = мессенджер наёмника
     .desc = Прочная сумка для военных преступлений.

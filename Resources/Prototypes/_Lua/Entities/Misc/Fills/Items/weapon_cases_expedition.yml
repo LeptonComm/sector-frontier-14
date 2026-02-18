@@ -181,7 +181,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponLMG
   categories: [ HideSpawnMenu ]
   components:
@@ -733,7 +733,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongN14WeaponLaserGatling
   categories: [ HideSpawnMenu ]
   components:
@@ -1307,7 +1307,7 @@
       amount: 1
 
 - type: entity
-  parent: WeaponCaseLong
+  parent: WeaponCaseHeavy
   id: WeaponCaseLongWeaponLaserCannon
   categories: [ HideSpawnMenu ]
   components:

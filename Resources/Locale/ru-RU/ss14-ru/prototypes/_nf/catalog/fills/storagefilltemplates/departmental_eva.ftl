@@ -1,6 +1,6 @@
-ent-StorageFillEVASuitContractor = хранилище скафандра авантюриста
+ent-StorageFillEVASuitContractor = хранилище скафандра Гражданского
     .desc = Содержит полный набор для выхода в открытый космос.
-ent-StorageFillEVASuitPilot = хранилище скафандра пилота
+ent-StorageFillEVASuitPilot = хранилище скафандра исследователя
     .desc = Содержит полный набор для выхода в открытый космос.
 ent-StorageFillEVASuitSr = хранилище скафандра представителя
     .desc = Содержит полный набор для выхода в открытый космос.

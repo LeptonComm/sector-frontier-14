@@ -4,17 +4,9 @@
   description: job-description-sc-captain
   playTimeTracker: JobSCCaptain
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 172800 # 48 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 57600 # 16 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 29800 # 3 hours
-    - !type:RoleTimeRequirement
-      role: JobSCSoldier
-      time: 21800 # 3 hours
+  - !type:RoleTimeRequirement
+    role: StormCreedFirstmate
+    time: 72000 # 20h
   startingGear: StormCreedCaptainGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

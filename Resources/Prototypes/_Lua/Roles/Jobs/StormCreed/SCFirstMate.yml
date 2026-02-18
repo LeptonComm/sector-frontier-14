@@ -4,17 +4,9 @@
   description: job-description-sc-firstmate
   playTimeTracker: JobSCFirstMate
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 129600 # 36 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 29800 # 3 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 57600 # 16 hours
-    - !type:RoleTimeRequirement
-      role: JobSCSoldier
-      time: 21600 # 6 hours
+  - !type:RoleTimeRequirement
+    role: StormCreedSoldier
+    time: 72000 # 20h
   startingGear: SCFirstMateGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
