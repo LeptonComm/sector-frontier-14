@@ -43,17 +43,17 @@
           lobbySortOrder: 2
         - type: StationJobs
           availableJobs:
-            Sheriff: [ 1, 1 ]
-            Bailiff: [ 1, 1 ]
-            SeniorOfficer: [ 2, 2 ]
-            Brigmedic: [ 2, 2 ]
+            DSSheriff: [ 1, 1 ]
+            DSBailiff: [ 1, 1 ]
+            DSSeniorOfficer: [ 2, 2 ]
+            DSBrigmedic: [ 2, 2 ]
             SDEngineer: [ 2, 2 ]
 #            NFDetective: [ 1, 1 ]
-            Deputy: [ 4, 4 ]
-            Cadet: [ 8, 8 ]
+            DSDeputy: [ 4, 4 ]
+            DSCadet: [ 8, 8 ]
             # Others:
 #            PublicAffairsLiaison: [ 1, 1 ]
-            Prisoner: [ 0, 0 ]
+#            Prisoner: [ 0, 0 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity
@@ -77,9 +77,6 @@
     color: "#ae7d57"
   - type: ProtectedGrid
     preventEmpEvents: true
-  - type: StationTransit
-    routes:
-      SpawnPoints: 10
 
 - type: gameMap
   id: LunaNfsd

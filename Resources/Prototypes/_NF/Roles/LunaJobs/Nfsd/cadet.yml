@@ -1,20 +1,17 @@
 - type: job
-  id: DSCadet
+  id: Cadet
   name: job-name-cadet-nf
   description: job-description-cadet-nf
   playTimeTracker: JobSecurityCadet
-  salary: 30000 #Lua 35000<30000
+  salary: 35000
   requirements:
-  - !type:RoleTimeRequirement #Lua
-    role: DSPilot
-    time: 72000 # 20h
-#    - !type:OverallPlaytimeRequirement # comment from _Lua
-#      time: 21600 # 6 hours
-#    - !type:DepartmentTimeRequirement
-#      department: Security
-#      time: 64800 # 18 hours
-#      inverted: true # Leave slots open for newer, less confident players.
-  startingGear: SDBaseLuaGear #Lua CadetGear<SDBaseLuaGear
+    - !type:OverallPlaytimeRequirement
+      time: 21600 # 6 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 64800 # 18 hours
+      inverted: true # Leave slots open for newer, less confident players.
+  startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet
   weight: 70
@@ -33,8 +30,20 @@
       - type: Company
         companyName: Security
 
+- type: startingGear
+  id: CadetGear
+  equipment:
+    pocket1: NFWeaponPistolUniversalNfsdLessLethal
+    pocket2: BookSecurity
+  storage:
+    back:
+    - Flash
+    - Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+    - Magazine9x19mmPistolHighCapacityRubber #Lua 35 -> 9x19
+    - FrontierUplinkCoin10
+
 - type: chameleonOutfit
-  id: DSCadetChameleonOutfit
+  id: CadetChameleonOutfit
   job: Cadet
   hasMindShield: true
   equipment:

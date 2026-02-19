@@ -1,12 +1,12 @@
 - type: job
-  id: DSValet
+  id: Valet
   name: job-name-valet
   description: job-description-valet
   playTimeTracker: JobValet
-  salary: 35000 #Lua 25000<35000
+  salary: 25000
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 #Lua 10800<36000 (10 часов ~= 2 смены)
+      time: 10800
   startingGear: ValetGear
   alwaysUseSpawner: true
   icon: "JobIconValet"
@@ -26,8 +26,21 @@
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
 
+- type: startingGear
+  id: ValetGear
+  equipment:
+    head: ClothingHeadHatBellhop
+    gloves: ClothingHandsGlovesColorWhite
+    id: ValetPDA
+  storage:
+    back:
+    - ShipVoucherFrontierValet
+  encryptionKeys:
+  - EncryptionKeyGreeting
+  - EncryptionKeyService
+
 - type: chameleonOutfit
-  id: DSValetChameleonOutfit
+  id: ValetChameleonOutfit
   job: Valet
   hasMindShield: true
   equipment:

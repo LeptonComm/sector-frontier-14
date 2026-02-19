@@ -1,26 +1,41 @@
 - type: department
-  id: Frontier
+  id: DSCivilian
+  name: department-service
+  description: department-service-description
+  color: "#334E6D"
+  weight: 50 # accounted for in jobs
+  roles:
+  - DSPilot
+  - DSContractor
+  - DSMercenary
+
+- type: department
+  id: DSFrontier
   name: department-Frontier
   description: department-NF-description
   color: "#334E6D"
   weight: 50 # accounted for in jobs
   roles:
-  - StationRepresentative
-  - DirectorOfCare
-  - StationTrafficController
-  - Valet # nyano
-  - NFJanitor
-  - MailCarrier # nyano
-  - SecurityGuard
+  - DSStationRepresentative
+  - DSDirectorOfCare
+  - DSValet # nyano
+  - DSSecurityGuard
+  - FrontierEngineer #Lua
+  - DSChemist #Lua
+  - DSMedicalDoctor
+  - DSParamedic
 
-#- type: department
-#  id: Antag
-#  name: department-Antag
-#  description: department-NFAntag-description
-#  color: "#DE3A3A"
-#  weight: -20 # accounted for in jobs
-#  roles:
-#  - NFPirateCaptain
-#  - NFPirateFirstMate
-#  - NFPirate
-#  - Prisoner #nyano
+- type: department
+  id: DSNFSD
+  name: department-security
+  description: department-security-description
+  color: "#334E6D"
+  weight: 50 # accounted for in jobs
+  roles:
+  - DSSheriff
+  - DSBailiff
+  - DSSeniorOfficer
+  - DSBrigmedic
+  - SDEngineer
+  - DSDeputy
+  - DSCadet

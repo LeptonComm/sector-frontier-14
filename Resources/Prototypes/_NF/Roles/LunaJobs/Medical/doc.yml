@@ -1,24 +1,21 @@
 - type: job
-  id: DSDirectorOfCare
+  id: DirectorOfCare
   name: job-name-doc
   description: job-description-doc
   playTimeTracker: JobDirectorOfCare
   salary: 80000
   requirements:
     - !type:RoleTimeRequirement
-      role: DSJobChemist
-      time: 36000 # 10 hours #Lua 21600<36000
+      role: JobChemist
+      time: 21600 # 6 hours
     - !type:RoleTimeRequirement
-      role: DSJobParamedic
-      time: 36000 # 10 hours #Lua 21600<36000
+      role: JobParamedic
+      time: 21600 # 6 hours
     - !type:RoleTimeRequirement
-      role: DSJobMedicalDoctor
-      time: 36000 # 10 hours #Lua 21600<36000
-    - !type:DepartmentTimeRequirement #Lua
-      department: Medical
-      time: 144000
-#    - !type:OverallPlaytimeRequirement
-#      time: 72000 # 20 hrs
+      role: JobMedicalDoctor
+      time: 21600 # 6 hours
+    - !type:OverallPlaytimeRequirement
+      time: 72000 # 20 hrs
   whitelisted: false
   startingGear: DocGear
   alwaysUseSpawner: true
@@ -45,8 +42,20 @@
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
 
+- type: startingGear
+  id: DocGear
+  equipment:
+    pocket1: HypoMini
+    pocket2: MedicalAppraisalTool
+  storage:
+    back:
+    - StationAdministrationConsoleFlatpack
+    - MobileComputerTabletopCommsFlatpack
+    - BoxFolderMedicalDoctor
+    - RubberStampDoc
+
 - type: chameleonOutfit
-  id: DSDirectorOfCareChameleonOutfit
+  id: DirectorOfCareChameleonOutfit
   job: DirectorOfCare
   hasMindShield: true
   equipment:

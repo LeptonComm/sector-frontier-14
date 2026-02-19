@@ -1,22 +1,22 @@
 - type: job
-  id: DSChemist
-  name: job-name-chemist
-  description: job-description-chemist
-  playTimeTracker: JobChemist
-  salary: 45000
+  id: Paramedic
+  name: job-name-paramedic
+  description: job-description-paramedic
+  playTimeTracker: JobParamedic
+  salary: 70000
   setPreference: true # Lua
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 36000 #10 hrs #Lua 5<10
-  startingGear: ChemistGear
+  - !type:DepartmentTimeRequirement
+    department: Medical
+    time: 9000 #2.5 hrs
+  startingGear: ParamedicGear
   alwaysUseSpawner: true
-  icon: "JobIconChemist"
+  icon: "JobIconParamedic"
   supervisors: job-supervisors-mmo # Frontier
   access:
   - Medical
-  - Chemistry
   - Maintenance
+  - Paramedic
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
@@ -28,23 +28,22 @@
         companyName: Nanotrasen
 
 - type: startingGear
-  id: ChemistGear
+  id: ParamedicGear
   equipment:
-    id: ChemistryPDA
+    id: ParamedicPDA
     ears: ClothingHeadsetMedical
-    belt: ChemBag
-    pocket1: HandLabeler
-    eyes: ClothingEyesGlassesChemical
-  #storage:
-    #back:
-    #- Stuff
+    belt: ClothingBeltMedicalEMTFilled
+  storage:
+    back:
+    - EmergencyRollerBedSpawnFolded
 
 - type: chameleonOutfit
-  id: DSChemistChameleonOutfit
-  job: Chemist
+  id: ParamedicChameleonOutfit
+  job: Paramedic
   equipment:
-    head: ClothingHeadHatBeretMedic
+    head: ClothingHeadHatParamedicsoft
+    eyes: ClothingEyesHudMedical
     mask: ClothingMaskSterile
     neck: ClothingNeckStethoscope
-    outerClothing: ClothingOuterCoatLabChem
+    outerClothing: ClothingOuterCoatParamedicWB
     gloves: ClothingHandsGlovesLatex

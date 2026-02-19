@@ -1,5 +1,5 @@
 - type: job
-  id: DSChemist
+  id: Chemist
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
@@ -8,7 +8,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 36000 #10 hrs #Lua 5<10
+      time: 18000 #5 hrs
   startingGear: ChemistGear
   alwaysUseSpawner: true
   icon: "JobIconChemist"
@@ -40,7 +40,7 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: DSChemistChameleonOutfit
+  id: ChemistChameleonOutfit
   job: Chemist
   equipment:
     head: ClothingHeadHatBeretMedic

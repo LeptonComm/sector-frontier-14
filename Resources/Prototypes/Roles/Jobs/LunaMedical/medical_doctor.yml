@@ -1,5 +1,5 @@
 - type: job
-  id: DSMedicalDoctor
+  id: MedicalDoctor
   name: job-name-doctor
   description: job-description-doctor
   playTimeTracker: JobMedicalDoctor
@@ -7,7 +7,7 @@
   setPreference: true # Lua
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000 #10 hrs #Lua 2.5<10
+      time: 9000 #2.5 hrs
   startingGear: DoctorGear
   alwaysUseSpawner: true
   icon: "JobIconMedicalDoctor"
@@ -41,7 +41,7 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: DSMedicalDoctorChameleonOutfit
+  id: MedicalDoctorChameleonOutfit
   job: MedicalDoctor
   equipment:
     head: ClothingHeadNurseHat

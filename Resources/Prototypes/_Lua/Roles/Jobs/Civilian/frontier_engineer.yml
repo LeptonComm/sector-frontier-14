@@ -24,3 +24,15 @@
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
+
+- type: chameleonOutfit
+  id: FrontierEngineerChameleonOutfit
+  job: FrontierEngineer
+  hasMindShield: true
+  equipment:
+    head: ClothingHeadHatHardhatYellow
+    mask: ClothingMaskBreath
+    neck: ClothingNeckScarfStripedOrange
+    outerClothing: ClothingOuterWinterEngi
+    gloves: ClothingHandsGlovesColorYellow
+    shoes: ClothingShoesBootsMag

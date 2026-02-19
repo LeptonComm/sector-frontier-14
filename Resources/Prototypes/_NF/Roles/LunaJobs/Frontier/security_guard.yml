@@ -1,15 +1,12 @@
 - type: job
-  id: DSSecurityGuard
+  id: SecurityGuard
   name: job-name-security-guard
   description: job-description-security-guard
   playTimeTracker: JobSecurityGuard
-  salary: 50000
+  salary: 40500
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # Frontier - 10 hrs
-    - !type:DepartmentTimeRequirement #Lua
-      department: Frontier
-      time: 36000
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
   icon: "JobIconSecurityGuard"
@@ -37,8 +34,25 @@
       - type: Company
         companyName: Security
 
+- type: startingGear
+  id: SecurityGuardGear
+  equipment:
+    eyes: ClothingEyesGlassesSunglasses #ClothingEyesGlassesSecurity
+    pocket1: NFWeaponPistolUniversalNfsdLessLethal
+    pocket2: Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+  storage:
+    back:
+    - Flash
+    - Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+    - Magazine9x19mmPistolHighCapacityRubber #Lua 35 -> 9x19
+    - ShipVoucherFrontierGuard
+  encryptionKeys:
+  - EncryptionKeyService
+  - EncryptionKeySecurity
+
+
 - type: chameleonOutfit
-  id: DSSecurityGuardChameleonOutfit
+  id: SecurityGuardChameleonOutfit
   job: SecurityGuard
   hasMindShield: true
   equipment:
