@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseCartridge9x19mm
+  id: DSBaseCartridge9x19mm
   name: cartridge (9x19mm FMJ)
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: Generic pistol round. Easy to handle, with a decent effect on unarmored flesh.
@@ -11,7 +11,7 @@
       - Cartridge9x19mmFMJ
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet9x19mmFMJ
+    proto: DSBullet9x19mmFMJ
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -25,20 +25,22 @@
 
 # Standart
 - type: entity
-  id: Cartridge9x19mmFMJ
+  id: DSCartridge9x19mmFMJ
   name: cartridge (9x19mm FMJ)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmFMJ
+    proto: DSBullet9x19mmFMJ
 
 - type: entity
-  id: Cartridge9x19mmPractice
+  id: DSCartridge9x19mmPractice
   name: cartridge (9x19mm practice)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmPractice
+    proto: DSBullet9x19mmPractice
   -  type: Sprite
      layers:
        - state: base
@@ -48,12 +50,13 @@
          color: "#dbdbdb"
 
 - type: entity
-  id: Cartridge9x19mmRubber
+  id: DSCartridge9x19mmRubber
   name: cartridge (9x19mm rubber)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmRubber
+    proto: DSBullet9x19mmRubber
   - type: Sprite
     layers:
       - state: base
@@ -64,12 +67,13 @@
 
 # Mechanical
 - type: entity
-  id: Cartridge9x19mmHP
+  id: DSCartridge9x19mmHP
   name: cartridge (9x19mm hollow-point)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmHP
+    proto: DSBullet9x19mmHP
   - type: Sprite
     layers:
       - state: base
@@ -80,12 +84,13 @@
 
 # Physical
 - type: entity
-  id: Cartridge9x19mmIncendiary
+  id: DSCartridge9x19mmIncendiary
   name: cartridge (9x19mm Incendiary)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmIncendiary
+    proto: DSBullet9x19mmIncendiary
   - type: Sprite
     layers:
       - state: base
@@ -95,12 +100,13 @@
         color: "#f44336"
 
 - type: entity
-  id: Cartridge9x19mmUranium
+  id: DSCartridge9x19mmUranium
   name: cartridge (9x19mm Uranium)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmUranium
+    proto: DSBullet9x19mmUranium
   - type: Sprite
     layers:
       - state: base
@@ -111,12 +117,13 @@
 
 # Special
 - type: entity
-  id: Cartridge9x19mmEmp
+  id: DSCartridge9x19mmEmp
   name: cartridge (9x19mm EMP)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmEmp
+    proto: DSBullet9x19mmEmp
   - type: Sprite
     layers:
       - state: base
@@ -130,12 +137,13 @@
 #    disableDuration: 10
 
 - type: entity
-  id: Cartridge9x19mmCaustic
+  id: DSCartridge9x19mmCaustic
   name: cartridge (9x19mm Caustic)
-  parent: BaseCartridge9x19mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge9x19mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet9x19mmCaustic
+    proto: DSBullet9x19mmCaustic
   - type: Sprite
     layers:
       - state: base
@@ -143,34 +151,3 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#8b9229"
-
-# Out of balance
-- type: entity
-  id: Cartridge9x19mmRIP
-  name: cartridge (9x19mm RIP)
-  parent: BaseCartridge9x19mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet9x19mmRIP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#C04000"
-
-- type: entity
-  id: Cartridge9x19mmPlasteelAP
-  name: cartridge (9x19mm AP)
-  parent: BaseCartridge9x19mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet9x19mmPlasteelAP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#888888"

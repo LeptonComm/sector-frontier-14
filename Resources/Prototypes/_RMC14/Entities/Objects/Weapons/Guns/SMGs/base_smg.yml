@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [CMBaseWeaponRifleUnwieldable] #Lua BaseGunWieldable; CMBaseWeaponRifle<CMBaseWeaponRifleUnwieldable
-  id: CMBaseWeaponSMG
+  id: DSCMBaseWeaponSMG
   components:
   - type: Item
     size: Large
@@ -31,14 +31,14 @@
 
 - type: entity
   parent: BaseCartridgeCaselessRifle
-  id: CMCartridgeSMGBase
+  id: DSCMCartridgeSMGBase
   abstract: true
   components:
   - type: CartridgeAmmo
     deleteOnSpawn: true
 
 - type: Tag
-  id: RMCWeaponSMG
+  id: DSRMCWeaponSMG
 
 - type: Tag
-  id: CMMagazineSmg
+  id: DSCMMagazineSmg

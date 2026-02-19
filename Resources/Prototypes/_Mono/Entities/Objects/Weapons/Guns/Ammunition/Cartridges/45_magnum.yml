@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseCartridge45_magnum
+  id: DSBaseCartridge45_magnum
   name: cartridge (.45 magnum)
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: Heavy magnum round, usually only seen in magnums or manually-cycled rifles.
@@ -11,7 +11,7 @@
       - Cartridge45_magnumFMJ
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet45_magnumFMJ
+    proto: DSBullet45_magnumFMJ
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -24,20 +24,22 @@
 
 # Standart
 - type: entity
-  id: Cartridge45_magnumFMJ
+  id: DSCartridge45_magnumFMJ
   name: cartridge (.45 magnum)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumFMJ
+    proto: DSBullet45_magnumFMJ
 
 - type: entity
-  id: Cartridge45_magnumPractice
+  id: DSCartridge45_magnumPractice
   name: cartridge (.45 magnum practice)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumPractice
+    proto: DSBullet45_magnumPractice
   - type: Sprite
     layers:
       - state: base
@@ -47,12 +49,13 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: Cartridge45_magnumRubber
+  id: DSCartridge45_magnumRubber
   name: cartridge (.45 magnum rubber)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumRubber
+    proto: DSBullet45_magnumRubber
   - type: Sprite
     layers:
       - state: base
@@ -63,12 +66,13 @@
 
 # Mechanical
 - type: entity
-  id: Cartridge45_magnumHP
+  id: DSCartridge45_magnumHP
   name: cartridge (.45 magnum hollow-point)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumHP
+    proto: DSBullet45_magnumHP
   - type: Sprite
     layers:
       - state: base
@@ -79,12 +83,13 @@
 
 # Physical
 - type: entity
-  id: Cartridge45_magnumIncendiary
+  id: DSCartridge45_magnumIncendiary
   name: cartridge (.45 magnum Incendiary)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumIncendiary
+    proto: DSBullet45_magnumIncendiary
   - type: Sprite
     layers:
       - state: base
@@ -94,12 +99,13 @@
         color: "#f44336"
 
 - type: entity
-  id: Cartridge45_magnumUranium
+  id: DSCartridge45_magnumUranium
   name: cartridge (.45 magnum Uranium)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumUranium
+    proto: DSBullet45_magnumUranium
   - type: Sprite
     layers:
       - state: base
@@ -110,12 +116,13 @@
 
 # Special
 - type: entity
-  id: Cartridge45_magnumEMP
+  id: DSCartridge45_magnumEMP
   name: cartridge (.45 magnum EMP)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumEMP
+    proto: DSBullet45_magnumEMP
   - type: Sprite
     layers:
       - state: base
@@ -125,12 +132,13 @@
         color: "#044492"
 
 - type: entity
-  id: Cartridge45_magnumCaustic
+  id: DSCartridge45_magnumCaustic
   name: cartridge (.45 magnum Caustic)
-  parent: BaseCartridge45_magnum
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
-    proto: Bullet45_magnumCaustic
+    proto: DSBullet45_magnumCaustic
   - type: Sprite
     layers:
       - state: base
@@ -138,49 +146,3 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#8b9229"
-
-# Out of balance
-- type: entity
-  id: Cartridge45_magnumRIP
-  name: cartridge (.45 magnum RIP)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumRIP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#C04000"
-
-- type: entity
-  id: Cartridge45_magnumPlasteelAP
-  name: cartridge (.45 magnum AP)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumPlasteelAP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#888888"
-
-- type: entity
-  id: Cartridge45_magnumAP
-  name: cartridge (.45 magnum armor-piercing)
-  parent: BaseCartridge45_magnum
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet45_magnumAP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#0a0a0a"

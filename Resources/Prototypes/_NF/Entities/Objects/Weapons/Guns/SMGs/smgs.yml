@@ -1,26 +1,11 @@
 #region WizDen
 - type: entity
-  id: NFWeaponSubMachineGunAtreides
-  parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunGorlex ] #Lua 35 -> 9x19 base
-  name: Atreides
-  description: |-
-    Pla-ket-ket-ket-ket! An illegal firearm often used by Syndicate agents.
-  components:
-  - type: Gun
-    fireRate: 5.5 #_Lua
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
-  - type: Sprite
-    sprite: _NF/Objects/Weapons/Guns/SMGs/atreides.rsi
-  - type: Clothing
-    sprite: _NF/Objects/Weapons/Guns/SMGs/atreides.rsi
-
-- type: entity
-  id: NFWeaponSubMachineGunC20r
+  id: DSNFWeaponSubMachineGunC20r
   parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunCybersun ] #Lua 35 -> 9x19 base
   name: C-20r
   description: |-
     An illegal firearm that is often used by the infamous nuclear operatives.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Item #Lua
     shape:
@@ -48,7 +33,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua Magazine9x19mmSubMachineGunFMJ<Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ #Lua Magazine9x19mmSubMachineGunFMJ<Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -58,17 +43,18 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber: &chamber35Standard
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
             - Cartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
 
 - type: entity
-  id: NFWeaponSubMachineGunDrozd
+  id: DSNFWeaponSubMachineGunDrozd
   parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunNanotrasen ] #Lua 35 -> 9x19 base
   name: Drozd
   description: A fully automatic SMG.
+  suffix: МК, НЕ СПАВНИТЬ
   components: &drozdComponents
   - type: Item #Lua
     shape:
@@ -88,19 +74,12 @@
     sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi
 
 - type: entity
-  id: NFWeaponSubMachineGunDrozdLessLethal # Frontier-specific rubber variant
-  parent: [ NFBaseWeaponSubMachineGunChamber9x19Rubber, NFBaseWeaponFrameSubMachineGunNanotrasen ] #Lua 35 -> 9x19 base
-  name: Drozd
-  description: A fully automatic SMG.
-  suffix: Frontier, Less-Lethal
-  components: *drozdComponents
-
-- type: entity
-  id: NFWeaponSubMachineGunWt550
+  id: DSNFWeaponSubMachineGunWt550
   parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponSubMachineGunChamber35TopMounted, NFBaseWeaponFrameSubMachineGunNanotrasen ]
   name: WT-550
   description: |-
     An excellent SMG. On the receiver is a label that says 'for authorized use only.'
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Item #Lua
     shape:
@@ -135,19 +114,3 @@
     zeroVisible: true
   - type: ChamberMagazineAmmoProvider
     boltClosed: null
-
-#region DeltaV
-- type: entity
-  id: NFWeaponSubMachineGunTypewriter
-  parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunFrontierGunsmith ] #Lua 35 -> 9x19 base
-  name: Typewriter
-  description: |-
-    A modern take on the classic design used by mobsters throughout space and time.
-  components:
-  - type: Gun
-    soundGunshot:
-      path: /Audio/_DV/Weapons/Guns/Gunshots/typewriter.ogg
-  - type: Sprite
-    sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi
-  - type: Clothing
-    sprite: _DV/Objects/Weapons/Guns/SMGs/typewriter.rsi

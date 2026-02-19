@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbranceRifleAssault, NFBaseGunMeleeAttackMedium, BaseWeaponBattery ]
-  id: NFBaseWeaponFrameEnergyRifleAssault
+  id: DSNFBaseWeaponFrameEnergyRifleAssault
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -63,7 +63,7 @@
 
 #region manufacturer
 - type: entity
-  id: NFBaseWeaponFrameEnergyRifleAssaultNanotrasen
+  id: DSNFBaseWeaponFrameEnergyRifleAssaultNanotrasen
   parent: NFBaseWeaponFrameEnergyRifleAssault
   abstract: true
   components:
@@ -77,7 +77,7 @@
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
 - type: entity
-  id: NFBaseWeaponFrameEnergyRifleAssaultCybersun
+  id: DSNFBaseWeaponFrameEnergyRifleAssaultCybersun
   parent: [ BaseC3Contraband, NFBaseWeaponFrameEnergyRifleAssault ]
   abstract: true
   components:
@@ -94,7 +94,7 @@
 
 #region chamber
 - type: entity
-  id: NFBaseWeaponEnergyRifleAssaultFireModes
+  id: DSNFBaseWeaponEnergyRifleAssaultFireModes
   abstract: true
   components:
   - type: Gun
@@ -102,17 +102,17 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: NFBulletLaserMedium
+    proto: DSNFBulletLaserMedium
     fireCost: 80
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: NFBulletLaserMedium
+    - proto: DSNFBulletLaserMedium
       fireCost: 80
-    - proto: NFBulletDisabler
+    - proto: DSNFBulletDisabler
       fireCost: 80
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleAssaultHitScanPulse
+  id: DSNFBaseWeaponEnergyRifleAssaultHitScanPulse
   abstract: true
   components:
   - type: Gun
@@ -120,5 +120,5 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: NFPulse
+    proto: DSNFPulse
     fireCost: 80

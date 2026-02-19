@@ -1,8 +1,9 @@
 - type: entity
   name: hunting rifle
   parent: BaseWeaponSniper
-  id: N14WeaponSniperHunting
+  id: DSN14WeaponSniperHunting
   description: A rugged bolt action rifle. Uses .308 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/hunting.rsi
@@ -51,13 +52,14 @@
       tags:
       - N14Cartridge308Rifle
     capacity: 10
-    proto: N14Cartridge308Rifle
+    proto: DSN14Cartridge308Rifle
 
 - type: entity
   name: Anti-Materiel rifle
   parent: [BaseC3SyndicateContraband, BaseWeaponRifle]
-  id: N14WeaponAntiMateriel
+  id: DSN14WeaponAntiMateriel
   description: A anti materiel rifle with a ergonomic, metallic skeleton design. only seeing at it you can tell it will rip some limbs apart. Uses .50 anti-material ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/antimateriel.rsi
@@ -100,7 +102,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
+        startingItem: DSMagazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
@@ -110,7 +112,7 @@
 #            - N14Magazine50AMRHEIAP
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
+        startingItem: DSCartridge127x99mm #Lua N14Cartridge50<Cartridge127x99mm
         priority: 1
         whitelist:
           tags:
@@ -148,8 +150,9 @@
 - type: entity
   name: .50 NCR rifle
   parent: [BaseC3SyndicateContraband, BaseWeaponSniper]
-  id: N14Weapon50NcrRifle
+  id: DSN14Weapon50NcrRifle
   description: A try by the NCR to make .50 ammo a standart on normal infantry, very cheap but it will deal a lot of damage. Uses .50 anti-material ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/50ncrrifle.rsi
@@ -162,7 +165,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine127x99mm
+        startingItem: DSMagazine127x99mm
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
@@ -171,7 +174,7 @@
             - Magazine127x99mm
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge127x99mm
+        startingItem: DSCartridge127x99mm
         priority: 1
         whitelist:
           tags:
@@ -181,7 +184,7 @@
 #      tags:
 #      - N14Cartridge50
 #    capacity: 1
-#    proto: N14Cartridge50
+#    proto: DSN14Cartridge50
   - type: Wieldable
 #  - type: GunWieldBonus # comment (162-164; 166-169) from _Lua
 #    minAngle: -23
@@ -226,8 +229,9 @@
 - type: entity
   name: lever action carbine
   parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: N14WeaponLeverCarbine
+  id: DSN14WeaponLeverCarbine
   description: A lever action short carbine. Uses .44 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
@@ -253,13 +257,14 @@
       tags:
       - N14Cartridge44Magnum
     capacity: 14
-    proto: N14Cartridge44Magnum
+    proto: DSN14Cartridge44Magnum
 
 - type: entity
   name: lever action rifle
   parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: N14WeaponLeverRifle
+  id: DSN14WeaponLeverRifle
   description: A long lever action repeater rifle. Uses .308 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/leverrifle.rsi
@@ -283,7 +288,7 @@
       tags:
       - Cartridge762x54mmRFMJ #Lua N14Cartridge308Rifle<Cartridge762x54mmRFMJ
     capacity: 10
-    proto: Cartridge762x54mmRFMJ #Lua N14Cartridge308Rifle<Cartridge762x54mmRFMJ
+    proto: DSCartridge762x54mmRFMJ #Lua N14Cartridge308Rifle<Cartridge762x54mmRFMJ
   - type: ItemToggle #Lua
     onUse: false
     onActivate: false
@@ -311,8 +316,9 @@
 - type: entity
   name: brush gun
   parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: N14WeaponBrushGun
+  id: DSN14WeaponBrushGun
   description: A powerfull lever action carbine. Uses .45-70 gov't ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/brushgun.rsi
@@ -337,13 +343,14 @@
       - Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
       - SpeedLoaderInternal
     capacity: 10
-    proto: Cartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
+    proto: DSCartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
 
 - type: entity
   name: pipe rifle
   parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: N14WeaponPipeRifle
+  id: DSN14WeaponPipeRifle
   description: A piece of metal pipe with a wooden stock, works has a gun and uses .308 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
@@ -363,7 +370,7 @@
       tags:
       - N14Cartridge308Rifle
     capacity: 1
-    proto: N14Cartridge308Rifle
+    proto: DSN14Cartridge308Rifle
   - type: Gun
     soundGunshot:
       collection: N14PipeRifleGunshot
@@ -371,8 +378,9 @@
 - type: entity
   name: varmint rifle
   parent: [BaseC1Contraband, BaseWeaponSniper]
-  id: N14WeaponSniperVarmint
+  id: DSN14WeaponSniperVarmint
   description: A pre-war low power bolt action rifle, originally designed to hunt small animals this gun works fine with anything not bigger than a human. Uses 5.56 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
@@ -397,4 +405,4 @@
       tags:
       - N14Cartridge556Rifle
     capacity: 15
-    proto: N14Cartridge556Rifle
+    proto: DSN14Cartridge556Rifle

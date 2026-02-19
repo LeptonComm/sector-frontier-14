@@ -1,76 +1,9 @@
 - type: entity
-  name: NCI DP-29
-  parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC3Contraband]
-  id: WeaponDP29
-  description: A staple of USSP military doctrine, the DP-29 is a mass-produced light machine gun designed for reliability, ease of use, and battlefield endurance. Featuring a distinctive top-mounted pan magazine and a folding bipod, the DP-29 excels at providing suppressive fire in both urban and open combat scenarios. While its design dates back decades, its reliability and ease of maintenance make it a favorite among USSP infantry squads.
-  components:
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/LMGs/dp29.rsi
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -20
-  - type: Gun
-    minAngle: 22
-    maxAngle: 40
-    angleIncrease: 2
-    angleDecay: 22
-    fireRate: 7 #Lua -1
-    selectedMode: FullAuto
-    availableModes:
-    - FullAuto
-    soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/hmg.ogg
-  - type: ChamberMagazineAmmoProvider
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazineDP29
-        insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineDP29
-        whitelistFailPopup: gun-magazine-whitelist-fail
-      gun_chamber:
-        name: Chamber
-        startingItem: Cartridge762x39mmFMJ
-        priority: 1
-        whitelist:
-          tags:
-            - Cartridge762x39mmFMJ
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/LMGs/dp29.rsi
-  - type: StaticPrice
-    price: 1750
-    vendPrice: 50000
-  - type: SpeedModifiedOnWield
-    walkModifier: 0.8
-    sprintModifier: 0.65
-  - type: GunRequiresWield
-  - type: PirateBountyItem # Mono
-    id: ExperimentalFactionWeapon
-
-- type: entity
   name: VFD MR-8B LWMMG (8x65mm SKR)
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
-  id: WeaponLMGMR8B
+  id: DSWeaponLMGMR8B
   description: The LWMMG variant of the MR-8 series. Chambered in 8x65mm SKR, and accepts both box and STANAG magazines. A label on the side reads "FOR MILITARY USE ONLY".
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/LMGs/mr8b.rsi
@@ -109,7 +42,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine8x65mmSKRBox #Lua
+        startingItem: DSMagazine8x65mmSKRBox #Lua
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
@@ -120,7 +53,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge8x65mmSKR #Lua
+        startingItem: DSCartridge8x65mmSKR #Lua
         priority: 1
         whitelist:
           tags:
@@ -153,8 +86,9 @@
 - type: entity
   name: NCI AK-150 HAMMER (6.8x52mm)
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
-  id: WeaponLMGHammer
+  id: DSWeaponLMGHammer
   description: A modified old style AK from earth which has been improved with USSP engineering and new design philosophies. At a base level? It's been turned into an LMG with a box magazine attached alongside various recoil lessening upgrades and a stylized chassis. Hail The Commissariat.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-icon.rsi
@@ -194,7 +128,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine68x52mmCaselessBig #Lua Magazine762x39mmBox<Magazine68x52mmCaselessBig
+        startingItem: DSMagazine68x52mmCaselessBig #Lua Magazine762x39mmBox<Magazine68x52mmCaselessBig
         insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
         priority: 2
@@ -207,7 +141,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge68x52mmCaseless #Lua Cartridge762x39mmFMJ<Cartridge68x52mmCaseless
+        startingItem: DSCartridge68x52mmCaseless #Lua Cartridge762x39mmFMJ<Cartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -239,8 +173,9 @@
 - type: entity
   name: TCA MMG-68 "Grizzly" (6.8x52mm Caseless)
   parent: [BaseWeaponLightMachineGun, BaseC2ContrabandUnredeemable]
-  id: WeaponLMGGrizzly
+  id: DSWeaponLMGGrizzly
   description: A medium machine gun chambered in 6.8x52mm Caseless, accepts both box and standard magazines. A label on the side reads "FOR MILITARY USE ONLY". The weight of the machine gun make it hard to wield easily. To assist with standardization, it also accepts 5.56x45mm and 7.62x39mm.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi
@@ -286,7 +221,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: AmmoBox68x52mmCaseless
+        startingItem: DSAmmoBox68x52mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
         priority: 2
@@ -303,7 +238,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge68x52mmCaseless
+        startingItem: DSCartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -338,8 +273,9 @@
 - type: entity
   name: VFD PSW "Ratel" (8x65 SKR)
   parent: BaseWeaponLightMachineGun
-  id: WeaponLMGRatel
+  id: DSWeaponLMGRatel
   description: The precision support weapon chambered in 7.62x51mm and fits simple ammo box and all kind of magazines. Based on the Vulcan and made with higher quality materials as well as a mounted precision scope. A label on the side that seems to have been tampered with reads "FOR MILI-CENARY USE ONLY".
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-icon.rsi
@@ -383,7 +319,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine8x65mmSKRBox #Lua AmmoBox762x51mmFMJ<Magazine8x65mmSKRBox
+        startingItem: DSMagazine8x65mmSKRBox #Lua AmmoBox762x51mmFMJ<Magazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
         priority: 2
@@ -397,7 +333,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge8x65mmSKR #Lua Cartridge762x51mmFMJ<Cartridge8x65mmSKR
+        startingItem: DSCartridge8x65mmSKR #Lua Cartridge762x51mmFMJ<Cartridge8x65mmSKR
         priority: 1
         whitelist:
           tags:

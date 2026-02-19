@@ -1,7 +1,8 @@
 # Base
 - type: entity
-  id: BaseMagazine68x52mmCaseless
+  id: DSBaseMagazine68x52mmCaseless
   name: "magazine (6.8x52mm STANAG Caseless)"
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, RecyclableItemSteelTiny ]
   abstract: true
   components:
@@ -13,7 +14,7 @@
     whitelist:
       tags:
         - Cartridge68x52mmCaseless
-    proto: Cartridge68x52mmCaseless
+    proto: DSCartridge68x52mmCaseless
     capacity: 30
   - type: Item
     size: Small
@@ -34,13 +35,13 @@
   - type: Appearance
 
 - type: entity
-  id: BaseMagazine68x52mmCaselessShort
+  id: DSBaseMagazine68x52mmCaselessShort
   name: "caseless rifle short magazine (6.8x52mm STANAG Caseless)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   abstract: true
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaseless
+    proto: DSCartridge68x52mmCaseless
     capacity: 10
   - type: Item
     size: Tiny
@@ -54,12 +55,12 @@
 
 # Standart
 - type: entity
-  id: Magazine68x52mmCaselessBig
+  id: DSMagazine68x52mmCaselessBig
   name: "box magazine (6.8x52mm STANAG Caseless)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaseless
+    proto: DSCartridge68x52mmCaseless
     capacity: 100
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/6.35x40mm_caseless/6.35x40mm_caseless_lmg_mag.rsi
@@ -70,12 +71,12 @@
 
 # Mechanical
 - type: entity
-  id: Magazine68x52mmCaselessBigHP
+  id: DSMagazine68x52mmCaselessBigHP
   name: "magazine (6.8x52mm STANAG HP)"
-  parent: Magazine68x52mmCaselessBig
+  parent: DSMagazine68x52mmCaselessBig
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessHP
+    proto: DSCartridge68x52mmCaselessHP
   - type: Sprite
     layers:
     - state: base
@@ -89,12 +90,12 @@
 
 # Physical
 - type: entity
-  id: Magazine68x52mmCaselessBigIncendiary
+  id: DSMagazine68x52mmCaselessBigIncendiary
   name: "magazine (6.8x52mm STANAG Incendiary)"
-  parent: Magazine68x52mmCaselessBig
+  parent: DSMagazine68x52mmCaselessBig
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessIncendiary
+    proto: DSCartridge68x52mmCaselessIncendiary
   - type: Sprite
     layers:
     - state: base
@@ -107,12 +108,12 @@
     zeroVisible: false
 
 - type: entity
-  id: Magazine68x52mmCaselessBigUranium
+  id: DSMagazine68x52mmCaselessBigUranium
   name: "magazine (6.8x52mm STANAG Uranium)"
-  parent: Magazine68x52mmCaselessBig
+  parent: DSMagazine68x52mmCaselessBig
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessUranium
+    proto: DSCartridge68x52mmCaselessUranium
   - type: Sprite
     layers:
     - state: base
@@ -126,12 +127,12 @@
 
 # Special
 - type: entity
-  id: Magazine68x52mmCaselessBigEMP
+  id: DSMagazine68x52mmCaselessBigEMP
   name: "magazine (6.8x52mm STANAG EMP)"
-  parent: Magazine68x52mmCaselessBig
+  parent: DSMagazine68x52mmCaselessBig
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessEMP
+    proto: DSCartridge68x52mmCaselessEMP
   - type: Sprite
     layers:
     - state: base
@@ -144,12 +145,12 @@
     zeroVisible: false
 
 - type: entity
-  id: Magazine68x52mmCaselessBigCaustic
+  id: DSMagazine68x52mmCaselessBigCaustic
   name: "magazine (6.8x52mm STANAG Caustic)"
-  parent: Magazine68x52mmCaselessBig
+  parent: DSMagazine68x52mmCaselessBig
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessCaustic
+    proto: DSCartridge68x52mmCaselessCaustic
   - type: Sprite
     layers:
     - state: base
@@ -163,12 +164,12 @@
 
 # Out of balance
 - type: entity
-  id: Magazine68x52mmCaseless
+  id: DSMagazine68x52mmCaseless
   name: "magazine (6.8x52mm STANAG Caseless)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaseless
+    proto: DSCartridge68x52mmCaseless
   - type: Sprite
     layers:
     - state: red
@@ -177,12 +178,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine68x52mmCaselessPractice
+  id: DSMagazine68x52mmCaselessPractice
   name: "magazine (6.8x52mm STANAG Caseless practice)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessPractice
+    proto: DSCartridge68x52mmCaselessPractice
   - type: Sprite
     layers:
     - state: practice
@@ -191,12 +192,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine68x52mmCaselessEmpty
+  id: DSMagazine68x52mmCaselessEmpty
   name: "magazine (6.8x52mm STANAG Caseless any)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: null
+    proto: DSnull
   - type: Sprite
     layers:
     - state: practice
@@ -205,12 +206,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine68x52mmCaselessShort
+  id: DSMagazine68x52mmCaselessShort
   name: "short magazine (6.8x52mm STANAG Caseless)"
-  parent: BaseMagazine68x52mmCaselessShort
+  parent: DSBaseMagazine68x52mmCaselessShort
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaseless
+    proto: DSCartridge68x52mmCaseless
     capacity: 20
   - type: Sprite
     layers:
@@ -220,12 +221,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine68x52mmCaselessShortPractice
+  id: DSMagazine68x52mmCaselessShortPractice
   name: "short magazine (6.8x52mm STANAG Caseless practice)"
-  parent: BaseMagazine68x52mmCaselessShort
+  parent: DSBaseMagazine68x52mmCaselessShort
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessPractice
+    proto: DSCartridge68x52mmCaselessPractice
     capacity: 20
   - type: Sprite
     layers:
@@ -235,12 +236,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine68x52mmCaselessRubber
+  id: DSMagazine68x52mmCaselessRubber
   name: "magazine (6.8x52mm STANAG Caseless rubber)"
-  parent: BaseMagazine68x52mmCaseless
+  parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge68x52mmCaselessRubber
+    proto: DSCartridge68x52mmCaselessRubber
   - type: Sprite
     layers:
     - state: base

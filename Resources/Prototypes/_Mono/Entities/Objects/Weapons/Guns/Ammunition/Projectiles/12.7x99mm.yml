@@ -6,7 +6,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
-  id: Bullet127x99mm
+  id: DSBullet127x99mm
   name: bullet (12.7x99mm anti-material)
   components:
   - type: Projectile
@@ -22,7 +22,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
-  id: Bullet127x99mmExplosive
+  id: DSBullet127x99mmExplosive
   name: bullet (12.7x99mm high-explosive)
   components:
   - type: Projectile
@@ -55,7 +55,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
-  id: Bullet127x99mmHP
+  id: DSBullet127x99mmHP
   name: bullet (12.7x99mm HP)
   components:
   - type: Projectile
@@ -72,7 +72,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
-  id: Bullet127x99mmIncendiary
+  id: DSBullet127x99mmIncendiary
   name: bullet (12.7x99mm incendiary)
   components:
   - type: Projectile
@@ -88,7 +88,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBulletUranium
-  id: Bullet127x99mmUranium
+  id: DSBullet127x99mmUranium
   name: bullet (12.7x99mm uranium)
   components:
   - type: Projectile
@@ -105,7 +105,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBulletEmp
-  id: Bullet127x99mmEMP
+  id: DSBullet127x99mmEMP
   name: bullet (12.7x99mm EMP)
   components:
   - type: Projectile
@@ -121,7 +121,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
-  id: Bullet127x99mmCaustic
+  id: DSBullet127x99mmCaustic
   name: bullet (12.7x99mm caustic)
   components:
   - type: Projectile

@@ -1,15 +1,16 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: BaseAmmoBox45_ACP
+  id: DSBaseAmmoBox45_ACP
   name: ammunition box (.45 ACP FMJ)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
         - Cartridge45_ACPFMJ
-    proto: Cartridge45_ACPFMJ
+    proto: DSCartridge45_ACPFMJ
     capacity: 80
   - type: Item
     size: Small
@@ -39,12 +40,13 @@
 #small ammo boxes
 # Standart
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPFMJ
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPFMJ
   name: ammunition box (.45 ACP FMJ)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPFMJ
+    proto: DSCartridge45_ACPFMJ
   - type: Sprite
     layers:
     - state: base
@@ -53,12 +55,13 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPPractice
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPPractice
   name: ammunition box (.45 ACP practice)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPPractice
+    proto: DSCartridge45_ACPPractice
   - type: Sprite
     layers:
     - state: base
@@ -68,12 +71,13 @@
     - state: practice
 
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPRubber
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPRubber
   name: ammunition box (.45 ACP rubber)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPRubber
+    proto: DSCartridge45_ACPRubber
   - type: Sprite
     layers:
     - state: base
@@ -84,12 +88,13 @@
 
 # Mechanical
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPHP
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPHP
   name: ammunition box (.45 ACP hollow-point)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPHP
+    proto: DSCartridge45_ACPHP
   - type: Sprite
     layers:
     - state: base
@@ -100,12 +105,13 @@
 
 # Physical
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPIncendiary
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPIncendiary
   name: ammunition box (.45 ACP incendiary)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPIncendiary
+    proto: DSCartridge45_ACPIncendiary
   - type: Sprite
     layers:
     - state: base
@@ -115,12 +121,13 @@
     - state: incendiary
 
 - type: entity
-  id: AmmoBox45_ACPUranium
-  parent: BaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPUranium
+  parent: DSBaseAmmoBox45_ACP
   name: ammunition box (.45 ACP uranium)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPUranium
+    proto: DSCartridge45_ACPUranium
   - type: Sprite
     layers:
     - state: base
@@ -131,12 +138,13 @@
 
 # Special
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPEmp
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPEmp
   name: ammunition box (.45 ACP emp)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPEmp
+    proto: DSCartridge45_ACPEmp
   - type: Sprite
     layers:
     - state: base
@@ -146,12 +154,13 @@
     - state: emp
 
 - type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPCaustic
-  name: ammunition box (.45 ACP emp)
+  parent: DSBaseAmmoBox45_ACP
+  id: DSAmmoBox45_ACPCaustic
+  name: ammunition box (.45 ACP Caustic)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPCaustic
+    proto: DSCartridge45_ACPCaustic
   - type: Sprite
     layers:
     - state: base
@@ -159,59 +168,3 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: caustic
-
-# Out of balance
-- type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPRIP
-  name: ammunition box (.45 ACP RIP)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPRIP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: RIP
-
-- type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPPlasteelAP
-  name: ammunition box (.45 ACP AP)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_ACPPlasteelAP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: plasteelAP
-
-#big ammo boxes
-- type: entity
-  parent: BaseAmmoBox45_ACP
-  id: AmmoBox45_ACPBigFMJ
-  name: big ammunition box (.45 ACP FMJ)
-  suffix: Big
-  components:
-  - type: Item
-    shape:
-    - 0,0,1,1
-  - type: BallisticAmmoProvider
-    capacity: 280 # 8 mags per box similar to rifle box
-    proto: Cartridge45_ACPFMJ
-  - type: Sprite
-    layers:
-    - state: base-b # Frontier: base-big<base-b
-      map: ["enum.GunVisualLayers.Base"]
-    - state: magb-1 # Frontier: mag-big-1<magb-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: magb # Frontier: mag-big<magb
-    steps: 4
-    zeroVisible: false
-  - type: Appearance

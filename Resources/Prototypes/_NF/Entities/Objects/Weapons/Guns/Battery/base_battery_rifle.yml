@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbranceRifle, NFBaseGunMeleeAttackMedium, BaseWeaponBattery ]
-  id: NFBaseWeaponFrameEnergyRifle
+  id: DSNFBaseWeaponFrameEnergyRifle
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -64,7 +64,7 @@
 
 #region manufacturer
 - type: entity
-  id: NFBaseWeaponFrameEnergyRifleNanotrasen
+  id: DSNFBaseWeaponFrameEnergyRifleNanotrasen
   parent: NFBaseWeaponFrameEnergyRifle
   abstract: true
   components:
@@ -79,7 +79,7 @@
 
 #region chamber
 - type: entity
-  id: NFBaseWeaponEnergyRifleFireModes
+  id: DSNFBaseWeaponEnergyRifleFireModes
   abstract: true
   components:
   - type: Gun
@@ -87,17 +87,17 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: NFBulletLaserHeavy
+    proto: DSNFBulletLaserHeavy
     fireCost: 80
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: NFBulletLaserHeavy
+    - proto: DSNFBulletLaserHeavy
       fireCost: 80
-    - proto: NFBulletDisabler
+    - proto: DSNFBulletDisabler
       fireCost: 80
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleHitScan
+  id: DSNFBaseWeaponEnergyRifleHitScan
   suffix: Frontier
   abstract: true
   components:
@@ -106,11 +106,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: NFRedHeavyLaser
+    proto: DSNFRedHeavyLaser
     fireCost: 80
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleHitScanPulse
+  id: DSNFBaseWeaponEnergyRifleHitScanPulse
   abstract: true
   components:
   - type: Gun
@@ -118,13 +118,13 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: LuaPulseRifle
+    proto: DSLuaPulseRifle
     fireCost: 100
 
 - type: entity #Lua
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
-  id: LuaPulseRifle
+  id: DSLuaPulseRifle
   components:
   - type: HitscanBasicDamage
     damage:
@@ -143,7 +143,7 @@
       state: impact_blue
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleEmp
+  id: DSNFBaseWeaponEnergyRifleEmp
   abstract: true
   components:
   - type: Gun
@@ -151,11 +151,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: ProjectileEmp
+    proto: DSProjectileEmp
     fireCost: 500
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleParticle
+  id: DSNFBaseWeaponEnergyRifleParticle
   abstract: true
   components:
   - type: Gun
@@ -163,5 +163,5 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: ProjectileBatteryAmmoProvider
-    proto: NFAntiParticlesProjectile
+    proto: DSNFAntiParticlesProjectile
     fireCost: 120 # 20 shots

@@ -1,8 +1,9 @@
 - type: entity
   name: 10mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14WeaponSubMachineGun10mm
+  id: DSN14WeaponSubMachineGun10mm
   description: Fully automatic submachinegun chambered in 10mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmSMG.rsi
@@ -48,7 +49,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
@@ -56,7 +57,7 @@
             - Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -70,8 +71,9 @@
 - type: entity
   name: 12.7mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14WeaponSubMachineGun12mm
+  id: DSN14WeaponSubMachineGun12mm
   description: A heavy submachinegun chambered in 12mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/12mmSMG.rsi
@@ -116,7 +118,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine635x40mmCaseless #Lua N14MagazineSMG12mm<Magazine635x40mmCaseless
+        startingItem: DSMagazine635x40mmCaseless #Lua N14MagazineSMG12mm<Magazine635x40mmCaseless
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         priority: 2
@@ -125,7 +127,7 @@
             - Magazine635x40mmCaseless #Lua N14MagazineSMG12mm<Magazine635x40mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol127<Cartridge635x40mmCaseless
+        startingItem: DSCartridge635x40mmCaseless #Lua N14CartridgePistol127<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -139,8 +141,9 @@
 - type: entity
   name: 12.7mm autopipe
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14weapon12mmpipe
+  id: DSN14weapon12mmpipe
   description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/12mmPIPE.rsi
@@ -186,7 +189,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPPistolHighCapacityFMJ #Lua N14MagazineSMG12mm<Magazine45_ACPPistolHighCapacityFMJ
+        startingItem: DSMagazine45_ACPPistolHighCapacityFMJ #Lua N14MagazineSMG12mm<Magazine45_ACPPistolHighCapacityFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         priority: 2
@@ -195,7 +198,7 @@
             - Magazine45_ACPPistolHighCapacityFMJ #Lua N14MagazineSMG12mm<Magazine45_ACPPistolHighCapacityFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
@@ -209,8 +212,9 @@
 - type: entity
   name: 10mm autopipe
   parent: [BaseC3Contraband, BaseWeaponSubMachineGun]
-  id: N14weapon10mmpipe
+  id: DSN14weapon10mmpipe
   description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/10mmPIPE.rsi
@@ -256,7 +260,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
@@ -264,7 +268,7 @@
             - Magazine9x19mmSubMachineGunFMJ #Lua N14MagazineSMG10mm<Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -278,8 +282,9 @@
 - type: entity
   name: advanced 12.7mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14WeaponAdvanceSubMachineGun12mm
+  id: DSN14WeaponAdvanceSubMachineGun12mm
   description: A bulky sub machine gun with a top magazine fed system, it uses 12mm ammmo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/advance12mm.rsi
@@ -324,7 +329,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         priority: 2
@@ -333,7 +338,7 @@
             - Magazine45_ACPSubMachineGunFMJ #Lua N14TopMagazineSMG12mm<Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
@@ -347,8 +352,9 @@
 - type: entity
   name: 9mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14weapon9mmSMG
+  id: DSN14weapon9mmSMG
   description: a metallic pre-war simple SMG, chambered in 9mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/9mmSMG.rsi
@@ -394,7 +400,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine635x40mmCaseless #Lua N14MagazineSMG9mm<Magazine635x40mmCaseless
+        startingItem: DSMagazine635x40mmCaseless #Lua N14MagazineSMG9mm<Magazine635x40mmCaseless
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
@@ -402,7 +408,7 @@
             - Magazine635x40mmCaseless #Lua N14MagazineSMG9mm<Magazine635x40mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+        startingItem: DSCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -416,8 +422,9 @@
 - type: entity
   name: .45 SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  id: N14Weapon45SMG
+  id: DSN14Weapon45SMG
   description: A pre-war SMG with a wooden stock, chambered in .45.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/SMGs/45SMG.rsi
@@ -456,7 +463,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45SubMachineGun
+        startingItem: DSMagazine45SubMachineGun
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/SMGs/smg_magout.ogg
         whitelist:
@@ -464,7 +471,7 @@
             - Magazine45SubMachineGun
       gun_chamber:
         name: Chamber
-        startingItem: N14CartridgePistol45
+        startingItem: DSN14CartridgePistol45
         priority: 1
         whitelist:
           tags:

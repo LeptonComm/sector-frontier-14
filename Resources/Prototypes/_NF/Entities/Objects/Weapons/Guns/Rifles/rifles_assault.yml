@@ -1,8 +1,9 @@
 #region WizDen
 - type: entity # TODO: switch to .25 rifle (caseless)
-  id: NFWeaponRifleAssaultSm
+  id: DSNFWeaponRifleAssaultSm
   parent: [ NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultCybersun ] #Lua 30 -> 762x39
   name: Soland-Moss # Renamed: real brand name
+  suffix: МК, НЕ СПАВНИТЬ
   description: |-
     An iconic weapon of war. An illegal firearm often used by Syndicate agents.
   components:
@@ -32,11 +33,12 @@
     fireRate: 5 #Lua
 
 - type: entity # TODO: switch to .25 rifle (caseless)
-  id: NFWeaponRifleAssaultM90GrenadeLauncher
+  id: DSNFWeaponRifleAssaultM90GrenadeLauncher
   parent: [ NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultCybersun ] #Lua 20 -> 556x45
   name: M-90gl
   description: |-
     An older bullpup carbine model, with an attached underbarrel grenade launcher. An illegal firearm often used by Syndicate agents.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -58,7 +60,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x51mmFMJ
+        startingItem: DSMagazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -68,18 +70,19 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber: &chamber20Standard
         name: Chamber
-        startingItem: Cartridge762x51mmFMJ
+        startingItem: DSCartridge762x51mmFMJ
         priority: 1
         whitelist:
           tags:
             - Cartridge762x51mmFMJ
 
 - type: entity
-  id: NFWeaponRifleAssaultLecter
+  id: DSNFWeaponRifleAssaultLecter
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultNanotrasen ] #Lua 20 -> 556x45
   name: Lecter
   description: |-
     A medium end military grade assault rifle. On the receiver is a label that says 'for authorized use only.'
+  suffix: МК, НЕ СПАВНИТЬ
   components: &lecterComponents
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/Rifles/lecter_inhands_32x.rsi
@@ -106,7 +109,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x39mmFMJ #Lua Magazine556x45mmFMJ<Magazine762x39mmFMJ
+        startingItem: DSMagazine762x39mmFMJ #Lua Magazine556x45mmFMJ<Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -117,29 +120,20 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber: # &chamber20Standard #comment from _Lua
         name: Chamber
-        startingItem: Cartridge762x39mmFMJ #Lua Cartridge556x45mmFMJ<Cartridge762x39mmFMJ
+        startingItem: DSCartridge762x39mmFMJ #Lua Cartridge556x45mmFMJ<Cartridge762x39mmFMJ
         priority: 1
         whitelist:
           tags:
             - Cartridge762x39mmFMJ #Lua Cartridge556x45mmFMJ<Cartridge762x39mmFMJ
 
-#region WizDen: Rubber
-- type: entity
-  id: NFWeaponRifleAssaultLecterLessLethal
-  parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45Rubber, NFBaseWeaponFrameRifleAssaultNanotrasen ] #Lua 20 -> 556x45
-  name: Lecter
-  description: |-
-    A medium end military grade assault rifle. On the receiver is a label that says 'for authorized use only.'
-  suffix: Frontier, Less-lethal
-  components: *lecterComponents
-
 #region DeltaV
 - type: entity
-  id: NFWeaponRifleAssaultVulcan
+  id: DSNFWeaponRifleAssaultVulcan
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 30 -> 762x39
   name: Vulcan
   description: |-
     One of the heaviest small arms to grace Security's armory, this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World".
+  suffix: МК, НЕ СПАВНИТЬ
   components: &vulcanComponents
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi
@@ -161,12 +155,13 @@
     fireRate: 4
 
 - type: entity
-  id: NFWeaponRifleAssaultJackdaw
+  id: DSNFWeaponRifleAssaultJackdaw
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 25 -> 556x45
   name: Jackdaw
   categories: [ HideSpawnMenu ] #Lua
   description: |-
     The beginning of the end is heralded by the song of a Jackdaw.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
@@ -179,23 +174,14 @@
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/jackdaw.ogg
 
-#region DeltaV: Rubber
-- type: entity
-  id: NFWeaponRifleAssaultVulcanLessLethal
-  parent: [ NFBaseWeaponRifleAssaultChamber762x39Rubber, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 30 -> 762x39
-  name: Vulcan
-  description: |-
-    One of the heaviest small arms to grace Security's armory, this rifle is a modern take on a classic, informally dubbed the "Right Arm of the Free World".
-  suffix: Frontier, Less-lethal
-  components: *vulcanComponents
-
 #region Frontier
 - type: entity
-  id: NFWeaponRifleAssaultGestio
+  id: DSNFWeaponRifleAssaultGestio
   parent: [ NFBaseWeaponRifleAssaultChamber762x39LowCapacity, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 30 -> 762x39
   name: Gestio
   description: |-
     An old burst-fire rifle designed by Silver Industries that never left trials.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
@@ -221,11 +207,12 @@
       path: /Audio/_NF/Weapons/Guns/Gunshots/rifle.ogg
 
 - type: entity
-  id: NFWeaponRifleAssaultNovaliteC1
+  id: DSNFWeaponRifleAssaultNovaliteC1
   parent: [ NFBaseWeaponRifleAssaultChamber556x45Clip, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 20 -> 556x45
   name: Novalite C1
   description: |-
     A civilian grade semi-automatic rifle with an internal magazine.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Rifles/novalitec1.rsi

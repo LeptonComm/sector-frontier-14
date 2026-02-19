@@ -1,6 +1,7 @@
 - type: entity
-  id: BaseCartridge762x39mm
+  id: DSBaseCartridge762x39mm
   name: cartridge (7.62x39mm FMJ)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: Originating from over 400 years ago, this round has seen use in the rifles of multiple militias and militaries alike.
   abstract: true
@@ -11,7 +12,7 @@
     - Cartridge762x39mmFMJ
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet762x39mmFMJ
+    proto: DSBullet762x39mmFMJ
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -24,20 +25,22 @@
 
 # Standart
 - type: entity
-  id: Cartridge762x39mmFMJ
+  id: DSCartridge762x39mmFMJ
   name: cartridge (7.62x39mm FMJ)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmFMJ
+    proto: DSBullet762x39mmFMJ
 
 - type: entity
-  id: Cartridge762x39mmPractice
+  id: DSCartridge762x39mmPractice
   name: cartridge (7.62x39mm practice)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmPractice
+    proto: DSBullet762x39mmPractice
   - type: Sprite
     layers:
       - state: base
@@ -47,12 +50,13 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: Cartridge762x39mmRubber
+  id: DSCartridge762x39mmRubber
   name: cartridge (7.62x39mm rubber)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmRubber
+    proto: DSBullet762x39mmRubber
   - type: Sprite
     layers:
       - state: base
@@ -63,12 +67,13 @@
 
 # Mechanical
 - type: entity
-  id: Cartridge762x39mmHP
+  id: DSCartridge762x39mmHP
   name: cartridge (7.62x39mm hollow-point)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmHP
+    proto: DSBullet762x39mmHP
   - type: Sprite
     layers:
       - state: base
@@ -79,12 +84,13 @@
 
 # Physical
 - type: entity
-  id: Cartridge762x39mmIncendiary
+  id: DSCartridge762x39mmIncendiary
   name: cartridge (7.62x39mm Incendiary)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmIncendiary
+    proto: DSBullet762x39mmIncendiary
   - type: Sprite
     layers:
       - state: base
@@ -94,12 +100,13 @@
         color: "#f44336"
 
 - type: entity
-  id: Cartridge762x39mmUranium
+  id: DSCartridge762x39mmUranium
   name: cartridge (7.62x39mm Uranium)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmUranium
+    proto: DSBullet762x39mmUranium
   - type: Sprite
     layers:
       - state: base
@@ -110,12 +117,13 @@
 
 # Special
 - type: entity
-  id: Cartridge762x39mmEMP
+  id: DSCartridge762x39mmEMP
   name: cartridge (7.62x39mm EMP)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmEMP
+    proto: DSBullet762x39mmEMP
   - type: Sprite
     layers:
       - state: base
@@ -125,12 +133,13 @@
         color: "#044492"
 
 - type: entity
-  id: Cartridge762x39mmCaustic
+  id: DSCartridge762x39mmCaustic
   name: cartridge (7.62x39mm Caustic)
-  parent: BaseCartridge762x39mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
+  parent: DSBaseCartridge762x39mm
   components:
   - type: CartridgeAmmo
-    proto: Bullet762x39mmCaustic
+    proto: DSBullet762x39mmCaustic
   - type: Sprite
     layers:
       - state: base
@@ -138,54 +147,3 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#8b9229"
-
-# Out of balance
-- type: entity
-  id: Cartridge762x39mmSubsonic
-  name: cartridge (7.62x39mm subsonic)
-  parent: BaseCartridge762x39mm
-  components:
-  - type: Tag
-    tags:
-    - Cartridge
-    - Cartridge762x39mmFMJ
-    - Cartridge762x39mmSubsonic
-  - type: CartridgeAmmo
-    proto: Bullet762x39mmSubsonic
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#00f8ff"
-
-- type: entity
-  id: Cartridge762x39mmRIP
-  name: cartridge (7.62x39mm RIP)
-  parent: BaseCartridge762x39mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet762x39mmRIP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#C04000"
-
-- type: entity
-  id: Cartridge762x39mmPlasteelAP
-  name: cartridge (7.62x39mm AP)
-  parent: BaseCartridge762x39mm
-  components:
-  - type: CartridgeAmmo
-    proto: Bullet762x39mmPlasteelAP
-  - type: Sprite
-    layers:
-      - state: base
-        map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
-        map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#888888"

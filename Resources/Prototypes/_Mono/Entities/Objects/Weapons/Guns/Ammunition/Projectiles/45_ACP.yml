@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: Bullet45_ACPFMJ
+  id: DSBullet45_ACPFMJ
   name: bullet (.45 ACP FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  id: Bullet45_ACPPractice
+  id: DSBullet45_ACPPractice
   name: bullet (.45 ACP practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -1
 
 - type: entity
-  id: Bullet45_ACPRubber
+  id: DSBullet45_ACPRubber
   name: bullet (.45 ACP rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 19
 
 - type: entity
-  id: Bullet45_ACPHP
+  id: DSBullet45_ACPHP
   parent: BaseBullet
   name: bullet (.45 hollow-point)
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  id: Bullet45_ACPIncendiary
+  id: DSBullet45_ACPIncendiary
   parent: BaseBulletIncendiary
   name: bullet (.45 ACP incendiary)
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 7.5
 
 - type: entity
-  id: Bullet45_ACPUranium
+  id: DSBullet45_ACPUranium
   parent: BaseBulletUranium
   name: bullet (.45 ACP uranium)
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 # Special
 - type: entity
-  id: Bullet45_ACPEmp
+  id: DSBullet45_ACPEmp
   name: bullet (.45 ACP emp)
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 7.5
 
 - type: entity
-  id: Bullet45_ACPCaustic
+  id: DSBullet45_ACPCaustic
   name: bullet (.45 ACP caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -102,7 +102,7 @@
 
 # Out of balance
 - type: entity
-  id: Bullet45_ACPRIP
+  id: DSBullet45_ACPRIP
   parent: BaseBullet
   name: bullet (.45 RIP)
   categories: [ HideSpawnMenu ]
@@ -117,7 +117,7 @@
     damage: 6
 
 - type: entity
-  id: Bullet45_ACPPlasteelAP
+  id: DSBullet45_ACPPlasteelAP
   parent: BaseBullet
   name: bullet (.45 AP)
   categories: [ HideSpawnMenu ]

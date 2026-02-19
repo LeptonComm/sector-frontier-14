@@ -1,8 +1,9 @@
 - type: entity
   name: R-91
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponRifleR91
+  id: DSN14WeaponRifleR91
   description: An old fashioned assault rifle chambered in 5.56.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/r91.rsi
@@ -43,7 +44,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
+        startingItem: DSMagazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -52,7 +53,7 @@
             - Magazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge556x45mmFMJ #Lua N14Cartridge556Rifle<Cartridge556x45mmFMJ
+        startingItem: DSCartridge556x45mmFMJ #Lua N14Cartridge556Rifle<Cartridge556x45mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -70,8 +71,9 @@
 - type: entity
   name: chinese assault rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponChineseRifle
+  id: DSN14WeaponChineseRifle
   description: A old foreing assault rifle with strange simbols on it, the chamber has enough space to hold a 7,62 bullet.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/chineserifle.rsi
@@ -112,7 +114,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
+        startingItem: DSMagazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -121,7 +123,7 @@
             - Magazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x39mmFMJ #Lua N14Cartridge762Rifle<Cartridge762x39mmFMJ
+        startingItem: DSCartridge762x39mmFMJ #Lua N14Cartridge762Rifle<Cartridge762x39mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -135,8 +137,9 @@
 - type: entity
   name: assault carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponCarbine
+  id: DSN14WeaponCarbine
   description: A black compact assault rifle, uses 5.56 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
@@ -181,7 +184,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x51mmFMJ #Lua LongMagazine556Rifle<Magazine762x51mmFMJ
+        startingItem: DSMagazine762x51mmFMJ #Lua LongMagazine556Rifle<Magazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -190,7 +193,7 @@
             - Magazine762x51mmFMJ #Lua LongMagazine556Rifle<Magazine762x51mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x51mmFMJ #Lua N14Cartridge556Rifle<Cartridge762x51mmFMJ
+        startingItem: DSCartridge762x51mmFMJ #Lua N14Cartridge556Rifle<Cartridge762x51mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -227,8 +230,9 @@
 - type: entity
   name: marksman carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponMarksman
+  id: DSN14WeaponMarksman
   description: A heavy semiautomatic rifle with a scope, uses 7.62 ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/marksman.rsi
@@ -272,7 +276,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
+        startingItem: DSMagazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -281,7 +285,7 @@
             - Magazine762x39mmFMJ #Lua Magazine762Rifle<Magazine762x39mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x39mmFMJ #Lua N14Cartridge762Rifle<Cartridge762x39mmFMJ
+        startingItem: DSCartridge762x39mmFMJ #Lua N14Cartridge762Rifle<Cartridge762x39mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -295,8 +299,9 @@
 - type: entity
   name: service rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponService
+  id: DSN14WeaponService
   description: A cheap mass produced post war rifle made by the NCR, chambered in 5.56.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/servicerifle.rsi
@@ -339,7 +344,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x51mmFMJ #Lua Magazine556Rifle<Magazine762x51mmFMJ
+        startingItem: DSMagazine762x51mmFMJ #Lua Magazine556Rifle<Magazine762x51mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -348,7 +353,7 @@
             - Magazine762x51mmFMJ #Lua Magazine556Rifle<Magazine762x51mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x51mmFMJ #Lua N14Cartridge556Rifle<Cartridge762x51mmFMJ
+        startingItem: DSCartridge762x51mmFMJ #Lua N14Cartridge556Rifle<Cartridge762x51mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -385,8 +390,9 @@
 - type: entity
   name: scout rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponScout
+  id: DSN14WeaponScout
   description: A modified version of the service rifle made by rangers in the field. It is capable of using larger 5.56 magazines.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/scoutrifle.rsi
@@ -429,7 +435,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine762x54mmRFMJ #Lua Magazine556Rifle<Magazine762x54mmRFMJ
+        startingItem: DSMagazine762x54mmRFMJ #Lua Magazine556Rifle<Magazine762x54mmRFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -439,7 +445,7 @@
 #            - LongMagazine556Rifle
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge762x54mmRFMJ #Lua N14Cartridge556Rifle<Cartridge762x54mmRFMJ
+        startingItem: DSCartridge762x54mmRFMJ #Lua N14Cartridge556Rifle<Cartridge762x54mmRFMJ
         priority: 1
         whitelist:
           tags:
@@ -474,70 +480,11 @@
       pvsIncrease: 1
 
 - type: entity
-  name: battle rifle
-  parent: [BaseC1Contraband, BaseWeaponRifle]
-  id: N14WeaponBattleRifle
-  description: A long semi automatic rifle feed by clips, chambered in the powerfull 308.
-  components:
-  - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
-    quickEquip: false
-    slots:
-    - Back
-    - suitStorage
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/battlerifle.rsi
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: ChamberMagazineAmmoProvider
-    autoEject: true
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -56
-  - type: Gun
-    minAngle: 24
-    maxAngle: 60
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 2
-    soundGunshot:
-      collection: N14BattleRifleGunshot
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: ClipMagazine308Rifle
-        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - N14Clip308Rifle
-      gun_chamber:
-        name: Chamber
-        startingItem: N14Cartridge308Rifle
-        priority: 1
-        whitelist:
-          tags:
-            - N14Cartridge308Rifle
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-
-- type: entity
   name: carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponOldCarbine
+  id: DSN14WeaponOldCarbine
   description: A short compact rifle of the pre-war, chambered in 5.56.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -581,7 +528,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
+        startingItem: DSMagazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -590,7 +537,7 @@
             - Magazine556x45mmFMJ #Lua Magazine556Rifle<Magazine556x45mmFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge556x45mmFMJ #Lua N14Cartridge556Rifle<Cartridge556x45mmFMJ
+        startingItem: DSCartridge556x45mmFMJ #Lua N14Cartridge556Rifle<Cartridge556x45mmFMJ
         priority: 1
         whitelist:
           tags:

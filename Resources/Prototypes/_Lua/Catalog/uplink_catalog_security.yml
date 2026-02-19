@@ -1,10 +1,10 @@
 #region hardsuits
 
 - type: listing
-  id: UplinkSecurityHardsuitM73
+  id: DSUplinkSecurityHardsuitM73
   name:  uplink-security-hardsuitM73-name
   description: uplink-security-hardsuitM73-desc
-  productEntity: ClothingOuterHardsuitTSFMCM73
+  productEntity: DSClothingOuterHardsuitTSFMCM73
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -14,13 +14,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitM73C
+  id: DSUplinkSecurityHardsuitM73C
   name:  uplink-security-hardsuitM73C-name
   description: uplink-security-hardsuitM73C-desc
-  productEntity: ClothingOuterHardsuitTSFMCM73-C
+  productEntity: DSClothingOuterHardsuitTSFMCM73-C
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73c-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -30,13 +30,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitM93
+  id: DSUplinkSecurityHardsuitM93
   name:  uplink-security-hardsuitM93-name
   description: uplink-security-hardsuitM93-desc
-  productEntity: ClothingOuterHardsuitTSFMCM93
+  productEntity: DSClothingOuterHardsuitTSFMCM93
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -46,13 +46,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityCommandM93-C
+  id: DSUplinkSecurityCommandM93-C
   name: uplink-security-hardsuitM93C-name
   description: uplink-security-hardsuitM93C-desc
-  productEntity: ClothingOuterHardsuitTSFMCM93-C
+  productEntity: DSClothingOuterHardsuitTSFMCM93-C
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93c-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -62,13 +62,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitJuggernaut
+  id: DSUplinkSecurityHardsuitJuggernaut
   name:  uplink-security-hardsuitM92X-name
   description: uplink-security-hardsuitM92X-desc
-  productEntity: ClothingOuterHardsuitTSFMCM92-X
+  productEntity: DSClothingOuterHardsuitTSFMCM92-X
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92x-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -78,13 +78,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHardsuitM92
+  id: DSUplinkSecurityHardsuitM92
   name:  uplink-security-hardsuitM92-name
   description: uplink-security-hardsuitM92-desc
-  productEntity: ClothingOuterHardsuitTSFMCM92
+  productEntity: DSClothingOuterHardsuitTSFMCM92
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -94,12 +94,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #region clothing
 
 - type: listing
-  id: UplinkSecurityStelsJetpack
+  id: DSUplinkSecurityStelsJetpack
   name:  uplink-pirate-stealth-jetpack-name
   description: uplink-pirate-stealth-jetpack-desc
   productEntity: JetpackStealthFilled
@@ -111,10 +111,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityJetpack
+  id: DSUplinkSecurityJetpack
   name:  uplink-security-jetpack-name
   description: uplink-security-jetpack-desc
   productEntity: JetpackNfsdFilled
@@ -127,10 +127,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityMagboots
+  id: DSUplinkSecurityMagboots
   name:  uplink-security-magboots-name
   description: uplink-security-magboots-desc
   productEntity: ClothingShoesBootsMagNfsdFilled
@@ -143,10 +143,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecuritySwat
+  id: DSUplinkSecuritySwat
   name:  uplink-security-swat-name
   description: uplink-security-swat-desc
   productEntity: ClothingMaskGasSheriff
@@ -159,12 +159,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #region weapons
 
 #- type: listing
-#  id: UplinkSecurityAnnieBundle # TCA M27 Annie (7.62x39mm)
+#  id: DSUplinkSecurityAnnieBundle # TCA M27 Annie (7.62x39mm)
 #  name:  uplink-security-AnnieBundle-name
 #  description: uplink-security-AnnieBundle-desc
 #  productEntity: WeaponCaseLongAnnieBundle
@@ -177,10 +177,10 @@
 #    - !type:StoreWhitelistCondition
 #      whitelist:
 #        tags:
-#          - SecurityUplink
+#          - DSSecurityUplink
 
 #- type: listing
-#  id: UplinkSecurityVector45ACPBundle # LWC Vector SBR (.45 ACP)
+#  id: DSUplinkSecurityVector45ACPBundle # LWC Vector SBR (.45 ACP)
 #  name: uplink-security-vector45acp-name
 #  description: uplink-security-vector45acp-desc
 #  productEntity: WeaponCaseLongVector45ACPBundle
@@ -193,13 +193,13 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - SecurityUplink
+#      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityMR8CBundle # VFD MR-8C DMR (7.62x54mm)
+  id: DSUplinkSecurityMR8CBundle # VFD MR-8C DMR (7.62x54mm)
   name:  uplink-security-MR8CBundle-name
   description: uplink-security-MR8CBundle-desc
-  productEntity: WeaponCaseLongMR8CBundle
+  productEntity: DSWeaponCaseLongMR8CBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -209,13 +209,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityGrizzlyBundle # Grizzly
+  id: DSUplinkSecurityGrizzlyBundle # Grizzly
   name:  uplink-security-grizzly-name
   description: uplink-security-grizzly-desc
-  productEntity: WeaponCaseLongGrizzlyBundle
+  productEntity: DSWeaponCaseLongGrizzlyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -225,13 +225,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHristovBundle # hristov
+  id: DSUplinkSecurityHristovBundle # hristov
   name:  uplink-security-hristov-name
   description: uplink-security-hristov-desc
-  productEntity: WeaponCaseLongHristovExpedition
+  productEntity: DSWeaponCaseLongHristovExpedition
   icon: { sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
   cost:
     FrontierUplinkCoin: 7
@@ -241,13 +241,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityXLR556Bundle # xlr556
+  id: DSUplinkSecurityXLR556Bundle # xlr556
   name:  uplink-security-xlr556-name
   description: uplink-security-xlr556-desc
-  productEntity: WeaponCaseLongXLR556Bundle
+  productEntity: DSWeaponCaseLongXLR556Bundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/xlr556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -257,13 +257,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityFirestarterBundle # firestarter
+  id: DSUplinkSecurityFirestarterBundle # firestarter
   name:  uplink-security-firestarter-name
   description: uplink-security-firestarter-desc
-  productEntity: WeaponCaseLongFirestarterBundle
+  productEntity: DSWeaponCaseLongFirestarterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/drozd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -273,13 +273,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityM54CE2Bundle # m54ce2
+  id: DSUplinkSecurityM54CE2Bundle # m54ce2
   name:  uplink-security-m54ce2-name
   description: uplink-security-m54ce2-desc
-  productEntity: WeaponCaseLongWeaponRifleM54CE2
+  productEntity: DSWeaponCaseLongWeaponRifleM54CE2
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -289,13 +289,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityUniversalBundle # Universal
+  id: DSUplinkSecurityUniversalBundle # Universal
   name:  uplink-security-universal-name
   description: uplink-security-universal-desc
-  productEntity: WeaponCaseShortUniversalExpedition
+  productEntity: DSWeaponCaseShortUniversalExpedition
   icon: { sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -305,13 +305,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityMP5Bundle # MP5
+  id: DSUplinkSecurityMP5Bundle # MP5
   name:  uplink-security-mp5-name
   description: uplink-security-mp5-desc
-  productEntity: WeaponCaseLongWeaponSMGMP5
+  productEntity: DSWeaponCaseLongWeaponSMGMP5
   icon: { sprite: _RMC14/Objects/Weapons/Guns/SMGs/mp5.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -321,13 +321,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityD18Bundle # D18
+  id: DSUplinkSecurityD18Bundle # D18
   name:  uplink-security-d18-name
   description: uplink-security-d18-desc
-  productEntity: WeaponCaseShortRMCWeaponPistolD18
+  productEntity: DSWeaponCaseShortRMCWeaponPistolD18
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/m43.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -337,13 +337,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityBigBuddyBundle # bigbuddy
+  id: DSUplinkSecurityBigBuddyBundle # bigbuddy
   name:  uplink-security-bb-name
   description: uplink-security-bb-desc
-  productEntity: WeaponCaseLongBigBuddyBundle
+  productEntity: DSWeaponCaseLongBigBuddyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigBuddy.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -353,13 +353,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityMR8BBundle # VFD MR-8B LWMMG (8x65 SKR)
+  id: DSUplinkSecurityMR8BBundle # VFD MR-8B LWMMG (8x65 SKR)
   name:  uplink-security-MR8BBundle-name
   description: uplink-security-MR8BBundle-desc
-  productEntity: WeaponCaseLongLMGMR8BBundle
+  productEntity: DSWeaponCaseLongLMGMR8BBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/mr8b.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -369,10 +369,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityNavyOfficerSword # Navy Officer Sabre
+  id: DSUplinkSecurityNavyOfficerSword # Navy Officer Sabre
   name:  uplink-security-navyofficersword-name
   description: uplink-security-navyofficersword-desc
   productEntity: ClothingBeltSheathFilledNavyOfficer
@@ -385,13 +385,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm)
+  id: DSUplinkSecurityNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm)
   name:  uplink-security-NtsfLtrBundle-name
   description: uplink-security-NtsfLtrBundle-desc
-  productEntity: WeaponCaseLongNtsfLtrBundle
+  productEntity: DSWeaponCaseLongNtsfLtrBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -401,13 +401,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #- type: listing
-#  id: UplinkSecurityEnforcerBundle # Enforcer (4 gauge)
+#  id: DSUplinkSecurityEnforcerBundle # Enforcer (4 gauge)
 #  name:  uplink-security-enforcerBundle-name
 #  description: uplink-security-enforcerBundle-desc
-#  productEntity: WeaponCaseLongEnforcerBundle
+#  productEntity: DSWeaponCaseLongEnforcerBundle
 #  icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
 #  cost:
 #    FrontierUplinkCoin: 3
@@ -417,13 +417,13 @@
 #    - !type:StoreWhitelistCondition
 #      whitelist:
 #        tags:
-#          - SecurityUplink
+#          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityLecterBundle # Lecter (7.62x39mm)
+  id: DSUplinkSecurityLecterBundle # Lecter (7.62x39mm)
   name:  uplink-security-LecterBundle-name
   description: uplink-security-LecterBundle-desc
-  productEntity: WeaponCaseLongLecterBundle
+  productEntity: DSWeaponCaseLongLecterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -433,13 +433,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #- type: listing
-#  id: UplinkSecurityWT550 # WT-550 (9x19mm)
+#  id: DSUplinkSecurityWT550 # WT-550 (9x19mm)
 #  name:  uplink-security-Wt550Bundle-name
 #  description: uplink-security-Wt550Bundle-desc
-#  productEntity: WeaponCaseLongWt550Bundle
+#  productEntity: DSWeaponCaseLongWt550Bundle
 #  icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
 #  cost:
 #    FrontierUplinkCoin: 10
@@ -449,13 +449,13 @@
 #    - !type:StoreWhitelistCondition
 #      whitelist:
 #        tags:
-#          - SecurityUplink
+#          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityN1984 # N1984 (.45_ACP)
+  id: DSUplinkSecurityN1984 # N1984 (.45_ACP)
   name:  uplink-security-N1984Bundle-name
   description: uplink-security-N1984Bundle-desc
-  productEntity: WeaponCaseShortN1984Bundle
+  productEntity: DSWeaponCaseShortN1984Bundle
   icon: { sprite: Objects/Weapons/Guns/Pistols/N1984.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -465,13 +465,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityInspectorBundle # Inspector (.45 Magnum)
+  id: DSUplinkSecurityInspectorBundle # Inspector (.45 Magnum)
   name:  uplink-security-InspectorBundle-name
   description: uplink-security-InspectorBundle-desc
-  productEntity: WeaponCaseShortInspectorBundle
+  productEntity: DSWeaponCaseShortInspectorBundle
   icon: { sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -481,10 +481,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityNonLethalArmory
+  id: DSUplinkSecurityNonLethalArmory
   name:  uplink-security-nonlethalarmory-name
   description: uplink-security-nonlethalarmory-desc
   productEntity: CrateArmoryNonLethalNfsd
@@ -497,7 +497,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 #    - !type:BuyerJobCondition
 #      whitelist:
 #        - Bailiff
@@ -506,10 +506,10 @@
 
 #region energy weapons
 - type: listing
-  id: UplinkSecurityLRC21PPLBundle # NT-WS LRC-21 PPL
+  id: DSUplinkSecurityLRC21PPLBundle # NT-WS LRC-21 PPL
   name: uplink-security-LRC21PPLBundle-name
   description: uplink-security-LRC21PPLBundle-desc
-  productEntity: WeaponCaseHeavyLRC21PPLBundle
+  productEntity: DSWeaponCaseHeavyLRC21PPLBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/lrc21.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 10
@@ -519,13 +519,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityAshstorm # EM72 Ashstorm
+  id: DSUplinkSecurityAshstorm # EM72 Ashstorm
   name:  uplink-security-ashstorm-name
   description: uplink-security-ashstorm-desc
-  productEntity: ClothingBackpackDuffelAshstormBundle
+  productEntity: DSClothingBackpackDuffelAshstormBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 10
@@ -535,13 +535,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityEg4 # Energy revolver EG-4
+  id: DSUplinkSecurityEg4 # Energy revolver EG-4
   name:  uplink-security-eg4-name
   description: uplink-security-eg4-desc
-  productEntity: WeaponEnergyRevolver
+  productEntity: DSWeaponEnergyRevolver
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -550,13 +550,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityLaserRifle # LaserRifle
+  id: DSUplinkSecurityLaserRifle # LaserRifle
   name:  uplink-security-laserrifle-name
   description: uplink-security-laserrifle-desc
-  productEntity: WeaponCaseShortN14WeaponLaserRifle
+  productEntity: DSWeaponCaseShortN14WeaponLaserRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -566,13 +566,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityUrbanPlasma # UrbanPlasma
+  id: DSUplinkSecurityUrbanPlasma # UrbanPlasma
   name:  uplink-security-urbanplasma-name
   description: uplink-security-urbanplasma-desc
-  productEntity: WeaponCaseShortN14WeaponUrbanPlasmaRifle
+  productEntity: DSWeaponCaseShortN14WeaponUrbanPlasmaRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -582,13 +582,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityRechargerRifle # RechargerRifle
+  id: DSUplinkSecurityRechargerRifle # RechargerRifle
   name:  uplink-security-rechargerrifle-name
   description: uplink-security-rechargerrifle-desc
-  productEntity: WeaponCaseLongN14WeaponRechargerRifle
+  productEntity: DSWeaponCaseLongN14WeaponRechargerRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -598,13 +598,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityRechargerPistol # RechargerPistol
+  id: DSUplinkSecurityRechargerPistol # RechargerPistol
   name:  uplink-security-rechargerpistol-name
   description: uplink-security-rechargerpistol-desc
-  productEntity: WeaponCaseShortN14WeaponRechargerPistol
+  productEntity: DSWeaponCaseShortN14WeaponRechargerPistol
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -614,13 +614,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityRifleTemperature # RifleTemperature
+  id: DSUplinkSecurityRifleTemperature # RifleTemperature
   name:  uplink-security-rifletemperature-name
   description: uplink-security-rifletemperature-desc
-  productEntity: WeaponCaseLongTemperatureGunExpedition
+  productEntity: DSWeaponCaseLongTemperatureGunExpedition
   icon: { sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -630,7 +630,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #region ammo
 
@@ -639,10 +639,10 @@
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine762x39mmFMJ # Mag
+  id: DSUplinkSecurityMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
-  productEntity: LuaBoxMagazineRifle762x39mmFMJ
+  productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -652,15 +652,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine762x39mmRubber # Mag
+  id: DSUplinkSecurityMagazine762x39mmRubber # Mag
   name: uplink-security-Magazine762x39mmRubber-name
   description: uplink-security-Magazine762x39mmRubber-desc
-  productEntity: LuaBoxMagazineRifle762x39mmRubber
+  productEntity: DSLuaBoxMagazineRifle762x39mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -670,17 +670,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #5.56x45mm
 
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine556x45mmFMJ # Mag
+  id: DSUplinkSecurityMagazine556x45mmFMJ # Mag
   name: uplink-security-Magazine556x45mmFMJ-name
   description: uplink-security-Magazine556x45mmFMJ-desc
-  productEntity: LuaBoxMagazineRifle556x45mmFMJ
+  productEntity: DSLuaBoxMagazineRifle556x45mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -690,30 +690,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityNFMagazineDrumRifle556x45 # Mag extended
-  name: uplink-security-NFMagazineDrumRifle556x45-name
-  description: uplink-security-NFMagazineDrumRifle556x45-desc
-  productEntity: NFMagazineDrumRifle556x45
-  cost:
-    Speso: 6000
-  categories:
-  - UplinkSecurityAmmo
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine556x45mmRubber # Mag
+  id: DSUplinkSecurityMagazine556x45mmRubber # Mag
   name: uplink-security-Magazine556x45mmRubber-name
   description: uplink-security-Magazine556x45mmRubber-desc
-  productEntity: LuaBoxMagazineRifle556x45mmRubber
+  productEntity: DSLuaBoxMagazineRifle556x45mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -723,7 +708,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #9x19mm
 
@@ -732,10 +717,10 @@
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine9x19mmSubMachineGunFMJ # Mag
+  id: DSUplinkSecurityMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
-  productEntity: LuaBoxMagazine9x19mmSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -745,13 +730,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityMagazine9x19mmSubMachineGunTopMountedFMJ # Mag topmount
+  id: DSUplinkSecurityMagazine9x19mmSubMachineGunTopMountedFMJ # Mag topmount
   name: uplink-security-Magazine9x19mmSubMachineGunTopMountedFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunTopMountedFMJ-desc
-  productEntity: LuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -761,15 +746,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine9x19mmSubMachineGunRubber # Mag
+  id: DSUplinkSecurityMagazine9x19mmSubMachineGunRubber # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunRubber-name
   description: uplink-security-Magazine9x19mmSubMachineGunRubber-desc
-  productEntity: LuaBoxMagazine9x19mmSubMachineGunRubber
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -779,17 +764,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Pistol
 
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine9x19mmPistolHighCapacityFMJ # Mag extended
+  id: DSUplinkSecurityMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
-  productEntity: LuaBoxMagazine9x19mmPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -799,15 +784,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine9x19mmPistolHighCapacityRubber # Mag extended
+  id: DSUplinkSecurityMagazine9x19mmPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityRubber-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityRubber-desc
-  productEntity: LuaBoxMagazine9x19mmPistolHighCapacityRubber
+  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -817,7 +802,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #.45_ACP
 
@@ -826,10 +811,10 @@
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine45_ACPSubMachineGunFMJ # Mag
+  id: DSUplinkSecurityMagazine45_ACPSubMachineGunFMJ # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunFMJ-name
   description: uplink-security-Magazine45_ACPSubMachineGunFMJ-desc
-  productEntity: LuaBoxMagazine45_ACPSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -839,15 +824,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine45_ACPSubMachineGunRubber # Mag
+  id: DSUplinkSecurityMagazine45_ACPSubMachineGunRubber # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunRubber-name
   description: uplink-security-Magazine45_ACPSubMachineGunRubber-desc
-  productEntity: LuaBoxMagazine45_ACPSubMachineGunRubber
+  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -857,17 +842,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Pistol
 
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine45_ACPPistolHighCapacityFMJ # Mag extended
+  id: DSUplinkSecurityMagazine45_ACPPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-desc
-  productEntity: LuaBoxMagazine45_ACPPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -877,15 +862,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine45_ACPPistolHighCapacityRubber # Mag extended
+  id: DSUplinkSecurityMagazine45_ACPPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityRubber-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityRubber-desc
-  productEntity: LuaBoxMagazine45_ACPPistolHighCapacityRubber
+  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -895,17 +880,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #.45 Magnum
 
 # FMJ
 
 - type: listing
-  id: UplinkSecuritySpeedLoader45_magnumFMJ # speedloader
+  id: DSUplinkSecuritySpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
-  productEntity: LuaBoxSpeedLoader45_magnumFMJ
+  productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -915,15 +900,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecuritySpeedLoader45_magnumRubber # speedloader
+  id: DSUplinkSecuritySpeedLoader45_magnumRubber # speedloader
   name: uplink-security-SpeedLoader45_magnumRubber-name
   description: uplink-security-SpeedLoader45_magnumRubber-desc
-  productEntity: LuaBoxSpeedLoader45_magnumRubber
+  productEntity: DSLuaBoxSpeedLoader45_magnumRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -933,17 +918,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #7.62x51mm
 
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine762x51mmFMJ # Mag
+  id: DSUplinkSecurityMagazine762x51mmFMJ # Mag
   name: uplink-security-Magazine762x51mmFMJ-name
   description: uplink-security-Magazine762x51mmFMJ-desc
-  productEntity: LuaBoxMagazine762x51mmFMJ
+  productEntity: DSLuaBoxMagazine762x51mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -953,13 +938,13 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityAmmoBox762x51mmFMJ # Mag (For VFD MR-8B LWMMG (7.62x51mm))
+  id: DSUplinkSecurityAmmoBox762x51mmFMJ # Mag (For VFD MR-8B LWMMG (7.62x51mm))
   name: uplink-security-AmmoBox762x51mmFMJ-name
   description: uplink-security-AmmoBox762x51mmFMJ-desc
-  productEntity: AmmoBox762x51mmFMJ
+  productEntity: DSAmmoBox762x51mmFMJ
   cost:
     Speso: 4000
   categories:
@@ -968,15 +953,15 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 # Rubber
 
 - type: listing
-  id: UplinkSecurityMagazine762x51mmRubber # Mag
+  id: DSUplinkSecurityMagazine762x51mmRubber # Mag
   name: uplink-security-Magazine762x51mmRubber-name
   description: uplink-security-Magazine762x51mmRubber-desc
-  productEntity: LuaBoxMagazine762x51mmRubber
+  productEntity: DSLuaBoxMagazine762x51mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -986,17 +971,17 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #8x65 STANAG
 
 # FMJ
 
 - type: listing
-  id: UplinkSecurityMagazine8x65mmSKR # Mag
+  id: DSUplinkSecurityMagazine8x65mmSKR # Mag
   name: uplink-security-Magazine8x65mmSKR-name
   description: uplink-security-Magazine8x65mmSKR-desc
-  productEntity: LuaBoxMagazine8x65mmSKR
+  productEntity: DSLuaBoxMagazine8x65mmSKR
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -1006,12 +991,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 #region explosive
 
 - type: listing
-  id: UplinkSecurityEmpGrenadeBox
+  id: DSUplinkSecurityEmpGrenadeBox
   name:  uplink-security-empgrenade-box-name
   description: uplink-security-empgrenade-box-desc
   productEntity: BoxEMPGrenadesNfsd
@@ -1024,7 +1009,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Bailiff
@@ -1032,7 +1017,7 @@
         - Sheriff
 
 - type: listing
-  id: UplinkSecuritySmokeGrenadeBox
+  id: DSUplinkSecuritySmokeGrenadeBox
   name:  uplink-security-smokegrenade-box-name
   description: uplink-security-smokegrenade-box-desc
   productEntity: BoxSmokeGrenades
@@ -1045,10 +1030,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityTeargasGrenadeBox
+  id: DSUplinkSecurityTeargasGrenadeBox
   name:  uplink-security-teargasgrenade-box-name
   description: uplink-security-teargasgrenade-box-desc
   productEntity: BoxTeargasGrenades
@@ -1061,10 +1046,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityFlashbangGrenadeBox
+  id: DSUplinkSecurityFlashbangGrenadeBox
   name:  uplink-security-flashbanggrenade-box-name
   description: uplink-security-flashbanggrenade-box-desc
   productEntity: BoxFlashBangGrenades
@@ -1077,10 +1062,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityBreachingChargesBox
+  id: DSUplinkSecurityBreachingChargesBox
   name:  uplink-security-breachingcharge-box-name
   description: uplink-security-breachingcharge-box-desc
   productEntity: BoxBreachingCharges
@@ -1093,7 +1078,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Bailiff
@@ -1103,7 +1088,7 @@
 #region medicine
 
 - type: listing
-  id: UplinkSecurityMedipenCase
+  id: DSUplinkSecurityMedipenCase
   name: uplink-pirate-syringe-case-name
   description: uplink-pirate-syringe-case-desc
   productEntity: SyringeCaseAltFilled
@@ -1115,10 +1100,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHypo
+  id: DSUplinkSecurityHypo
   name:  uplink-security-hypo-name
   description: uplink-security-hypo-desc
   productEntity: HypoBrigmedic
@@ -1131,14 +1116,14 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     # - !type:BuyerJobCondition
     #   whitelist:
     #     - Brigmedic
     #     - Sheriff
 
 - type: listing
-  id: UplinkSecurityRadPen
+  id: DSUplinkSecurityRadPen
   name:  uplink-pirate-rad-pen-name
   description: uplink-pirate-rad-pen-desc
   productEntity: RadAutoInjector
@@ -1151,10 +1136,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityPyrazinePen
+  id: DSUplinkSecurityPyrazinePen
   name:  uplink-pirate-pyrazine-pen-name
   description: uplink-pirate-pyrazine-pen-desc
   productEntity: PyraAutoInjector
@@ -1167,10 +1152,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityPuncturasePen
+  id: DSUplinkSecurityPuncturasePen
   name:  uplink-pirate-puncturase-pen-name
   description: uplink-pirate-puncturase-pen-desc
   productEntity: PunctAutoInjector
@@ -1183,10 +1168,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityAntiPoisonPen
+  id: DSUplinkSecurityAntiPoisonPen
   name:  uplink-pirate-anti-poison-pen-name
   description: uplink-pirate-anti-poison-pen-desc
   productEntity: AntiPoisonMedipen
@@ -1199,10 +1184,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityCombatPen
+  id: DSUplinkSecurityCombatPen
   name:  uplink-security-combat-pen-name
   description: uplink-security-combat-pen-desc
   productEntity: CombatMedipen
@@ -1215,10 +1200,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityAmbuzol
+  id: DSUplinkSecurityAmbuzol
   name:  uplink-security-ambuzol-name
   description: uplink-security-ambuzol-desc
   productEntity: SyringeAmbuzol
@@ -1231,14 +1216,14 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     # - !type:BuyerJobCondition
     #   whitelist:
     #     - Brigmedic
     #     - Sheriff
 
 - type: listing
-  id: UplinkSecurityMedkit
+  id: DSUplinkSecurityMedkit
   name:  uplink-security-medkit-name
   description: uplink-security-medkit-desc
   productEntity: MedkitCombatFilled
@@ -1251,12 +1236,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #region starmap
 
 - type: listing
-  id: UplinkSecuritySectorBanner
+  id: DSUplinkSecuritySectorBanner
   name: uplink-security-sector-banner-name
   description: uplink-security-sector-banner-desc
   productEntity: BannerSectorSecurity
@@ -1268,10 +1253,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityCoordinatesDiskFrontier
+  id: DSUplinkSecurityCoordinatesDiskFrontier
   name: uplink-security-coordinates-disk-frontier-name
   description: uplink-security-coordinates-disk-frontier-desc
   productEntity: CoordinatesDiskFrontier
@@ -1284,12 +1269,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 #region utility
 
 - type: listing
-  id: UplinkSecurityArmySatchel
+  id: DSUplinkSecurityArmySatchel
   name:  uplink-security-armysatchel-name
   description: uplink-security-armysatchel-desc
   productEntity: ClothingBackpackMilitarySatchel
@@ -1302,10 +1287,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHolo
+  id: DSUplinkSecurityHolo
   name:  uplink-security-holo-name
   description: uplink-security-holo-desc
   productEntity: HoloprojectorNfsd
@@ -1318,10 +1303,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkNfsdTechfab
+  id: DSUplinkNfsdTechfab
   name:  uplink-security-techfab-name
   description: uplink-security-techfab-desc
   productEntity: NfsdTechFabCircuitboard
@@ -1334,13 +1319,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Sheriff
 
 - type: listing
-  id: UplinkSecurityKey
+  id: DSUplinkSecurityKey
   name:  uplink-security-key-name
   description: uplink-security-key-desc
   productEntity: BoxEncryptionKeyNfsd
@@ -1353,13 +1338,13 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Sheriff
 
 - type: listing
-  id: UplinkSecurityThrusterKit
+  id: DSUplinkSecurityThrusterKit
   name:  uplink-pirate-thruster-kit-name
   description: uplink-pirate-thruster-kit-desc
   productEntity: BoxT3SuperCapacitor
@@ -1372,7 +1357,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     # - !type:BuyerJobCondition
     #   whitelist:
     #     - Bailiff
@@ -1380,7 +1365,7 @@
     #     - Sheriff
 
 - type: listing
-  id: UplinkSecurityTeleShield
+  id: DSUplinkSecurityTeleShield
   name:  uplink-security-teleshield-name
   description: uplink-security-teleshield-desc
   productEntity: TelescopicShield
@@ -1393,10 +1378,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityEnergyShield
+  id: DSUplinkSecurityEnergyShield
   name:  uplink-security-energyshield-name
   description: uplink-security-energyshield-desc
   productEntity: EnergyShieldNfsd
@@ -1409,7 +1394,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     # - !type:BuyerJobCondition
     #   whitelist:
     #     - Bailiff
@@ -1417,7 +1402,7 @@
     #     - Sheriff
 
 - type: listing
-  id: UplinkSecurityCash2500
+  id: DSUplinkSecurityCash2500
   name:  uplink-security-cash2500-name
   description: uplink-security-cash2500-desc
   productEntity: SpaceCash2500
@@ -1430,10 +1415,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityCash25000
+  id: DSUplinkSecurityCash25000
   name: uplink-security-cash25000-name
   description: uplink-security-cash25000-desc
   productEntity: SpaceCash25000
@@ -1446,10 +1431,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityPortableRecharger
+  id: DSUplinkSecurityPortableRecharger
   name:  uplink-security-portable-recharger-name
   description: uplink-security-portable-recharger-desc
   productEntity: PortableRecharger
@@ -1461,10 +1446,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - SecurityUplink
+      - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityContrabandForensicsModule
+  id: DSUplinkSecurityContrabandForensicsModule
   name:  uplink-security-contraband-forensics-module-name
   description: uplink-security-contraband-forensics-module-desc
   productEntity: ContrabandForensicsModule
@@ -1477,7 +1462,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Sheriff
@@ -1486,7 +1471,7 @@
         - NFDetective
 
 - type: listing
-  id: UplinkSecurityTrackingDartsAmmo
+  id: DSUplinkSecurityTrackingDartsAmmo
   name:  uplink-security-trackingdart-ammo-name
   description: uplink-security-trackingdart-ammo-desc
   productEntity: NFBoxDartsTracking
@@ -1499,10 +1484,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
 
 - type: listing
-  id: UplinkSecurityHoverbikeNfsdFlatpack
+  id: DSUplinkSecurityHoverbikeNfsdFlatpack
   name:  uplink-security-hoverbike-name
   description: uplink-security-hoverbike-desc
   productEntity: HoverbikeNfsdFlatpack
@@ -1515,7 +1500,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink
     # - !type:BuyerJobCondition
     #   whitelist:
     #     - Bailiff
@@ -1523,7 +1508,7 @@
     #     - Sheriff
 
 - type: listing
-  id: UplinkSecurityCyborgModule
+  id: DSUplinkSecurityCyborgModule
   name:  uplink-security-cyborg-module-name
   description: uplink-security-cyborg-module-desc
   productEntity: BorgModuleSecurity
@@ -1536,4 +1521,4 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - SecurityUplink
+          - DSSecurityUplink

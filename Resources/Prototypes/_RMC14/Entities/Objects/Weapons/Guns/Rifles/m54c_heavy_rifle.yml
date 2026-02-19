@@ -1,8 +1,9 @@
 - type: entity
   name: M54CE2 heavy assault rifle
   parent: [BaseC3Contraband, CMBaseWeaponRifleUnwieldable] #Lua CMBaseWeaponRifle<CMBaseWeaponRifleUnwieldable
-  id: WeaponRifleM54CE2
+  id: DSWeaponRifleM54CE2
   description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi
@@ -65,7 +66,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua CMMagazineRifleM54CE2<Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ #Lua CMMagazineRifleM54CE2<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/hpr_unload.ogg
         priority: 2
@@ -79,38 +80,3 @@
       rmc-aslot-rail: 0.125, 0.185
       rmc-aslot-stock: -0.875, 0.0325
       rmc-aslot-underbarrel: 0.312, -0.343
-
-- type: entity
-  parent: CMMagazineRifleM54C
-  id: CMMagazineRifleM54CE2
-  name: "M54CE2 magazine (10x24mm)"
-  components:
-  - type: Tag
-    tags:
-    - CMMagazineRifle
-    - CMMagazineRifleM54CE2
-  - type: BallisticAmmoProvider
-    mayTransfer: True
-    whitelist:
-      tags:
-      - CMCartridgeRifle10x24mm
-    proto: CMCartridgeRifle10x24mm
-    capacity: 200
-  - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m54ce2.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: mag
-    steps: 2
-    zeroVisible: false
-  - type: Appearance
-
-- type: Tag
-  id: WeaponRifleM54CE2
-
-- type: Tag
-  id: CMMagazineRifleM54CE2

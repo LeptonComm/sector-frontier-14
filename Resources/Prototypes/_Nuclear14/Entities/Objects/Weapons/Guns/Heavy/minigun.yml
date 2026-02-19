@@ -1,9 +1,10 @@
 - type: entity
   name: minigun
   parent: BaseWeaponRifle
-  id: BaseWeaponMinigun
+  id: DSBaseWeaponMinigun
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo.
   categories: [ HideSpawnMenu ]
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/minigun.rsi
@@ -33,7 +34,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine68x52mmCaselessBig #Lua N14MagazineMinigun5mm<Magazine68x52mmCaselessBig
+        startingItem: DSMagazine68x52mmCaselessBig #Lua N14MagazineMinigun5mm<Magazine68x52mmCaselessBig
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -42,7 +43,7 @@
             - Magazine68x52mmCaseless #Lua N14MagazineMinigun5mm<Magazine68x52mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge68x52mmCaseless #Lua N14CartridgePistol5<Cartridge68x52mmCaseless
+        startingItem: DSCartridge68x52mmCaseless #Lua N14CartridgePistol5<Cartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -62,8 +63,9 @@
 - type: entity
   name: minigun
   parent: [BaseC3Contraband, BaseWeaponMinigun]
-  id: N14WeaponMinigun
+  id: DSN14WeaponMinigun
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Item
     size: Huge
@@ -76,8 +78,9 @@
 - type: entity
   name: avenger minigun
   parent: [BaseC2Contraband, BaseWeaponMinigun]
-  id: N14WeaponAvengerMinigun
+  id: DSN14WeaponAvengerMinigun
   description: A extremely heavy advance minigun with multiple barrels, it uses 5mm ammo.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Heavy/avengerminigun.rsi
@@ -101,7 +104,7 @@
     slots:
       gun_magazine: 
         name: Magazine
-        startingItem: Magazine8x65mmSKRBox
+        startingItem: DSMagazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -110,7 +113,7 @@
             - MagazineBox8x65mmSKR
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge8x65mmSKR
+        startingItem: DSCartridge8x65mmSKR
         priority: 1
         whitelist:
           tags:

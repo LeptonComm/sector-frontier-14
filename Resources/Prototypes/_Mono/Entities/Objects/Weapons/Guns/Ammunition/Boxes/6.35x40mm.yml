@@ -1,14 +1,15 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: BaseAmmoBox635x40mmCaseless
+  id: DSBaseAmmoBox635x40mmCaseless
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
         - Cartridge635x40mmCaseless
-    proto: Cartridge635x40mmCaseless
+    proto: DSCartridge635x40mmCaseless
     capacity: 80
   - type: Item
     size: Small
@@ -35,12 +36,13 @@
 # Boxes
 # Standart
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaseless
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaseless
   name: ammunition box (635x40mm Caseless)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaseless
+    proto: DSCartridge635x40mmCaseless
   - type: Sprite
     layers:
     - state: base
@@ -49,12 +51,13 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessPractice
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessPractice
   name: ammunition box (635x40mm Caseless practice)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessPractice
+    proto: DSCartridge635x40mmCaselessPractice
   - type: Sprite
     layers:
     - state: base
@@ -64,12 +67,13 @@
     - state: practice
 
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessRubber
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessRubber
   name: ammunition box (635x40mm Caseless rubber)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessRubber
+    proto: DSCartridge635x40mmCaselessRubber
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/6.35x40mm_caseless.rsi
     layers:
@@ -81,12 +85,13 @@
 
 # Mechanical
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessHP
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessHP
   name: ammunition box (635x40mm HP)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessHP
+    proto: DSCartridge635x40mmCaselessHP
   - type: Sprite
     layers:
     - state: base
@@ -97,12 +102,13 @@
 
 # Physical
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessIncendiary
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessIncendiary
   name: ammunition box (635x40mm Incendiary)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessHP
+    proto: DSCartridge635x40mmCaselessHP
   - type: Sprite
     layers:
     - state: base
@@ -112,12 +118,13 @@
     - state: incendiary
 
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessUranium
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessUranium
   name: ammunition box (635x40mm Uranium)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessUranium
+    proto: DSCartridge635x40mmCaselessUranium
   - type: Sprite
     layers:
     - state: base
@@ -128,12 +135,13 @@
 
 # Special
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessEMP
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessEMP
   name: ammunition box (635x40mm EMP)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessEMP
+    proto: DSCartridge635x40mmCaselessEMP
   - type: Sprite
     layers:
     - state: base
@@ -143,12 +151,13 @@
     - state: emp
 
 - type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessCaustic
+  parent: DSBaseAmmoBox635x40mmCaseless
+  id: DSAmmoBox635x40mmCaselessCaustic
   name: ammunition box (635x40mm Caustic)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge635x40mmCaselessCaustic
+    proto: DSCartridge635x40mmCaselessCaustic
   - type: Sprite
     layers:
     - state: base
@@ -156,52 +165,3 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: caustic
-
-# Out of balance
-- type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessBigRubber
-  name: big ammunition box (635x40mm Caseless rubber)
-  suffix: Big
-  components:
-  - type: Item
-    shape:
-    - 0,0,1,1
-  - type: BallisticAmmoProvider
-    capacity: 200
-    proto: Cartridge635x40mmCaselessRubber
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/6.35x40mm_caseless.rsi
-    layers:
-    - state: base-b
-      map: ["enum.GunVisualLayers.Base"]
-    - state: magb-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: rubber-b
-  - type: MagazineVisuals
-    magState: magb
-    steps: 4
-    zeroVisible: false
-  - type: Appearance
-
-- type: entity
-  parent: BaseAmmoBox635x40mmCaseless
-  id: AmmoBox635x40mmCaselessBig
-  name: big ammunition box (635x40mm Caseless)
-  suffix: Big
-  components:
-  - type: Item
-    shape:
-    - 0,0,1,1
-  - type: BallisticAmmoProvider
-    capacity: 200
-    proto: Cartridge635x40mmCaseless
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/6.35x40mm_caseless.rsi
-    layers:
-    - state: base-b
-      map: ["enum.GunVisualLayers.Base"]
-    - state: magb-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: magb

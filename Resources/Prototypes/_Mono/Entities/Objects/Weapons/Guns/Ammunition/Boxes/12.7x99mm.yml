@@ -1,15 +1,16 @@
 - type: entity
   abstract: true
   parent: [ BaseItem, BaseC3PirateContraband ]
-  id: BaseAmmoBox127x99mm
+  id: DSBaseAmmoBox127x99mm
   name: ammunition box (12.7x99mm anti-material)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
         - Cartridge127x99mm
-    proto: Cartridge127x99mm
+    proto: DSCartridge127x99mm
     capacity: 30
   - type: Item
     size: Small
@@ -40,17 +41,19 @@
 
 # Standart
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mm
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mm
+  suffix: МК, НЕ СПАВНИТЬ #Lua
 
 # Mechanical
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmHP
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mmHP
   name: ammunition box (12.7x99mm HP)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge127x99mmHP
+    proto: DSCartridge127x99mmHP
   - type: Sprite
     layers:
     - state: base
@@ -61,12 +64,13 @@
 
 # Physical
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmIncendiary
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mmIncendiary
   name: ammunition box (12.7x99mm incendiary)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge127x99mmIncendiary
+    proto: DSCartridge127x99mmIncendiary
   - type: Sprite
     layers:
     - state: base
@@ -76,12 +80,13 @@
     - state: incendiary
 
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmUranium
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mmUranium
   name: ammunition box (12.7x99mm uranium)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge127x99mmUranium
+    proto: DSCartridge127x99mmUranium
   - type: Sprite
     layers:
     - state: base
@@ -92,12 +97,13 @@
 
 # Special
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmEMP
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mmEMP
   name: ammunition box (12.7x99mm EMP)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge127x99mmEMP
+    proto: DSCartridge127x99mmEMP
   - type: Sprite
     layers:
     - state: base
@@ -107,12 +113,13 @@
     - state: emp
 
 - type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmCaustic
-  name: ammunition box (12.7x99mm caustic)
+  parent: DSBaseAmmoBox127x99mm
+  id: DSAmmoBox127x99mmCaustic
+  name: ammunition box (12.7x99mm Сaustic)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge127x99mmCaustic
+    proto: DSCartridge127x99mmCaustic
   - type: Sprite
     layers:
     - state: base
@@ -120,13 +127,3 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: caustic
-
-# Out of balance
-- type: entity
-  parent: BaseAmmoBox127x99mm
-  id: AmmoBox127x99mmExplosive
-  name: ammunition box (12.7x99mm high-explosive)
-  components:
-  - type: BallisticAmmoProvider
-    capacity: 30
-    proto: Cartridge127x99mmExplosive

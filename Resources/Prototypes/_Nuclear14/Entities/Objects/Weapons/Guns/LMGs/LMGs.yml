@@ -1,8 +1,9 @@
 - type: entity
   name: automatic rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: N14WeaponAutoRifle
+  id: DSN14WeaponAutoRifle
   description: A high caliber long and heavy machine gun of the pre-war, chambered in the powerfull 308.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/autorifle.rsi
@@ -41,7 +42,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine68x52mmCaselessBig #Lua Magazine308Rifle<Magazine68x52mmCaselessBig
+        startingItem: DSMagazine68x52mmCaselessBig #Lua Magazine308Rifle<Magazine68x52mmCaselessBig
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -50,7 +51,7 @@
             - Magazine68x52mmCaseless #Lua N14Magazine308Rifle<Magazine68x52mmCaseless
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge68x52mmCaseless #Lua N14Cartridge308Rifle<Cartridge68x52mmCaseless
+        startingItem: DSCartridge68x52mmCaseless #Lua N14Cartridge308Rifle<Cartridge68x52mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -68,8 +69,9 @@
 - type: entity
   name: light machine gun
   parent: BaseWeaponRifle
-  id: N14WeaponLMG
+  id: DSN14WeaponLMG
   description: A light machine gun designed by the NCR for their heavy troops, sometimes gived to the troops in low numbers, chambered in 5.56.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Clothing
     sprite: _Nuclear14/Objects/Weapons/Guns/LMGs/lmg.rsi
@@ -109,7 +111,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine8x65mmSKRBox #Lua LMGMagazine556Rifle<Magazine8x65mmSKRBox
+        startingItem: DSMagazine8x65mmSKRBox #Lua LMGMagazine556Rifle<Magazine8x65mmSKRBox
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -118,7 +120,7 @@
             - MagazineBox8x65mmSKR #Lua N14LMGMagazine556Rifle<MagazineBox8x65mmSKR
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge8x65mmSKR #Lua N14Cartridge556Rifle<Cartridge8x65mmSKR
+        startingItem: DSCartridge8x65mmSKR #Lua N14Cartridge556Rifle<Cartridge8x65mmSKR
         priority: 1
         whitelist:
           tags:

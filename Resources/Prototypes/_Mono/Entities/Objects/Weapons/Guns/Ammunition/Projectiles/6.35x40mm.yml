@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: Bullet635x40mmCaseless
+  id: DSBullet635x40mmCaseless
   name: bullet (635x40mm Caseless)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  id: Bullet635x40mmCaselessPractice
+  id: DSBullet635x40mmCaselessPractice
   name: bullet (635x40mm Caseless practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -1
 
 - type: entity
-  id: Bullet635x40mmCaselessRubber
+  id: DSBullet635x40mmCaselessRubber
   name: bullet (635x40mm Caseless rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 15
 
 - type: entity
-  id: Bullet635x40mmCaselessHP
+  id: DSBullet635x40mmCaselessHP
   name: bullet (635x40mm HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  id: Bullet635x40mmCaselessIncendiary
+  id: DSBullet635x40mmCaselessIncendiary
   name: bullet (635x40mm incendiary)
   parent: BaseBulletIncendiary
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 3.75
 
 - type: entity
-  id: Bullet635x40mmCaselessUranium
+  id: DSBullet635x40mmCaselessUranium
   name: bullet (635x40mm uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 # Special
 - type: entity
-  id: Bullet635x40mmCaselessEMP
+  id: DSBullet635x40mmCaselessEMP
   name: bullet (635x40mm EMP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 3.75
 
 - type: entity
-  id: Bullet635x40mmCaselessCaustic
+  id: DSBullet635x40mmCaselessCaustic
   name: bullet (635x40mm Caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

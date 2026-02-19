@@ -1,5 +1,6 @@
 - type: entity
-  id: MonoBaseWeaponPowerCell
+  id: DSMonoBaseWeaponPowerCell
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
   abstract: true
   components:
@@ -26,7 +27,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser
+    proto: DSRedLightLaser
     fireCost: 50
   - type: PowerCellSlot
     cellSlotId: gun_magazine
@@ -34,7 +35,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PowerCellSmall
+        startingItem: DSPowerCellSmall
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:

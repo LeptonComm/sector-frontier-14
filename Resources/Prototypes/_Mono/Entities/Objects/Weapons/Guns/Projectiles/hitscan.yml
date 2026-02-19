@@ -1,5 +1,5 @@
 - type: entity
-  id: PulsedPlasma
+  id: DSPulsedPlasma
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
   components:

@@ -1,7 +1,8 @@
 # Empty mags
 - type: entity
-  id: BaseMagazine762x54mmR
+  id: DSBaseMagazine762x54mmR
   name: "magazine (7.62x54mmR FMJ)"
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband added RecyclableItemSteelTiny
   abstract: true
   components:
@@ -13,7 +14,7 @@
     whitelist:
       tags:
         - Cartridge762x54mmRFMJ
-    proto: Cartridge762x54mmRFMJ
+    proto: DSCartridge762x54mmRFMJ
     capacity: 15 #Lua 10<15
   - type: Item
     size: Small
@@ -59,12 +60,12 @@
 # Magazines
 # Standart
 - type: entity
-  id: Magazine762x54mmRFMJ
+  id: DSMagazine762x54mmRFMJ
   name: "magazine (7.62x54mmR FMJ)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRFMJ
+    proto: DSCartridge762x54mmRFMJ
   - type: Sprite
     layers:
     - state: base
@@ -73,13 +74,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmREmpty
+  id: DSMagazine762x54mmREmpty
   name: "magazine (7.62x54mmR any)"
-  suffix: empty
-  parent: Magazine762x54mmRFMJ
+  parent: DSMagazine762x54mmRFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: null
+    proto: DSnull
   - type: Sprite
     layers:
     - state: base
@@ -88,12 +88,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmRPractice
+  id: DSMagazine762x54mmRPractice
   name: "magazine (7.62x54mmR practice)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRPractice
+    proto: DSCartridge762x54mmRPractice
   - type: Sprite
     layers:
     - state: practice
@@ -102,12 +102,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmRRubber
+  id: DSMagazine762x54mmRRubber
   name: "magazine (7.62x54mmR rubber)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRRubber
+    proto: DSCartridge762x54mmRRubber
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/7.62x54mmR/7.62x54mmR_mag.rsi
     layers:
@@ -118,12 +118,12 @@
 
 # Mechanical
 - type: entity
-  id: Magazine762x54mmRHP
+  id: DSMagazine762x54mmRHP
   name: "magazine (7.62x54mmR hollow-point)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRHP
+    proto: DSCartridge762x54mmRHP
   - type: Sprite
     layers:
     - state: red
@@ -133,12 +133,12 @@
 
 # Physical
 - type: entity
-  id: Magazine762x54mmRIncendiary
+  id: DSMagazine762x54mmRIncendiary
   name: "magazine (7.62x54mmR incendiary)"
-  parent: Magazine762x54mmRFMJ
+  parent: DSMagazine762x54mmRFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRIncendiary
+    proto: DSCartridge762x54mmRIncendiary
   - type: Sprite
     layers:
     - state: incendiary
@@ -147,12 +147,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmRUranium
+  id: DSMagazine762x54mmRUranium
   name: "magazine (7.62x54mmR uranium)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRUranium
+    proto: DSCartridge762x54mmRUranium
   - type: Sprite
     layers:
     - state: uranium
@@ -162,12 +162,12 @@
 
 # Special
 - type: entity
-  id: Magazine762x54mmREMP
+  id: DSMagazine762x54mmREMP
   name: "magazine (7.62x54mmR EMP)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmREMP
+    proto: DSCartridge762x54mmREMP
   - type: Sprite
     layers:
     - state: emp
@@ -176,12 +176,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmRCaustic
+  id: DSMagazine762x54mmRCaustic
   name: "magazine (7.62x54mmR Caustic)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRCaustic
+    proto: DSCartridge762x54mmRCaustic
   - type: Sprite
     layers:
     - state: caustic
@@ -191,12 +191,12 @@
 
 # Out of balance
 - type: entity
-  id: Magazine762x54mmRRIP
+  id: DSMagazine762x54mmRRIP
   name: "magazine (7.62x54mmR RIP)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRRIP
+    proto: DSCartridge762x54mmRRIP
   - type: Sprite
     layers:
     - state: RIP
@@ -205,12 +205,12 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: Magazine762x54mmRPlasteelAP
+  id: DSMagazine762x54mmRPlasteelAP
   name: "magazine (7.62x54mmR AP)"
-  parent: BaseMagazine762x54mmR
+  parent: DSBaseMagazine762x54mmR
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge762x54mmRPlasteelAP
+    proto: DSCartridge762x54mmRPlasteelAP
   - type: Sprite
     layers:
     - state: plasteelAP

@@ -1,8 +1,8 @@
 #region frame
 - type: entity
   abstract: true
-  parent: [ NFBaseWeaponEncumbranceLauncher, NFBaseGunMeleeAttackHigh, BaseWeaponBattery ]
-  id: NFBaseWeaponFrameEnergyRifleSniper
+  parent: [ DSNFBaseWeaponEncumbranceLauncher, NFBaseGunMeleeAttackHigh, BaseWeaponBattery ]
+  id: DSNFBaseWeaponFrameEnergyRifleSniper
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -66,7 +66,7 @@
 
 #region manufacturer
 - type: entity
-  id: NFBaseWeaponFrameEnergyRifleSniperNanotrasen
+  id: DSNFBaseWeaponFrameEnergyRifleSniperNanotrasen
   parent: NFBaseWeaponFrameEnergyRifleSniper
   abstract: true
   components:
@@ -81,7 +81,7 @@
 
 #region chamber
 - type: entity
-  id: NFBaseWeaponEnergyRifleSniperHitScan
+  id: DSNFBaseWeaponEnergyRifleSniperHitScan
   abstract: true
   components:
   - type: Gun
@@ -89,11 +89,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: NFRedSpecialLaser
+    proto: DSNFRedSpecialLaser
     fireCost: 120
 
 - type: entity
-  id: NFBaseWeaponEnergyRifleSniperHitScanXray
+  id: DSNFBaseWeaponEnergyRifleSniperHitScanXray
   abstract: true
   components:
   - type: Gun
@@ -101,5 +101,5 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: NFXrayLaser
+    proto: DSNFXrayLaser
     fireCost: 120

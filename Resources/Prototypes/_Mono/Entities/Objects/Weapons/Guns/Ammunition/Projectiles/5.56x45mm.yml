@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: Bullet556x45mmFMJ
+  id: DSBullet556x45mmFMJ
   name: bullet (5.56x45mm FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  id: Bullet556x45mmPractice
+  id: DSBullet556x45mmPractice
   name: bullet (5.56x45mm practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -1
 
 - type: entity
-  id: Bullet556x45mmRubber
+  id: DSBullet556x45mmRubber
   name: bullet (5.56x45mm rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 20
 
 - type: entity
-  id: Bullet556x45mmHP
+  id: DSBullet556x45mmHP
   parent: BaseBullet
   name: bullet (5.56x45mm hollow-point)
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  id: Bullet556x45mmIncendiary
+  id: DSBullet556x45mmIncendiary
   parent: BaseBulletIncendiary
   name: bullet (5.56x45mm incendiary)
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 7.5
 
 - type: entity
-  id: Bullet556x45mmUranium
+  id: DSBullet556x45mmUranium
   parent: BaseBulletUranium
   name: bullet (5.56x45mm uranium)
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 #Special
 - type: entity
-  id: Bullet556x45mmEMP
+  id: DSBullet556x45mmEMP
   name: bullet (5.56x45mm EMP)
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 7.5
 
 - type: entity
-  id: Bullet556x45mmCaustic
+  id: DSBullet556x45mmCaustic
   name: bullet (5.56x45mm caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -102,7 +102,7 @@
 
 # Out of balance
 - type: entity
-  id: Bullet556x45mmRIP
+  id: DSBullet556x45mmRIP
   parent: BaseBullet
   name: bullet (5.56x45mm RIP)
   categories: [ HideSpawnMenu ]
@@ -115,7 +115,7 @@
         Blunt: 10 #Lua add
 
 - type: entity
-  id: Bullet556x45mmPlasteelAP
+  id: DSBullet556x45mmPlasteelAP
   parent: BaseBullet
   name: bullet (5.56x45mm AP)
   categories: [ HideSpawnMenu ]

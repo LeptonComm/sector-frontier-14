@@ -1,6 +1,7 @@
 - type: entity
-  id: BaseSpeedLoader9x19mm
+  id: DSBaseSpeedLoader9x19mm
   name: "speed loader (9x19mm FMJ)"
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
   abstract: true
   components:
@@ -20,12 +21,12 @@
         ents: []
 
 - type: entity
-  id: SpeedLoader9x19mmFMJ
+  id: DSSpeedLoader9x19mmFMJ
   name: "speed loader (9x19mm FMJ)"
-  parent: BaseSpeedLoader9x19mm
+  parent: DSBaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge9x19mmFMJ
+    proto: DSCartridge9x19mmFMJ
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: icon
@@ -43,12 +44,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader9x19mmEmpty
+  id: DSSpeedLoader9x19mmEmpty
   name: "speed loader (9x19mm any)"
-  parent: SpeedLoader9x19mmFMJ
+  parent: DSSpeedLoader9x19mmFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: null
+    proto: DSnull
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: base
@@ -61,12 +62,12 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
-  id: SpeedLoader9x19mmIncendiary
+  id: DSSpeedLoader9x19mmIncendiary
   name: "speed loader (9x19mm incendiary)"
-  parent: BaseSpeedLoader9x19mm
+  parent: DSBaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge9x19mmIncendiary
+    proto: DSCartridge9x19mmIncendiary
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     layers:
@@ -81,12 +82,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader9x19mmPractice
+  id: DSSpeedLoader9x19mmPractice
   name: "speed loader (9x19mm practice)"
-  parent: BaseSpeedLoader9x19mm
+  parent: DSBaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge9x19mmPractice
+    proto: DSCartridge9x19mmPractice
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: practice-icon
@@ -104,12 +105,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader9x19mmUranium
+  id: DSSpeedLoader9x19mmUranium
   name: "speed loader (9x19mm uranium)"
-  parent: BaseSpeedLoader9x19mm
+  parent: DSBaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge9x19mmUranium
+    proto: DSCartridge9x19mmUranium
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: uranium-icon
@@ -127,12 +128,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader9x19mmRubber
+  id: DSSpeedLoader9x19mmRubber
   name: "speed loader (9x19mm rubber)"
-  parent: BaseSpeedLoader9x19mm
+  parent: DSBaseSpeedLoader9x19mm
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge9x19mmRubber
+    proto: DSCartridge9x19mmRubber
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: rubber-icon

@@ -1,8 +1,9 @@
 - type: entity
   name: SKR-WS MLA-73 (635x40mm caseless)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunMla73
+  id: DSWeaponSubMachineGunMla73
   description: A reliable PDW design, commonly issued to pilots and AFV crewmen. This one has been modified with an integral suppressor. Legends around this weapons say it's a Corporate-Era schematic that's been built by The Ashen Republic.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
@@ -33,7 +34,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine635x40mmCaseless
+        startingItem: DSMagazine635x40mmCaseless
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
         priority: 2
@@ -43,7 +44,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless
+        startingItem: DSCartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -57,8 +58,9 @@
 - type: entity
   name: NCI AK-220 (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC1Contraband] #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunAK220
+  id: DSWeaponSubMachineGunAK220
   description: A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi
@@ -95,7 +97,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/cm82_magin.ogg
         ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/pistol_alt_magout.ogg
         priority: 2
@@ -104,7 +106,7 @@
           - Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -120,8 +122,9 @@
 - type: entity
   name: LWC Vector (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunVector9x19mm
+  id: DSWeaponSubMachineGunVector9x19mm
   description: An excellent fully automatic SMG. Uses 9x19mm ammo.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector-crb.rsi # Lua
@@ -157,7 +160,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -166,7 +169,7 @@
             - Magazine9x19mmSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -180,8 +183,9 @@
 - type: entity
   name: LWC Vector (.45 ACP)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunVector45_ACP
+  id: DSWeaponSubMachineGunVector45_ACP
   description: An excellent fully automatic SMG. Uses .45 ACP ammo.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector.rsi
@@ -213,7 +217,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -222,7 +226,7 @@
             - Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
@@ -237,8 +241,9 @@
 - type: entity
   name: NTSF-HCLM-45 (.45 magnum)
   parent: [BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable] #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunVectorNtsfHclm
+  id: DSWeaponSubMachineGunVectorNtsfHclm
   description: The NTSF Heavy Caliber Light Machinegun. A very high-quality heavy SMG chambered in .45 magnum for use for the Nano Trasen Security Force and NT spec-ops.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/NTSF-HCLM-45rsi
@@ -270,7 +275,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua Magazine45_magnumPistolFMJ<Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ #Lua Magazine45_magnumPistolFMJ<Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -282,7 +287,7 @@
 #            - Magazine45_magnumSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_magnumFMJ
+        startingItem: DSCartridge45_magnumFMJ
         priority: 1
         whitelist:
           tags:
@@ -298,8 +303,9 @@
 - type: entity
   name: LWC Knallstock (.45 ACP)
   parent: [ BaseWeaponSubMachineGun, BaseC2Contraband ] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunKnallstock
+  id: DSWeaponSubMachineGunKnallstock
   description: A rugged and reliable SMG using large, rapid fire bursts. Accepts 9x19 or .45 ACP pistol magazines. Watch out for its ammo consumption.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/knallstock.rsi
@@ -336,7 +342,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ #Lua Magazine45_ACPPistolFMJ<Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ #Lua Magazine45_ACPPistolFMJ<Magazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -346,7 +352,7 @@
 #          - Magazine9x19mmPistolFMJ # comment from _Lua
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
@@ -360,26 +366,13 @@
   - type: StaticPrice
     price: 500
 
-#weaker typewriter for libvend
-- type: entity
-  name: PA Keyboard (.45 ACP)
-  parent: WeaponSubMachineGunTypewriter
-  id: WeaponSubMachineGunTypewriterPMC
-  description: A modern take on the classic design used by mobsters throughout space and time. This one is an offbrand mercenary version of the typewritter nicknamed the "keyboard", its barrel heat rapidly which reduce accuracy. Uses .45 ACP ammo.
-  components:
-  - type: Gun
-    angleIncrease: 1.1 #Lua 18 -> 1.1
-    angleDecay: 7.7 #Lua 4 -> 7.7
-    fireRate: 6 #Lua 7 -> 6
-  - type: StaticPrice
-    price: 500
-
 #old drozd sprite SMG
 - type: entity
   name: HWM Firestarter (.45 ACP)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: WeaponSubMachineGunFirestarter
+  id: DSWeaponSubMachineGunFirestarter
   description: An excellent fully automatic SMG. Uses .45 ACP ammo.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -411,7 +404,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPSubMachineGunFMJ
+        startingItem: DSMagazine45_ACPSubMachineGunFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -420,7 +413,7 @@
             - Magazine45_ACPSubMachineGunFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:

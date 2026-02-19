@@ -1,7 +1,7 @@
 - type: entity
   name: N14BasePistol
   parent: BaseItem
-  id: N14BaseWeaponPistol
+  id: DSN14BaseWeaponPistol
   description: A rooty tooty point and shooty.
   abstract: true
   components:
@@ -38,7 +38,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazinePistol
+        startingItem: DSMagazinePistol
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magout.ogg
         priority: 2
@@ -47,7 +47,7 @@
             - MagazinePistol
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        startingItem: DSCartridgePistol
         priority: 1
         whitelist:
           tags:
@@ -67,8 +67,9 @@
 - type: entity
   name: 9mm Pistol
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPistol9mm
+  id: DSN14WeaponPistol9mm
   description: A cheap, ubiquitous sidearm, chambered in 9 mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/9mm.rsi
@@ -93,13 +94,13 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmPistolFMJ #lua N14MagazinePistol9mm<Magazine9x19mmPistolFMJ
+        startingItem: DSMagazine9x19mmPistolFMJ #lua N14MagazinePistol9mm<Magazine9x19mmPistolFMJ
         whitelist:
           tags:
             - Magazine9x19mmPistolFMJ #Lua N14MagazinePistol9mm<Magazine9x19mmPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol9<Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ #Lua N14CartridgePistol9<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
@@ -108,8 +109,9 @@
 - type: entity
   name: 10mm Pistol
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPistol10mm
+  id: DSN14WeaponPistol10mm
   description: A cheap, ubiquitous sidearm, chambered in 10mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mm.rsi
@@ -133,65 +135,24 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmPistolFMJ #Lua N14MagazinePistol10mm<Magazine9x19mmPistolFMJ
+        startingItem: DSMagazine9x19mmPistolFMJ #Lua N14MagazinePistol10mm<Magazine9x19mmPistolFMJ
         whitelist:
           tags:
             - Magazine9x19mmPistolFMJ #Lua N14MagazinePistol10mm<Magazine9x19mmPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
+        startingItem: DSCartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
         priority: 1
         whitelist:
           tags:
             - Cartridge9x19mmFMJ #Lua N14CartridgePistol10<Cartridge9x19mmFMJ
 
 - type: entity
-  name: .45 handgun
-  parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPistolColt
-  description: A rugged handgun chambered in .45.
-  components:
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/colt.rsi
-  - type: Gun
-    fireRate: 4
-    soundGunshot:
-      collection: N14PistolColtGunshot
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: N14MagazinePistol45
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - N14MagazinePistol45
-      gun_chamber:
-        name: Chamber
-        startingItem: N14CartridgePistol45
-        priority: 1
-        whitelist:
-          tags:
-            - N14CartridgePistol45
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-
-- type: entity
   name: 12.7mm handgun
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPistol12mm
+  id: DSN14WeaponPistol12mm
   description: A rugged, robust handgun chambered in 12.7mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/12mm.rsi
@@ -216,7 +177,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine45_ACPPistolFMJ #Lua N14MagazinePistol12mm<Magazine45_ACPPistolFMJ
+        startingItem: DSMagazine45_ACPPistolFMJ #Lua N14MagazinePistol12mm<Magazine45_ACPPistolFMJ
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
         priority: 2
@@ -225,52 +186,18 @@
             - Magazine45_ACPPistolFMJ #Lua N14MagazinePistol12mm<Magazine45_ACPPistolFMJ
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
+        startingItem: DSCartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
         priority: 1
         whitelist:
           tags:
             - Cartridge45_ACPFMJ #Lua N14CartridgePistol127<Cartridge45_ACPFMJ
 
 - type: entity
-  name: 10mm pipe pistol
-  parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPipe10mm
-  description: a light 10mm makeshift pistol, the grip is incredibly uncomfortable.
-  components:
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
-  - type: Gun
-    fireRate: 4
-    soundGunshot:
-      collection: N14Pistol10mmGunshot
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: N14MagazinePistol10mm
-        whitelist:
-          tags:
-            - N14MagazinePistol10mm
-      gun_chamber:
-        name: Chamber
-        startingItem: N14CartridgePistol10
-        priority: 1
-        whitelist:
-          tags:
-            - N14CartridgePistol10
-
-- type: entity
   name: chinese pistol
   parent: [BaseC1Contraband, BaseWeaponSniper]
-  id: N14WeaponPistolChinese
+  id: DSN14WeaponPistolChinese
   description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
@@ -300,7 +227,7 @@
     slots:
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+        startingItem: DSCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
@@ -311,7 +238,7 @@
       gun_chamber: !type:ContainerSlot
   - type: BallisticAmmoProvider
     capacity: 14
-    proto: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+    proto: DSCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
     whitelist:
       tags:
       - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
@@ -319,8 +246,9 @@
 - type: entity
   name: the spy
   parent: [BaseC3Contraband, BaseWeaponSniper]
-  id: N14WeaponPistolSpy
+  id: DSN14WeaponPistolSpy
   description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/thespy.rsi
@@ -350,14 +278,14 @@
     slots:
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+        startingItem: DSCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
         priority: 1
         whitelist:
           tags:
             - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
   - type: BallisticAmmoProvider
     capacity: 20 #Lua 24<20
-    proto: Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
+    proto: DSCartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
     whitelist:
       tags:
       - Cartridge635x40mmCaseless #Lua N14CartridgePistol9<Cartridge635x40mmCaseless
@@ -365,38 +293,3 @@
     containers:
       gun_chamber: !type:ContainerSlot
       ballistic-ammo: !type:Container
-
-- type: entity
-  name: 22lr Pistol
-  parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: N14WeaponPistol22lr
-  description: A simple and silenced pistol, chambered in 22lr.
-  components:
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Pistols/22lr.rsi
-  - type: Gun
-    fireRate: 4
-    soundGunshot:
-      collection: N14PistolSpyGunshot
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: N14MagazinePistol22lr
-        whitelist:
-          tags:
-            - N14MagazinePistol22lr
-      gun_chamber:
-        name: Chamber
-        startingItem: N14CartridgePistol22
-        priority: 1
-        whitelist:
-          tags:
-            - N14CartridgePistol22

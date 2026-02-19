@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, CMBaseWeaponSMG]
   name: M63 submachine gun
-  id: WeaponSMGM63
+  id: DSWeaponSMGM63
   description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine9x19mmSubMachineGunFMJ #Lua CMMagazineSMGM63<Magazine9x19mmSubMachineGunFMJ
+        startingItem: DSMagazine9x19mmSubMachineGunFMJ #Lua CMMagazineSMGM63<Magazine9x19mmSubMachineGunFMJ
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_unload.ogg
         priority: 2
@@ -79,7 +79,7 @@
 
 - type: entity
   parent: BaseMagazineRifle
-  id: CMMagazineSMGM63
+  id: DSCMMagazineSMGM63
   name: "M63 magazine (10x20mm)"
   components:
   - type: Tag
@@ -91,7 +91,7 @@
     whitelist:
       tags:
       - CMCartridge10x20mm
-    proto: CMCartridge10x20mm
+    proto: DSCMCartridge10x20mm
     capacity: 40
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
@@ -108,14 +108,14 @@
 
 - type: entity
   parent: CMMagazineSMGM63
-  id: CMMagazineSMGM63AP
+  id: DSCMMagazineSMGM63AP
   name: "M63 AP magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
       tags:
       - CMCartridge10x20mmAP
-    proto: CMCartridge10x20mmAP
+    proto: DSCMCartridge10x20mmAP
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/m63.rsi
     layers:
@@ -132,7 +132,7 @@
 
 - type: entity
   parent: CMMagazineSMGM63
-  id: CMMagazineSMGM63Ext
+  id: DSCMMagazineSMGM63Ext
   name: "M63 extended magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
@@ -151,7 +151,7 @@
 
 - type: entity
   parent: CMCartridgeSMGBase
-  id: CMCartridge10x20mm
+  id: DSCMCartridge10x20mm
   name: cartridge (10x20mm)
   components:
   - type: Tag
@@ -160,11 +160,11 @@
     - CMCartridge10x20mm
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet10x20mm
+    proto: DSBullet10x20mm
 
 - type: entity
   parent: CMCartridge10x20mm
-  id: CMCartridge10x20mmAP
+  id: DSCMCartridge10x20mmAP
   name: AP cartridge (10x20mm)
   components:
   - type: Tag
@@ -173,11 +173,11 @@
     - CMCartridge10x20mmAP
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Bullet10x20mmAP
+    proto: DSBullet10x20mmAP
 
 - type: entity
   parent: RMCBaseBullet
-  id: Bullet10x20mm
+  id: DSBullet10x20mm
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -187,7 +187,7 @@
 
 - type: entity
   parent: Bullet10x20mm
-  id: Bullet10x20mmAP
+  id: DSBullet10x20mmAP
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -197,16 +197,16 @@
     ignoreResistances: true
 
 - type: Tag
-  id: RMCWeaponSMGM63
+  id: DSRMCWeaponSMGM63
 
 - type: Tag
-  id: CMMagazineSMGM63
+  id: DSCMMagazineSMGM63
 
 - type: Tag
-  id: CMMagazineSMGM63AP
+  id: DSCMMagazineSMGM63AP
 
 - type: Tag
-  id: CMMagazineSMGM63Ext
+  id: DSCMMagazineSMGM63Ext
 
 - type: Tag
-  id: CMCartridge10x20mmAP
+  id: DSCMCartridge10x20mmAP

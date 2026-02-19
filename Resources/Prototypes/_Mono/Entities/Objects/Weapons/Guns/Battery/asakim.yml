@@ -1,8 +1,9 @@
 - type: entity
   name: kunisa-pattern plasma autopulser
   parent: [BaseWeaponBattery] #Lua BaseGunWieldable
-  id: WeaponRifleAsakimAutopulser
+  id: DSWeaponRifleAsakimAutopulser
   description: An advanced handheld plasma rifle. The design bears similarities to pre-fracture plasma weapons.
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/asakimrifle.rsi
@@ -42,7 +43,7 @@
     steps: 1
     zeroVisible: false
   - type: ProjectileBatteryAmmoProvider
-    proto: HandheldAutopulserProjectile
+    proto: DSHandheldAutopulserProjectile
     fireCost: 25
   - type: Appearance
   - type: StaticPrice

@@ -1,7 +1,8 @@
 # Base
 - type: entity
-  id: BaseSpeedLoader45_magnum
+  id: DSBaseSpeedLoader45_magnum
   name: "speed loader (.45 magnum)"
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
   abstract: true
   components:
@@ -22,12 +23,12 @@
 
 # Standart
 - type: entity
-  id: SpeedLoader45_magnumFMJ
+  id: DSSpeedLoader45_magnumFMJ
   name: "speed loader (.45 magnum FMJ)"
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumFMJ
+    proto: DSCartridge45_magnumFMJ
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -42,12 +43,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader45_magnumEmpty
+  id: DSSpeedLoader45_magnumEmpty
   name: "speed loader (.45 magnum any)"
-  parent: SpeedLoader45_magnumFMJ
+  parent: DSSpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: null
+    proto: DSnull
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -60,12 +61,12 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
-  id: SpeedLoader45_magnumPractice
+  id: DSSpeedLoader45_magnumPractice
   name: "speed loader (.45 magnum practice)"
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumPractice
+    proto: DSCartridge45_magnumPractice
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -80,12 +81,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader45_magnumRubber
+  id: DSSpeedLoader45_magnumRubber
   name: "speed loader (.45 magnum rubber)"
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumRubber
+    proto: DSCartridge45_magnumRubber
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_rubber_speed_loader.rsi
     layers:
@@ -101,12 +102,12 @@
 
 #Mechanical
 - type: entity
-  id: SpeedLoader45_magnumHP
+  id: DSSpeedLoader45_magnumHP
   name: speed loader (.45 magnum hollow-point)
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumHP
+    proto: DSCartridge45_magnumHP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -122,20 +123,20 @@
 
 # Physical
 - type: entity
-  id: SpeedLoader45_magnumIncendiary
+  id: DSSpeedLoader45_magnumIncendiary
   name: "speed loader (.45 magnum incendiary)"
-  parent: SpeedLoader45_magnumFMJ
+  parent: DSSpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumIncendiary
+    proto: DSCartridge45_magnumIncendiary
 
 - type: entity
-  id: SpeedLoader45_magnumUranium
+  id: DSSpeedLoader45_magnumUranium
   name: "speed loader (.45 magnum uranium)"
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumUranium
+    proto: DSCartridge45_magnumUranium
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -151,12 +152,12 @@
 
 # Out of balance
 - type: entity
-  id: SpeedLoader45_magnumAP
+  id: DSSpeedLoader45_magnumAP
   name: "speed loader (.45 magnum extreme armor-piercing)"
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumAP
+    proto: DSCartridge45_magnumAP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -171,12 +172,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader45_magnumRIP
+  id: DSSpeedLoader45_magnumRIP
   name: speed loader (.45 magnum RIP)
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumRIP
+    proto: DSCartridge45_magnumRIP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -191,12 +192,12 @@
   - type: Appearance
 
 - type: entity
-  id: SpeedLoader45_magnumPlasteelAP
+  id: DSSpeedLoader45_magnumPlasteelAP
   name: speed loader (.45 magnum AP)
-  parent: BaseSpeedLoader45_magnum
+  parent: DSBaseSpeedLoader45_magnum
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumPlasteelAP
+    proto: DSCartridge45_magnumPlasteelAP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:

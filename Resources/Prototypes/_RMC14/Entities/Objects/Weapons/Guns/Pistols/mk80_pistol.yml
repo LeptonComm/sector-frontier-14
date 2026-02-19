@@ -1,8 +1,9 @@
 - type: entity
-  parent: [BaseC2ExpeditionContraband, CMWeaponPistolBase]
-  id: CMWeaponPistolMK80
+  parent: [BaseC2ExpeditionContraband, DSCMWeaponPistolBase]
+  id: DSCMWeaponPistolMK80
   name: MK80 pistol
   description: A massive, formidable semi-automatic handgun chambered in 9mm squash-head rounds. A common sight throughout both UN and TSE space, often held by both We-Ya PMC units and corporate executives. This weapon is also undergoing limited field testing as part of the Marines' next generation pistol program. The slide is engraved with the We-Ya logo reminding you who's really in charge.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi
@@ -57,7 +58,7 @@
         whitelist:
           tags:
           - Magazine9x19mmPistolFMJ #Lua CMMagazinePistolMK80<Magazine9x19mmPistolFMJ
-        startingItem: Magazine9x19mmPistolFMJ #Lua CMMagazinePistolMK80<Magazine9x19mmPistolFMJ
+        startingItem: DSMagazine9x19mmPistolFMJ #Lua CMMagazinePistolMK80<Magazine9x19mmPistolFMJ
   - type: AttachableHolderVisuals
     offsets:
       rmc-aslot-barrel: 0.685, 0.125
@@ -67,55 +68,3 @@
     tags:
     - Sidearm
     - RMCMK80
-
-- type: entity
-  parent: CMBaseMagazinePistol
-  id: CMMagazinePistolMK80
-  name: MK80 magazine (9mm Squash-Head)
-  components:
-  - type: Tag
-    tags:
-    - CMMagazinePistol
-    - CMMagazinePistolMK80
-  - type: BallisticAmmoProvider
-    mayTransfer: True
-    whitelist:
-      tags:
-      - CMCartridgePistol9mm
-      - RMCCartridgePistol9mmSquashHead #MK80 is specially chambered to take these rounds, regular pistols cannot.
-    proto: RMCCartridgePistol9mmSquashHead
-    capacity: 18
-  - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/mk80.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
-  id: RMCCartridgePistol9mmSquashHead
-  name: cartridge (9mm Squash-Head)
-  parent: CMCartridgePistolBase
-  components:
-  - type: Tag
-    tags:
-    - Cartridge
-    - RMCCartridgePistol9mmSquashHead
-  - type: CartridgeAmmo
-    deleteOnSpawn: true
-    proto: RCMBulletPistol9mmSquashHead
-
-- type: entity # todo rmc14 this is missing a lot of effects, shrapnel, debilitate etc
-  parent: CMBulletBase
-  id: RCMBulletPistol9mmSquashHead
-  name: bullet (9mm Squash-Head)
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Piercing: 22
-
-- type: Tag
-  id: CMMagazinePistolMK80

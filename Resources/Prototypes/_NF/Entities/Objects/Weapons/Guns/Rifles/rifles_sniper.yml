@@ -1,9 +1,10 @@
 #region WizDen
 - type: entity
-  id: NFWeaponRifleSniperHristov
-  parent: [ NFBaseWeaponRifleChamber60, NFBaseWeaponFrameRifleSniperCybersun ]
+  id: DSNFWeaponRifleSniperHristov
+  parent: [ DSNFBaseWeaponRifleChamber60, DSNFBaseWeaponFrameRifleSniperCybersun ]
   name: Hristov
   description: A portable anti-materiel rifle.
+  suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -41,7 +42,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Magazine127x99mm
+        startingItem: DSMagazine127x99mm
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         priority: 2
@@ -50,7 +51,7 @@
             - Magazine127x99mm
       gun_chamber:
         name: Chamber
-        startingItem: Cartridge127x99mm
+        startingItem: DSCartridge127x99mm
         priority: 1
         whitelist:
           tags:

@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: RMCBaseMeleeWeapon
-  id: CMBaseWeaponGun
+  id: DSCMBaseWeaponGun
   components:
   - type: Clothing
     quickEquip: false
@@ -25,14 +25,3 @@
     meleeCooldownOnShoot: false
     resetOnHandSelected: false
     projectileSpeed: 40 #Lua
-
-- type: entity
-  parent: BaseBullet
-  id: RMCBaseBullet
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/bullet_projectiles.rsi
-    layers:
-    - state: bullet
-      shader: unshaded

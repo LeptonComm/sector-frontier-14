@@ -1,7 +1,7 @@
 - type: entity
   parent: CMBaseWeaponSMG
   name: nailgun
-  id: WeaponNailgun
+  id: DSWeaponNailgun
   description: A carpentry tool, used to drive nails into tough surfaces. Of course, if there isn't anything there, that's just a very sharp nail launching at high velocity...
   suffix: Filled
   components:
@@ -47,7 +47,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: RMCMagazineSMGNailgun
+        startingItem: DSRMCMagazineSMGNailgun
         insertSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_reload.ogg
         ejectSound: /Audio/_RMC14/Weapons/Guns/Reload/smg_unload.ogg
         priority: 2
@@ -59,7 +59,7 @@
 
 - type: entity
   parent: BaseMagazineRifle
-  id: RMCMagazineSMGNailgun
+  id: DSRMCMagazineSMGNailgun
   name: "nailgun magazine (7x45mm)"
   description: "A large magazine of oversized plasteel nails. Unfortunately, the production cost of those nail makes them ill-affordable for most military projects, and only some specific construction projects requires them."
   components:
@@ -72,7 +72,7 @@
     whitelist:
       tags:
       - RMCCartridge7x45mm
-    proto: RMCCartridge7x45mm
+    proto: DSRMCCartridge7x45mm
     capacity: 48
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Magazines/nailgun.rsi
@@ -89,7 +89,7 @@
 
 - type: entity
   parent: CMCartridgeSMGBase
-  id: RMCCartridge7x45mm
+  id: DSRMCCartridge7x45mm
   name: nail (7x45mm)
   components:
   - type: Tag
@@ -98,11 +98,11 @@
     - RMCCartridge7x45mm
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: Nail7x45mm
+    proto: DSNail7x45mm
 
 - type: entity
   parent: BaseBullet
-  id: Nail7x45mm
+  id: DSNail7x45mm
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -112,4 +112,4 @@
         Structural: 50
 
 - type: Tag
-  id: RMCMagazineSMGNailgun
+  id: DSRMCMagazineSMGNailgun

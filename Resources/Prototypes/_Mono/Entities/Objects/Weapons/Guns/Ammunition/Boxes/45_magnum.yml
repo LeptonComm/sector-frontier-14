@@ -1,15 +1,16 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: BaseAmmoBox45_magnum
+  id: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum FMJ)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
       tags:
         - Cartridge45_magnumFMJ
-    proto: Cartridge45_magnumFMJ
+    proto: DSCartridge45_magnumFMJ
     capacity: 32
   - type: Item
     size: Small
@@ -36,12 +37,13 @@
 #small ammo boxes
 # Standart
 - type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumFMJ
+  parent: DSBaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumFMJ
   name: ammunition box (.45 magnum FMJ)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumFMJ
+    proto: DSCartridge45_magnumFMJ
   - type: Sprite
     layers:
     - state: base
@@ -50,12 +52,13 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumPractice
+  parent: DSBaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumPractice
   name: ammunition box (.45 magnum practice)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumPractice
+    proto: DSCartridge45_magnumPractice
   - type: Sprite
     layers:
     - state: base
@@ -65,12 +68,13 @@
     - state: practice
 
 - type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumRubber
+  parent: DSBaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumRubber
   name: ammunition box (.45 magnum rubber)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumRubber
+    proto: DSCartridge45_magnumRubber
   - type: Sprite
     layers:
     - state: base
@@ -81,12 +85,13 @@
 
 # Mechanical
 - type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumHP
+  parent: DSBaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumHP
   name: ammunition box (.45 magnum hollow-point)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumHP
+    proto: DSCartridge45_magnumHP
   - type: Sprite
     layers:
     - state: base
@@ -97,12 +102,13 @@
 
 # Physical
 - type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumIncendiary
+  parent: DSBaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumIncendiary
   name: ammunition box (.45 magnum incendiary)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumIncendiary
+    proto: DSCartridge45_magnumIncendiary
   - type: Sprite
     layers:
     - state: base
@@ -112,12 +118,13 @@
     - state: incendiary
 
 - type: entity
-  id: AmmoBox45_magnumUranium
-  parent: BaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumUranium
+  parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum uranium)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumUranium
+    proto: DSCartridge45_magnumUranium
   - type: Sprite
     layers:
     - state: base
@@ -128,12 +135,13 @@
 
 # Special
 - type: entity
-  id: AmmoBox45_magnumEMP
-  parent: BaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumEMP
+  parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum EMP)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumEMP
+    proto: DSCartridge45_magnumEMP
   - type: Sprite
     layers:
     - state: base
@@ -143,12 +151,13 @@
     - state: emp
 
 - type: entity
-  id: AmmoBox45_magnumCaustic
-  parent: BaseAmmoBox45_magnum
+  id: DSAmmoBox45_magnumCaustic
+  parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum Caustic)
+  suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumCaustic
+    proto: DSCartridge45_magnumCaustic
   - type: Sprite
     layers:
     - state: base
@@ -156,75 +165,3 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: caustic
-
-# Out of balance
-- type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumRIP
-  name: ammunition box (.45 magnum RIP)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumRIP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: RIP
-
-- type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumPlasteelAP
-  name: ammunition box (.45 magnum AP)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumPlasteelAP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: plasteelAP
-
-## deprecated AP
-- type: entity
-  id: AmmoBox45_magnumAP
-  parent: BaseAmmoBox45_magnum
-  name: ammunition box (.45 magnum extreme armor-piercing)
-  components:
-  - type: BallisticAmmoProvider
-    proto: Cartridge45_magnumAP
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: piercing
-
-#big ammo boxes
-- type: entity
-  parent: BaseAmmoBox45_magnum
-  id: AmmoBox45_magnumBigFMJ
-  name: big ammunition box (.45 magnum FMJ)
-  suffix: Big
-  components:
-  - type: Item
-    shape:
-    - 0,0,1,1
-  - type: BallisticAmmoProvider
-    capacity: 100
-    proto: Cartridge45_magnumFMJ
-  - type: Sprite
-    layers:
-    - state: base-b # Frontier: base-big<base-b
-      map: ["enum.GunVisualLayers.Base"]
-    - state: magb-1 # Frontier: mag-big-1<magb-1
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: MagazineVisuals
-    magState: magb # Frontier: mag-big<magb
-    steps: 4
-    zeroVisible: false
-  - type: Appearance
