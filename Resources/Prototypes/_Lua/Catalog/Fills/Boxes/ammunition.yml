@@ -19,7 +19,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x39mmSubsonic
+      - id: DSMagazine762x39mmFMJ
         amount: 4
 
 - type: entity
@@ -93,7 +93,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmPistolHighCapacityFMJ
+      - id: DSMagazine9x19mmPistolFMJ
         amount: 4
 
 - type: entity
@@ -104,7 +104,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmPistolHighCapacityRubber
+      - id: DSMagazine9x19mmPistolRubber
         amount: 4
 
 # topmount
@@ -230,7 +230,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine8x65mmSKR
+      - id: DSMagazine8x65mmSKRBox
         amount: 4
 
 #region 7.62x54mmR

@@ -10,11 +10,6 @@
   result: DSMagazine127x99mmIncendiary
 
 - type: latheRecipe
-  parent: BaseAmmoPracticeFullyPoweredMagazineRecipe
-  id: DSMagazine127x99mmPractice
-  result: DSMagazine127x99mmPractice
-
-- type: latheRecipe
   parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
   id: DSMagazine127x99mmEmpty
   result: DSMagazine127x99mmEmpty
@@ -50,11 +45,6 @@
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
   id: DSAmmoBox127x99mmIncendiary
   result: DSAmmoBox127x99mmIncendiary
-
-- type: latheRecipe
-  parent: BaseAmmoPracticeFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox127x99mmPractice
-  result: DSAmmoBox127x99mmPractice
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe

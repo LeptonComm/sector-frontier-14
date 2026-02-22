@@ -314,7 +314,7 @@
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSCartridge9x19mmEmp
+    proto: DSCartridge9x19mmEMP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/9x19mm/9x19mm_smg_mag.rsi
     layers:

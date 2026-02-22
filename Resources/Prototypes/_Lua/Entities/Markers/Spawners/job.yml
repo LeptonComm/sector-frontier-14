@@ -107,7 +107,7 @@
   suffix: Spawner, штурман кодекса
   components:
   - type: SpawnPoint
-    job_id: StormCreedFirstMate
+    job_id: StormCreedFirstmate
   - type: Sprite
     sprite: Structures/Wallmounts/flags.rsi
     layers:

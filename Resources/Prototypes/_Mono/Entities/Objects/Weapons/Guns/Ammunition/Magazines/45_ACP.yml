@@ -409,7 +409,7 @@
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSCartridge45_ACPEmp
+    proto: DSCartridge45_ACPEMP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/45_ACP/45_ACP_smg_mag.rsi
     layers:

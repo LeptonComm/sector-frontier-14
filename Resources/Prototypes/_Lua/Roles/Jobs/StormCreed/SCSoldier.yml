@@ -5,7 +5,7 @@
   playTimeTracker: JobSCSoldier
   requirements:
   - !type:RoleTimeRequirement
-    role: SeniorOfficer
+    role: DSJobSeniorOfficer
     time: 72000 # 20h
   startingGear: SCSoldierGear
   alwaysUseSpawner: true

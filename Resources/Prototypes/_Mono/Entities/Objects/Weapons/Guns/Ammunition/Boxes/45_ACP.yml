@@ -144,7 +144,7 @@
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
-    proto: DSCartridge45_ACPEmp
+    proto: DSCartridge45_ACPEMP
   - type: Sprite
     layers:
     - state: base

@@ -131,15 +131,22 @@
   - type: ProjectileBatteryAmmoProvider
     proto: DSNFBoltTempgunCold # Frontier
     fireCost: 100
-  - type: BatteryWeaponFireModes
-    fireModes:
-    - proto: DSNFBoltTempgunCold
-      fireCost: 100
-#    - proto: DSNFBoltTempgunHot # comment from _Lua
-#      fireCost: 100
   - type: MagazineVisuals
     magState: mag
     steps: 5
     zeroVisible: false
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-custom-made
+
+- type: entity
+  name: freezing bolt
+  id: DSNFBoltTempgunCold
+  parent: BoltTempgunCold
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Shock: 15
+        Caustic: 5

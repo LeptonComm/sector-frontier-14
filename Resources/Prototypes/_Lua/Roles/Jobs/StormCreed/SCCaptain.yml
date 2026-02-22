@@ -5,7 +5,7 @@
   playTimeTracker: JobSCCaptain
   requirements:
   - !type:RoleTimeRequirement
-    role: StormCreedFirstmate
+    role: JobSCFirstmate
     time: 72000 # 20h
   startingGear: StormCreedCaptainGear
   alwaysUseSpawner: true

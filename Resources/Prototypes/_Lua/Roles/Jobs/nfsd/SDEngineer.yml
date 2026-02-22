@@ -6,7 +6,7 @@
   salary: 40000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: Deputy
+    role: DSJobSecurityOfficer
     time: 72000 # 20h
   startingGear: SDBaseLuaGear
   icon: JobIconSDEngineerNF

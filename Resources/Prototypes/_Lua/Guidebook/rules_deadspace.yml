@@ -43,7 +43,7 @@
   id: DSJobRulesSС
   name: Кодекс Бури
   priority: 5
-  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesSС.xml"
+  text: "/ServerInfo/_Lua/Guidebook/ServerRules/DSRulesIC/DSJobRulesSC.xml"
 
 - type: guideEntry
   id: DSJobGuides

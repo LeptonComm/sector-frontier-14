@@ -94,11 +94,6 @@
   result: DSMagazine635x40mmCaselessPistolPractice
 
 - type: latheRecipe #Lua
-  parent: BaseAmmoRubberPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolRubber
-  result: DSMagazine635x40mmCaselessPistolRubber
-
-- type: latheRecipe #Lua
   parent: BaseAmmoHPPistolCaliberSubMachineGunMagazineRecipe
   id: DSMagazine635x40mmCaselessPistolHP
   result: DSMagazine635x40mmCaselessPistolHP

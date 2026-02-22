@@ -6,8 +6,7 @@
   salary: 70000
   setPreference: true # Lua
   requirements:
-  - !type:RoleTimeRequirement #Lua
-    role: Pilot
+  - !type:OverallPlaytimeRequirement #Lua
     time: 72000
   - !type:DepartmentTimeRequirement
     department: Medical

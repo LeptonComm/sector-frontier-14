@@ -688,7 +688,7 @@
   id: DSUplinkPirateMagazine762x39mmBox # Box mag
   name: uplink-pirate-Magazine762x39mmBox-name
   description: uplink-pirate-Magazine762x39mmBox-desc
-  productEntity: DSMagazine762x39mmBox
+  productEntity: DSMagazine762x39mmFMJ
   cost:
     Speso: 10000
   categories:

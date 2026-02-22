@@ -150,7 +150,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: DSNFRedMediumLaser #Lua NFRedLightLaser<NFRedMediumLaser
+    proto: NFRedMediumLaser #Lua NFRedLightLaser<NFRedMediumLaser
     fireCost: 60
 
 - type: entity

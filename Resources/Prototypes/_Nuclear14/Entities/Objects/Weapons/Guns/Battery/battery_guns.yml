@@ -115,7 +115,7 @@
     availableModes:
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
-    proto: DSRedShuttleLaser
+    proto: RedShuttleLaser
     fireCost: 50
   - type: ItemToggle #Lua
     onUse: false
@@ -167,7 +167,7 @@
     soundGunshot:
       collection: N14RechargerPistolGunshot
   - type: HitscanBatteryAmmoProvider
-    proto: DSNFRedMediumLaser
+    proto: NFRedMediumLaser
     fireCost: 50
   - type: BatterySelfRecharger
     autoRecharge: true

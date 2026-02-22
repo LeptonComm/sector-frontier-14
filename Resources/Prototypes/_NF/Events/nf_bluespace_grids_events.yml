@@ -80,7 +80,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_Lua/Bluespace/NTcachemini #Lua
+        - /Maps/_Lua/Bluespace/NTcachemini.yml #Lua
 #        - /Maps/_NF/Bluespace/vault.yml # comment from _Lua
     rewardAccounts:
       Nfsd: 0.25
@@ -125,7 +125,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_Lua/Bluespace/NTcachemini #Lua
+        - /Maps/_Lua/Bluespace/NTcachemini.yml #Lua
 #        - /Maps/_NF/Bluespace/vaultsmall.yml # comment from _Lua
     rewardAccounts:
       Nfsd: 0.25

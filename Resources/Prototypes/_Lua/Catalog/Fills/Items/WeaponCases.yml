@@ -79,7 +79,7 @@
   - type: StorageFill
     contents:
       - id: DSWeaponRifleMR8C
-      - id: DSMagazine8x65mmSKR
+      - id: DSMagazine8x65mmSKRBox
         amount: 3
       - id: DSAmmoBox8x65mmSKR
 
@@ -139,9 +139,9 @@
   - type: StorageFill
     contents:
       - id: DSWeaponLMGMR8B
-      - id: DSAmmoBox762x51mmFMJ
+      - id: DSMagazine8x65mmSKRBox
         amount: 2
-      - id: DSAmmoBox762x51mmBigFMJ
+      - id: DSMagazine8x65mmSKRBox
 
 - type: entity
   id: DSWeaponCaseLongWt550Bundle
@@ -291,7 +291,7 @@
   - type: StorageFill
     contents:
       - id: DSWeaponLMGHammer
-      - id: DSMagazine762x39mmBox
+      - id: DSMagazine762x39mmFMJ
         amount: 2
 
 - type: entity
@@ -302,7 +302,7 @@
   - type: StorageFill
     contents:
       - id: DSWeaponRifleWSPR
-      - id: DSMagazine762x39mmSubsonic
+      - id: DSMagazine762x39mmFMJ
         amount: 3
       - id: DSAmmoBox762x39mmSubsonic
 
@@ -325,7 +325,7 @@
   - type: StorageFill
     contents:
       - id: DSNFWeaponPistolViper
-      - id: DSMagazine9x19mmPistolHighCapacityFMJ
+      - id: DSMagazine9x19mmPistolFMJ
         amount: 2
 
 - type: entity
@@ -353,29 +353,6 @@
       - id: DSAmmoBox762x39mmFMJ
 
 - type: entity
-  id: DSWeaponCaseShortCobraBundle
-  parent: WeaponCaseShort
-  suffix: Cobra .45 ACP
-  components:
-  - type: StorageFill
-    contents:
-      - id: DSNFWeaponPistolCobra
-      - id: DSMagazine45_ACPPistolFMJ
-        amount: 2
-
-- type: entity
-  id: DSWeaponCaseLongXC67Bundle
-  parent: WeaponCaseLong
-  suffix: XC67 5.56x45mm FMJ
-  components:
-  - type: StorageFill
-    contents:
-      - id: DSADTWeaponRifleXC67
-      - id: DSADTExtMagazineRifle
-        amount: 3
-      - id: DSAmmoBox556x45mmFMJ
-
-- type: entity
   id: DSWeaponCaseLongC20rBundle
   parent: WeaponCaseLong
   suffix: C20r 9x19mm
@@ -395,7 +372,7 @@
   - type: StorageFill
     contents:
       - id: DSNFWeaponLightMachineGunL6
-      - id: DSNFMagazineBoxRifle556x45
+      - id: DSMagazine556x45mmFMJ
         amount: 2
 
 - type: entity

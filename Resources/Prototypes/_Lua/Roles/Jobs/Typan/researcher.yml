@@ -15,13 +15,13 @@
   hideConsoleVisibility: true
   requirements:
   - !type:RoleTimeRequirement
-    role: Pilot
+    role: DSJobPilot
     time: 72000 # 20h
   - !type:RoleTimeRequirement
-    role: Contractor
+    role: DSJobPassenger
     time: 72000 # 20h
   - !type:RoleTimeRequirement
-    role: FrontierEngineer
+    role: JobFrontierEngineer
     time: 72000 # 20h
   - !type:DepartmentTimeRequirement
     department: Medical

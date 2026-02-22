@@ -182,3 +182,55 @@
       - state: mag-1
         map: ["enum.GunVisualLayers.Mag"]
       - state: caustic
+
+- type: entity
+  id: DSNFMagazineShotgunDrum
+  name: ammo drum (.50 shells, buckshot)
+  parent: NFBaseMagazineShotgunDrum
+  components:
+  - type: BallisticAmmoProvider
+    proto: DSShellShotgun23x75mmBuckshot #Lua 4 gauge
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: decal-01
+      color: "#333333"
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#333333"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#333333"
+
+- type: entity
+  id: DSNFMagazineShotgunDrumSlug
+  name: ammo drum (.50 shells, slugs)
+  parent: NFBaseMagazineShotgunDrum
+  components:
+  - type: BallisticAmmoProvider
+    proto: DSShellShotgun23x75mmSlug #Lua 4 gauge
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: decal-01
+      color: "#333333"
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      - state: inhand-left-stripe
+        color: "#333333"
+      right:
+      - state: inhand-right-mag
+      - state: inhand-right-stripe
+        color: "#333333"

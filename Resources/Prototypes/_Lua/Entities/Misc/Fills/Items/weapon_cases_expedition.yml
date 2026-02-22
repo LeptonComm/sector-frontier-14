@@ -8,6 +8,18 @@
 
 - type: entity
   parent: WeaponCaseShort
+  id: WeaponCaseShortN14WeaponPistol10mm
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: N14WeaponPistol10mm
+      amount: 1
+    - id: DSMagazine9x19mmPistolFMJ
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseShort
   id: DSWeaponCaseShortN14WeaponLaserPistol
   categories: [ HideSpawnMenu ]
   components:
@@ -16,18 +28,6 @@
     - id: DSN14WeaponLaserPistol
       amount: 1
     - id: N14PowerCellSmall
-      amount: 3
-
-- type: entity
-  parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPlasmaPistol
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StorageFill
-    contents:
-    - id: DSN14WeaponPlasmaPistol
-      amount: 1
-    - id: DSN14PlasmaCartridge
       amount: 3
 
 - type: entity

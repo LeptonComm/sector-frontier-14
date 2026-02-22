@@ -568,7 +568,7 @@
   cost:
     FrontierUplinkCoin: 5
   categories:
-    - BravoUplinkWeaponBundles
+    - BravoUplinkWeapon
 
 - type: listing
   id: BravoUplinkWeaponLRC21PPLBundle # NT-WS LRC-21 PPL
