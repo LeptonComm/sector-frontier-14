@@ -4,7 +4,7 @@
   id: UplinkBMHardsuitWarlord
   name:  uplink-bm-hardsuitwarlord-name
   description: uplink-bm-hardsuitwarlord-desc
-  productEntity: DSClothingOuterHardsuitWarlord
+  productEntity: ClothingOuterHardsuitWarlord
   cost:
     Speso: 50000
   categories:
@@ -19,7 +19,7 @@
   id: UplinkBMMercenaryHardsuit
   name:  uplink-bm-mercenary-hardsuit-name
   description: uplink-bm-mercenary-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitMercenary
+  productEntity: ClothingOuterHardsuitMercenary
   cost:
     Speso: 50000
   categories:
@@ -34,7 +34,7 @@
   id: UplinkBMHardsuitUSSPLightOfficer
   name:  uplink-bm-hardsuitussplightofficer-name
   description: uplink-bm-hardsuitussplightofficer-desc
-  productEntity: DSClothingOuterHardsuitUSSPLightOfficer
+  productEntity: ClothingOuterHardsuitUSSPLightOfficer
   cost:
     Speso: 50000
   categories:
@@ -49,7 +49,7 @@
   id: UplinkBMHardsuitUSSPLightMK2
   name:  uplink-bm-hardsuitlightmk2-name
   description: uplink-bm-hardsuitlightmk2-desc
-  productEntity: DSClothingOuterHardsuitUSSPLightMK2
+  productEntity: ClothingOuterHardsuitUSSPLightMK2
   cost:
     Speso: 50000
   categories:
@@ -64,7 +64,7 @@
   id: UplinkBMHardsuitUSSPCombat
   name:  uplink-bm-hardsuitusspcombat-name
   description: uplink-bm-hardsuitusspcombat-desc
-  productEntity: DSClothingOuterHardsuitUSSPCombat
+  productEntity: ClothingOuterHardsuitUSSPCombat
   cost:
     Speso: 50000
   categories:
@@ -444,7 +444,7 @@
   id: UplinkBMPlasmaCutter
   name: uplink-bm-plasmacutter-name
   description: uplink-bm-plasmacutter-desc
-  productEntity: DSWeaponPlasmaCutter
+  productEntity: WeaponPlasmaCutter
   cost:
     Speso: 50000
   categories:

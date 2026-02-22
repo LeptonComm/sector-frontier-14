@@ -1,5 +1,5 @@
 - type: job
-  id: DSParamedic
+  id: Paramedic
   name: job-name-paramedic
   description: job-description-paramedic
   playTimeTracker: JobParamedic
@@ -41,7 +41,7 @@
     - EmergencyRollerBedSpawnFolded
 
 - type: chameleonOutfit
-  id: DSParamedicChameleonOutfit
+  id: ParamedicChameleonOutfit
   job: Paramedic
   equipment:
     head: ClothingHeadHatParamedicsoft

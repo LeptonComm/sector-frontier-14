@@ -68,7 +68,7 @@
   id: DSUplinkPirateEVAHardsuit
   name: uplink-pirate-EVA-hardsuit-name
   description: uplink-pirate-EVA-hardsuit-desc
-  productEntity: DSLuaClothingOuterHardsuitPirateEVA
+  productEntity: LuaClothingOuterHardsuitPirateEVA
   icon: { sprite: _Lua/Clothing/OuterClothing/Hardsuits/pirateva.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -84,7 +84,7 @@
   id: DSUplinkBloodRedPirateHardsuit
   name: uplink-pirate-bloodred-hardsuit-name
   description: uplink-pirate-bloodred-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitBloodRedPirate
+  productEntity: ClothingOuterHardsuitBloodRedPirate
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -100,7 +100,7 @@
   id: DSUplinkPirateBloodRedEliteHardsuit
   name: uplink-pirate-bloodred-elite-hardsuit-name
   description: uplink-pirate-bloodred-elite-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitBloodRedElitePirate
+  productEntity: ClothingOuterHardsuitBloodRedElitePirate
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   cost:
     Doubloon: 5

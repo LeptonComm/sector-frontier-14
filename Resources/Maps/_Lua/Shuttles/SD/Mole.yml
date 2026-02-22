@@ -708,13 +708,6 @@ entities:
     - type: PointLight
       radius: 2
       enabled: True
-- proto: AmmoTechFab
-  entities:
-  - uid: 39
-    components:
-    - type: Transform
-      pos: 4.5,-4.5
-      parent: 1
 - proto: APCHighCapacity
   entities:
   - uid: 40

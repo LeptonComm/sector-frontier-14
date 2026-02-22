@@ -2,7 +2,7 @@
   id: DSMercenary
   name: job-name-mercenary
   description: job-description-mercenary
-  playTimeTracker: JobMercenary
+  playTimeTracker: DSJobMercenary
   requirements:
     - !type:RoleTimeRequirement
       role: DSContractor
@@ -11,7 +11,7 @@
       department: Medical
       time: 72000 #Lua 20h
     - !type:RoleTimeRequirement
-      role: DSFrontierEngineer
+      role: FrontierEngineer
       time: 72000 #Lua 20h 
     - !type:RoleTimeRequirement
       role: DSCadet
@@ -36,7 +36,7 @@
 
 - type: chameleonOutfit
   id: DSMercenaryChameleonOutfit
-  job: Mercenary
+  job: DSMercenary
   equipment:
     head: ClothingHeadHelmetMercenary
     eyes: ClothingEyesGlassesCheapSunglasses

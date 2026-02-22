@@ -2,7 +2,7 @@
   id: DSCadet
   name: job-name-cadet-nf
   description: job-description-cadet-nf
-  playTimeTracker: JobSecurityCadet
+  playTimeTracker: DSJobSecurityCadet
   salary: 30000 #Lua 35000<30000
   requirements:
   - !type:RoleTimeRequirement #Lua
@@ -35,7 +35,7 @@
 
 - type: chameleonOutfit
   id: DSCadetChameleonOutfit
-  job: Cadet
+  job: DSCadet
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdBeretBrown

@@ -435,7 +435,7 @@
 
 # Special
 - type: entity
-  id: DSMagazine45_ACPSubMachineGunEmp
+  id: DSMagazine45_ACPSubMachineGunEMP
   name: SMG magazine (.45 ACP emp)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:

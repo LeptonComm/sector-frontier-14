@@ -12140,13 +12140,6 @@ entities:
       parent: 1
     - type: DeviceLinkSource
       lastSignals: {}
-- proto: AmmoTechFab
-  entities:
-  - uid: 202
-    components:
-    - type: Transform
-      pos: 72.5,95.5
-      parent: 1
 - proto: APCBasic
   entities:
   - uid: 203

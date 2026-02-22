@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPEmp
+  id: DSAmmoBox45_ACPEMP
   name: ammunition box (.45 ACP emp)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

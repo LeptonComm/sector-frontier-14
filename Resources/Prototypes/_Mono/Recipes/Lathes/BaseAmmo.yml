@@ -968,7 +968,7 @@
   abstract: true
   materials:
     Steel: 375
-    Caustic: 750
+    Brass: 750
 
 - type: latheRecipe
   parent: BaseAmmoRecipe

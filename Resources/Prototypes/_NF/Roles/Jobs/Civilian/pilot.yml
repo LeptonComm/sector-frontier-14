@@ -2,7 +2,7 @@
   id: DSPilot
   name: job-name-pilot
   description: job-description-pilot
-  playTimeTracker: JobPilot
+  playTimeTracker: DSJobPilot
   salary: 15000 #Lua 7100<15000
 #  requirements: # comment from _Lua
 #    - !type:OverallPlaytimeRequirement
@@ -20,7 +20,7 @@
 
 - type: chameleonOutfit
   id: DSPilotChameleonOutfit
-  job: Pilot
+  job: DSPilot
   equipment:
     head: ClothingHeadHatPilot
     mask: ClothingMaskPilot

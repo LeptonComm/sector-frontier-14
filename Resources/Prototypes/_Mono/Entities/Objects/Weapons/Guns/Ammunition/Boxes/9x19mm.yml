@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  id: DSAmmoBox9x19mmEmp
+  id: DSAmmoBox9x19mmEMP
   name: ammunition box (9x19mm emp)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

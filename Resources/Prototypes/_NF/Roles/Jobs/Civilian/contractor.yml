@@ -1,15 +1,15 @@
 - type: job
   id: DSContractor
-  name: job-name-contractor
-  description: job-description-contractor
-  playTimeTracker: JobPassenger
+  name: Гражданский
+  description: Я еблан, занимаюсь какой-то хуйней, я не знал, но люди мне так сказали
+  playTimeTracker: DSJobPassenger
   salary: 6000
   requirements: #Lua
     - !type:OverallPlaytimeRequirement
       time: 72000
   icon: "JobIconContractor"
   supervisors: job-supervisors-hire
-  displayWeight: 40 # Top
+  displayWeight: 40
   accessGroups:
   - GeneralAccess
   special:
@@ -19,4 +19,4 @@
 
 - type: chameleonOutfit
   id: DSContractorChameleonOutfit
-  job: Contractor
+  job: DSContractor

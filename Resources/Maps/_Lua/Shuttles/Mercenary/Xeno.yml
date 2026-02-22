@@ -5331,7 +5331,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: MercenaryTechFab
+- proto: DSMercenaryTechFab
   entities:
   - uid: 674
     components:

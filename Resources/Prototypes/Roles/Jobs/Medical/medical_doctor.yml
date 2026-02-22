@@ -1,5 +1,5 @@
 - type: job
-  id: DSMedicalDoctor
+  id: MedicalDoctor
   name: job-name-doctor
   description: job-description-doctor
   playTimeTracker: JobMedicalDoctor
@@ -41,7 +41,7 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: DSMedicalDoctorChameleonOutfit
+  id: MedicalDoctorChameleonOutfit
   job: MedicalDoctor
   equipment:
     head: ClothingHeadNurseHat

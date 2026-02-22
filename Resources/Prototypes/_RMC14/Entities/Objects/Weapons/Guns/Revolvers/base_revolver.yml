@@ -41,7 +41,7 @@
 #      - RMCMagazineRevolver # comment (39-41) from _Lua
 #      - RMCSpeedLoaderM44
 #      - RMCCartridgeRevolver44
-    proto: DSRMCCartridgeRevolver44
+    proto: RMCCartridgeRevolver44
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]

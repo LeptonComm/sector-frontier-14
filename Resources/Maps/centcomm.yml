@@ -5843,13 +5843,6 @@ entities:
     - type: Transform
       pos: -23.5,29.5
       parent: 1668
-- proto: AmmoTechFab
-  entities:
-  - uid: 2161
-    components:
-    - type: Transform
-      pos: 15.5,20.5
-      parent: 1668
 - proto: AnomalyLocatorWide
   entities:
   - uid: 9396

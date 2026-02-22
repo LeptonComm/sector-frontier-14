@@ -151,10 +151,8 @@
     - NFMedicalMobilityStatic # Frontier
     - NFServiceKitchenStatic # Frontier
     - NFEvaSuitCommon # Frontier
-
-  - type: EmagLatheRecipes
-    emagStaticPacks:
-     - MonoAmmoPackModified #Lua
+#  - type: EmagLatheRecipes # comment from _Lua
+#    emagStaticPacks:
 #    - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
   - type: BlueprintReceiver
     whitelist:
@@ -503,6 +501,51 @@
   #   channels: [Security] # Frontier
 
 - type: entity
+  id: DSAmmoTechFab
+  parent: [NFBlueprintReceiverBase, BaseLatheLube] # Frontier: added NFBlueprintReceiverBase
+  name: ammo techfab
+  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  suffix: МК, НЕ СПАВНИТЬ
+  components:
+    - type: Sprite
+      sprite: Structures/Machines/techfab.rsi
+      snapCardinals: true # Frontier
+      layers:
+        - state: icon
+          map: ["enum.LatheVisualLayers.IsRunning"]
+        - state: ammo
+        - state: unlit
+          shader: unshaded
+          map: ["enum.PowerDeviceVisualLayers.Powered"]
+        - state: inserting
+          map: ["enum.MaterialStorageVisualLayers.Inserting"]
+        - state: panel
+          map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: Machine
+      board: AmmoTechFabCircuitboard
+    - type: Lathe
+      idleState: icon
+      runningState: icon
+      staticPacks:
+#      - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
+#      - N14AmmoPack # comment (530-533) from _Lua
+#      - NFMercenaryMagazineStatic
+#      - RMCAmmoPack
+      - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
+    - type: MaterialStorage
+      whitelist:
+        tags:
+          - Sheet
+          - RawMaterial
+          - Ingot
+    - type: OreSiloClient
+    - type: BlueprintReceiver # Frontier
+      whitelist: # Frontier
+        tags: # Frontier
+        - NFBlueprintMercenaryTechfab # Frontier
+        - NFBlueprintAdvanced # Frontier
+
+- type: entity
   id: AmmoTechFab
   parent: [NFBlueprintReceiverBase, BaseLatheLube] # Frontier: added NFBlueprintReceiverBase
   name: ammo techfab
@@ -528,11 +571,11 @@
       idleState: icon
       runningState: icon
       staticPacks:
-#      - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
-#      - N14AmmoPack # comment (531-533) from _Lua
-#      - NFMercenaryMagazineStatic
+      - NfsdAmmoStatic # Frontier: SecurityAmmoStatic<NfsdAmmoStatic
+      - N14AmmoPack
+      - NFMercenaryMagazineStatic
       - RMCAmmoPack
-      - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
+      - MonoAmmoPack
     - type: MaterialStorage
       whitelist:
         tags:

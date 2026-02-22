@@ -2,13 +2,13 @@
   id: DSStationRepresentative
   name: job-name-sr
   description: job-description-sr
-  playTimeTracker: JobHeadOfPersonnel
+  playTimeTracker: DSJobHeadOfPersonnel
   salary: 80000
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 72000 # 20 hrs
     - !type:RoleTimeRequirement
-      role: DSFrontierEngineer
+      role: FrontierEngineer
       time: 72000 #Lua 20h 
   whitelisted: false
   startingGear: SrGear
@@ -36,7 +36,7 @@
 
 - type: chameleonOutfit
   id: DSStationRepresentativeChameleonOutfit
-  job: StationRepresentative
+  job: DSStationRepresentative
   hasMindShield: true
   equipment:
     head: ClothingHeadHatSrBeret

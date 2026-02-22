@@ -2,7 +2,7 @@
   id: DSValet
   name: job-name-valet
   description: job-description-valet
-  playTimeTracker: JobValet
+  playTimeTracker: DSJobValet
   salary: 35000 #Lua 25000<35000
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -28,7 +28,7 @@
 
 - type: chameleonOutfit
   id: DSValetChameleonOutfit
-  job: Valet
+  job: DSValet
   hasMindShield: true
   equipment:
     head: ClothingHeadHatBellhop

@@ -1,5 +1,5 @@
 - type: job
-  id: DSChemist
+  id: Chemist
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
@@ -40,7 +40,7 @@
     #- Stuff
 
 - type: chameleonOutfit
-  id: DSChemistChameleonOutfit
+  id: ChemistChameleonOutfit
   job: Chemist
   equipment:
     head: ClothingHeadHatBeretMedic

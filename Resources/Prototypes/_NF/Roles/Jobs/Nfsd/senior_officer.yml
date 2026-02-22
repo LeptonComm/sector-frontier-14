@@ -2,7 +2,7 @@
   id: DSSeniorOfficer
   name: job-name-senior-officer
   description: job-description-senior-officer
-  playTimeTracker: JobSeniorOfficer
+  playTimeTracker: DSJobSeniorOfficer
   salary: 50000
   requirements:
   - !type:RoleTimeRequirement #Lua
@@ -49,7 +49,7 @@
 
 - type: chameleonOutfit
   id: DSSeniorOfficerChameleonOutfit
-  job: SeniorOfficer
+  job: DSSeniorOfficer
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdBeretBrown

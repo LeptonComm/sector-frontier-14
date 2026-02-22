@@ -2567,13 +2567,6 @@ entities:
     - type: Transform
       pos: 2.5,4.5
       parent: 1
-- proto: NfsdTechFab
-  entities:
-  - uid: 336
-    components:
-    - type: Transform
-      pos: 2.5,3.5
-      parent: 1
 - proto: NitrogenCanister
   entities:
   - uid: 337

@@ -309,7 +309,7 @@
 
 # Special
 - type: entity
-  id: DSMagazine9x19mmSubMachineGunEmp
+  id: DSMagazine9x19mmSubMachineGunEMP
   name: SMG magazine (9x19mm emp)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:

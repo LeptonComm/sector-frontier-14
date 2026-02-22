@@ -1,77 +1,77 @@
 #Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredMagazineRecipe
-  id: Magazine127x99mm
-  result: Magazine127x99mm
+  id: DSMagazine127x99mm
+  result: DSMagazine127x99mm
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredMagazineRecipe
-  id: Magazine127x99mmIncendiary
-  result: Magazine127x99mmIncendiary
+  id: DSMagazine127x99mmIncendiary
+  result: DSMagazine127x99mmIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredMagazineRecipe
-  id: Magazine127x99mmPractice
-  result: Magazine127x99mmPractice
+  id: DSMagazine127x99mmPractice
+  result: DSMagazine127x99mmPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
-  id: Magazine127x99mmEmpty
-  result: Magazine127x99mmEmpty
+  id: DSMagazine127x99mmEmpty
+  result: DSMagazine127x99mmEmpty
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredMagazineRecipe
-  id: Magazine127x99mmUranium
-  result: Magazine127x99mmUranium
+  id: DSMagazine127x99mmUranium
+  result: DSMagazine127x99mmUranium
 
 - type: latheRecipe
   parent: BaseAmmoEMPFullyPoweredMagazineRecipe
-  id: Magazine127x99mmEMP
-  result: Magazine127x99mmEMP
+  id: DSMagazine127x99mmEMP
+  result: DSMagazine127x99mmEMP
 
 - type: latheRecipe
   parent: BaseAmmoCausticFullyPoweredMagazineRecipe
-  id: Magazine127x99mmCaustic
-  result: Magazine127x99mmCaustic
+  id: DSMagazine127x99mmCaustic
+  result: DSMagazine127x99mmCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredMagazineRecipe
-  id: Magazine127x99mmHP
-  result: Magazine127x99mmHP
+  id: DSMagazine127x99mmHP
+  result: DSMagazine127x99mmHP
 
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mm
-  result: AmmoBox127x99mm
+  id: DSAmmoBox127x99mm
+  result: DSAmmoBox127x99mm
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmIncendiary
-  result: AmmoBox127x99mmIncendiary
+  id: DSAmmoBox127x99mmIncendiary
+  result: DSAmmoBox127x99mmIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmPractice
-  result: AmmoBox127x99mmPractice
+  id: DSAmmoBox127x99mmPractice
+  result: DSAmmoBox127x99mmPractice
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmUranium
-  result: AmmoBox127x99mmUranium
+  id: DSAmmoBox127x99mmUranium
+  result: DSAmmoBox127x99mmUranium
 
 - type: latheRecipe
   parent: BaseAmmoEMPFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmEMP
-  result: AmmoBox127x99mmEMP
+  id: DSAmmoBox127x99mmEMP
+  result: DSAmmoBox127x99mmEMP
 
 - type: latheRecipe
   parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmCaustic
-  result: AmmoBox127x99mmCaustic
+  id: DSAmmoBox127x99mmCaustic
+  result: DSAmmoBox127x99mmCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
-  id: AmmoBox127x99mmHP
-  result: AmmoBox127x99mmHP
+  id: DSAmmoBox127x99mmHP
+  result: DSAmmoBox127x99mmHP

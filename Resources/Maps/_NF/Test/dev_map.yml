@@ -1027,7 +1027,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -14.5,1.5
       parent: 179
-- proto: AmmoTechFab
+- proto: DSAmmoTechFab
   entities:
   - uid: 134
     components:

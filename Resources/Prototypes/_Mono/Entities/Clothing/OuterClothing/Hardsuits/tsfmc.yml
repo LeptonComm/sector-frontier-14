@@ -1,7 +1,7 @@
 # Security
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  id: ClothingOuterHardsuitTSFMCM73
+  id: DSClothingOuterHardsuitTSFMCM73
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This bronze variant has private rank markings.
   suffix: TSF, Light, Standart #Lua
@@ -46,68 +46,8 @@
           - FitsHardsuit # _Lua
 
 - type: entity
-  parent: ClothingOuterHardsuitTSFMCM73
-  id: ClothingOuterHardsuitTSFMCM74
-  name: TSFMC M74 tacsuit
-  description: The standard-issue TSFMC tacsuit for patrol duty. This silver variant has corporal rank markings.
-  suffix: Вне баланса, НЕ использовать #Lua
-  components:
-  - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M74-outer.rsi #Lua
-  - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M74-outer.rsi #Lua
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM74
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.55
-        Slash: 0.65
-        Piercing: 0.6
-        Heat: 0.7
-        Radiation: 0.55
-        Caustic: 0.75
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.4
-  - type: ClothingSpeedModifier
-    walkModifier: 1
-    sprintModifier: 1
-  - type: ThermalCloak
-    enabled: false
-
-- type: entity
-  parent: ClothingOuterHardsuitTSFMCM73
-  id: ClothingOuterHardsuitTSFMCM75
-  name: TSFMC M75 tacsuit
-  description: The standard-issue TSFMC tacsuit for patrol duty. This gold variant has senior rank markings.
-  suffix: Вне баланса, НЕ использовать #Lua
-  components:
-  - type: Sprite
-    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M75-outer.rsi #Lua
-  - type: Clothing
-    sprite: _Lua/Clothing/OuterClothing/SDHardsuits/M75-outer.rsi #Lua
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTSFMCM75
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.4
-        Piercing: 0.5
-        Heat: 0.6
-        Radiation: 0.55
-        Caustic: 0.75
-  - type: StaminaDamageResistance #Lua
-    coefficient: 0.4
-  - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.85
-  - type: ThermalCloak
-    enabled: false
-
-- type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit #Lua
-  id: ClothingOuterHardsuitTSFMCM92
+  id: DSClothingOuterHardsuitTSFMCM92
   name: TSFMC M92 tacsuit
   description: A heavy tacsuit, capable of taking a lot of physical damage.
   suffix: TSF, Heavy, Standart #Lua
@@ -149,7 +89,7 @@
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
-  id: ClothingOuterHardsuitTSFMCM73-C
+  id: DSClothingOuterHardsuitTSFMCM73-C
   name: TSFMC M73-C tacsuit
   description: A variant of the M73 tacsuit for combat medical and NBC use. Provides greater caustic and radiation protection.
   suffix: TSF, Light, Special #Lua
@@ -187,7 +127,7 @@
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit
-  id: ClothingOuterHardsuitTSFMCM92-X
+  id: DSClothingOuterHardsuitTSFMCM92-X
   name: TSFMC M92-X tacsuit
   description: A experimental modification of the M92 tacsuit for spec-ops units of the TSFMC. Externally the same, internally its higher-quality alloys and fabric.
   suffix: TSF, Heavy, Special #Lua
@@ -233,7 +173,7 @@
 #Security Combat Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  id: ClothingOuterHardsuitTSFMCM93
+  id: DSClothingOuterHardsuitTSFMCM93
   name: TSFMC M93 tacsuit
   description: A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
   suffix: TSF, Medium, Standart #Lua
@@ -272,7 +212,7 @@
 #Security Command Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  id: ClothingOuterHardsuitTSFMCM93-C
+  id: DSClothingOuterHardsuitTSFMCM93-C
   name: TSFMC M93-C tacsuit
   description: A variant of the M93 tacsuit with slightly better plating. It isn't much extra.
   suffix: TSF, Medium, Special #Lua

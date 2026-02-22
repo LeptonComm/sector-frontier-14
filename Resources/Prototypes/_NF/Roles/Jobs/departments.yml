@@ -3,7 +3,6 @@
   name: department-service
   description: department-service-description
   color: "#334E6D"
-  weight: 50 # accounted for in jobs
   roles:
   - DSPilot
   - DSContractor
@@ -14,23 +13,17 @@
   name: department-Frontier
   description: department-NF-description
   color: "#334E6D"
-  weight: 50 # accounted for in jobs
   roles:
   - DSStationRepresentative
-  - DSDirectorOfCare
   - DSValet # nyano
   - DSSecurityGuard
   - FrontierEngineer #Lua
-  - DSChemist #Lua
-  - DSMedicalDoctor
-  - DSParamedic
 
 - type: department
   id: DSNFSD
   name: department-security
   description: department-security-description
   color: "#334E6D"
-  weight: 50 # accounted for in jobs
   roles:
   - DSSheriff
   - DSBailiff

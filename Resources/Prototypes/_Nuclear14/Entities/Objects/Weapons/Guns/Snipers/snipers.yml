@@ -52,7 +52,7 @@
       tags:
       - N14Cartridge308Rifle
     capacity: 10
-    proto: DSN14Cartridge308Rifle
+    proto: N14Cartridge308Rifle
 
 - type: entity
   name: Anti-Materiel rifle
@@ -227,41 +227,8 @@
       pvsIncrease: 1
 
 - type: entity
-  name: lever action carbine
-  parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: DSN14WeaponLeverCarbine
-  description: A lever action short carbine. Uses .44 ammo.
-  suffix: МК, НЕ СПАВНИТЬ
-  components:
-  - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/levercarbine.rsi
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -104
-  - type: Gun
-    examineCaliber: gun-examine-caliber-76254 #Lua
-    minAngle: 24
-    maxAngle: 105
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 2
-    soundGunshot:
-      collection: N14LeverCarbineGunshot
-  - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - N14Cartridge44Magnum
-    capacity: 14
-    proto: DSN14Cartridge44Magnum
-
-- type: entity
   name: lever action rifle
-  parent: [BaseC1Contraband, N14WeaponSniperHunting]
+  parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
   id: DSN14WeaponLeverRifle
   description: A long lever action repeater rifle. Uses .308 ammo.
   suffix: МК, НЕ СПАВНИТЬ
@@ -315,7 +282,7 @@
 
 - type: entity
   name: brush gun
-  parent: [BaseC1Contraband, N14WeaponSniperHunting]
+  parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
   id: DSN14WeaponBrushGun
   description: A powerfull lever action carbine. Uses .45-70 gov't ammo.
   suffix: МК, НЕ СПАВНИТЬ
@@ -344,65 +311,3 @@
       - SpeedLoaderInternal
     capacity: 10
     proto: DSCartridge127x99mm #Lua N14Cartridge45-70<Cartridge127x99mm
-
-- type: entity
-  name: pipe rifle
-  parent: [BaseC1Contraband, N14WeaponSniperHunting]
-  id: DSN14WeaponPipeRifle
-  description: A piece of metal pipe with a wooden stock, works has a gun and uses .308 ammo.
-  suffix: МК, НЕ СПАВНИТЬ
-  components:
-  - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
-    layers:
-    - state: base
-      map: [ "enum.GunVisualLayers.Base" ]
-    - sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
-      state: barrel
-      offset: 0.525, 0.0925
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/piperifle.rsi
-  - type: Wieldable
-  - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - N14Cartridge308Rifle
-    capacity: 1
-    proto: DSN14Cartridge308Rifle
-  - type: Gun
-    soundGunshot:
-      collection: N14PipeRifleGunshot
-
-- type: entity
-  name: varmint rifle
-  parent: [BaseC1Contraband, BaseWeaponSniper]
-  id: DSN14WeaponSniperVarmint
-  description: A pre-war low power bolt action rifle, originally designed to hunt small animals this gun works fine with anything not bigger than a human. Uses 5.56 ammo.
-  suffix: МК, НЕ СПАВНИТЬ
-  components:
-  - type: Clothing
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
-  - type: Sprite
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
-  - type: Item
-    sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/varmint.rsi
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -23
-    maxAngle: -104
-  - type: Gun
-    minAngle: 24
-    maxAngle: 105
-    angleIncrease: 4
-    angleDecay: 16
-    fireRate: 2.2
-    soundGunshot:
-      collection: N14SniperVarmintGunshot
-  - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - N14Cartridge556Rifle
-    capacity: 15
-    proto: DSN14Cartridge556Rifle

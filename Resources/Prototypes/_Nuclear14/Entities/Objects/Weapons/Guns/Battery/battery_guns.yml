@@ -24,7 +24,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: DSN14PowerCellSmall
+        startingItem: N14PowerCellSmall
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -586,7 +586,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: DSN14PowerCellFocused
+        startingItem: N14PowerCellFocused
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -661,7 +661,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: DSN14PowerCellFocused
+        startingItem: N14PowerCellFocused
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:

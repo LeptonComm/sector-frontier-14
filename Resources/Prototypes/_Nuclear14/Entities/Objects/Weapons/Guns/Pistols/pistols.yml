@@ -38,7 +38,7 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: DSMagazinePistol
+        startingItem: MagazinePistol
         insertSound: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magin.ogg
         ejectSound: /Audio/_Nuclear14/Weapons/Effects/Reload/Pistols/pistol_magout.ogg
         priority: 2
@@ -47,7 +47,7 @@
             - MagazinePistol
       gun_chamber:
         name: Chamber
-        startingItem: DSCartridgePistol
+        startingItem: CartridgePistol
         priority: 1
         whitelist:
           tags:

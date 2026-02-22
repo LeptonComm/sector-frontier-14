@@ -7604,13 +7604,6 @@ entities:
     - type: Transform
       pos: 2.5,-9.5
       parent: 1
-- proto: NfsdTechFab
-  entities:
-  - uid: 1020
-    components:
-    - type: Transform
-      pos: -1.5,9.5
-      parent: 1
 - proto: NitrogenCanister
   entities:
   - uid: 1021

@@ -167,6 +167,32 @@
         amount: 3
 
 - type: entity
+  parent: [WeaponCaseLong] #Lua
+  id: DSWeaponCaseLongHristovExpedition
+  suffix: Dungeon, Hristov
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: DSNFWeaponRifleSniperHristov
+      amount: 1
+    - id: DSMagazine127x99mm
+      amount: 2
+
+- type: entity
+  parent: [WeaponCaseShort] #Lua
+  id: DSWeaponCaseShortUniversalExpedition
+  suffix: Dungeon, Universal
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: DSNFWeaponPistolUniversal
+      amount: 1
+    - id: DSMagazine9x19mmPistolFMJ
+      amount: 2
+
+- type: entity
   id: DSWeaponCaseShortInspectorBundle
   parent: WeaponCaseShort
   suffix: Inspector .45 Magnum

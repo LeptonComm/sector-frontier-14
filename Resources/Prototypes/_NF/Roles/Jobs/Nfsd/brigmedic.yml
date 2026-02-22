@@ -2,7 +2,7 @@
   id: DSBrigmedic
   name: job-name-brigmedic
   description: job-description-brigmedic-nf
-  playTimeTracker: JobBrigmedic
+  playTimeTracker: DSJobBrigmedic
   salary: 40000 #Lua 45000<40000
   requirements:
   - !type:RoleTimeRequirement #Lua
@@ -43,7 +43,7 @@
 
 - type: chameleonOutfit
   id: DSBrigmedicChameleonOutfit
-  job: Brigmedic
+  job: DSBrigmedic
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdBeretCream

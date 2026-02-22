@@ -42,6 +42,58 @@
     idleState: icon
     runningState: icon
     staticPacks:
+    - MonoAmmoPack
+    - NFLightsStatic
+    - NFBasicToolsStatic
+    - NFBasicStorageStatic
+    - NFBasicPartsStatic
+    - NFBasicElectronicsStatic
+    - NFBasicEvaStatic
+    - NFBasicEVAToolsStatic
+    - NFMaterialElectronicsStatic
+    - ReportingStatic # DeltaV
+    - NfsdWeaponsStatic
+    - NfsdPracticeStatic
+    - NfsdAmmoStatic
+    - NFMercenaryMagazineStatic
+    - NFMercenaryStorageStatic
+    - NfsdToolsStatic
+    - NfsdTargetsStatic
+    - NfsdBoardsStatic
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - NFBlueprintNfsdTechfab
+      - NFBlueprintAdvanced
+  - type: OreSiloClient
+
+- type: entity
+  id: DSNfsdTechFab
+  parent: [ NFBlueprintReceiverBase, SecurityTechFab ]
+  name: NFSD techfab
+  description: Prints equipment for use by NFSD.
+  suffix: МК, НЕ СПАВНИТЬ
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/techfab.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: nfsd
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: DSNfsdTechFabCircuitboard
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticPacks:
     - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
     - NFLightsStatic
     - NFBasicToolsStatic
@@ -53,9 +105,6 @@
     - NFMaterialElectronicsStatic
     - ReportingStatic # DeltaV
     - NfsdWeaponsStatic
-#    - NfsdPracticeStatic #comment (56-58) from _Lua
-#    - NfsdAmmoStatic
-#    - NFMercenaryMagazineStatic
     - NFMercenaryStorageStatic
     - NfsdToolsStatic
     - NfsdTargetsStatic
@@ -88,12 +137,12 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
-    board: MercenaryTechFabCircuitboardNF
+    board: DSMercenaryTechFabCircuitboardNF
   - type: Lathe
     idleState: icon
     runningState: icon
     staticPacks:
-    - MonoAmmoPackModified #Lua MonoAmmoPack<MonoAmmoPackModified
+    - MonoAmmoPack
     - NFMercenaryTechfabDeprecatedStatic
     - NFLightsStatic
     - NFBasicToolsStatic
@@ -108,9 +157,56 @@
     - NFMercenaryClothesStatic
     - NFMercenaryStorageStatic
     - NFMercenaryWeaponsStatic
-#    - NFMercenaryAmmoBoxesStatic #comment (111-113) from _Lua
-#    - NfsdPracticeStatic
-#    - NFMercenaryMagazineStatic
+    - NFTopicalsStatic
+    - NFMercenaryArchetypeStatic
+  - type: BlueprintReceiver
+    whitelist:
+      tags:
+      - NFBlueprintMercenaryTechfab
+      - NFBlueprintAdvanced
+  - type: OreSiloClient
+
+- type: entity
+  id: DSMercenaryTechFab
+  parent: [ NFBlueprintReceiverBase, BaseLatheLube ]
+  name: mercenary techfab
+  description: Prints the bare minimum of tools of the trade that any budget mercenary or private security could need. Nothing fancy.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/techfab.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: mercenary
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: DSMercenaryTechFabCircuitboardNF
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticPacks:
+    - MonoAmmoPackModifiedCivilian
+    - NFMercenaryTechfabDeprecatedStatic
+    - NFLightsStatic
+    - NFBasicToolsStatic
+    - NFBasicStorageStatic
+    - NFBasicPartsStatic
+    - NFBasicElectronicsStatic
+    - NFBasicEvaStatic
+    - NFBasicEVAToolsStatic
+    - NFMaterialElectronicsStatic
+    - NFBasicEvaLightsStatic
+    - NFMercenaryStatic
+    - NFMercenaryClothesStatic
+    - NFMercenaryStorageStatic
+    - NFMercenaryWeaponsStatic
     - NFTopicalsStatic
     - NFMercenaryArchetypeStatic
   - type: BlueprintReceiver

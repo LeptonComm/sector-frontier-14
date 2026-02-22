@@ -592,6 +592,19 @@
     - state: mercenary
 
 - type: entity
+  parent: BaseNFFlatpack
+  id: DSAmmoTechFabFlatpack
+  name: ammo techfab flatpack
+  description: A flatpack used for constructing an ammo techfab.
+  suffix: МК, НЕ СПАВНИТЬ
+  components:
+  - type: Flatpack
+    entity: DSAmmoTechFab
+  - type: Sprite
+    layers:
+    - state: mercenary
+
+- type: entity
   parent: AmmoTechFabFlatpack
   id: MercenaryTechFabFlatpack
   name: mercenary techfab flatpack
@@ -599,6 +612,18 @@
   components:
   - type: Flatpack
     entity: MercenaryTechFab
+  - type: StaticPrice
+    price: 600
+
+- type: entity
+  parent: AmmoTechFabFlatpack
+  id: DSMercenaryTechFabFlatpack
+  name: mercenary techfab flatpack
+  description: A flatpack used for constructing a mercenary techfab.
+  suffix: МК, НЕ СПАВНИТЬ
+  components:
+  - type: Flatpack
+    entity: DSMercenaryTechFab
   - type: StaticPrice
     price: 600
 
@@ -874,6 +899,21 @@
   components:
   - type: Flatpack
     entity: NfsdTechFab
+  - type: StaticPrice
+    price: 250
+  - type: Item
+    shape:
+    - 0,0,1,1
+
+- type: entity
+  parent: UniformPrinterFlatpack
+  id: DSNfsdTechFabFlatpack
+  name: NFSD techfab flatpack
+  description: A flatpack used for constructing an NFSD techfab.
+  suffix: МК, НЕ СПАВНИТЬ
+  components:
+  - type: Flatpack
+    entity: DSNfsdTechFab
   - type: StaticPrice
     price: 250
   - type: Item

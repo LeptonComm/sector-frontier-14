@@ -4,7 +4,7 @@
   description: job-description-mail-carrier
   startingGear: MailCarrierGear
   alwaysUseSpawner: true
-  playTimeTracker: JobMailCarrier
+  playTimeTracker: DSJobMailCarrier
   salary: 40000 #Lua 30000<40000
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -29,5 +29,5 @@
 
 - type: chameleonOutfit
   id: DSMailCarrierChameleonOutfit
-  job: MailCarrier
+  job: DSMailCarrier
   hasMindShield: true

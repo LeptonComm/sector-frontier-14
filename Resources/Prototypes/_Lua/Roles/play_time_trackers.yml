@@ -157,3 +157,46 @@
 
 - type: playTimeTracker
   id: JobFrontierEngineer
+
+### Frontier
+
+- type: playTimeTracker
+  id: DSJobHeadOfPersonnel
+
+- type: playTimeTracker
+  id: DSJobMailCarrier
+
+- type: playTimeTracker
+  id: DSJobSecurityGuard
+
+- type: playTimeTracker
+  id: DSJobValet
+
+### Civilian
+- type: playTimeTracker
+  id: DSJobMercenary
+
+- type: playTimeTracker
+  id: DSJobPilot
+
+- type: playTimeTracker
+  id: DSJobPassenger
+
+### NFSD
+- type: playTimeTracker
+  id: DSJobHeadOfSecurity
+
+- type: playTimeTracker
+  id: DSJobBailiff
+
+- type: playTimeTracker
+  id: DSJobBrigmedic
+
+- type: playTimeTracker
+  id: DSJobSeniorOfficer
+
+- type: playTimeTracker
+  id: DSJobSecurityOfficer
+
+- type: playTimeTracker
+  id: DSJobSecurityCadet

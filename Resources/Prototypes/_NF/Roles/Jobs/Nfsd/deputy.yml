@@ -2,7 +2,7 @@
   id: DSDeputy
   name: job-name-deputy
   description: job-description-deputy
-  playTimeTracker: JobSecurityOfficer
+  playTimeTracker: DSJobSecurityOfficer
   salary: 40000
   requirements:
   - !type:RoleTimeRequirement #Lua
@@ -41,7 +41,7 @@
 
 - type: chameleonOutfit
   id: DSDeputyChameleonOutfit
-  job: Deputy
+  job: DSDeputy
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdBeretBrown

@@ -1063,7 +1063,7 @@ entities:
     - type: Transform
       pos: 0.5,24.5
       parent: 1
-- proto: AmmoTechFab
+- proto: DSAmmoTechFab
   entities:
   - uid: 54
     components:

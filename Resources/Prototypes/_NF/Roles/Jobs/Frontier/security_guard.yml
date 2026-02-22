@@ -2,13 +2,13 @@
   id: DSSecurityGuard
   name: job-name-security-guard
   description: job-description-security-guard
-  playTimeTracker: JobSecurityGuard
+  playTimeTracker: DSJobSecurityGuard
   salary: 50000
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 # Frontier - 10 hrs
     - !type:DepartmentTimeRequirement #Lua
-      department: Frontier
+      department: DSFrontier
       time: 36000
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
@@ -39,7 +39,7 @@
 
 - type: chameleonOutfit
   id: DSSecurityGuardChameleonOutfit
-  job: SecurityGuard
+  job: DSSecurityGuard
   hasMindShield: true
   equipment:
     head: ClothingHeadHatBeretSecurity

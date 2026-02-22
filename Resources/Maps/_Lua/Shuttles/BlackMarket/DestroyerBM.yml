@@ -10064,7 +10064,7 @@ entities:
     - type: Transform
       pos: 3.5,-7.5
       parent: 1
-- proto: MercenaryTechFab
+- proto: DSMercenaryTechFab
   entities:
   - uid: 2090
     components:

@@ -2,7 +2,7 @@
   id: DSSheriff
   name: job-name-sheriff
   description: job-description-sheriff
-  playTimeTracker: JobHeadOfSecurity
+  playTimeTracker: DSJobHeadOfSecurity
   salary: 80000
   requirements:
   - !type:RoleTimeRequirement #Lua
@@ -55,7 +55,7 @@
 
 - type: chameleonOutfit
   id: DSSheriffChameleonOutfit
-  job: Sheriff
+  job: DSSheriff
   hasMindShield: true
   equipment:
     head: ClothingHeadHatNfsdCampaignFilled
