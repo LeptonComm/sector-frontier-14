@@ -8,7 +8,7 @@
   id: BMXeno
   name: BM-Xeno
   description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
-  price: 1 #test
+  price: 250000 #test
   category: Large
   group: ASBlackMarket
   access: Mercenary
@@ -43,7 +43,7 @@
   id: MCXeno
   name: Xeno
   description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
-  price: 1 #test
+  price: 200000 #test
   category: Large
   group: Mercenary
   access: Mercenary

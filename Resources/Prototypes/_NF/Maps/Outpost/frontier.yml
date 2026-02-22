@@ -80,8 +80,8 @@
 #            prefixCreator: '14'
         - type: ExtraStationInformation
           iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png # used the biggest one, looks better when downscaling than upscaling
-          stationSubtext: 'Еврейское логово'
-          stationDescription: 'Сейчас три часа ночи, и я нахожусь в еврейском логове! Один из них уже был превращен в розовую вульпу, которая пыталась меня загриндить!'
+          stationSubtext: 'frontier-lobby-erc-subtext'
+          stationDescription: 'frontier-lobby-erc-description'
           lobbySortOrder: 1
         - type: StationJobs
           availableJobs:

@@ -8,7 +8,7 @@
   id: BMSprinter
   name: BM-Sprinter
   description: "Довольно массивный исследовательский шаттл, в старое время славившийся своей маневренностью."
-  price: 1 #test
+  price: 85000 #test
   category: Large
   group: ASBlackMarket
   whitelist:

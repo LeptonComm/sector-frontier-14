@@ -63,7 +63,7 @@
   maximumDistance: 2000 #600 Lua
   spawnGamePreset: [ LuaAdventure ]
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/Medical.yml #Lua
+  gridPath: /Maps/_NF/POI/medical.yml #Lua
   addComponents:
   - type: RadarBlipIcon
     icon: /Textures/_Lua/Interface/Radar/medical.png
@@ -75,7 +75,7 @@
 - type: gameMap
   id: LunaMedical
   mapName: 'Медицинский Центр'
-  mapPath: /Maps/_NF/POI/Medical.yml #Lua
+  mapPath: /Maps/_NF/POI/medical.yml #Lua
   minPlayers: 0
   stations:
     LunaMedical:

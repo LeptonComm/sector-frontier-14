@@ -42,7 +42,7 @@
   name: Baron
   description: Грозный пиратский флагман с химическим оборудованием, для комфортного грабежа.
   limit: 2
-  price: 290000
+  price: 250000
   category: Large
   group: BlackMarket
   whitelist:

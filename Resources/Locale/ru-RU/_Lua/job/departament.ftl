@@ -5,3 +5,6 @@ department-LuaTech = Lua Technologies
 department-Outpost-Typan = ННКСС Тайпан
 
 department-stormcreed = Кодекс Бури
+department-service = Гражданские
+department-security = Служба Безопасности
+
