@@ -53,12 +53,12 @@
   - Mercenary
   engine:
   - AME
-  shuttlePath: /Maps/_Lua/Shuttles/Luna/Xeno.yml
+  shuttlePath: /Maps/_Lua/Shuttles/Luna/xeno.yml
 
 - type: gameMap
   id: MCXeno
   mapName: 'Xeno'
-  mapPath: /Maps/_Lua/Shuttles/Luna/Xeno.yml
+  mapPath: /Maps/_Lua/Shuttles/Luna/xeno.yml
   minPlayers: 0
   stations:
     MCXeno:
