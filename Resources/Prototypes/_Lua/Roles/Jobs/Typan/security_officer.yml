@@ -15,7 +15,7 @@
   hideConsoleVisibility: true
   requirements:
   - !type:RoleTimeRequirement
-    role: DSJobStationRepresentative
+    role: DSJobHeadOfPersonnel
     time: 72000 # 20h
   - !type:DepartmentTimeRequirement
     department: OutpostSyndicate

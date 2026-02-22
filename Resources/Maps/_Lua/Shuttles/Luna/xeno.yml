@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 261.2.0
+  engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/20/2025 06:08:27
-  entityCount: 1212
+  time: 02/22/2026 14:35:15
+  entityCount: 1210
 maps: []
 grids:
 - 1
@@ -543,7 +543,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -555,7 +554,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -567,7 +565,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -579,7 +576,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -591,7 +587,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -603,7 +598,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -615,7 +609,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -627,7 +620,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -639,7 +631,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -651,7 +642,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -663,7 +653,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -675,7 +664,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -687,7 +675,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -699,7 +686,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -711,7 +697,6 @@ entities:
       parent: 1
     - type: RadarBlip
       enabled: False
-      visibleFromOtherGrids: True
       shape: Ring
       scale: 0
       radarColor: '#00DEFEFF'
@@ -3775,14 +3760,14 @@ entities:
   - uid: 556
     components:
     - type: Transform
-      pos: -4.8327055,9.380209
+      pos: -4.8327055,11.380209
       parent: 1
 - proto: CandleGreen
   entities:
   - uid: 557
     components:
     - type: Transform
-      pos: -5.7771506,10.352431
+      pos: -3.7771506,10.352431
       parent: 1
 - proto: CarpetBlack
   entities:
@@ -4126,12 +4111,7 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -3.8988895,9.746984
-      parent: 1
-  - uid: 619
-    components:
-    - type: Transform
-      pos: -4.9544454,11.066428
+      pos: -3.8988895,3.7469835
       parent: 1
 - proto: ChemDispenserEmpty
   entities:
@@ -4154,6 +4134,16 @@ entities:
     - type: Transform
       pos: 1.3715049,10.694692
       parent: 1
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: ClothingHandsMercenaryGlovesCombat
   entities:
   - uid: 626
@@ -4234,9 +4224,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -2.5,1.5
       parent: 1
-- proto: ComputerShuttle
+- proto: ComputerShuttleWithFrontierDisk
   entities:
-  - uid: 636
+  - uid: 18
     components:
     - type: Transform
       pos: 1.5,18.5
@@ -4310,13 +4300,6 @@ entities:
     components:
     - type: Transform
       pos: -4.7077055,10.713542
-      parent: 1
-- proto: EngineeringTechFab
-  entities:
-  - uid: 647
-    components:
-    - type: Transform
-      pos: -5.5,0.5
       parent: 1
 - proto: FaxMachineShip
   entities:
@@ -5529,7 +5512,7 @@ entities:
   - uid: 830
     components:
     - type: Transform
-      pos: -0.73965526,14.604087
+      pos: 1.2603447,14.604087
       parent: 1
   - uid: 831
     components:
@@ -7707,9 +7690,9 @@ entities:
       parent: 1
     - type: WarpPoint
       queryStationName: True
-- proto: WeaponTurretCharon
+- proto: WeaponTurretCharonReload
   entities:
-  - uid: 1208
+  - uid: 619
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -7752,7 +7735,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -22747.549
+      secondsUntilStateChange: -23014.004
       state: Opening
     - type: Airlock
       autoClose: False

@@ -8,12 +8,12 @@
 
 - type: entity
   parent: WeaponCaseShort
-  id: WeaponCaseShortN14WeaponPistol10mm
+  id: DSWeaponCaseShortN14WeaponPistol10mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: N14WeaponPistol10mm
+    - id: DSN14WeaponPistol10mm
       amount: 1
     - id: DSMagazine9x19mmPistolFMJ
       amount: 3
