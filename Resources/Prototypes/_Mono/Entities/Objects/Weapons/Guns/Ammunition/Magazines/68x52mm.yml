@@ -197,7 +197,7 @@
   parent: DSBaseMagazine68x52mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: practice

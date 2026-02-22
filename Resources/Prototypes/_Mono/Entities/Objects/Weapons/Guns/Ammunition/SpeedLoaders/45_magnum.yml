@@ -48,7 +48,7 @@
   parent: DSSpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
     layers:
@@ -146,67 +146,6 @@
         map: [ "enum.GunVisualLayers.Mag" ]
   - type: MagazineVisuals
     magState: uranium
-    steps: 7
-    zeroVisible: false
-  - type: Appearance
-
-# Out of balance
-- type: entity
-  id: DSSpeedLoader45_magnumAP
-  name: "speed loader (.45 magnum extreme armor-piercing)"
-  parent: DSBaseSpeedLoader45_magnum
-  components:
-  - type: BallisticAmmoProvider
-    proto: DSCartridge45_magnumAP
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
-    layers:
-      - state: base
-        map: [ "enum.GunVisualLayers.Base" ]
-      - state: piercing-6
-        map: [ "enum.GunVisualLayers.Mag" ]
-  - type: MagazineVisuals
-    magState: piercing
-    steps: 7
-    zeroVisible: false
-  - type: Appearance
-
-- type: entity
-  id: DSSpeedLoader45_magnumRIP
-  name: speed loader (.45 magnum RIP)
-  parent: DSBaseSpeedLoader45_magnum
-  components:
-  - type: BallisticAmmoProvider
-    proto: DSCartridge45_magnumRIP
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
-    layers:
-      - state: base
-        map: [ "enum.GunVisualLayers.Base" ]
-      - state: piercing-6
-        map: [ "enum.GunVisualLayers.Mag" ]
-  - type: MagazineVisuals
-    magState: piercing
-    steps: 7
-    zeroVisible: false
-  - type: Appearance
-
-- type: entity
-  id: DSSpeedLoader45_magnumPlasteelAP
-  name: speed loader (.45 magnum AP)
-  parent: DSBaseSpeedLoader45_magnum
-  components:
-  - type: BallisticAmmoProvider
-    proto: DSCartridge45_magnumPlasteelAP
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum/45_magnum_speed_loader.rsi
-    layers:
-      - state: base
-        map: [ "enum.GunVisualLayers.Base" ]
-      - state: piercing-6
-        map: [ "enum.GunVisualLayers.Mag" ]
-  - type: MagazineVisuals
-    magState: piercing
     steps: 7
     zeroVisible: false
   - type: Appearance

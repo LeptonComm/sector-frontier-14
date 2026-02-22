@@ -56,7 +56,7 @@
   parent: DSMagazine556x45mmFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -188,7 +188,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - DSCartridge556x45mmFMJ
+        - Cartridge556x45mmFMJ
     capacity: 30
   - type: ContainerContainer
     containers:

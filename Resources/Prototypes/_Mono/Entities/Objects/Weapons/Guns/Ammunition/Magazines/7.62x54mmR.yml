@@ -79,7 +79,7 @@
   parent: DSMagazine762x54mmRFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -185,35 +185,6 @@
   - type: Sprite
     layers:
     - state: caustic
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-# Out of balance
-- type: entity
-  id: DSMagazine762x54mmRRIP
-  name: "magazine (7.62x54mmR RIP)"
-  parent: DSBaseMagazine762x54mmR
-  components:
-  - type: BallisticAmmoProvider
-    proto: DSCartridge762x54mmRRIP
-  - type: Sprite
-    layers:
-    - state: RIP
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
-  id: DSMagazine762x54mmRPlasteelAP
-  name: "magazine (7.62x54mmR AP)"
-  parent: DSBaseMagazine762x54mmR
-  components:
-  - type: BallisticAmmoProvider
-    proto: DSCartridge762x54mmRPlasteelAP
-  - type: Sprite
-    layers:
-    - state: plasteelAP
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]

@@ -288,7 +288,7 @@
   parent: DSBaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
-    proto: DSCartridge635x40mmCaselessIncendicary
+    proto: DSCartridge635x40mmCaselessIncendiary
   - type: Sprite
     layers:
     - state: incendiary

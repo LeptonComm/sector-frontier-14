@@ -8,7 +8,7 @@
     - !type:OverallPlaytimeRequirement
       time: 72000 # 20 hrs
     - !type:RoleTimeRequirement
-      role: FrontierEngineer
+      role: JobFrontierEngineer
       time: 72000 #Lua 20h 
   whitelisted: false
   startingGear: SrGear

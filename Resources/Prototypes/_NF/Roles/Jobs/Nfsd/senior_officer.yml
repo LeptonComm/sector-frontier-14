@@ -6,10 +6,10 @@
   salary: 50000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSBrigmedic
+    role: DSJobBrigmedic
     time: 36000 # 10h
   - !type:RoleTimeRequirement #Lua
-    role: DSSDEngineer
+    role: JobNfsdEngineer
     time: 36000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 108000 # 30 hours

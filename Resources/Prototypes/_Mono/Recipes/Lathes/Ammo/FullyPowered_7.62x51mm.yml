@@ -49,22 +49,12 @@
   id: DSMagazine762x51mmHP
   result: DSMagazine762x51mmHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredMagazineRecipe
-  id: DSMagazine762x51mmRIP
-  result: DSMagazine762x51mmRIP
-
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
   id: DSAmmoBox762x51mmFMJ
   result: DSAmmoBox762x51mmFMJ
-
-#- type: latheRecipe
-#  parent: BaseAmmoPlasteelAPFullyPoweredAmmoBoxRecipe
-#  id: DSAmmoBox762x51mmPlasteelAP
-#  result: DSAmmoBox762x51mmPlasteelAP
 
 - type: latheRecipe
   parent: BaseAmmoRubberFullyPoweredAmmoBoxRecipe
@@ -100,8 +90,3 @@
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
   id: DSAmmoBox762x51mmHP
   result: DSAmmoBox762x51mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x51mmRIP
-  result: DSAmmoBox762x51mmRIP

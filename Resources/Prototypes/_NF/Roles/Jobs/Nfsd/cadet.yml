@@ -6,7 +6,7 @@
   salary: 30000 #Lua 35000<30000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSPilot
+    role: DSJobPilot
     time: 72000 # 20h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 21600 # 6 hours

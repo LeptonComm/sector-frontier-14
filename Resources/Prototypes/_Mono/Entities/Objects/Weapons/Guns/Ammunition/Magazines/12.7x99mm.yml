@@ -49,7 +49,7 @@
   parent: DSBaseMagazine127x99mm
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
 
 # Mechanical
 - type: entity

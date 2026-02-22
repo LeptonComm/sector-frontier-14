@@ -54,7 +54,7 @@
   parent: DSMagazine45_magnumPistolFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -225,7 +225,7 @@
   parent: DSBaseMagazine45_magnumPistolHighCapacityFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -337,7 +337,7 @@
   parent: DSBaseMagazine45_magnumSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base

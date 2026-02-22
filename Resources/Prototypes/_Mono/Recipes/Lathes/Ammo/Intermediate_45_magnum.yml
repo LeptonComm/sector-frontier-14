@@ -51,11 +51,6 @@
   id: DSMagazine45_magnumPistolHP
   result: DSMagazine45_magnumPistolHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: DSMagazine45_magnumPistolRIP
-  result: DSMagazine45_magnumPistolRIP
-
 #Speedloaders
 
 - type: latheRecipe
@@ -99,11 +94,6 @@
   parent: BaseAmmoHPIntermediateSpeedloaderRecipe
   id: DSSpeedLoader45_magnumHP
   result: DSSpeedLoader45_magnumHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateSpeedloaderRecipe
-  id: DSSpeedLoader45_magnumRIP
-  result: DSSpeedLoader45_magnumRIP
 
 #Boxes
 
@@ -150,16 +140,6 @@
   result: DSAmmoBox45_magnumUranium
 
 - type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: DSAmmoBox45_magnumAP
-  result: DSAmmoBox45_magnumAP
-
-- type: latheRecipe
   parent: BaseAmmoHPIntermediateMagazineRecipe
   id: DSAmmoBox45_magnumHP
   result: DSAmmoBox45_magnumHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: DSAmmoBox45_magnumRIP
-  result: DSAmmoBox45_magnumRIP

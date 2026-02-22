@@ -6,7 +6,7 @@
   salary: 50000 #Lua 65000<50000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSSeniorOfficer
+    role: DSJobSeniorOfficer
     time: 72000 # 10h
   startingGear: BailiffGear
   icon: JobIconBailiff

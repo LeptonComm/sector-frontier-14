@@ -6,7 +6,7 @@
   salary: 80000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSBailiff
+    role: DSJobBailiff
     time: 72000 # 10h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 129600 # 36 hours

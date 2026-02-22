@@ -49,11 +49,6 @@
   id: DSMagazine556x45mmHP
   result: DSMagazine556x45mmHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: DSMagazine556x45mmRIP
-  result: DSMagazine556x45mmRIP
-
 - type: latheRecipe #Lua
   parent: BaseAmmoEmptyIntermediateMagazineRecipe
   id: DSMagazineNovaliteC1Empty
@@ -103,11 +98,6 @@
   id: DSAmmoBox556x45mmFMJ
   result: DSAmmoBox556x45mmFMJ
 
-#- type: latheRecipe
-#  parent: BaseAmmoPlasteelAPIntermediateAmmoBoxRecipe
-#  id: DSAmmoBox556x45mmPlasteelAP
-#  result: DSAmmoBox556x45mmPlasteelAP
-
 - type: latheRecipe
   parent: BaseAmmoRubberIntermediateAmmoBoxRecipe
   id: DSAmmoBox556x45mmRubber
@@ -142,8 +132,3 @@
   parent: BaseAmmoCausticIntermediateAmmoBoxRecipe
   id: DSAmmoBox556x45mmCaustic
   result: DSAmmoBox556x45mmCaustic
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateAmmoBoxRecipe
-  id: DSAmmoBox556x45mmRIP
-  result: DSAmmoBox556x45mmRIP

@@ -4,11 +4,6 @@
   id: DSMagazine45_ACPPistolFMJ
   result: DSMagazine45_ACPPistolFMJ
 
-#- type: latheRecipe
-#  parent: BaseAmmoPlasteelAPPistolCaliberPistolMagazineRecipe
-#  id: DSMagazine45_ACPPistolPlasteelAP
-#  result: DSMagazine45_ACPPistolPlasteelAP
-
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberPistolMagazineRecipe
   id: DSMagazine45_ACPPistolRubber
@@ -48,11 +43,6 @@
   parent: BaseAmmoHPPistolCaliberPistolMagazineRecipe
   id: DSMagazine45_ACPPistolHP
   result: DSMagazine45_ACPPistolHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberPistolMagazineRecipe
-  id: DSMagazine45_ACPPistolRIP
-  result: DSMagazine45_ACPPistolRIP
 
 #SMG Magazines
 
@@ -106,11 +96,6 @@
   id: DSMagazine45_ACPSubMachineGunHP
   result: DSMagazine45_ACPSubMachineGunHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine45_ACPSubMachineGunRIP
-  result: DSMagazine45_ACPSubMachineGunRIP
-
 #Boxes
 
 - type: latheRecipe
@@ -157,8 +142,3 @@
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
   id: DSAmmoBox45_ACPHP
   result: DSAmmoBox45_ACPHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox45_ACPRIP
-  result: DSAmmoBox45_ACPRIP

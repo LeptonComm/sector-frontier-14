@@ -54,7 +54,7 @@
   parent: DSMagazine9x19mmPistolFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -225,7 +225,7 @@
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
@@ -377,4 +377,4 @@
   parent: DSMagazine9x19mmSubMachineGunTopMountedFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null

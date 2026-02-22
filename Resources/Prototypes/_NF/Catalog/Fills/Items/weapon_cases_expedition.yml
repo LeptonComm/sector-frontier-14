@@ -8,7 +8,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolMk58Expedition
+    - id: DSNFWeaponPistolMk58
       amount: 1
     - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
@@ -21,7 +21,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolViperExpedition
+    - id: DSNFWeaponPistolViper
       amount: 1
     - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
@@ -34,7 +34,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolPollockExpedition
+    - id: DSNFWeaponPistolPollock
       amount: 1
     - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
@@ -48,7 +48,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverArgentiExpedition
+    - id: DSNFWeaponRevolverArgenti
       amount: 1
     - id: NFSpeedLoaderPistol35
       amount: 2
@@ -61,7 +61,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverRitland45Expedition
+    - id: DSNFWeaponRevolverRitland45
       amount: 1
     - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
@@ -74,7 +74,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverWard45Expedition
+    - id: DSNFWeaponRevolverWard45
       amount: 1
     - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
@@ -87,7 +87,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverFitzExpedition
+    - id: DSNFWeaponRevolverFitz
       amount: 1
     - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
@@ -100,7 +100,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverFaithExpedition
+    - id: DSNFWeaponRevolverFaith
       amount: 1
     - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
@@ -113,7 +113,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverLuckyExpedition
+    - id: DSNFWeaponRevolverLucky
       amount: 1
     - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
@@ -127,7 +127,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponShotgunKammererExpedition
+    - id: DSNFWeaponShotgunKammerer
       amount: 1
     - id: DSAmmoBox23x75mmBuckshot #Lua 4 gauge
       amount: 2
@@ -140,7 +140,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponShotgunEnforcerExpedition
+    - id: DSNFWeaponShotgunEnforcer
       amount: 1
     - id: DSAmmoBox23x75mmBuckshot #Lua 4 gauge
       amount: 2
@@ -154,7 +154,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunWt550Expedition
+    - id: DSNFWeaponSubMachineGunWt550
       amount: 1
     - id: DSMagazine9x19mmSubMachineGunTopMountedFMJ #Lua 35 -> 9x19
       amount: 3
@@ -167,7 +167,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunDrozdExpedition
+    - id: DSNFWeaponSubMachineGunDrozd
       amount: 1
     - id: DSMagazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
       amount: 3
@@ -180,7 +180,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunC20rExpedition
+    - id: DSNFWeaponSubMachineGunC20r
       amount: 1
     - id: DSMagazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
       amount: 3
@@ -194,7 +194,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultGestioExpedition
+    - id: DSNFWeaponRifleAssaultGestio
       amount: 1
     - id: DSMagazine762x39mmLowCapacityFMJ #Lua 30 -> 762x39
       amount: 3
@@ -207,7 +207,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultNovaliteC1Expedition
+    - id: DSNFWeaponRifleAssaultNovaliteC1
       amount: 1
     - id: DSNFMagazineClipRifle556x45 #Lua 20 -> 556x45
       amount: 2
@@ -233,7 +233,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultVulcanExpedition
+    - id: DSNFWeaponRifleAssaultVulcan
       amount: 1
     - id: DSMagazine762x39mmFMJ #Lua 30 -> 762x39
       amount: 2
@@ -246,7 +246,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultJackdawExpedition
+    - id: DSNFWeaponRifleAssaultJackdaw
       amount: 1
     - id: DSMagazine556x45mmFMJ #Lua 20 -> 556x45
       amount: 2
@@ -260,7 +260,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyPistolLaserExpedition
+    - id: DSNFWeaponEnergyPistolLaser
       amount: 2
 
 - type: entity
@@ -271,7 +271,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleCarbineExpedition
+    - id: DSNFWeaponEnergyRifleCarbine
       amount: 1
 
 - type: entity
@@ -282,7 +282,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergySubMachineGunDeltaVExpedition
+    - id: DSNFWeaponEnergySubMachineGunDeltaV
       amount: 1
 
 - type: entity
@@ -293,7 +293,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyPistolLaserAdvancedExpedition
+    - id: DSNFWeaponEnergyPistolLaserAdvanced
       amount: 1
 
 - type: entity
@@ -304,7 +304,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperCannonExpedition
+    - id: DSNFWeaponEnergyRifleSniperCannon
       amount: 1
 
 - type: entity
@@ -315,7 +315,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperXrayCannonExpedition
+    - id: DSNFWeaponEnergyRifleSniperXrayCannon
       amount: 1
 
 - type: entity
@@ -326,7 +326,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleRepeaterExpedition
+    - id: DSNFWeaponRifleRepeater
       amount: 1
     - id: DSAmmoBox556x45mmFMJ #Lua 20 -> 556x45
       amount: 2
@@ -339,7 +339,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleCeremonialExpedition
+    - id: DSNFWeaponRifleCeremonial
       amount: 1
     - id: DSAmmoBox556x45mmFMJ #Lua 20 -> 556x45
       amount: 2

@@ -61,7 +61,7 @@
       item:
         name: clothing-webbing-sidearm
         whitelist:
-          tags:
+          components:
           - Gun
           - MeleeWeapon
           - WeaponCaseInsertable

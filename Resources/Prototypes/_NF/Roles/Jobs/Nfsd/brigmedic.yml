@@ -6,7 +6,7 @@
   salary: 40000 #Lua 45000<40000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSDeputy
+    role: DSJobSecurityOfficer
     time: 72000 # 20h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 43200 # 12 hours

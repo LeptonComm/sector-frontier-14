@@ -34,18 +34,6 @@
   id: DSMagazine8x65mmSKRBoxCaustic
   result: DSMagazine8x65mmSKRBoxCaustic
 
-#Box Magazines (for MR-8B)
-
-#- type: latheRecipe
-#  parent: BaseAmmoFMJFullyPoweredMagazineRecipe
-#  id: DSMagazine8x65mmSKRBox
-#  result: DSMagazine8x65mmSKRBox
-
-#- type: latheRecipe
-#  parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
-#  id: DSMagazine8x65mmEmptyBox
-#  result: DSMagazine8x65mmEmptyBox
-
 #Boxes
 
 - type: latheRecipe

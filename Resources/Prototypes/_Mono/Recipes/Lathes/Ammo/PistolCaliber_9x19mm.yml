@@ -49,11 +49,6 @@
   id: DSMagazine9x19mmPistolHP
   result: DSMagazine9x19mmPistolHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberPistolMagazineRecipe
-  id: DSMagazine9x19mmPistolRIP
-  result: DSMagazine9x19mmPistolRIP
-
 #SMG Magazines
 
 - type: latheRecipe
@@ -116,11 +111,6 @@
   id: DSMagazine9x19mmSubMachineGunHP
   result: DSMagazine9x19mmSubMachineGunHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine9x19mmSubMachineGunRIP
-  result: DSMagazine9x19mmSubMachineGunRIP
-
 #Speedloaders
 
 - type: latheRecipe
@@ -160,11 +150,6 @@
   id: DSAmmoBox9x19mmFMJ
   result: DSAmmoBox9x19mmFMJ
 
-#- type: latheRecipe
-#  parent: BaseAmmoPlasteelAPPistolCaliberAmmoBoxRecipe
-#  id: DSAmmoBox9x19mmPlasteelAP
-#  result: DSAmmoBox9x19mmPlasteelAP
-
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberAmmoBoxRecipe
   id: DSAmmoBox9x19mmRubber
@@ -199,8 +184,3 @@
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
   id: DSAmmoBox9x19mmHP
   result: DSAmmoBox9x19mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox9x19mmRIP
-  result: DSAmmoBox9x19mmRIP

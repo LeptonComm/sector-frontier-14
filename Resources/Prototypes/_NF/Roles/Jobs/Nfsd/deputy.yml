@@ -6,7 +6,7 @@
   salary: 40000
   requirements:
   - !type:RoleTimeRequirement #Lua
-    role: DSCadet
+    role: DSJobSecurityCadet
     time: 72000 # 20h
 #    - !type:OverallPlaytimeRequirement # comment from _Lua
 #      time: 43200 # 12 hours

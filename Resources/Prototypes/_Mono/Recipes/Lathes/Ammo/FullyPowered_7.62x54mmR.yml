@@ -49,11 +49,6 @@
   id: DSMagazine762x54mmRHP
   result: DSMagazine762x54mmRHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRRIP
-  result: DSMagazine762x54mmRRIP
-
 #Speedloaders
 
 - type: latheRecipe
@@ -107,8 +102,3 @@
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
   id: DSAmmoBox762x54mmRHP
   result: DSAmmoBox762x54mmRHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRRIP
-  result: DSAmmoBox762x54mmRRIP

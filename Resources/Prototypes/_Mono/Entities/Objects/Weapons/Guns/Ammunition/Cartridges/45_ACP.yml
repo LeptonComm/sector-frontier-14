@@ -116,7 +116,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge45_ACPEmp
+  id: DSCartridge45_ACPEMP
   name: cartridge (.45 ACP EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_ACP

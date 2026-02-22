@@ -4,11 +4,6 @@
   id: DSMagazine762x39mmFMJ
   result: DSMagazine762x39mmFMJ
 
-#- type: latheRecipe
-#  parent: BaseAmmoPlasteelAPIntermediateMagazineRecipe
-#  id: DSMagazine762x39mmPlasteelAP
-#  result: DSMagazine762x39mmPlasteelAP
-
 - type: latheRecipe
   parent: BaseAmmoRubberIntermediateMagazineRecipe
   id: DSMagazine762x39mmRubber
@@ -45,24 +40,9 @@
   result: DSMagazine762x39mmCaustic
 
 - type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: DSMagazineDP29
-  result: DSMagazineDP29
-
-- type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: DSMagazine762x39mmSubsonic
-  result: DSMagazine762x39mmSubsonic
-
-- type: latheRecipe
   parent: BaseAmmoHPIntermediateMagazineRecipe
   id: DSMagazine762x39mmHP
   result: DSMagazine762x39mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: DSMagazine762x39mmRIP
-  result: DSMagazine762x39mmRIP
 
 #Speedloaders
 
@@ -114,16 +94,6 @@
   result: DSAmmoBox762x39mmCaustic
 
 - type: latheRecipe
-  parent: BaseAmmoFMJIntermediateAmmoBoxRecipe
-  id: DSAmmoBox762x39mmSubsonic
-  result: DSAmmoBox762x39mmSubsonic
-
-- type: latheRecipe
   parent: BaseAmmoHPIntermediateAmmoBoxRecipe
   id: DSAmmoBox762x39mmHP
   result: DSAmmoBox762x39mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateAmmoBoxRecipe
-  id: DSAmmoBox762x39mmRIP
-  result: DSAmmoBox762x39mmRIP

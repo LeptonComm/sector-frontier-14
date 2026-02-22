@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge9x19mmEmp
+  id: DSCartridge9x19mmEMP
   name: cartridge (9x19mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm

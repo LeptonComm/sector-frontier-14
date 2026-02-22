@@ -49,7 +49,7 @@
   parent: DSSpeedLoader9x19mmFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Icon
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/SpeedLoaders/9x19mm/9x19mm.rsi
     state: base

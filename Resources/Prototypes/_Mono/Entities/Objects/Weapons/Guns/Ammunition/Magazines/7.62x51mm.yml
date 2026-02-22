@@ -56,7 +56,7 @@
   parent: DSMagazine762x51mmFMJ
   components:
   - type: BallisticAmmoProvider
-    proto: DSnull
+    proto: null
   - type: Sprite
     layers:
     - state: base
