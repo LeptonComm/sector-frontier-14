@@ -304,7 +304,7 @@
       - id: DSWeaponRifleWSPR
       - id: DSMagazine762x39mmFMJ
         amount: 3
-      - id: DSAmmoBox762x39mmSubsonic
+      - id: DSAmmoBox762x39mmFMJ
 
 - type: entity
   id: DSWeaponCaseShortRitlandBundle

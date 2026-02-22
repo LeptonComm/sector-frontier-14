@@ -345,7 +345,7 @@
   - SCBelt
 
 - type: roleLoadout
-  id: JobSCFirstMate
+  id: JobSCFirstmate
   groups:
   - NFSpeciesSpecific
   - PirateCaptainWallet

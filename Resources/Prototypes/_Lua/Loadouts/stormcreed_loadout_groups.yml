@@ -72,7 +72,7 @@
 - type: loadout
   id: StormCreedPDA
   equipment:
-    jumpsuit: StormCreedPDA
+    id: StormCreedPDA
 
 
 
@@ -87,7 +87,7 @@
 - type: loadout
   id: SCCaptainPDA
   equipment:
-    jumpsuit: SCCaptainPDA
+    id: SCCaptainPDA
 
 
 
@@ -120,17 +120,17 @@
 - type: loadout
   id: N14ClothingOuterMaskmanCoat
   equipment:
-    jumpsuit: N14ClothingOuterMaskmanCoat
+    outerClothing: N14ClothingOuterMaskmanCoat
 
 - type: loadout
   id: N14ClothingOuterBrotherhoodFieldScribeCoat
   equipment:
-    jumpsuit: N14ClothingOuterBrotherhoodFieldScribeCoat
+    outerClothing: N14ClothingOuterBrotherhoodFieldScribeCoat
 
 - type: loadout
   id: N14ClothingOuterSlickCoat6
   equipment:
-    jumpsuit: N14ClothingOuterSlickCoat6
+    outerClothing: N14ClothingOuterSlickCoat6
 
 
 
@@ -150,32 +150,32 @@
 - type: loadout
   id: N14ClothingNeckCloakLeather
   equipment:
-    jumpsuit: N14ClothingNeckCloakLeather
+    neck: N14ClothingNeckCloakLeather
 
 - type: loadout
   id: N14ClothingNeckCloakYaoguai
   equipment:
-    jumpsuit: N14ClothingNeckCloakYaoguai
+    neck: N14ClothingNeckCloakYaoguai
 
 - type: loadout
   id: N14ClothingNeckShawl
   equipment:
-    jumpsuit: N14ClothingNeckShawl
+    neck: N14ClothingNeckShawl
 
 - type: loadout
   id: N14ClothingNeckTownGuardCloak
   equipment:
-    jumpsuit: N14ClothingNeckTownGuardCloak
+    neck: N14ClothingNeckTownGuardCloak
 
 - type: loadout
   id: N14ClothingNeckMantleLeather
   equipment:
-    jumpsuit: N14ClothingNeckMantleLeather
+    neck: N14ClothingNeckMantleLeather
 
 - type: loadout
   id: N14ClothingNeckBeige
   equipment:
-    jumpsuit: N14ClothingNeckBeige
+    neck: N14ClothingNeckBeige
 
 
 
@@ -194,27 +194,27 @@
 - type: loadout
   id: N14ClothingHandsGlovesBlackBiker
   equipment:
-    jumpsuit: N14ClothingHandsGlovesBlackBiker
+    gloves: N14ClothingHandsGlovesBlackBiker
 
 - type: loadout
   id: N14ClothingHandsGlovesBrownBiker
   equipment:
-    jumpsuit: N14ClothingHandsGlovesBrownBiker
+    gloves: N14ClothingHandsGlovesBrownBiker
 
 - type: loadout
   id: N14ClothingHandsGlovesBlackLeather
   equipment:
-    jumpsuit: N14ClothingHandsGlovesBlackLeather
+    gloves: N14ClothingHandsGlovesBlackLeather
 
 - type: loadout
   id: N14ClothingHandsGlovesLeather
   equipment:
-    jumpsuit: N14ClothingHandsGlovesLeather
+    gloves: N14ClothingHandsGlovesLeather
 
 - type: loadout
   id: N14ClothingHandsGlovesDriver
   equipment:
-    jumpsuit: N14ClothingHandsGlovesDriver
+    gloves: N14ClothingHandsGlovesDriver
 
 
 
@@ -230,12 +230,12 @@
 - type: loadout
   id: N14ClothingEyesGlassesPilot
   equipment:
-    jumpsuit: N14ClothingEyesGlassesPilot
+    eyes: N14ClothingEyesGlassesPilot
 
 - type: loadout
   id: N14ClothingSnowGoggles
   equipment:
-    jumpsuit: N14ClothingSnowGoggles
+    eyes: N14ClothingSnowGoggles
 
 
 
@@ -250,7 +250,7 @@
 - type: loadout
   id: N14ClothingHeadsetLightScribe
   equipment:
-    jumpsuit: N14ClothingHeadsetLightScribe
+    ears: N14ClothingHeadsetLightScribe
 
 
 
@@ -265,7 +265,7 @@
 - type: loadout
   id: N14ClothingBackpackSatchelExplorer
   equipment:
-    jumpsuit: N14ClothingBackpackSatchelExplorer
+    back: N14ClothingBackpackSatchelExplorer
 
 
 
@@ -287,22 +287,22 @@
 - type: loadout
   id: N14ClothingMaskNcr
   equipment:
-    jumpsuit: N14ClothingMaskNcr
+    mask: N14ClothingMaskNcr
 
 - type: loadout
   id: N14ClothingMaskdrylandergoggles
   equipment:
-    jumpsuit: N14ClothingMaskdrylandergoggles
+    mask: N14ClothingMaskdrylandergoggles
 
 - type: loadout
   id: N14ClothingMaskDrylanderHeadwrap
   equipment:
-    jumpsuit: N14ClothingMaskDrylanderHeadwrap
+    mask: N14ClothingMaskDrylanderHeadwrap
 
 - type: loadout
   id: N14ClothingSackMask
   equipment:
-    jumpsuit: N14ClothingSackMask
+    mask: N14ClothingSackMask
 
 
 
@@ -319,7 +319,17 @@
 - type: loadout
   id: N14ClothingBootsFire
   equipment:
-    jumpsuit: N14ClothingBootsFire
+    shoes: N14ClothingBootsFire
+
+- type: loadout
+  id: ClothingShoesBootsJack
+  equipment:
+    shoes: ClothingShoesBootsJack
+
+- type: loadout
+  id: ClothingShoesBootsCombat
+  equipment:
+    shoes: ClothingShoesBootsCombat
 
 
 
@@ -340,22 +350,22 @@
 - type: loadout
   id: N14ClothingHeadHatArmyBeretRanger
   equipment:
-    jumpsuit: N14ClothingHeadHatArmyBeretRanger
+    head: N14ClothingHeadHatArmyBeretRanger
 
 - type: loadout
   id: N14ClothingHeadHatArmyBeretSpecial
   equipment:
-    jumpsuit: N14ClothingHeadHatArmyBeretSpecial
+    head: N14ClothingHeadHatArmyBeretSpecial
 
 - type: loadout
   id: N14ClothingHeadHatBrotherhoodCap
   equipment:
-    jumpsuit: N14ClothingHeadHatBrotherhoodCap
+    head: N14ClothingHeadHatBrotherhoodCap
 
 - type: loadout
   id: N14ClothingHeadHatBrotherhoodFieldCap
   equipment:
-    jumpsuit: N14ClothingHeadHatBrotherhoodFieldCap
+    head: N14ClothingHeadHatBrotherhoodFieldCap
 
 
 

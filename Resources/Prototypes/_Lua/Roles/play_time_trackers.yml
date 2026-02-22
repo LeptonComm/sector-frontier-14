@@ -150,7 +150,7 @@
   id: JobSCSoldier
 
 - type: playTimeTracker
-  id: JobSCFirstMate
+  id: JobSCFirstmate
 
 - type: playTimeTracker
   id: JobSCCaptain

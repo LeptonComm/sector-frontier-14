@@ -2,7 +2,7 @@
   id: StormCreedFirstmate
   name: job-name-sc-firstmate
   description: job-description-sc-firstmate
-  playTimeTracker: JobSCFirstMate
+  playTimeTracker: JobSCFirstmate
   requirements:
   - !type:RoleTimeRequirement
     role: JobSCSoldier

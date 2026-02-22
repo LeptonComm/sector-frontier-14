@@ -21,7 +21,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleTemperatureExpedition
+    - id: DSNFWeaponEnergyRifleTemperature
       amount: 1
 
 - type: entity
