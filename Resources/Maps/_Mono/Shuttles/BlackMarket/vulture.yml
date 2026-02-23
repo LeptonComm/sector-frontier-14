@@ -2,8 +2,8 @@ meta:
   format: 7
   category: Grid
   engineVersion: 268.0.0
-  forkId: ""
-  forkVersion: ""
+  forkId: dsfrontier
+  forkVersion: 12012026145418
   time: 01/19/2026 10:34:35
   entityCount: 3286
 maps: []
@@ -2752,7 +2752,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 18.5,-11.5
       parent: 1
-- proto: DSAmmoTechFab
+- proto: AmmoTechFab
   entities:
   - uid: 54
     components:
@@ -15382,7 +15382,7 @@ entities:
     - type: Transform
       pos: 15.5,-19.5
       parent: 1
-- proto: GunneryServerUltra
+- proto: GunneryServerOmega
   entities:
   - uid: 2206
     components:
