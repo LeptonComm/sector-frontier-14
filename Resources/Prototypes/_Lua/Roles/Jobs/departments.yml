@@ -33,7 +33,7 @@
   id: StormCreed
   name: department-stormcreed
   description: department-stormcreed-description
-  color: "#918770"
+  color: "#948471"
   weight: -9
   roles:
   - StormCreedCaptain

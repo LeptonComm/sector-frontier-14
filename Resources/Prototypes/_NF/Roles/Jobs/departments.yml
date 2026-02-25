@@ -4,7 +4,6 @@
   description: department-service-description
   color: "#334E6D"
   roles:
-  - DSPilot
   - DSContractor
   - DSMercenary
 
@@ -18,12 +17,14 @@
   - DSValet # nyano
   - DSSecurityGuard
   - FrontierEngineer #Lua
+  - DSPilot
+  - DSMailCarrier
 
 - type: department
   id: DSNFSD
   name: department-security
   description: department-security-description
-  color: "#334E6D"
+  color: "#96B089"
   roles:
   - DSSheriff
   - DSBailiff
