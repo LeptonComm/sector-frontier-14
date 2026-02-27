@@ -1,6 +1,6 @@
 - type: job
   id: Sheriff
-  name: job-name-sheriff
+  name: job-name-sheriff-luna
   description: job-description-sheriff
   playTimeTracker: JobHeadOfSecurity
   salary: 80000

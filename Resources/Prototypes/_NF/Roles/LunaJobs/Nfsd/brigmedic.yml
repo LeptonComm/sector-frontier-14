@@ -1,6 +1,6 @@
 - type: job
   id: Brigmedic
-  name: job-name-brigmedic
+  name: job-name-brigmedic-luna
   description: job-description-brigmedic-nf
   playTimeTracker: JobBrigmedic
   salary: 45000

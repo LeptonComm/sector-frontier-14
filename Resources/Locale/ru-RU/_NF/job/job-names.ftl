@@ -2,12 +2,12 @@
 job-name-bailiff = Смотритель СРБС
 job-name-brigmedic = Фельдшер СРБС
 job-name-cadet-nf = Рядовой СРБС
-job-name-contractor = Исследователь
+job-name-contractor = Гражданский
 job-name-deputy = Сержант СРБС
 job-name-nf-detective = Детектив
 job-name-ertmailcarrier = Почтальон ОБР
 job-name-mercenary = Наёмник
-job-name-pilot = исследователь
+job-name-pilot = Исследователь
 job-name-nf-pirate = Пират
 job-name-nf-pirate-captain = Пиратский Капитан
 job-name-nf-pirate-first-mate = Пиратский Боцман
@@ -35,3 +35,14 @@ JobSeniorEngineer = Ведущий Инженер
 JobSeniorOfficer = Лейтенат
 JobSeniorPhysician = Старший Врач
 JobSeniorResearcher = Ведущий Учёный
+
+job-name-contractor-luna = Авантюрист
+job-name-pilot-luna = Пилот
+job-name-sr-luna = Представитель Фронтира
+
+job-name-sheriff-luna = Шериф
+job-name-bailiff-luna = Бейлиф
+job-name-senior-officer-luna = Лейтенант ДСБФ
+job-name-brigmedic-luna = Фельдшер ДСБФ
+job-name-deputy-luna = Офицер ДСБФ
+job-name-cadet-nf-luna = Кадет ДСБФ

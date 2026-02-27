@@ -1,6 +1,6 @@
 - type: job
   id: StationRepresentative
-  name: job-name-sr
+  name: job-name-sr-luna
   description: job-description-sr
   playTimeTracker: JobHeadOfPersonnel
   salary: 80000

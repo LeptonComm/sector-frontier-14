@@ -1,6 +1,6 @@
 - type: job
   id: Deputy
-  name: job-name-deputy
+  name: job-name-deputy-luna
   description: job-description-deputy
   playTimeTracker: JobSecurityOfficer
   salary: 40000

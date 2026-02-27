@@ -1,6 +1,6 @@
 - type: job
   id: Contractor
-  name: job-name-contractor
+  name: job-name-contractor-luna
   description: job-description-contractor
   playTimeTracker: JobPassenger
   salary: 6000

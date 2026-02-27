@@ -1,6 +1,6 @@
 - type: job
   id: Bailiff
-  name: job-name-bailiff
+  name: job-name-bailiff-luna
   description: job-description-bailiff
   playTimeTracker: JobWarden
   salary: 65000

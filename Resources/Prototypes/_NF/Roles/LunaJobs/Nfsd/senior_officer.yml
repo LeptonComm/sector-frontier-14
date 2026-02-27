@@ -1,6 +1,6 @@
 - type: job
   id: SeniorOfficer
-  name: job-name-senior-officer
+  name: job-name-senior-officer-luna
   description: job-description-senior-officer
   playTimeTracker: JobSeniorOfficer
   salary: 60500

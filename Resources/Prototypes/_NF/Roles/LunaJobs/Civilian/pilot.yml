@@ -1,6 +1,6 @@
 - type: job
   id: Pilot
-  name: job-name-pilot
+  name: job-name-pilot-luna
   description: job-description-pilot
   playTimeTracker: JobPilot
   salary: 7100
