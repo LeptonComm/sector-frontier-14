@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/23/2026 09:13:47
-  entityCount: 2495
+  time: 02/25/2026 11:41:39
+  entityCount: 2489
 maps: []
 grids:
 - 1
@@ -987,46 +987,6 @@ entities:
       radarColor: '#00DEFEFF'
 - proto: AirAlarm
   entities:
-  - uid: 6
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 7.5,-14.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 1135
-      - 1136
-      - 1134
-      - 1133
-      - 1132
-      - 1143
-      - 1142
-      - 1140
-      - 1141
-      - 1139
-      - 1137
-      - 1138
-      - 1317
-      - 1326
-      - 1319
-      - 1328
-      - 1327
-      - 1318
-  - uid: 7
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.5,-6.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 1320
-      - 1329
-      - 1143
-      - 1142
-      - 1144
-      - 1145
   - uid: 8
     components:
     - type: Transform
@@ -1056,18 +1016,6 @@ entities:
       - 1141
       - 1322
       - 1331
-  - uid: 10
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 12.5,-0.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 1148
-      - 1147
-      - 1330
-      - 1321
 - proto: AirlockGlassShuttleSyndicate
   entities:
   - uid: 35
@@ -4717,12 +4665,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 2.5,-9.5
       parent: 1
-  - uid: 700
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 4.5,-9.5
-      parent: 1
   - uid: 701
     components:
     - type: Transform
@@ -7244,7 +7186,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1133
     components:
@@ -7254,7 +7195,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1134
     components:
@@ -7264,7 +7204,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1135
     components:
@@ -7274,7 +7213,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1136
     components:
@@ -7284,7 +7222,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1137
     components:
@@ -7294,7 +7231,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1138
     components:
@@ -7304,7 +7240,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1139
     components:
@@ -7314,7 +7249,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
   - uid: 1140
     components:
@@ -7324,7 +7258,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
       - 9
       - 1131
@@ -7336,7 +7269,6 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
       - 9
       - 1131
@@ -7348,10 +7280,8 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
       - 1128
-      - 7
   - uid: 1143
     components:
     - type: Transform
@@ -7360,10 +7290,8 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 6
       - 1127
       - 1128
-      - 7
   - uid: 1144
     components:
     - type: Transform
@@ -7373,7 +7301,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 1128
-      - 7
       - 8
       - 1129
   - uid: 1145
@@ -7385,7 +7312,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 1128
-      - 7
       - 8
       - 1129
   - uid: 1146
@@ -7409,7 +7335,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 1130
-      - 10
       - 8
       - 1129
   - uid: 1148
@@ -7421,7 +7346,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 1130
-      - 10
   - uid: 1149
     components:
     - type: Transform
@@ -8730,9 +8654,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 9.5,-18.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1318
@@ -8741,9 +8662,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 16.5,1.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1319
@@ -8752,9 +8670,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 14.5,-11.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1320
@@ -8763,9 +8678,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,-6.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 7
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1321
@@ -8774,9 +8686,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 9.5,0.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 10
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 1322
@@ -8823,9 +8732,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 8.5,-18.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 1327
@@ -8834,9 +8740,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 16.5,0.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 1328
@@ -8845,9 +8748,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 13.5,-11.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 6
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 1329
@@ -8856,9 +8756,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,-7.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 7
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 1330
@@ -8867,9 +8764,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 11.5,0.5
       parent: 1
-    - type: DeviceNetwork
-      deviceLists:
-      - 10
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 1331
@@ -9871,17 +9765,19 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 23.5,49.5
       parent: 1
-- proto: GunneryServerHigh
+- proto: GunneryServerUltra
   entities:
-  - uid: 1503
+  - uid: 6
     components:
     - type: Transform
       pos: 6.5,-7.5
       parent: 1
     - type: Battery
-      startingCharge: 0
+      startingCharge: 998.3333
     - type: ApcPowerReceiver
-      powerLoad: 20
+      powerLoad: 50
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: GyroscopeSecurity
   entities:
   - uid: 1504
@@ -9939,13 +9835,6 @@ entities:
     components:
     - type: Transform
       pos: 21.5,45.5
-      parent: 1
-- proto: MachineFTLDrive
-  entities:
-  - uid: 1512
-    components:
-    - type: Transform
-      pos: 5.5,-13.5
       parent: 1
 - proto: MaterialReclaimer
   entities:
@@ -10907,10 +10796,10 @@ entities:
           - Toggle
 - proto: SMESAdvanced
   entities:
-  - uid: 1637
+  - uid: 7
     components:
     - type: Transform
-      pos: 4.5,-8.5
+      pos: 5.5,-6.5
       parent: 1
   - uid: 1638
     components:
@@ -10919,11 +10808,6 @@ entities:
       parent: 1
 - proto: SMESBasic
   entities:
-  - uid: 1639
-    components:
-    - type: Transform
-      pos: 5.5,-6.5
-      parent: 1
   - uid: 1640
     components:
     - type: Transform

@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 268.0.0
-  forkId: dsfrontier
+  engineVersion: 272.0.0
+  forkId: ""
   forkVersion: ""
-  time: 01/19/2026 10:34:35
-  entityCount: 3286
+  time: 02/25/2026 11:49:21
+  entityCount: 3285
 maps: []
 grids:
 - 1
@@ -12435,6 +12435,16 @@ entities:
     components:
     - type: Transform
       parent: 42
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        item: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
     - type: Physics
       canCollide: False
     - type: GroupExamine
@@ -15382,7 +15392,7 @@ entities:
     - type: Transform
       pos: 15.5,-19.5
       parent: 1
-- proto: GunneryServerOmega
+- proto: GunneryServerUltra
   entities:
   - uid: 2206
     components:
@@ -15390,9 +15400,11 @@ entities:
       pos: 10.5,-0.5
       parent: 1
     - type: Battery
-      startingCharge: 0
+      startingCharge: 998.3333
     - type: ApcPowerReceiver
       powerLoad: 50
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: Gyroscope
   entities:
   - uid: 2207
@@ -16437,17 +16449,12 @@ entities:
   - uid: 2351
     components:
     - type: Transform
-      pos: 7.5,-4.5
+      pos: 6.5,-10.5
       parent: 1
   - uid: 2352
     components:
     - type: Transform
-      pos: 6.5,-9.5
-      parent: 1
-  - uid: 2353
-    components:
-    - type: Transform
-      pos: 6.5,-10.5
+      pos: 7.5,-4.5
       parent: 1
 - proto: SuitStorageBase
   entities:
@@ -21898,20 +21905,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 10.5,-2.5
       parent: 1
-- proto: WeaponLaserTurretApollo
-  entities:
-  - uid: 3278
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 5.5,28.5
-      parent: 1
-  - uid: 3279
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 14.5,28.5
-      parent: 1
 - proto: WeaponTurretAK570
   entities:
   - uid: 3280
@@ -21935,6 +21928,20 @@ entities:
     components:
     - type: Transform
       pos: -2.5,-18.5
+      parent: 1
+- proto: WeaponTurretCyrexa
+  entities:
+  - uid: 2353
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 14.5,28.5
+      parent: 1
+  - uid: 3278
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 5.5,28.5
       parent: 1
 - proto: WeaponTurretDymere
   entities:

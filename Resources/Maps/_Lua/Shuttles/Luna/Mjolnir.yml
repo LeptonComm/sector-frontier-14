@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/23/2026 13:30:24
-  entityCount: 285
+  time: 02/25/2026 11:41:08
+  entityCount: 281
 maps: []
 grids:
 - 1
@@ -105,7 +105,8 @@ entities:
             0: 47104
             1: 120
           -1,0:
-            0: 35775
+            0: 35759
+            2: 16
           0,1:
             0: 562
             1: 1152
@@ -126,7 +127,8 @@ entities:
             1: 50737
             0: 12
           -2,-1:
-            0: 59392
+            0: 57344
+            2: 2048
             1: 892
           -1,-1:
             0: 45840
@@ -160,6 +162,21 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -1036,18 +1053,6 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#FF0000FF'
-- proto: GeneratorWallmountAPU
-  entities:
-  - uid: 115
-    components:
-    - type: Transform
-      pos: 5.5,-2.5
-      parent: 1
-  - uid: 196
-    components:
-    - type: Transform
-      pos: 6.5,-1.5
-      parent: 1
 - proto: GravityGeneratorMini
   entities:
   - uid: 113
@@ -1091,19 +1096,20 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -6.5,0.5
       parent: 1
+- proto: LockerWallMaterialsFuelUraniumFilled
+  entities:
+  - uid: 70
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 6.5,-1.5
+      parent: 1
 - proto: Nakrutka1
   entities:
   - uid: 291
     components:
     - type: Transform
       pos: 0.5,1.5
-      parent: 1
-- proto: NFWeaponShotgunKammerer
-  entities:
-  - uid: 191
-    components:
-    - type: Transform
-      pos: -2.502241,2.2834694
       parent: 1
 - proto: PirateFlag
   entities:
@@ -1118,9 +1124,9 @@ entities:
     - type: Transform
       pos: -1.5,3.5
       parent: 1
-- proto: PortableGeneratorPacmanShuttle
+- proto: PortableGeneratorSuperPacmanShuttle
   entities:
-  - uid: 106
+  - uid: 69
     components:
     - type: Transform
       pos: 5.5,-1.5
@@ -1325,18 +1331,6 @@ entities:
         actions: !type:Container
           ents:
           - 193
-- proto: SheetPlasma
-  entities:
-  - uid: 206
-    components:
-    - type: Transform
-      pos: 5.552744,-1.4462047
-      parent: 1
-  - uid: 207
-    components:
-    - type: Transform
-      pos: 5.521494,-1.4618297
-      parent: 1
 - proto: SignalButton
   entities:
   - uid: 178
@@ -1456,6 +1450,24 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -4.5,1.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: SuitStorageWallmountPirateCap
   entities:
   - uid: 102
@@ -1464,6 +1476,24 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,-2.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: TableReinforced
   entities:
   - uid: 95
@@ -1499,60 +1529,20 @@ entities:
     - type: Transform
       pos: 4.5,1.5
       parent: 1
-- proto: TeslaTurretBase
+- proto: TeslaTurretUnanchor
   entities:
-  - uid: 69
+  - uid: 74
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 4.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        gun_magazine: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        gun_chamber: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: DeviceLinkSink
-      ports: []
-  - uid: 74
+  - uid: 115
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -3.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        gun_magazine: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        gun_chamber: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: DeviceLinkSink
-      ports: []
 - proto: ThrusterPirates
   entities:
   - uid: 2
@@ -2007,58 +1997,18 @@ entities:
       parent: 1
 - proto: Weapon53mm
   entities:
-  - uid: 116
+  - uid: 75
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -5.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        gun_magazine: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        gun_chamber: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: DeviceLinkSink
-      ports: []
-  - uid: 259
+  - uid: 106
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 6.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        gun_magazine: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        gun_chamber: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: DeviceLinkSink
-      ports: []
 - proto: WeaponCapacitorRecharger
   entities:
   - uid: 281
