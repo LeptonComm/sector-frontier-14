@@ -14,6 +14,7 @@
   name: 'Аванпост Экспедиций'
   minimumDistance: 2300 #1650 Lua
   maximumDistance: 5400 #3400 Lua
+  spawnGamePreset: [ LuaAdventure ] #Lua
   spawnGroup: Required
   gridPath: /Maps/_Lua/POI/lodge.yml
   addComponents:
