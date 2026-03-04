@@ -12,7 +12,7 @@
   icon: "JobIconBartender"
   supervisors: job-supervisors-sr
   weight: 60
-  displayWeight: 10
+  displayWeight: 40
   canBeAntag: false
   access:
   - Maintenance

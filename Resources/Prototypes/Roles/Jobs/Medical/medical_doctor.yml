@@ -12,6 +12,7 @@
   alwaysUseSpawner: true
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-mmo # Frontier
+  displayWeight: 10
   access:
   - Medical
   - Maintenance

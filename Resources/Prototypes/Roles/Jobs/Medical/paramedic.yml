@@ -15,6 +15,7 @@
   alwaysUseSpawner: true
   icon: "JobIconParamedic"
   supervisors: job-supervisors-mmo # Frontier
+  displayWeight: 30
   access:
   - Medical
   - Maintenance

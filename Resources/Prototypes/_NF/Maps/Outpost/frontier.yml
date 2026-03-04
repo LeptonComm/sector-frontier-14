@@ -59,7 +59,7 @@
   randomRotation: false
   maxRandomOffset: 0
   stations:
-    Frontier:
+    ERCOutpost:
       stationProto: StandardFrontierStation
       # Lua add start
       gridComponents:

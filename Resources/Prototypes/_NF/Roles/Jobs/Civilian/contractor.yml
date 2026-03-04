@@ -9,7 +9,7 @@
       time: 72000
   icon: "JobIconContractor"
   supervisors: job-supervisors-hire
-  displayWeight: 40
+  displayWeight: 20
   accessGroups:
   - GeneralAccess
   special:

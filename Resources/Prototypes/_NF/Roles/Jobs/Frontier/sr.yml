@@ -17,7 +17,7 @@
   requireAdminNotify: true
   supervisors: job-supervisors-centcom
   weight: 170
-  displayWeight: 60 # Top
+  displayWeight: 80 # Top
   canBeAntag: false
   accessGroups:
   - AllAccess

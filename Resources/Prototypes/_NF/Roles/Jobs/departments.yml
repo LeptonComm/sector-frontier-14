@@ -3,15 +3,17 @@
   name: department-service
   description: department-service-description
   color: "#334E6D"
+  weight: 90
   roles:
   - DSContractor
   - DSMercenary
 
 - type: department
   id: DSFrontier
-  name: department-Frontier
+  name: department-Frontier-ds
   description: department-NF-description
   color: "#334E6D"
+  weight: 80 # accounted for in jobs
   roles:
   - DSStationRepresentative
   - DSValet # nyano
@@ -25,6 +27,7 @@
   name: department-security
   description: department-security-description
   color: "#96B089"
+  weight: 70 # accounted for in jobs
   roles:
   - DSSheriff
   - DSBailiff

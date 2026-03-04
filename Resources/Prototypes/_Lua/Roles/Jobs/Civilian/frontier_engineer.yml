@@ -12,7 +12,7 @@
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-sr
   weight: 80
-  displayWeight: 0
+  displayWeight: 60
   access:
   - Engineering
   - Atmospherics

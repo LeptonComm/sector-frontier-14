@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/22/2026 10:14:17
+  time: 03/02/2026 10:40:51
   entityCount: 4758
 maps:
 - 6
@@ -133,7 +133,7 @@ entities:
       dampingModifier: 0.45
     - type: GridPathfinding
     - type: BecomesStation
-      id: Lodge
+      id: ERCOutpost
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
         path: /Audio/Effects/alert.ogg
@@ -1961,6 +1961,13 @@ entities:
     - type: GasTileOverlay
     - type: ImplicitRoof
     - type: RadiationGridResistance
+    - type: IFF
+      color: '#5066E5FF'
+    - type: NavMap
+    - type: ProtectedGrid
+      hostileMobKillSound: !type:SoundPathSpecifier
+        path: /Audio/Effects/holy.ogg
+      baseIndices: {}
   - uid: 6
     components:
     - type: MetaData

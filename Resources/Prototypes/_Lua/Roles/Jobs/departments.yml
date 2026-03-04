@@ -34,7 +34,7 @@
   name: department-stormcreed
   description: department-stormcreed-description
   color: "#948471"
-  weight: -9
+  weight: 60
   roles:
   - StormCreedCaptain
   - StormCreedFirstmate

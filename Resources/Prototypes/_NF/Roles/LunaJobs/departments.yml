@@ -6,7 +6,7 @@
   weight: 50 # accounted for in jobs
   roles:
   - StationRepresentative
-  - DirectorOfCare
+#  - DirectorOfCare # comment from _Lua
   - StationTrafficController
   - Valet # nyano
   - NFJanitor

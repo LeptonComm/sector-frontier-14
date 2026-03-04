@@ -13,6 +13,7 @@
   alwaysUseSpawner: true
   icon: "JobIconChemist"
   supervisors: job-supervisors-mmo # Frontier
+  displayWeight: 20
   access:
   - Medical
   - Chemistry
