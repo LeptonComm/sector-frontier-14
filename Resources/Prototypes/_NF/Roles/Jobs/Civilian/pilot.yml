@@ -3,6 +3,7 @@
   name: job-name-pilot
   description: job-description-pilot
   playTimeTracker: DSJobPilot
+  setPreference: true
   salary: 20000 #Lua 7100<20000
 #  requirements: # comment from _Lua
 #    - !type:OverallPlaytimeRequirement
