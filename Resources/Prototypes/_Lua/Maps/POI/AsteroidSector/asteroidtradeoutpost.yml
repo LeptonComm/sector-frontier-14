@@ -51,8 +51,8 @@
           destinationProto: Trade
         - type: StationJobs
           availableJobs:
-            DSContractor: [ -1, -1 ]
-            DSMercenary: [ -1, -1 ]
+            DSContractor: [ 1, 1 ]
+            DSMercenary: [ 1, 1 ]
 
 
 
