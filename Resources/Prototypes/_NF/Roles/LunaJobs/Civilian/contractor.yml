@@ -1,18 +1,18 @@
-- type: job
-  id: Contractor
-  name: job-name-contractor-luna
-  description: job-description-contractor
-  playTimeTracker: JobPassenger
-  salary: 6000
-  icon: "JobIconContractor"
-  supervisors: job-supervisors-hire
-  displayWeight: 40 # Top
-  accessGroups:
-  - GeneralAccess
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FrontierBirthday
-    prototype: FrontierBirthdayGift
+#- type: job
+#  id: Contractor
+#  name: job-name-contractor-luna
+#  description: job-description-contractor
+#  playTimeTracker: JobPassenger
+#  salary: 6000
+#  icon: "JobIconContractor"
+#  supervisors: job-supervisors-hire
+#  displayWeight: 40 # Top
+#  accessGroups:
+#  - GeneralAccess
+#  special:
+#  - !type:GiveItemOnHolidaySpecial
+#    holiday: FrontierBirthday
+#    prototype: FrontierBirthdayGift
 
 # Interview variant
 - type: job
