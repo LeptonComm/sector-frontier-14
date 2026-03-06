@@ -24,7 +24,7 @@
   name: nf-pirate-title
   description: nf-pirate-description
   showInVote: true
-#  supportedMaps: DSMapPool #Lua
+  supportedMaps: DSMapPool #Lua
   rules:
     - NFAdventure
     - NFBasicStationEventScheduler

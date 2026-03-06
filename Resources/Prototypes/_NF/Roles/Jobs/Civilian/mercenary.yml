@@ -1,46 +1,46 @@
-# - type: job
-#   id: DSMercenary
-#   name: job-name-mercenary
-#   description: job-description-mercenary
-#   playTimeTracker: DSJobMercenary
-#   requirements:
-#     - !type:RoleTimeRequirement
-#       role: DSJobPassenger
-#       time: 72000 #Lua 20h 
-#     - !type:DepartmentTimeRequirement
-#       department: Medical
-#       time: 72000 #Lua 20h
-#     - !type:RoleTimeRequirement
-#       role: JobFrontierEngineer
-#       time: 72000 #Lua 20h 
-#     - !type:RoleTimeRequirement
-#       role: DSJobSecurityCadet
-#       time: 72000 #Lua 20h 
-# #    - !type:OverallPlaytimeRequirement
-# #      time: 108000
-#   startingGear: MercenaryGear
-#   canBeAntag: true
-#   icon: "JobIconMercenary"
-#   supervisors: job-supervisors-hire
-#   weight: 3 # Prioritize station & department jobs
-#   displayWeight: 40 # Second from the bottom
-#   setPreference: true
-#   access:
-#   - Mercenary
-#   accessGroups:
-#   - GeneralAccess
-#   special:
-#   - !type:GiveItemOnHolidaySpecial
-#     holiday: FrontierBirthday
-#     prototype: FrontierBirthdayGift
+- type: job
+  id: DSMercenary
+  name: job-name-mercenary
+  description: job-description-mercenary
+  playTimeTracker: DSJobMercenary
+  requirements:
+    - !type:RoleTimeRequirement
+      role: DSJobPassenger
+      time: 72000 #Lua 20h 
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 72000 #Lua 20h
+    - !type:RoleTimeRequirement
+      role: JobFrontierEngineer
+      time: 72000 #Lua 20h 
+    - !type:RoleTimeRequirement
+      role: DSJobSecurityCadet
+      time: 72000 #Lua 20h 
+#    - !type:OverallPlaytimeRequirement
+#      time: 108000
+  startingGear: MercenaryGear
+  canBeAntag: true
+  icon: "JobIconMercenary"
+  supervisors: job-supervisors-hire
+  weight: 3 # Prioritize station & department jobs
+  displayWeight: 40 # Second from the bottom
+  setPreference: true
+  access:
+  - Mercenary
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
 
-# - type: chameleonOutfit
-#   id: DSMercenaryChameleonOutfit
-#   job: DSMercenary
-#   equipment:
-#     head: ClothingHeadHelmetMercenary
-#     eyes: ClothingEyesGlassesCheapSunglasses
-#     mask: ClothingMaskGasMercenary
-#     neck: ClothingNeckIFFNeutral
-#     outerClothing: ClothingOuterVestWebMercenary
-#     gloves: ClothingHandsGlovesCombat
+- type: chameleonOutfit
+  id: DSMercenaryChameleonOutfit
+  job: DSMercenary
+  equipment:
+    head: ClothingHeadHelmetMercenary
+    eyes: ClothingEyesGlassesCheapSunglasses
+    mask: ClothingMaskGasMercenary
+    neck: ClothingNeckIFFNeutral
+    outerClothing: ClothingOuterVestWebMercenary
+    gloves: ClothingHandsGlovesCombat
