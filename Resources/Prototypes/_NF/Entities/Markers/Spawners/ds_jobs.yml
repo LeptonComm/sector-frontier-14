@@ -74,19 +74,19 @@
       - state: green
       - state: mailcarrier
 
-- type: entity
-  id: DSSpawnPointPilot
-  parent: SpawnPointJobBase
-  name: pilot
-  suffix: МК, НЕ СПАВНИТЬ
-  components:
-  - type: SpawnPoint
-    job_id: Contractor
-  - type: Sprite
-    sprite: _NF/Markers/jobs.rsi
-    layers:
-      - state: green
-      - state: pilot
+#- type: entity
+#  id: DSSpawnPointPilot
+#  parent: SpawnPointJobBase
+#  name: pilot
+#  suffix: МК, НЕ СПАВНИТЬ
+#  components:
+#  - type: SpawnPoint
+#    job_id: DSPilot
+#  - type: Sprite
+#    sprite: _NF/Markers/jobs.rsi
+#    layers:
+#      - state: green
+#      - state: pilot
 
 
 
