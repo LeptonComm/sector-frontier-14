@@ -3,10 +3,10 @@
   maps:
   - Frontier
 
-# - type: gameMapPool
-#   id: DSMapPool
-#   maps:
-#   - ERCOutpost
-#   - Beacon
-#   - Murena
-#   - Typan
+- type: gameMapPool
+  id: DSMapPool
+  maps:
+  - ERCOutpost
+  - Beacon
+  - Murena
+  - Typan

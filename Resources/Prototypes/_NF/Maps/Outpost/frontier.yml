@@ -50,50 +50,50 @@
           - HeadOfPersonnel
           - HeadOfSecurity
 
-# - type: gameMap
-#   id: ERCOutpost
-#   mapName: 'Сектор Фронтир'
-#   mapPath: /Maps/_Lua/Outpost/ERCOutpost.yml
-#   minPlayers: 0
-#   maxPlayers: 100
-#   randomRotation: false
-#   maxRandomOffset: 0
-#   stations:
-#     ERCOutpost:
-#       stationProto: StandardFrontierStation
-#       # Lua add start
-#       gridComponents:
-#       - type: VesselMusic
-#         ambientMusicPrototype: ColossusCentralMusic
-#       - type: VesselInfo
-#         description: "Хотя бы здесь вы можете почувствовать себя в безопасности."
-#       # Lua add end
-#       components:
-#         - type: RadarBlipIcon
-#           icon: /Textures/_Lua/Interface/Radar/space-station.png
-#           scale: 1.2
-#           allowWhenHidden: true
-#         - type: StationNameSetup
-#           mapNameTemplate: 'Аванпост ЭИК'
-# #          nameGenerator:
-# #            !type:NanotrasenNameGenerator
-# #            prefixCreator: '14'
-#         - type: ExtraStationInformation
-#           iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png # used the biggest one, looks better when downscaling than upscaling
-#           stationSubtext: 'frontier-lobby-erc-subtext'
-#           stationDescription: 'frontier-lobby-erc-description'
-#           lobbySortOrder: 1
-#         - type: StationJobs
-#           availableJobs:
-#             Vip: [ -1, -1 ]
-#             DSContractor: [ -1, -1 ]
-#             DSPilot: [ -1, -1 ]
-#             Borg: [ -1, -1 ]
-#             DSStationRepresentative: [ 1, 1 ]
-#             DSSecurityGuard: [ 1, 1 ]
-#             DSValet: [ 1, 1 ]
-#             DSMailCarrier: [ 1, 1 ]
-#             FrontierEngineer: [ 1, 1 ]
-#           tags:
-#           - HeadOfPersonnel
-#           - HeadOfSecurity
+- type: gameMap
+  id: ERCOutpost
+  mapName: 'Сектор Фронтир'
+  mapPath: /Maps/_Lua/Outpost/ERCOutpost.yml
+  minPlayers: 0
+  maxPlayers: 100
+  randomRotation: false
+  maxRandomOffset: 0
+  stations:
+    ERCOutpost:
+      stationProto: StandardFrontierStation
+      # Lua add start
+      gridComponents:
+      - type: VesselMusic
+        ambientMusicPrototype: ColossusCentralMusic
+      - type: VesselInfo
+        description: "Хотя бы здесь вы можете почувствовать себя в безопасности."
+      # Lua add end
+      components:
+        - type: RadarBlipIcon
+          icon: /Textures/_Lua/Interface/Radar/space-station.png
+          scale: 1.2
+          allowWhenHidden: true
+        - type: StationNameSetup
+          mapNameTemplate: 'Аванпост ЭИК'
+#          nameGenerator:
+#            !type:NanotrasenNameGenerator
+#            prefixCreator: '14'
+        - type: ExtraStationInformation
+          iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png # used the biggest one, looks better when downscaling than upscaling
+          stationSubtext: 'frontier-lobby-erc-subtext'
+          stationDescription: 'frontier-lobby-erc-description'
+          lobbySortOrder: 1
+        - type: StationJobs
+          availableJobs:
+            Vip: [ -1, -1 ]
+            DSContractor: [ -1, -1 ]
+            DSPilot: [ -1, -1 ]
+            Borg: [ -1, -1 ]
+            DSStationRepresentative: [ 1, 1 ]
+            DSSecurityGuard: [ 1, 1 ]
+            DSValet: [ 1, 1 ]
+            DSMailCarrier: [ 1, 1 ]
+            FrontierEngineer: [ 1, 1 ]
+          tags:
+          - HeadOfPersonnel
+          - HeadOfSecurity
