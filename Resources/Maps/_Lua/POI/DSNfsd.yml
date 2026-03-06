@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/04/2026 13:22:55
-  entityCount: 12852
+  time: 03/04/2026 12:27:27
+  entityCount: 12851
 maps: []
 grids:
 - 1
@@ -7097,7 +7097,7 @@ entities:
       pos: -18.5,-11.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -428574.06
+      secondsUntilStateChange: -428511.97
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7160,7 +7160,7 @@ entities:
       pos: -13.5,-32.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -75100.92
+      secondsUntilStateChange: -75038.83
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7172,7 +7172,7 @@ entities:
       pos: -27.5,-12.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -170326.36
+      secondsUntilStateChange: -170264.27
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7262,7 +7262,7 @@ entities:
       pos: -42.5,-12.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -170328.95
+      secondsUntilStateChange: -170266.86
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7280,7 +7280,7 @@ entities:
       pos: 7.5,2.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -232539.05
+      secondsUntilStateChange: -232476.95
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7488,7 +7488,7 @@ entities:
       pos: -16.5,13.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -198464.19
+      secondsUntilStateChange: -198402.1
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -42342,13 +42342,6 @@ entities:
 - proto: DSSpawnPointBailiff
   entities:
   - uid: 10041
-    components:
-    - type: Transform
-      pos: -12.5,-30.5
-      parent: 1
-- proto: DSSpawnPointBrigmedic
-  entities:
-  - uid: 10045
     components:
     - type: Transform
       pos: -12.5,-30.5
