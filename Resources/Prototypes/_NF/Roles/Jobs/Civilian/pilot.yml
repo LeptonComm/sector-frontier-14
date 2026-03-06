@@ -1,28 +1,28 @@
-- type: job
-  id: DSPilot
-  name: job-name-pilot
-  description: job-description-pilot
-  playTimeTracker: DSJobPilot
-  salary: 15000 #Lua 7100<15000
-#  requirements: # comment from _Lua
-#    - !type:OverallPlaytimeRequirement
-#      time: 43200
-  icon: "JobIconPilot"
-  supervisors: job-supervisors-hire
-  weight: 2 # Prioritize station & department jobs
-  displayWeight: 30 # Second from the top
-  accessGroups: # Frontier
-  - GeneralAccess
-  special:
-  - !type:GiveItemOnHolidaySpecial
-    holiday: FrontierBirthday
-    prototype: FrontierBirthdayGift
+# - type: job
+#   id: DSPilot
+#   name: job-name-pilot
+#   description: job-description-pilot
+#   playTimeTracker: DSJobPilot
+#   salary: 15000 #Lua 7100<15000
+# #  requirements: # comment from _Lua
+# #    - !type:OverallPlaytimeRequirement
+# #      time: 43200
+#   icon: "JobIconPilot"
+#   supervisors: job-supervisors-hire
+#   weight: 2 # Prioritize station & department jobs
+#   displayWeight: 30 # Second from the top
+#   accessGroups: # Frontier
+#   - GeneralAccess
+#   special:
+#   - !type:GiveItemOnHolidaySpecial
+#     holiday: FrontierBirthday
+#     prototype: FrontierBirthdayGift
 
-- type: chameleonOutfit
-  id: DSPilotChameleonOutfit
-  job: DSPilot
-  equipment:
-    head: ClothingHeadHatPilot
-    mask: ClothingMaskPilot
-    outerClothing: ClothingOuterCoatBomber
-    gloves: ClothingHandsGlovesPilot
+# - type: chameleonOutfit
+#   id: DSPilotChameleonOutfit
+#   job: DSPilot
+#   equipment:
+#     head: ClothingHeadHatPilot
+#     mask: ClothingMaskPilot
+#     outerClothing: ClothingOuterCoatBomber
+#     gloves: ClothingHandsGlovesPilot
