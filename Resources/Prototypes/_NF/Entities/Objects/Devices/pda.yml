@@ -18,6 +18,7 @@
       - CrewManifestCartridge
       - NotekeeperCartridge
       - YupiTransferCartridge # Lua
+      - NanoChatCartridge # Lua
       - NanoTaskCartridge
       - NewsReaderCartridge
       - BountyContractsCartridge
@@ -154,6 +155,7 @@
     - CrewManifestCartridge
     - NotekeeperCartridge
     - YupiTransferCartridge # Lua
+    - NanoChatCartridge # Lua
     - NanoTaskCartridge
     - NewsReaderCartridge
     - BountyContractsCartridge
@@ -402,6 +404,7 @@
     - CrewManifestCartridge
     - NotekeeperCartridge
     - YupiTransferCartridge # Lua
+    - NanoChatCartridge # Lua
     - NanoTaskCartridge
     - NewsReaderCartridge
     - BountyContractsCartridge
@@ -559,6 +562,7 @@
     - CrewManifestCartridge
     - NotekeeperCartridge
     - YupiTransferCartridge # Lua
+    - NanoChatCartridge # Lua
     - NanoTaskCartridge
     - NewsReaderCartridge
     - BountyContractsCartridge
@@ -607,6 +611,7 @@
     - CrewManifestCartridge
     - NotekeeperCartridge
     - YupiTransferCartridge # Lua
+    - NanoChatCartridge # Lua
     - NanoTaskCartridge
     - NewsReaderCartridge
     - BountyContractsCartridge

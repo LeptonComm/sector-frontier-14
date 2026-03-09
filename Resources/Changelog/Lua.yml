@@ -3449,3 +3449,112 @@ Entries:
   id: 240
   time: '2026-02-15T08:53:08.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/478
+- author: HacksLua
+  changes:
+    - type: Fix
+      message: Стрелять из положения лёжа больше нельзя
+    - type: Fix
+      message: Вооружения шаттла теперь нельзя привязать к пультам или кнопкам
+    - type: Tweak
+      message: Шаттлы без игроков теперь замораживаются
+    - type: Tweak
+      message: Киту было повышено хп а так же увеличена скорость
+    - type: Add
+      message: Добавлены щиты для скафандров пока только некоторым скафандрам СБ
+    - type: Add
+      message: Добавлены лимиты на выращивание растений
+    - type: Remove
+      message: Удалена система генерации звёзд
+    - type: Add
+      message: Добавлен инструмент редактирования позиции звёзд
+    - type: Add
+      message: Добавлены звёздные врата
+    - type: Tweak
+      message: Обновлена генерация планет, обновлена генерация данжей
+    - type: Add
+      message: Добавлен мессенджер MAX (NanoChat)
+    - type: Tweak
+      message: Заметки теперь принимают глифы звёздных врат
+    - type: Add
+      message: В генерацию планет добавлена генерация газов для добычи
+    - type: Add
+      message: Добавлены квесты на планеты звёздных врат
+    - type: Fix
+      message: >-
+        Исправлено отображение правил сервера, правила обновлены по состоянию на
+        04.03.2026
+    - type: Tweak
+      message: >-
+        Система автоштрафов переведена в ручной режим, ПФ/ТМ теперь должны
+        вручную оштрафовать шаттл или игнорировать
+    - type: Fix
+      message: Исправлена приватизация обломков, флаг теперь должен работать корректно
+    - type: Tweak
+      message: Двигатели теперь сжигают стены и другие двигатели перед собой
+    - type: Remove
+      message: Система динамического рынка убрана
+    - type: Tweak
+      message: Деспавн мобов переделан в адаптивный умный режим
+    - type: Tweak
+      message: Криокапсулы установленные игроком теперь можно перемещать
+    - type: Tweak
+      message: Смерть в космосе теперь не отправит вас в бесконечный дрейф по космосу
+  id: 241
+  time: '2026-03-05T11:18:56.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/482
+- author: KiraFaust
+  changes:
+    - type: Add
+      message: 'Стандартный скафандр Nanotrasen '
+    - type: Tweak
+      message: 'Куча респрйтов '
+  id: 242
+  time: '2026-03-05T11:45:50.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/477
+- author: KiraFaust
+  changes:
+    - type: Add
+      message: >-
+        Портативные консоли управления шаттлом (пока отсутствуют в автоматах,
+        пока будут выдаваться в тесты).
+  id: 243
+  time: '2026-03-05T12:05:37.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/454
+- author: Vecortys
+  changes:
+    - type: Tweak
+      message: >-
+        Зелёное крио более не открывает роль для late-join'а через лобби. Для
+        освобождения роли пользуйтесь синим.
+  id: 244
+  time: '2026-03-06T02:55:35.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/489
+- author: KiraFaust
+  changes:
+    - type: Fix
+      message: Исправлен спрайт шлема скафандра Научного Руководителя
+  id: 245
+  time: '2026-03-06T02:58:27.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/488
+- author: HacksLua
+  changes:
+    - type: Add
+      message: Добавлена консоль парковки
+    - type: Remove
+      message: Удалена защита от удаления шаттла
+    - type: Tweak
+      message: Шаттлы теперь удаляются через 2 часа если владелец оффлайн
+    - type: Add
+      message: >-
+        Консоли парковки добавлены на аэ, мц, фронтир, тортуга, нф, аванпост
+        наёмников, аванпост сб
+  id: 246
+  time: '2026-03-06T14:25:36.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/491
+- author: Raldjatech
+  changes:
+    - type: Fix
+      message: Исправлен набор Sil`а
+  id: 247
+  time: '2026-03-06T14:26:00.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/490

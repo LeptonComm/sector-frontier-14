@@ -53,7 +53,8 @@
 - type: gameMap
   id: ERCOutpost
   mapName: 'Сектор Фронтир'
-  mapPath: /Maps/_Lua/Outpost/ERCOutpost.yml
+#  mapPath: /Maps/_Lua/Outpost/ERCOutpost.yml
+  mapPath: /Maps/_Lua/Outpost/frontier.yml
   minPlayers: 0
   maxPlayers: 100
   randomRotation: false
@@ -85,15 +86,25 @@
           lobbySortOrder: 1
         - type: StationJobs
           availableJobs:
+            # Vip: [ -1, -1 ]
+            # DSContractor: [ -1, -1 ]
+            # DSPilot: [ -1, -1 ]
+            # Borg: [ -1, -1 ]
+            # DSStationRepresentative: [ 1, 1 ]
+            # DSSecurityGuard: [ 1, 1 ]
+            # DSValet: [ 1, 1 ]
+            # DSMailCarrier: [ 1, 1 ]
+            # FrontierEngineer: [ 1, 1 ]
             Vip: [ -1, -1 ]
-            DSContractor: [ -1, -1 ]
-            DSPilot: [ -1, -1 ]
+            Contractor: [ -1, -1 ]
+            Pilot: [ -1, -1 ]
             Borg: [ -1, -1 ]
-            DSStationRepresentative: [ 1, 1 ]
-            DSSecurityGuard: [ 1, 1 ]
-            DSValet: [ 1, 1 ]
-            DSMailCarrier: [ 1, 1 ]
-            FrontierEngineer: [ 1, 1 ]
+            StationRepresentative: [ 1, 1 ]
+            StationTrafficController: [ 1, 1 ]
+            SecurityGuard: [ 1, 1 ]
+            Valet: [ 1, 1 ]
+            NFJanitor: [ 1, 1 ]
+            MailCarrier: [ 1, 1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

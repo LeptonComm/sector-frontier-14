@@ -167,13 +167,6 @@
 #  text: "/ServerInfo/_DeadSpace/Guidebook/ServerRules/DeadSpaceFrontierRule2.xml"
 
 #- type: guideEntry
-#  id: DeadSpaceFrontierRule1_2
-#  name: Правило 1.2
-#  priority: 3
-#  ruleEntry: true
-#  text: "/ServerInfo/_DeadSpace/Guidebook/ServerRules/DeadSpaceFrontierRule1_2.xml"
-
-#- type: guideEntry
 #  id: DeadSpaceFrontierRule3
 #  name: Правило 2
 #  priority: 4

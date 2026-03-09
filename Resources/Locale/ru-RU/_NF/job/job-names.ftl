@@ -32,7 +32,7 @@ job-name-senior-researcher = Ведущий Учёный
 job-name-senior-physician = Старший Врач
 job-name-senior-officer = Лейтенант СРБС
 JobSeniorEngineer = Ведущий Инженер
-JobSeniorOfficer = Лейтенат
+JobSeniorOfficer = Лейтенант
 JobSeniorPhysician = Старший Врач
 JobSeniorResearcher = Ведущий Учёный
 
