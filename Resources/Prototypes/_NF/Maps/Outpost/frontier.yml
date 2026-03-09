@@ -117,7 +117,7 @@
           scale: 1.2
           allowWhenHidden: true
         - type: StationNameSetup
-          mapNameTemplate: 'Станция Фронтир'
+          mapNameTemplate: 'Аванпост ЭИК'
         - type: ExtraStationInformation
           iconPath: /Textures/Structures/Decoration/banner.rsi/banner.png
           stationSubtext: 'frontier-lobby-frontier-subtext'
