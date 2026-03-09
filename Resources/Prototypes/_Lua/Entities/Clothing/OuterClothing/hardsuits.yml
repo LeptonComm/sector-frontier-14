@@ -318,7 +318,7 @@
     voice: Adjutant
 
 - type: entity
-  parent: ClothingOuterHardsuitSyndieCommander
+  parent: [ ClothingOuterHardsuitSyndieCommander, EnergyShieldClothing ]
   id: ClothingOuterHardsuitFSFCommanderBravo
   name: скафандр командира рейнджеров
   suffix: ФСФ, Браво
@@ -360,7 +360,7 @@
     voice: Adjutant
 
 - type: entity
-  parent: ClothingOuterHardsuitSyndie
+  parent: [ ClothingOuterHardsuitSyndie, EnergyShieldClothing ]
   id: ClothingOuterHardsuitFSFSpecialistBravo
   name: средний скафандр рейнджера
   suffix: ФСФ, Браво
@@ -404,7 +404,7 @@
 
 
 - type: entity
-  parent: ClothingOuterHardsuitSyndieCommander
+  parent: [ ClothingOuterHardsuitSyndieCommander, EnergyShieldClothing ]
   id: ClothingOuterHardsuitFSFCommanderCharlie
   name: скафандр командира рейнджеров
   suffix: ФСФ, Чарли
@@ -446,7 +446,7 @@
     voice: Adjutant
 
 - type: entity
-  parent: ClothingOuterHardsuitSyndie
+  parent: [ ClothingOuterHardsuitSyndie, EnergyShieldClothing ]
   id: ClothingOuterHardsuitFSFSpecialistCharlie
   name: средний скафандр рейнджера
   suffix: ФСФ, Чарли
