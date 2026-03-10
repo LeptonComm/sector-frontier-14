@@ -299,7 +299,7 @@
       - id: ElectrolysisUnitMachineCircuitboard
       - id: StasisBedMachineCircuitboard
       - id: ResearchComputerCircuitboard
-      - id: DSMercenaryTechFabCircuitboardNF
+      - MercenaryTechFabCircuitboardNF
       - id: PortableGeneratorDKMachineCircuitboard
       - id: MedicalTechFabCircuitboard
       - id: MedicalAssemblerMachineCircuitboard

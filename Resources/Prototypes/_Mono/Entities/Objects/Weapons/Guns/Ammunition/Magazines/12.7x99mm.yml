@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  id: DSBaseMagazine127x99mm
+  BaseMagazine127x99mm
   name: "magazine (12.7x99mm)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC3PirateContraband ]
@@ -36,7 +36,7 @@
 
 # Standart
 - type: entity
-  id: DSMagazine127x99mm
+  Magazine127x99mm
   name: "magazine (12.7x99mm anti-material)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -44,7 +44,7 @@
     proto: DSCartridge127x99mm
 
 - type: entity
-  id: DSMagazine127x99mmEmpty
+  Magazine127x99mmEmpty
   name: "magazine (12.7x99mm empty)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -53,7 +53,7 @@
 
 # Mechanical
 - type: entity
-  id: DSMagazine127x99mmHP
+  Magazine127x99mmHP
   name: "magazine (12.7x99mm HP)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -69,7 +69,7 @@
 
 # Physical
 - type: entity
-  id: DSMagazine127x99mmIncendiary
+  Magazine127x99mmIncendiary
   name: "magazine (12.7x99mm Incendiary)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -84,7 +84,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine127x99mmUranium
+  Magazine127x99mmUranium
   name: "magazine (12.7x99mm Uranium)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -100,7 +100,7 @@
 
 # Special
 - type: entity
-  id: DSMagazine127x99mmEMP
+  Magazine127x99mmEMP
   name: "magazine (12.7x99mm EMP)"
   parent: DSBaseMagazine127x99mm
   components:
@@ -115,7 +115,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine127x99mmCaustic
+  Magazine127x99mmCaustic
   name: "magazine (12.7x99mm Caustic)"
   parent: DSBaseMagazine127x99mm
   components:

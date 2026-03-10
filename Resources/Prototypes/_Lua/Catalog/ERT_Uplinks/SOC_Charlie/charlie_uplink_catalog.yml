@@ -4,7 +4,7 @@
   name: Импульсный карабин
   description: Высокотехнологичный энергетический карабин, излюбленный бойцами ОБР NanoTrasen. На рукоятке имеется наклейка с надписью «Только для авторизованного использования».
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi, state: icon }
-  productEntity: DSNFWeaponEnergyRifleAssaultPulseCarbine
+  NFWeaponEnergyRifleAssaultPulseCarbine
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -15,7 +15,7 @@
   name: импульсная винтовка
   description: Оружие, почти столь же печально известное, как и его пользователи.
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi, state: icon }
-  productEntity: DSNFWeaponEnergyRiflePulse
+  NFWeaponEnergyRiflePulse
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -37,7 +37,7 @@
   name: мультиплазменная винтовка
   description: Мультиплазменная винтовка - оружие, которое выстреливает тремя сгустками плазмы за раз. Сгустки плазмы нагревают и плавят все на своем пути.
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/multiplas.rsi, state: icon }
-  productEntity: DSN14WeaponMultiplas
+  N14WeaponMultiplas
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -70,7 +70,7 @@
   name: Бульдог 
   description: Магазинный дробовик, предназначенный для ведения ближнего боя. Использует патроны калибра 4 gauge.
   icon: { sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
-  productEntity: DSNFWeaponShotgunBulldog
+  NFWeaponShotgunBulldog
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -81,7 +81,7 @@
   name: Смарт-пистолет SU-6
   description: Экспериментальный пистолет с идентификацией «свой-чужой», проходит войсковые испытания в UNMC. Использует модифицированные .45 ACP IFF боеприпасы, способен стрелять очередями.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/su6.rsi, state: icon }
-  productEntity: DSRMCWeaponPistolSU6
+  RMCWeaponPistolSU6
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -92,7 +92,7 @@
   name: Пистолет MK80
   description: Массивный и грозный самозарядный пистолет под 9-мм Squash-Head. Часто встречается как у ЧВК We-Ya, так и у корп. управленцев; проходит ограниченные войсковые испытания у Морпехов.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk80.rsi, state: icon }
-  productEntity: DSCMWeaponPistolMK80
+  CMWeaponPistolMK80
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -103,7 +103,7 @@
   name: Пистолет-пулемет М63
   description: Пистолет-пулемет Aegis Battlefield Armaments M-63. Иногда используется легкой пехотой, разведчиками, саперами и медиками.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63.rsi, state: icon }
-  productEntity: DSWeaponSMGM63
+  WeaponSMGM63
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -114,7 +114,7 @@
   name: Боевой пистолет M77
   description: Штатное оружие Морпехов, также встречается у ЧВК We-Ya. Стреляет 9-мм бронебойными патронами, может вести огонь очередями по 3 выстрела.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/m77.rsi, state: icon }
-  productEntity: DSCMWeaponPistolM77
+  CMWeaponPistolM77
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -124,7 +124,7 @@
   id: CharlieUplinkWeaponSubMachineGunVectorNtsfHclm
   name: NTSF-HCLM-45 
   description: Тяжелый калибр NTSF. Очень высококачественный тяжелый пистолет-пулемет калибра .45 Magnum, предназначенный для использования силами безопасности NanoTrasen и спецназом NT.
-  productEntity: DSWeaponSubMachineGunVectorNtsfHclm
+  WeaponSubMachineGunVectorNtsfHclm
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -135,7 +135,7 @@
   name: Боевой револьвер M44
   description: Громоздкий револьвер, встречается у штурмовиков и офицеров корпуса Морпехов, а также у гражданских сил правопорядка. Стреляет патронами .44 Magnum.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44.rsi, state: icon }
-  productEntity: DSRMCWeaponRevolverM44
+  RMCWeaponRevolverM44
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -146,7 +146,7 @@
   name: модернизированная боевая винтовка M4SPR
   description: Улучшенная версия и без того отличной M4SPR. Способна использовать патроны A19, а также обладает лучшим контролем и точностью, но при этом сложнее в использовании. Может использовать традиционные магазины M4SPR, но с меньшим уроном.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr_custom.rsi, state: icon }
-  productEntity: DSWeaponRifleM4SPRCustom
+  WeaponRifleM4SPRCustom
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -157,7 +157,7 @@
   name: М-90gl
   description: Карабин старой модели, выполненный по схеме булл-пап, с подствольным гранатомётом. Использует патроны калибра 5.56x45mm.
   icon: { sprite: Objects/Weapons/Guns/Rifles/carbine.rsi, state: icon }
-  productEntity: DSNFWeaponRifleAssaultM90GrenadeLauncher
+  NFWeaponRifleAssaultM90GrenadeLauncher
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -168,7 +168,7 @@
   name: TCA M27 Annie
   description: Зверь, созданный для выполнения невыполнимых миссий. Использует патроны калибра 7,62x39 мм.
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/annie.rsi, state: icon }
-  productEntity: DSWeaponRifleAnnie
+  WeaponRifleAnnie
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -178,7 +178,7 @@
   id: CharlieUplinkWeaponRifleM16
   name: Винтовка М16
   description: Старая, надежная конструкция, впервые принятая на вооружение американской армией в 1960-х годах. Подобное оружие должно находиться в музее военной истории. 
-  productEntity: DSWeaponRifleM16
+  WeaponRifleM16
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -189,7 +189,7 @@
   name: Боевой карабин M4SPR
   description: Дальнобойная винтовка разведподразделений морпехов. Буллпап-конфигурация делает ее удобной для разведки и огневой поддержки.
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Rifles/m4spr.rsi, state: icon }
-  productEntity: DSWeaponRifleM4SPR
+  WeaponRifleM4SPR
   cost:
     FrontierUplinkCoin: 5
   categories:

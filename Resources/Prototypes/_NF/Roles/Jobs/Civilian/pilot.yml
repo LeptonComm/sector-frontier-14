@@ -1,5 +1,5 @@
 - type: job
-  id: DSPilot
+  Pilot
   name: job-name-pilot
   description: job-description-pilot
   playTimeTracker: DSJobPilot
@@ -19,7 +19,7 @@
     prototype: FrontierBirthdayGift
 
 - type: chameleonOutfit
-  id: DSPilotChameleonOutfit
+  PilotChameleonOutfit
   job: DSPilot
   equipment:
     head: ClothingHeadHatPilot

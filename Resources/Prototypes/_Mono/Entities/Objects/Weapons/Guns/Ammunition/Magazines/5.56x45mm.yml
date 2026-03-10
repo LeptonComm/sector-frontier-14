@@ -1,6 +1,6 @@
 # Empty mags
 - type: entity
-  id: DSBaseMagazine556x45mm
+  BaseMagazine556x45mm
   name: "magazine (5.56x45mm FMJ)"
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   abstract: true
@@ -35,7 +35,7 @@
 # Magazines
 # Standart
 - type: entity
-  id: DSMagazine556x45mmFMJ
+  Magazine556x45mmFMJ
   name: "magazine (5.56x45mm FMJ)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -50,7 +50,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine556x45mmEmpty
+  Magazine556x45mmEmpty
   name: "magazine (5.56x45mm any)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSMagazine556x45mmFMJ
@@ -65,7 +65,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine556x45mmRubber
+  Magazine556x45mmRubber
   name: "magazine (5.56x45mm rubber)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -80,7 +80,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine556x45mmPractice
+  Magazine556x45mmPractice
   name: "magazine (5.56x45mm practice)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -96,7 +96,7 @@
 
 # Mechanical
 - type: entity
-  id: DSMagazine556x45mmHP
+  Magazine556x45mmHP
   name: "magazine (5.56x45mm hollow-point)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -112,7 +112,7 @@
 
 # Physical
 - type: entity
-  id: DSMagazine556x45mmIncendiary
+  Magazine556x45mmIncendiary
   name: "magazine (5.56x45mm incendiary)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSMagazine556x45mmFMJ
@@ -127,7 +127,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine556x45mmUranium
+  Magazine556x45mmUranium
   name: "magazine (5.56x45mm uranium)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -143,7 +143,7 @@
 
 # Special
 - type: entity
-  id: DSMagazine556x45mmEMP
+  Magazine556x45mmEMP
   name: "magazine (5.56x45mm EMP)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -158,7 +158,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine556x45mmCaustic
+  Magazine556x45mmCaustic
   name: "magazine (5.56x45mm Caustic)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine556x45mm
@@ -175,7 +175,7 @@
 # Novalite
 - type: entity
   parent: BaseMagazine556x45mm
-  id: DSMagazineNovaliteC1Empty
+  MagazineNovaliteC1Empty
   name: "clip (5.56x45mm any)"
   suffix: empty
   components:
@@ -208,7 +208,7 @@
 
 - type: entity
   parent: DSMagazineNovaliteC1Empty
-  id: DSMagazineNovaliteC1
+  MagazineNovaliteC1
   name: "clip (5.56x45mm FMJ)"
   suffix: full
   components:

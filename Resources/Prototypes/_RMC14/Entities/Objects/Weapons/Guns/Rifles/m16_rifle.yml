@@ -1,6 +1,6 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, DSCMBaseWeaponRifle]
-  id: DSWeaponRifleM16 # TODO: Make the M16 grenadier rifle when impact nades exist
+  WeaponRifleM16 # TODO: Make the M16 grenadier rifle when impact nades exist
   name: M16 rifle
   description: An old, reliable design first adopted by the U.S. military in the 1960s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
   suffix: МК, НЕ СПАВНИТЬ

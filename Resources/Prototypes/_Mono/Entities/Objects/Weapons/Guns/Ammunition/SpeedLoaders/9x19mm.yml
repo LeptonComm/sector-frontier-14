@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseSpeedLoader9x19mm
+  BaseSpeedLoader9x19mm
   name: "speed loader (9x19mm FMJ)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
@@ -21,7 +21,7 @@
         ents: []
 
 - type: entity
-  id: DSSpeedLoader9x19mmFMJ
+  SpeedLoader9x19mmFMJ
   name: "speed loader (9x19mm FMJ)"
   parent: DSBaseSpeedLoader9x19mm
   components:
@@ -44,7 +44,7 @@
   - type: Appearance
 
 - type: entity
-  id: DSSpeedLoader9x19mmEmpty
+  SpeedLoader9x19mmEmpty
   name: "speed loader (9x19mm any)"
   parent: DSSpeedLoader9x19mmFMJ
   components:
@@ -62,7 +62,7 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
-  id: DSSpeedLoader9x19mmIncendiary
+  SpeedLoader9x19mmIncendiary
   name: "speed loader (9x19mm incendiary)"
   parent: DSBaseSpeedLoader9x19mm
   components:
@@ -82,7 +82,7 @@
   - type: Appearance
 
 - type: entity
-  id: DSSpeedLoader9x19mmPractice
+  SpeedLoader9x19mmPractice
   name: "speed loader (9x19mm practice)"
   parent: DSBaseSpeedLoader9x19mm
   components:
@@ -105,7 +105,7 @@
   - type: Appearance
 
 - type: entity
-  id: DSSpeedLoader9x19mmUranium
+  SpeedLoader9x19mmUranium
   name: "speed loader (9x19mm uranium)"
   parent: DSBaseSpeedLoader9x19mm
   components:
@@ -128,7 +128,7 @@
   - type: Appearance
 
 - type: entity
-  id: DSSpeedLoader9x19mmRubber
+  SpeedLoader9x19mmRubber
   name: "speed loader (9x19mm rubber)"
   parent: DSBaseSpeedLoader9x19mm
   components:

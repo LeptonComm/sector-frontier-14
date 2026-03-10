@@ -1,6 +1,6 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, DSCMWeaponPistolBase]
-  id: DSRMCWeaponPistolB92FS
+  RMCWeaponPistolB92FS
   name: Beretta M92FS
   description: A popular police firearm in the 20th century, often employed by hard-boiled cops while confronting terrorists. A classic of its time, chambered in 9mm. Normally found in the hands of Survivors and the Colony Liberation Front.
   suffix: МК, НЕ СПАВНИТЬ

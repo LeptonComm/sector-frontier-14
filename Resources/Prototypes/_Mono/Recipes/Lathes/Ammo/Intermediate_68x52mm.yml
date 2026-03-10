@@ -1,87 +1,87 @@
 #Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBig
+  Magazine68x52mmCaselessBig
   result: DSMagazine68x52mmCaselessBig
 
 - type: latheRecipe
   parent: BaseAmmoRubberIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessRubber
+  Magazine68x52mmCaselessRubber
   result: DSMagazine68x52mmCaselessRubber
 
 - type: latheRecipe
   parent: BaseAmmoPracticeIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessPractice
+  Magazine68x52mmCaselessPractice
   result: DSMagazine68x52mmCaselessPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessEmpty
+  Magazine68x52mmCaselessEmpty
   result: DSMagazine68x52mmCaselessEmpty
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBigHP
+  Magazine68x52mmCaselessBigHP
   result: DSMagazine68x52mmCaselessBigHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoIncendiaryIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBigIncendiary
+  Magazine68x52mmCaselessBigIncendiary
   result: DSMagazine68x52mmCaselessBigIncendiary
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBigUranium
+  Magazine68x52mmCaselessBigUranium
   result: DSMagazine68x52mmCaselessBigUranium
   
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBigEMP
+  Magazine68x52mmCaselessBigEMP
   result: DSMagazine68x52mmCaselessBigEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticIntermediateMagazineRecipe
-  id: DSMagazine68x52mmCaselessBigCaustic
+  Magazine68x52mmCaselessBigCaustic
   result: DSMagazine68x52mmCaselessBigCaustic
 
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaseless
+  AmmoBox68x52mmCaseless
   result: DSAmmoBox68x52mmCaseless
 
 - type: latheRecipe
   parent: BaseAmmoRubberIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessRubber
+  AmmoBox68x52mmCaselessRubber
   result: DSAmmoBox68x52mmCaselessRubber
 
 - type: latheRecipe
   parent: BaseAmmoPracticeIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessPractice
+  AmmoBox68x52mmCaselessPractice
   result: DSAmmoBox68x52mmCaselessPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessHP
+  AmmoBox68x52mmCaselessHP
   result: DSAmmoBox68x52mmCaselessHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoIncendiaryIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessIncendiary
+  AmmoBox68x52mmCaselessIncendiary
   result: DSAmmoBox68x52mmCaselessIncendiary
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessUranium
+  AmmoBox68x52mmCaselessUranium
   result: DSAmmoBox68x52mmCaselessUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessEMP
+  AmmoBox68x52mmCaselessEMP
   result: DSAmmoBox68x52mmCaselessEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticIntermediateAmmoBoxRecipe
-  id: DSAmmoBox68x52mmCaselessCaustic
+  AmmoBox68x52mmCaselessCaustic
   result: DSAmmoBox68x52mmCaselessCaustic

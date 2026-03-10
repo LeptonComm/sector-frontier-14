@@ -1,6 +1,6 @@
 # Launchers
 - type: entity
-  id: DSNFBaseWeaponEncumbranceLauncher
+  NFBaseWeaponEncumbranceLauncher
   abstract: true
   components:
   - type: Item

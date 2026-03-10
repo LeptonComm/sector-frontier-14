@@ -1,6 +1,6 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, DSCMWeaponPistolBase]
-  id: DSCMWeaponPistolM77
+  CMWeaponPistolM77
   name: M77 combat pistol # TODO RMC14 sounds
   description: Standard issue Marine firearm. Also found in the hands of We-Ya PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
   suffix: МК, НЕ СПАВНИТЬ

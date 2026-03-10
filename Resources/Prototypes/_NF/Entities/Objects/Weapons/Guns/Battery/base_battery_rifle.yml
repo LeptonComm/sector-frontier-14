@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbranceRifle, NFBaseGunMeleeAttackMedium, BaseWeaponBattery ]
-  id: DSNFBaseWeaponFrameEnergyRifle
+  NFBaseWeaponFrameEnergyRifle
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -64,7 +64,7 @@
 
 #region manufacturer
 - type: entity
-  id: DSNFBaseWeaponFrameEnergyRifleNanotrasen
+  NFBaseWeaponFrameEnergyRifleNanotrasen
   parent: NFBaseWeaponFrameEnergyRifle
   abstract: true
   components:
@@ -79,7 +79,7 @@
 
 #region chamber
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleFireModes
+  NFBaseWeaponEnergyRifleFireModes
   abstract: true
   components:
   - type: Gun
@@ -97,7 +97,7 @@
       fireCost: 80
 
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleHitScan
+  NFBaseWeaponEnergyRifleHitScan
   suffix: Frontier
   abstract: true
   components:
@@ -110,7 +110,7 @@
     fireCost: 80
 
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleHitScanPulse
+  NFBaseWeaponEnergyRifleHitScanPulse
   abstract: true
   components:
   - type: Gun
@@ -124,7 +124,7 @@
 - type: entity #Lua
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
-  id: DSLuaPulseRifle
+  LuaPulseRifle
   components:
   - type: HitscanBasicDamage
     damage:
@@ -143,7 +143,7 @@
       state: impact_blue
 
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleEmp
+  NFBaseWeaponEnergyRifleEmp
   abstract: true
   components:
   - type: Gun
@@ -155,7 +155,7 @@
     fireCost: 500
 
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleParticle
+  NFBaseWeaponEnergyRifleParticle
   abstract: true
   components:
   - type: Gun

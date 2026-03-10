@@ -1,7 +1,7 @@
 - type: entity
   name: N14BasePistol
   parent: BaseItem
-  id: DSN14BaseWeaponPistol
+  N14BaseWeaponPistol
   description: A rooty tooty point and shooty.
   abstract: true
   components:
@@ -67,7 +67,7 @@
 - type: entity
   name: 9mm Pistol
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: DSN14WeaponPistol9mm
+  N14WeaponPistol9mm
   description: A cheap, ubiquitous sidearm, chambered in 9 mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -109,7 +109,7 @@
 - type: entity
   name: 10mm Pistol
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: DSN14WeaponPistol10mm
+  N14WeaponPistol10mm
   description: A cheap, ubiquitous sidearm, chambered in 10mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -150,7 +150,7 @@
 - type: entity
   name: 12.7mm handgun
   parent: [BaseC1Contraband, N14BaseWeaponPistol]
-  id: DSN14WeaponPistol12mm
+  N14WeaponPistol12mm
   description: A rugged, robust handgun chambered in 12.7mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -195,7 +195,7 @@
 - type: entity
   name: chinese pistol
   parent: [BaseC1Contraband, BaseWeaponSniper]
-  id: DSN14WeaponPistolChinese
+  N14WeaponPistolChinese
   description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -246,7 +246,7 @@
 - type: entity
   name: the spy
   parent: [BaseC3Contraband, BaseWeaponSniper]
-  id: DSN14WeaponPistolSpy
+  N14WeaponPistolSpy
   description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:

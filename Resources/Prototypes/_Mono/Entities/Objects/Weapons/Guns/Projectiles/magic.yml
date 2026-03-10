@@ -1,7 +1,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
-  id: DSProjectileBabyDragonsBreath
+  ProjectileBabyDragonsBreath
   name: baby dragon's breath
   description: Try not to get toasted.
   components:

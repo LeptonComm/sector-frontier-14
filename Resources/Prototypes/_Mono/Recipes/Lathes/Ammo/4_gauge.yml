@@ -4,55 +4,55 @@
 ## Standart
 - type: latheRecipe
   parent: BaseAmmoRubberFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmBeanbag
+  AmmoBox23x75mmBeanbag
   result: DSAmmoBox23x75mmBeanbag
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmBuckshot
+  AmmoBox23x75mmBuckshot
   result: DSAmmoBox23x75mmBuckshot
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmDozd
+  AmmoBox23x75mmDozd
   result: DSAmmoBox23x75mmDozd
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmSlug
+  AmmoBox23x75mmSlug
   result: DSAmmoBox23x75mmSlug
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmPractice
+  AmmoBox23x75mmPractice
   result: DSAmmoBox23x75mmPractice
 
 ## Mechanical
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmOOBuckshot
+  AmmoBox23x75mmOOBuckshot
   result: DSAmmoBox23x75mmOOBuckshot
 
 ## Physical
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmIncendiary
+  AmmoBox23x75mmIncendiary
   result: DSAmmoBox23x75mmIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmUranium
+  AmmoBox23x75mmUranium
   result: DSAmmoBox23x75mmUranium
 
 ## Special
 - type: latheRecipe
   parent: BaseAmmoEMPFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmEMP
+  AmmoBox23x75mmEMP
   result: DSAmmoBox23x75mmEMP
 
 - type: latheRecipe
   parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox23x75mmCaustic
+  AmmoBox23x75mmCaustic
   result: DSAmmoBox23x75mmCaustic
 
 ##

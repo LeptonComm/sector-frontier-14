@@ -4,7 +4,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: DSBullet8x65mmSKR
+  Bullet8x65mmSKR
   name: bullet (8x65mm SKR)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -17,7 +17,7 @@
 
 # Mechanical
 - type: entity
-  id: DSBullet8x65mmSKRPractice
+  Bullet8x65mmSKRPractice
   name: bullet (8x65mm SKR practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -28,7 +28,7 @@
         Blunt: 1 #Lua -2
 
 - type: entity
-  id: DSBullet8x65mmSKRHP
+  Bullet8x65mmSKRHP
   name: bullet (8x65mm SKR HP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -42,7 +42,7 @@
 
 # Physical
 - type: entity
-  id: DSBullet8x65mmSKRIncendiary
+  Bullet8x65mmSKRIncendiary
   parent: BaseBulletIncendiary
   name: bullet (8x65mm SKR incendiary)
   categories: [ HideSpawnMenu ]
@@ -55,7 +55,7 @@
         Structural: 51.5
 
 - type: entity
-  id: DSBullet8x65mmSKRUranium
+  Bullet8x65mmSKRUranium
   name: bullet (8x65mm SKR Uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
@@ -69,7 +69,7 @@
 
 # Special
 - type: entity
-  id: DSBullet8x65mmSKREMP
+  Bullet8x65mmSKREMP
   name: bullet (8x65mm SKR EMP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -82,7 +82,7 @@
         Structural: 51.5
 
 - type: entity
-  id: DSBullet8x65mmSKRCaustic
+  Bullet8x65mmSKRCaustic
   name: bullet (8x65mm SKR Caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

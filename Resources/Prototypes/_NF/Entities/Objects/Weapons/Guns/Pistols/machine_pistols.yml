@@ -1,5 +1,5 @@
 - type: entity
-  id: DSNFWeaponPistolViper
+  NFWeaponPistolViper
   parent: [ NFBaseWeaponPistolChamber9x19HighCapacity, DSNFBaseWeaponFrameMachinePistolGorlex ] #Lua 35 -> 9x19
   name: viper
   description: |-
@@ -19,7 +19,7 @@
 
 #region DeltaV
 - type: entity
-  id: DSNFWeaponPistolPollock
+  NFWeaponPistolPollock
   parent: [ NFBaseWeaponPistolChamber9x19, DSNFBaseWeaponFrameMachinePistolNanotrasen ] #Lua 35 -> 9x19
   name: pollock
   description: A compact and mass-produced combat pistol.

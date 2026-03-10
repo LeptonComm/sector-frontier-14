@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseCartridge, BaseC3PirateContraband ]
   description: Large anti-material round, capable of punching through armor and walls easily.
-  id: DSBaseCartridge127x99mm
+  BaseCartridge127x99mm
   name: cartridge (12.7x99mm anti-material)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -24,7 +24,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge127x99mm
+  Cartridge127x99mm
   name: cartridge (12.7x99mm anti-material)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm
@@ -34,7 +34,7 @@
 
 - type: entity
   parent: [ BaseCartridge, BaseC3PirateContraband ]
-  id: DSCartridge127x99mmExplosive
+  Cartridge127x99mmExplosive
   name: cartridge (12.7x99mm high-explosive)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -56,7 +56,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge127x99mmHP
+  Cartridge127x99mmHP
   name: cartridge (12.7x99mm HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm
@@ -73,7 +73,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge127x99mmIncendiary
+  Cartridge127x99mmIncendiary
   name: cartridge (12.7x99mm Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm
@@ -89,7 +89,7 @@
       color: "#f44336"
 
 - type: entity
-  id: DSCartridge127x99mmUranium
+  Cartridge127x99mmUranium
   name: cartridge (12.7x99mm Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm
@@ -106,7 +106,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge127x99mmEMP
+  Cartridge127x99mmEMP
   name: cartridge (12.7x99mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm
@@ -122,7 +122,7 @@
       color: "#044492"
 
 - type: entity
-  id: DSCartridge127x99mmCaustic
+  Cartridge127x99mmCaustic
   name: cartridge (12.7x99mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge127x99mm

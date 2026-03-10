@@ -1,6 +1,6 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
-  id: DSClothingOuterHardsuitViperGroupStandard
+  ClothingOuterHardsuitViperGroupStandard
   name: JACKAL mk.II viper hardsuit
   description: A hardsuit adorned with signature markings of the Viper Group. The armor is remarkably nimble for the protection it offers.
   suffix: Pirate, Medium, Special #Lua
@@ -54,7 +54,7 @@
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
-  id: DSClothingOuterHardsuitViperGroupMedic
+  ClothingOuterHardsuitViperGroupMedic
   name: IMP mk.III viper hardsuit
   description: A hardsuit adorned with signature markings of the Viper Group. The armor features various reinforced plating in vital areas.
   suffix: Pirate, Medium, Standart #Lua

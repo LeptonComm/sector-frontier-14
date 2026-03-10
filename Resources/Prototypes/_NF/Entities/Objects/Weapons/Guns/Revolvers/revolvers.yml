@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity
-  id: DSNFWeaponRevolverInspector
+  NFWeaponRevolverInspector
   parent: [ BaseC1Contraband, NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverNanotrasen ] #Lua 45 -> magnum
   name: inspector
   description: |-
@@ -19,7 +19,7 @@
     fireRate: 2.7
 
 - type: entity
-  id: DSNFWeaponRevolverWard45
+  NFWeaponRevolverWard45
   parent: [ BaseC1Contraband, NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverNanotrasen ] #Lua 45 -> magnum
   name: ward-45
   description: |-
@@ -40,7 +40,7 @@
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
 - type: entity
-  id: DSNFWeaponRevolverRitland45
+  NFWeaponRevolverRitland45
   parent: [ NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverGorlex ] #Lua 45 -> magnum
   name: ritland-45
   description: |-
@@ -60,7 +60,7 @@
 
 #region DeltaV
 - type: entity
-  id: DSNFWeaponRevolverFitz
+  NFWeaponRevolverFitz
   parent: [ NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverFrontierGunsmith ] #Lua 45 -> magnum
   name: fitz special
   description: |-
@@ -79,7 +79,7 @@
     sprite: _DV/Objects/Weapons/Guns/Revolvers/fitz.rsi
 
 - type: entity
-  id: DSNFWeaponRevolverFaith
+  NFWeaponRevolverFaith
   parent: [ NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverFrontierGunsmith ] #Lua 45 -> magnum
   name: faith
   description: |-
@@ -102,7 +102,7 @@
     ammoSlots: [ null, null, null, null ]
 
 - type: entity
-  id: DSNFWeaponRevolverLucky
+  NFWeaponRevolverLucky
   parent: [ NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverFrontierGunsmith ] #Lua 45 -> magnum
   name: lucky
   description: |-
@@ -129,7 +129,7 @@
 
 #region Frontier
 - type: entity
-  id: DSNFWeaponRevolverArgenti
+  NFWeaponRevolverArgenti
   parent: [ NFBaseWeaponRevolverChamber45Magnum, NFBaseWeaponFrameRevolverFrontierGunsmith ] #Lua BaseWeaponRevolver<NFBaseWeaponRevolverChamber45Magnum
   name: argenti
   description: |-

@@ -1,5 +1,5 @@
 - type: job
-  id: DSSeniorOfficer
+  SeniorOfficer
   name: job-name-senior-officer
   description: job-description-senior-officer
   playTimeTracker: DSJobSeniorOfficer
@@ -48,7 +48,7 @@
         companyName: Security
 
 - type: chameleonOutfit
-  id: DSSeniorOfficerChameleonOutfit
+  SeniorOfficerChameleonOutfit
   job: DSSeniorOfficer
   hasMindShield: true
   equipment:

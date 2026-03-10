@@ -1,7 +1,7 @@
 # WizDen
 #region Laser
 - type: entity
-  id: DSNFWeaponEnergyRifleCarbine
+  NFWeaponEnergyRifleCarbine
   parent: [ BaseC1Contraband, NFBaseWeaponEnergyRifleFireModes, NFBaseWeaponFrameEnergyRifleNanotrasen ]
   name: laser carbine
   description: |-
@@ -46,7 +46,7 @@
 
 #region Pulse
 - type: entity
-  id: DSNFWeaponEnergyRiflePulse
+  NFWeaponEnergyRiflePulse
   parent: [ BaseC2Contraband, NFBaseWeaponEnergyRifleHitScanPulse, NFBaseWeaponFrameEnergyRifleNanotrasen ]
   name: pulse rifle
   description: |-
@@ -94,7 +94,7 @@
 
 #region Thermal
 - type: entity
-  id: DSNFWeaponEnergyRifleTemperature
+  NFWeaponEnergyRifleTemperature
   parent: [ BaseC3ContrabandUnredeemable, NFBaseWeaponFrameEnergyRifleNanotrasen ] # chamber defined below, no huge value in a one-off
   name: temperature gun
   description: An advanced gun that shoots beams capable of heating or cooling their target.
@@ -140,7 +140,7 @@
 
 - type: entity
   name: freezing bolt
-  id: DSNFBoltTempgunCold
+  NFBoltTempgunCold
   parent: BoltTempgunCold
   categories: [ HideSpawnMenu ]
   components:

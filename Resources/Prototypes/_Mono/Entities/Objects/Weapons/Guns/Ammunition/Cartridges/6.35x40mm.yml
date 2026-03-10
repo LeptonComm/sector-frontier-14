@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseCartridge635x40mmCaseless
+  BaseCartridge635x40mmCaseless
   name: cartridge (.25 rifle)
   parent: [ BaseCartridge, BaseC3SyndicateContrabandNoValue ] # Frontier: BaseSecurityContraband<BaseC3SyndicateContraband
   description: Developed during corporate wars for subsonic weapons to keep a low-profile during operations.
@@ -24,7 +24,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge635x40mmCaseless
+  Cartridge635x40mmCaseless
   name: cartridge (635x40mm Caseless)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -33,7 +33,7 @@
     proto: DSBullet635x40mmCaseless
 
 - type: entity
-  id: DSCartridge635x40mmCaselessRubber
+  Cartridge635x40mmCaselessRubber
   name: cartridge (635x40mm Caseless rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -42,7 +42,7 @@
     proto: DSBullet635x40mmCaselessRubber
 
 - type: entity
-  id: DSCartridge635x40mmCaselessPractice
+  Cartridge635x40mmCaselessPractice
   name: cartridge (635x40mm Caseless practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -59,7 +59,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge635x40mmCaselessHP
+  Cartridge635x40mmCaselessHP
   name: cartridge (635x40mm HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -76,7 +76,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge635x40mmCaselessIncendiary
+  Cartridge635x40mmCaselessIncendiary
   name: cartridge (635x40mm Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -92,7 +92,7 @@
         color: "#f44336"
 
 - type: entity
-  id: DSCartridge635x40mmCaselessUranium
+  Cartridge635x40mmCaselessUranium
   name: cartridge (635x40mm Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -109,7 +109,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge635x40mmCaselessEMP
+  Cartridge635x40mmCaselessEMP
   name: cartridge (635x40mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless
@@ -125,7 +125,7 @@
         color: "#044492"
 
 - type: entity
-  id: DSCartridge635x40mmCaselessCaustic
+  Cartridge635x40mmCaselessCaustic
   name: cartridge (635x40mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge635x40mmCaseless

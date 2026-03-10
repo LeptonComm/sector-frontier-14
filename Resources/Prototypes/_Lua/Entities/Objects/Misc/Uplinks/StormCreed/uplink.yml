@@ -36,7 +36,7 @@
       Doubloon: 0
   - type: Tag
     tags:
-    - DSPirateUplink
+    - PirateUplink
     - CharonSlug
   - type: CartridgeAmmo
     proto: ShipRailgunProjectileSubnuclear

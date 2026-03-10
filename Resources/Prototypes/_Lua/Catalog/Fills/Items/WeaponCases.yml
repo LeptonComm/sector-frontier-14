@@ -1,410 +1,410 @@
 # Uplink catalog
 
 - type: entity
-  id: DSWeaponCaseLongVector45ACPBundle
+  WeaponCaseLongVector45ACPBundle
   parent: WeaponCaseLong
   suffix: Vector .45 ACP
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunVector45_ACP
-      - id: DSMagazine45_ACPSubMachineGunFMJ
+      - WeaponSubMachineGunVector45_ACP
+      - Magazine45_ACPSubMachineGunFMJ
         amount: 3
-      - id: DSAmmoBox45_ACPFMJ
+      - AmmoBox45_ACPFMJ
 
 - type: entity
-  id: DSWeaponCaseLongVector9x19mmBundle
+  WeaponCaseLongVector9x19mmBundle
   parent: WeaponCaseLong
   suffix: Vector 9x19mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunVector9x19mm
-      - id: DSMagazine9x19mmSubMachineGunFMJ
+      - WeaponSubMachineGunVector9x19mm
+      - Magazine9x19mmSubMachineGunFMJ
         amount: 3
-      - id: DSAmmoBox9x19mmFMJ
+      - AmmoBox9x19mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongLecterBundle
+  WeaponCaseLongLecterBundle
   parent: WeaponCaseLong
   suffix: Lecter 5.56x45mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponRifleAssaultLecter
-      - id: DSMagazine556x45mmFMJ
+      - NFWeaponRifleAssaultLecter
+      - Magazine556x45mmFMJ
         amount: 3
-      - id: DSAmmoBox556x45mmFMJ
+      - AmmoBox556x45mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongNtsfLtrBundle
+  WeaponCaseLongNtsfLtrBundle
   parent: WeaponCaseLong
   suffix: NTSF-LTR-556 5.56x45mm | 6.8x52mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleNtsfLtr
-      - id: DSMagazine556x45mmFMJ
+      - WeaponRifleNtsfLtr
+      - Magazine556x45mmFMJ
         amount: 3
-      - id: DSAmmoBox556x45mmFMJ
+      - AmmoBox556x45mmFMJ
 
 - type: entity
-  id: DSWeaponCaseHeavyLRC21PPLBundle
+  WeaponCaseHeavyLRC21PPLBundle
   parent: WeaponCaseHeavy
   suffix: NT-WS LRC-21 PPL
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponLRC21PPL
-      - id: DSPulsedPlasmaLaserCanister
+      - WeaponLRC21PPL
+      - PulsedPlasmaLaserCanister
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongAnnieBundle
+  WeaponCaseLongAnnieBundle
   parent: WeaponCaseLong
   suffix: TCA M27 Annie 7.62x39mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleAnnie
-      - id: DSMagazine762x39mmFMJ
+      - WeaponRifleAnnie
+      - Magazine762x39mmFMJ
         amount: 3
-      - id: DSAmmoBox762x39mmFMJ
+      - AmmoBox762x39mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongMR8CBundle
+  WeaponCaseLongMR8CBundle
   parent: WeaponCaseLong
   suffix: VFD MR-8C DMR 8x65mm SKR
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleMR8C
-      - id: DSMagazine8x65mmSKRBox
+      - WeaponRifleMR8C
+      - Magazine8x65mmSKRBox
         amount: 3
-      - id: DSAmmoBox8x65mmSKR
+      - AmmoBox8x65mmSKR
 
 - type: entity
-  id: DSWeaponCaseLongGrizzlyBundle
+  WeaponCaseLongGrizzlyBundle
   parent: WeaponCaseHeavy
   suffix: TCA MMG-68 "Grizzly"
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponLMGGrizzly
+      - WeaponLMGGrizzly
         amount: 1
-      - id: DSMagazine68x52mmCaselessBig
+      - Magazine68x52mmCaselessBig
         amount: 2
-      - id: DSAmmoBox68x52mmCaseless
+      - AmmoBox68x52mmCaseless
 
 - type: entity
-  id: DSWeaponCaseLongXLR556Bundle
+  WeaponCaseLongXLR556Bundle
   parent: WeaponCaseLong
   suffix: VFD XLR-556 ICWS
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleXlr556
-      - id: DSMagazine762x51mmFMJ
+      - WeaponRifleXlr556
+      - Magazine762x51mmFMJ
         amount: 2
-      - id: DSAmmoBox762x51mmFMJ
+      - AmmoBox762x51mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongFirestarterBundle
+  WeaponCaseLongFirestarterBundle
   parent: WeaponCaseLong
   suffix: HWM Firestarter (.45 ACP)
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunFirestarter
-      - id: DSMagazine45_ACPSubMachineGunFMJ
+      - WeaponSubMachineGunFirestarter
+      - Magazine45_ACPSubMachineGunFMJ
         amount: 2
-      - id: DSAmmoBox45_ACPFMJ
+      - AmmoBox45_ACPFMJ
 
 - type: entity
-  id: DSWeaponCaseLongBigBuddyBundle
+  WeaponCaseLongBigBuddyBundle
   parent: WeaponCaseLong
   suffix: Big Buddy (4 gauge)
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponShotgunBigBuddy
-      - id: DSAmmoBox23x75mmBuckshot
+      - WeaponShotgunBigBuddy
+      - AmmoBox23x75mmBuckshot
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongLMGMR8BBundle
+  WeaponCaseLongLMGMR8BBundle
   parent: WeaponCaseHeavy
   suffix: VFD MR-8B LWMMG 7.62x51mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponLMGMR8B
-      - id: DSMagazine8x65mmSKRBox
+      - WeaponLMGMR8B
+      - Magazine8x65mmSKRBox
         amount: 2
-      - id: DSMagazine8x65mmSKRBox
+      - Magazine8x65mmSKRBox
 
 - type: entity
-  id: DSWeaponCaseLongWt550Bundle
+  WeaponCaseLongWt550Bundle
   parent: WeaponCaseLong
   suffix: Wt550 9x19mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponSubMachineGunWt550
-      - id: DSMagazine9x19mmSubMachineGunTopMountedFMJ
+      - NFWeaponSubMachineGunWt550
+      - Magazine9x19mmSubMachineGunTopMountedFMJ
         amount: 3
-      - id: DSAmmoBox9x19mmFMJ
+      - AmmoBox9x19mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongEnforcerBundle
+  WeaponCaseLongEnforcerBundle
   parent: WeaponCaseLong
   suffix: Enforcer 4 gauge
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponShotgunEnforcer
-      - id: DSAmmoBox23x75mmBuckshot
+      - NFWeaponShotgunEnforcer
+      - AmmoBox23x75mmBuckshot
         amount: 3
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongHristovExpedition
+  WeaponCaseLongHristovExpedition
   suffix: Dungeon, Hristov
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleSniperHristov
+    - NFWeaponRifleSniperHristov
       amount: 1
-    - id: DSMagazine127x99mm
+    - Magazine127x99mm
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortUniversalExpedition
+  WeaponCaseShortUniversalExpedition
   suffix: Dungeon, Universal
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolUniversal
+    - NFWeaponPistolUniversal
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ
+    - Magazine9x19mmPistolFMJ
       amount: 2
 
 - type: entity
-  id: DSWeaponCaseShortInspectorBundle
+  WeaponCaseShortInspectorBundle
   parent: WeaponCaseShort
   suffix: Inspector .45 Magnum
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponRevolverInspector
-      - id: DSSpeedLoader45_magnumFMJ
+      - NFWeaponRevolverInspector
+      - SpeedLoader45_magnumFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseShortN1984Bundle
+  WeaponCaseShortN1984Bundle
   parent: WeaponCaseShort
   suffix: N1984 .45 ACP
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponPistolN1984
-      - id: DSMagazine45_ACPPistolHighCapacityFMJ
+      - NFWeaponPistolN1984
+      - Magazine45_ACPPistolHighCapacityFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongPrometheusBundle
+  WeaponCaseLongPrometheusBundle
   parent: WeaponCaseLong
   suffix: HWM FCL "Prometheus" (5.56x45mm)
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRiflePrometheus
-      - id: DSMagazine556x45mmFMJ
+      - WeaponRiflePrometheus
+      - Magazine556x45mmFMJ
         amount: 3
-      - id: DSAmmoBox556x45mmFMJ
+      - AmmoBox556x45mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongKnallstockBundle
+  WeaponCaseLongKnallstockBundle
   parent: WeaponCaseLong
   suffix: LWC Knallstock (.45 ACP)
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunKnallstock
-      - id: DSMagazine45_ACPSubMachineGunFMJ
+      - WeaponSubMachineGunKnallstock
+      - Magazine45_ACPSubMachineGunFMJ
         amount: 3
-      - id: DSAmmoBox45_ACPFMJ
+      - AmmoBox45_ACPFMJ
 
 - type: entity
-  id: DSWeaponCaseLongEGFrostBundle
+  WeaponCaseLongEGFrostBundle
   parent: WeaponCaseLong
   suffix: VFD EN-5 FROST
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponEnergyGunFrost
+      - WeaponEnergyGunFrost
 
 - type: entity
-  id: DSWeaponCaseLongAK220Bundle
+  WeaponCaseLongAK220Bundle
   parent: WeaponCaseLong
   suffix: NCI AK-220 9x19mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunAK220
-      - id: DSMagazine9x19mmSubMachineGunFMJ
+      - WeaponSubMachineGunAK220
+      - Magazine9x19mmSubMachineGunFMJ
         amount: 3
-      - id: DSAmmoBox9x19mmFMJ
+      - AmmoBox9x19mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongAssaultSmBundle
+  WeaponCaseLongAssaultSmBundle
   parent: WeaponCaseLong
   suffix: AK-74M 7.62x39mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponRifleAssaultSm
-      - id: DSMagazine762x39mmFMJ
+      - NFWeaponRifleAssaultSm
+      - Magazine762x39mmFMJ
         amount: 3
-      - id: DSAmmoBox762x39mmFMJ
+      - AmmoBox762x39mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongBulldogBundle
+  WeaponCaseLongBulldogBundle
   parent: WeaponCaseLong
   suffix: Bulldog 4 gauge
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponShotgunBulldog
-      - id: DSNFMagazineShotgunDrum
+      - NFWeaponShotgunBulldog
+      - NFMagazineShotgunDrum
         amount: 3
-      - id: DSAmmoBox23x75mmBuckshot
+      - AmmoBox23x75mmBuckshot
 
 - type: entity
-  id: DSWeaponCaseLongHammerBundle
+  WeaponCaseLongHammerBundle
   parent: WeaponCaseHeavy
   suffix: NCI AK-150 HAMMER 7.62x39mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponLMGHammer
-      - id: DSMagazine762x39mmFMJ
+      - WeaponLMGHammer
+      - Magazine762x39mmFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongWSPRBundle
+  WeaponCaseLongWSPRBundle
   parent: WeaponCaseLong
   suffix: CS KMP-WSPR 7.62x39mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleWSPR
-      - id: DSMagazine762x39mmFMJ
+      - WeaponRifleWSPR
+      - Magazine762x39mmFMJ
         amount: 3
-      - id: DSAmmoBox762x39mmFMJ
+      - AmmoBox762x39mmFMJ
 
 - type: entity
-  id: DSWeaponCaseShortRitlandBundle
+  WeaponCaseShortRitlandBundle
   parent: WeaponCaseShort
   suffix: Ritland .45 Magnum
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponRevolverRitland45
-      - id: DSSpeedLoader45_magnumFMJ
+      - NFWeaponRevolverRitland45
+      - SpeedLoader45_magnumFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseShortViperBundle
+  WeaponCaseShortViperBundle
   parent: WeaponCaseShort
   suffix: Viper 9x19mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponPistolViper
-      - id: DSMagazine9x19mmPistolFMJ
+      - NFWeaponPistolViper
+      - Magazine9x19mmPistolFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongAK410Bundle
+  WeaponCaseLongAK410Bundle
   parent: WeaponCaseLong
   suffix: NCI AK-410 7.62x54mmR
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleAK410
-      - id: DSMagazine762x54mmRFMJ
+      - WeaponRifleAK410
+      - Magazine762x54mmRFMJ
         amount: 3
-      - id: DSAmmoBox762x54mmRFMJ
+      - AmmoBox762x54mmRFMJ
 
 - type: entity
-  id: DSWeaponCaseLongAK502Bundle
+  WeaponCaseLongAK502Bundle
   parent: WeaponCaseLong
   suffix: NCI AK-502 7.62x39mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponRifleAK502
-      - id: DSMagazine762x39mmFMJ
+      - WeaponRifleAK502
+      - Magazine762x39mmFMJ
         amount: 3
-      - id: DSAmmoBox762x39mmFMJ
+      - AmmoBox762x39mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongC20rBundle
+  WeaponCaseLongC20rBundle
   parent: WeaponCaseLong
   suffix: C20r 9x19mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponSubMachineGunC20r
-      - id: DSMagazine9x19mmSubMachineGunFMJ
+      - NFWeaponSubMachineGunC20r
+      - Magazine9x19mmSubMachineGunFMJ
         amount: 3
-      - id: DSAmmoBox9x19mmFMJ
+      - AmmoBox9x19mmFMJ
 
 - type: entity
-  id: DSWeaponCaseLongL6Bundle
+  WeaponCaseLongL6Bundle
   parent: WeaponCaseHeavy
   suffix: L6 5.56x45mm
   components:
   - type: StorageFill
     contents:
-      - id: DSNFWeaponLightMachineGunL6
-      - id: DSMagazine556x45mmFMJ
+      - NFWeaponLightMachineGunL6
+      - Magazine556x45mmFMJ
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseLongMla73Bundle
+  WeaponCaseLongMla73Bundle
   parent: WeaponCaseLong
   suffix: SKR-WS MLA-73 6.35x40mm caseless
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponSubMachineGunMla73
-      - id: DSMagazine635x40mmCaseless
+      - WeaponSubMachineGunMla73
+      - Magazine635x40mmCaseless
         amount: 3
-      - id: DSAmmoBox635x40mmCaseless
+      - AmmoBox635x40mmCaseless
 
 - type: entity
-  id: DSWeaponCaseLongBigLeadyBundle
+  WeaponCaseLongBigLeadyBundle
   parent: WeaponCaseLong
   suffix: Big Leady (4 gauge)
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponShotgunBigLeady
-      - id: DSAmmoBox23x75mmBuckshot
+      - WeaponShotgunBigLeady
+      - AmmoBox23x75mmBuckshot
         amount: 2
 
 - type: entity
-  id: DSWeaponCaseHeavyRatelBundle
+  WeaponCaseHeavyRatelBundle
   parent: WeaponCaseHeavy
   suffix: VFD PSW "Ratel" 7.62x51mm
   components:
   - type: StorageFill
     contents:
-      - id: DSWeaponLMGRatel
-      - id: DSAmmoBox762x51mmFMJ
+      - WeaponLMGRatel
+      - AmmoBox762x51mmFMJ
         amount: 2

@@ -1,5 +1,5 @@
 - type: job
-  id: DSValet
+  Valet
   name: job-name-valet
   description: job-description-valet
   playTimeTracker: DSJobValet
@@ -27,7 +27,7 @@
     prototype: FrontierBirthdayGift
 
 - type: chameleonOutfit
-  id: DSValetChameleonOutfit
+  ValetChameleonOutfit
   job: DSValet
   hasMindShield: true
   equipment:

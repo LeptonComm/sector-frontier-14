@@ -1,7 +1,7 @@
 # DeltaV
 #region Laser
 - type: entity
-  id: DSNFWeaponEnergySubMachineGunDeltaV
+  NFWeaponEnergySubMachineGunDeltaV
   parent: [ NFBaseWeaponEnergySubMachineGunFireModes, NFBaseWeaponFrameEnergySubMachineGunNanotrasen ]
   name: energy submachine gun
   description: |-

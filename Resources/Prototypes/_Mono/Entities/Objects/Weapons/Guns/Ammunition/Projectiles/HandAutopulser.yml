@@ -1,5 +1,5 @@
 - type: entity
-  id: DSHandheldAutopulserProjectile
+  HandheldAutopulserProjectile
   name: plasma projectile
   parent: NFBaseBulletLaser #Lua
   categories: [ HideSpawnMenu ]

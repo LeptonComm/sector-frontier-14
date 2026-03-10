@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox762x39mm
+  BaseAmmoBox762x39mm
   name: ammunition box (7.62x39mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -41,7 +41,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox762x39mm
-  id: DSAmmoBox762x39mmFMJ
+  AmmoBox762x39mmFMJ
   name: ammunition box (7.62x39mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox762x39mm
-  id: DSAmmoBox762x39mmPractice
+  AmmoBox762x39mmPractice
   name: ammunition box (7.62x39mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox762x39mm
-  id: DSAmmoBox762x39mmRubber
+  AmmoBox762x39mmRubber
   name: ammunition box (7.62x39mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -89,7 +89,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox762x39mm
-  id: DSAmmoBox762x39mmHP
+  AmmoBox762x39mmHP
   name: ammunition box (7.62x39mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -106,7 +106,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox762x39mm
-  id: DSAmmoBox762x39mmIncendiary
+  AmmoBox762x39mmIncendiary
   name: ammunition box (7.62x39mm incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -121,7 +121,7 @@
     - state: incendiary
 
 - type: entity
-  id: DSAmmoBox762x39mmUranium
+  AmmoBox762x39mmUranium
   parent: DSBaseAmmoBox762x39mm
   name: ammunition box (7.62x39mm uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -138,7 +138,7 @@
 
 # Special
 - type: entity
-  id: DSAmmoBox762x39mmEMP
+  AmmoBox762x39mmEMP
   parent: DSBaseAmmoBox762x39mm
   name: ammunition box (7.62x39mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -154,7 +154,7 @@
     - state: emp
 
 - type: entity
-  id: DSAmmoBox762x39mmCaustic
+  AmmoBox762x39mmCaustic
   parent: DSBaseAmmoBox762x39mm
   name: ammunition box (7.62x39mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua

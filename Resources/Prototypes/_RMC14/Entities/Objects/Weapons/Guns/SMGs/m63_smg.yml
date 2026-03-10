@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, CMBaseWeaponSMG]
   name: M63 submachine gun
-  id: DSWeaponSMGM63
+  WeaponSMGM63
   description: The Aegis Battlefield Armaments M-63 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   parent: BaseMagazineRifle
-  id: DSCMMagazineSMGM63
+  CMMagazineSMGM63
   name: "M63 magazine (10x20mm)"
   components:
   - type: Tag
@@ -108,7 +108,7 @@
 
 - type: entity
   parent: CMMagazineSMGM63
-  id: DSCMMagazineSMGM63AP
+  CMMagazineSMGM63AP
   name: "M63 AP magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
@@ -132,7 +132,7 @@
 
 - type: entity
   parent: CMMagazineSMGM63
-  id: DSCMMagazineSMGM63Ext
+  CMMagazineSMGM63Ext
   name: "M63 extended magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
@@ -151,7 +151,7 @@
 
 - type: entity
   parent: CMCartridgeSMGBase
-  id: DSCMCartridge10x20mm
+  CMCartridge10x20mm
   name: cartridge (10x20mm)
   components:
   - type: Tag
@@ -164,7 +164,7 @@
 
 - type: entity
   parent: CMCartridge10x20mm
-  id: DSCMCartridge10x20mmAP
+  CMCartridge10x20mmAP
   name: AP cartridge (10x20mm)
   components:
   - type: Tag
@@ -177,7 +177,7 @@
 
 - type: entity
   parent: RMCBaseBullet
-  id: DSBullet10x20mm
+  Bullet10x20mm
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -187,7 +187,7 @@
 
 - type: entity
   parent: Bullet10x20mm
-  id: DSBullet10x20mmAP
+  Bullet10x20mmAP
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -197,16 +197,16 @@
     ignoreResistances: true
 
 - type: Tag
-  id: DSRMCWeaponSMGM63
+  RMCWeaponSMGM63
 
 - type: Tag
-  id: DSCMMagazineSMGM63
+  CMMagazineSMGM63
 
 - type: Tag
-  id: DSCMMagazineSMGM63AP
+  CMMagazineSMGM63AP
 
 - type: Tag
-  id: DSCMMagazineSMGM63Ext
+  CMMagazineSMGM63Ext
 
 - type: Tag
-  id: DSCMCartridge10x20mmAP
+  CMCartridge10x20mmAP

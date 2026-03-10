@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [ CMBaseWeaponGun, BaseItem, BaseGunWieldable ]
-  id: DSRMCBaseWeaponLMG
+  RMCBaseWeaponLMG
   components:
   - type: Gun
 #    baseFireRate: 3.3 # comment from _Lua

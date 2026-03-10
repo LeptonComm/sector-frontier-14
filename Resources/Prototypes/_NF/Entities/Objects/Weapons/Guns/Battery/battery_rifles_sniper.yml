@@ -1,7 +1,7 @@
 # WizDen
 #region Laser
 - type: entity
-  id: DSNFWeaponEnergyRifleSniperCannon
+  NFWeaponEnergyRifleSniperCannon
   parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponEnergyRifleSniperHitScan, NFBaseWeaponFrameEnergyRifleSniperNanotrasen ]
   name: laser cannon
   description: |-
@@ -49,7 +49,7 @@
       pvsIncrease: 1
 
 - type: entity
-  id: DSNFWeaponEnergyRifleSniperXrayCannon
+  NFWeaponEnergyRifleSniperXrayCannon
   parent: [ BaseC3Contraband, NFBaseWeaponEnergyRifleSniperHitScanXray, NFBaseWeaponFrameEnergyRifleSniperNanotrasen ]
   name: x-ray cannon
   description: |-

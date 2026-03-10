@@ -1,5 +1,5 @@
 - type: entity
-  id: DSSpeedLoader762x54mmRFMJ
+  SpeedLoader762x54mmRFMJ
   name: "speed loader (7.62x54mmR FMJ)"
   parent: [ BaseItem, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   suffix: МК, НЕ СПАВНИТЬ #Lua

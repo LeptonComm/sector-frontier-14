@@ -1,6 +1,6 @@
 - type: entity
   name: plasma
-  id: DSBulletPlasma
+  BulletPlasma
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

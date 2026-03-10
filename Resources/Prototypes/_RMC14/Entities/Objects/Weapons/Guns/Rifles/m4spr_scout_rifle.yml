@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseC2Contraband, DSWeaponRifleM4SPR]
   name: M4SPR custom battle rifle
-  id: DSWeaponRifleM4SPRCustom
+  WeaponRifleM4SPRCustom
   description: An improvement over the already great M4SPR. Able to take A19 rounds, as well as having better control and accuracy at the cost of being harder to use. Can take traditional M4SPR mags, at lower damage.
   suffix: МК, НЕ СПАВНИТЬ
   components:

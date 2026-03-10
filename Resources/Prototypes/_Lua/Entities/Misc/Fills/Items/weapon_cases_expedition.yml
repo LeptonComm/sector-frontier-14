@@ -8,820 +8,820 @@
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPistol10mm
+  WeaponCaseShortN14WeaponPistol10mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPistol10mm
+    - N14WeaponPistol10mm
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ
+    - Magazine9x19mmPistolFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponLaserPistol
+  WeaponCaseShortN14WeaponLaserPistol
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLaserPistol
+    - N14WeaponLaserPistol
       amount: 1
     - id: N14PowerCellSmall
       amount: 3
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPlasmaDefender
+  WeaponCaseShortN14WeaponPlasmaDefender
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPlasmaDefender
+    - N14WeaponPlasmaDefender
       amount: 1
-    - id: DSN14PlasmaCartridge
+    - N14PlasmaCartridge
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponRechargerRifle
+  WeaponCaseLongN14WeaponRechargerRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRechargerRifle
+    - N14WeaponRechargerRifle
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponRechargerPistol
+  WeaponCaseShortN14WeaponRechargerPistol
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRechargerPistol
+    - N14WeaponRechargerPistol
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponLaserAutoRifle
+  WeaponCaseShortN14WeaponLaserAutoRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLaserAutoRifle
+    - N14WeaponLaserAutoRifle
       amount: 1
-    - id: DSN14PowerCellHigh
+    - N14PowerCellHigh
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPlasmaAutoRifle
+  WeaponCaseShortN14WeaponPlasmaAutoRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPlasmaAutoRifle
+    - N14WeaponPlasmaAutoRifle
       amount: 1
-    - id: DSN14PlasmaCartridge
+    - N14PlasmaCartridge
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponLaserProtoRifle
+  WeaponCaseShortN14WeaponLaserProtoRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLaserProtoRifle
+    - N14WeaponLaserProtoRifle
       amount: 1
-    - id: DSN14PowerCellHigh #Lua N14PowerCellAdvanced<N14PowerCellHigh
+    - N14PowerCellHigh #Lua N14PowerCellAdvanced<N14PowerCellHigh
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponLaserRifle
+  WeaponCaseShortN14WeaponLaserRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLaserRifle
+    - N14WeaponLaserRifle
       amount: 1
-    - id: DSN14PowerCellHigh
+    - N14PowerCellHigh
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPlasmaRifle
+  WeaponCaseShortN14WeaponPlasmaRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPlasmaRifle
+    - N14WeaponPlasmaRifle
       amount: 1
-    - id: DSN14PlasmaCartridge
+    - N14PlasmaCartridge
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponUrbanPlasmaRifle
+  WeaponCaseShortN14WeaponUrbanPlasmaRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponUrbanPlasmaRifle
+    - N14WeaponUrbanPlasmaRifle
       amount: 1
-    - id: DSN14PlasmaCartridge
+    - N14PlasmaCartridge
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponMultiplas
+  WeaponCaseShortN14WeaponMultiplas
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponMultiplas
+    - N14WeaponMultiplas
       amount: 1
-    - id: DSN14PlasmaCartridge
+    - N14PlasmaCartridge
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponWattz3000
+  WeaponCaseShortN14WeaponWattz3000
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponWattz3000
+    - N14WeaponWattz3000
       amount: 1
     - id: N14PowerCellFocused
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponWattz2000
+  WeaponCaseShortN14WeaponWattz2000
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponWattz2000
+    - N14WeaponWattz2000
       amount: 1
     - id: N14PowerCellFocused
       amount: 2
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponLMG
+  WeaponCaseLongN14WeaponLMG
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLMG
+    - N14WeaponLMG
       amount: 1
-    - id: DSMagazine8x65mmSKRBox
+    - Magazine8x65mmSKRBox
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPistol9mm
+  WeaponCaseShortN14WeaponPistol9mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPistol9mm
+    - N14WeaponPistol9mm
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ
+    - Magazine9x19mmPistolFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPistol12mm
+  WeaponCaseShortN14WeaponPistol12mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPistol12mm
+    - N14WeaponPistol12mm
       amount: 1
-    - id: DSMagazine45_ACPPistolFMJ
+    - Magazine45_ACPPistolFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPistolChinese
+  WeaponCaseShortN14WeaponPistolChinese
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPistolChinese
+    - N14WeaponPistolChinese
       amount: 1
-    - id: DSMagazine635x40mmCaselessPistol
+    - Magazine635x40mmCaselessPistol
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponPistolSpy
+  WeaponCaseShortN14WeaponPistolSpy
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponPistolSpy
+    - N14WeaponPistolSpy
       amount: 1
-    - id: DSMagazine635x40mmCaselessPistol
+    - Magazine635x40mmCaselessPistol
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponRevolver10mm
+  WeaponCaseShortN14WeaponRevolver10mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRevolver10mm
+    - N14WeaponRevolver10mm
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponRevolverMagnun
+  WeaponCaseShortN14WeaponRevolverMagnun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRevolverMagnun
+    - N14WeaponRevolverMagnun
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ
+    - SpeedLoader45_magnumFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponRevolverCaptainMagnun
+  WeaponCaseShortN14WeaponRevolverCaptainMagnun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRevolverCaptainMagnun
+    - N14WeaponRevolverCaptainMagnun
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ
+    - SpeedLoader45_magnumFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortN14WeaponHunterRevolver
+  WeaponCaseShortN14WeaponHunterRevolver
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponHunterRevolver
+    - N14WeaponHunterRevolver
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ
+    - SpeedLoader45_magnumFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponRifleR91
+  WeaponCaseLongN14WeaponRifleR91
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponRifleR91
+    - N14WeaponRifleR91
       amount: 1
-    - id: DSMagazine556x45mmFMJ
+    - Magazine556x45mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponChineseRifle
+  WeaponCaseLongN14WeaponChineseRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponChineseRifle
+    - N14WeaponChineseRifle
       amount: 1
-    - id: DSMagazine762x39mmFMJ
+    - Magazine762x39mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponCarbine
+  WeaponCaseLongN14WeaponCarbine
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponCarbine
+    - N14WeaponCarbine
       amount: 1
-    - id: DSMagazine762x51mmFMJ
+    - Magazine762x51mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponMarksman
+  WeaponCaseLongN14WeaponMarksman
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponMarksman
+    - N14WeaponMarksman
       amount: 1
-    - id: DSMagazine762x39mmFMJ
+    - Magazine762x39mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponService
+  WeaponCaseLongN14WeaponService
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponService
+    - N14WeaponService
       amount: 1
-    - id: DSMagazine762x51mmFMJ
+    - Magazine762x51mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponScout
+  WeaponCaseLongN14WeaponScout
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponScout
+    - N14WeaponScout
       amount: 1
-    - id: DSMagazine762x54mmRFMJ
+    - Magazine762x54mmRFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponOldCarbine
+  WeaponCaseLongN14WeaponOldCarbine
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponOldCarbine
+    - N14WeaponOldCarbine
       amount: 1
-    - id: DSMagazine556x45mmFMJ
+    - Magazine556x45mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponDoubleBarrelShotgun
+  WeaponCaseLongN14WeaponDoubleBarrelShotgun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponDoubleBarrelShotgun
+    - N14WeaponDoubleBarrelShotgun
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot
+    - AmmoBox23x75mmBuckshot
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponShotgun
+  WeaponCaseLongN14WeaponShotgun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponShotgun
+    - N14WeaponShotgun
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot
+    - AmmoBox23x75mmBuckshot
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponAutoShotgun
+  WeaponCaseLongN14WeaponAutoShotgun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponAutoShotgun
+    - N14WeaponAutoShotgun
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot
+    - AmmoBox23x75mmBuckshot
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponCaravanShotgun
+  WeaponCaseLongN14WeaponCaravanShotgun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponCaravanShotgun
+    - N14WeaponCaravanShotgun
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot
+    - AmmoBox23x75mmBuckshot
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponSubMachineGun10mm
+  WeaponCaseLongN14WeaponSubMachineGun10mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponSubMachineGun10mm
+    - N14WeaponSubMachineGun10mm
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ
+    - Magazine9x19mmSubMachineGunFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponSubMachineGun12mm
+  WeaponCaseLongN14WeaponSubMachineGun12mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponSubMachineGun12mm
+    - N14WeaponSubMachineGun12mm
       amount: 1
-    - id: DSMagazine635x40mmCaseless
+    - Magazine635x40mmCaseless
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14weapon12mmpipe
+  WeaponCaseLongN14weapon12mmpipe
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14weapon12mmpipe
+    - N14weapon12mmpipe
       amount: 1
-    - id: DSMagazine45_ACPSubMachineGunFMJ
+    - Magazine45_ACPSubMachineGunFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14weapon10mmpipe
+  WeaponCaseLongN14weapon10mmpipe
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14weapon10mmpipe
+    - N14weapon10mmpipe
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ
+    - Magazine9x19mmSubMachineGunFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponAdvanceSubMachineGun12mm
+  WeaponCaseLongN14WeaponAdvanceSubMachineGun12mm
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponAdvanceSubMachineGun12mm
+    - N14WeaponAdvanceSubMachineGun12mm
       amount: 1
-    - id: DSMagazine45_ACPSubMachineGunFMJ
+    - Magazine45_ACPSubMachineGunFMJ
       amount: 3
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14weapon9mmSMG
+  WeaponCaseLongN14weapon9mmSMG
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14weapon9mmSMG
+    - N14weapon9mmSMG
       amount: 1
-    - id: DSMagazine635x40mmCaseless
+    - Magazine635x40mmCaseless
       amount: 3
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponAntiMateriel
+  WeaponCaseLongN14WeaponAntiMateriel
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponAntiMateriel
+    - N14WeaponAntiMateriel
       amount: 1
-    - id: DSMagazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
+    - Magazine127x99mm #Lua N14Magazine50AMR<Magazine127x99mm
       amount: 2
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14Weapon50NcrRifle
+  WeaponCaseLongN14Weapon50NcrRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14Weapon50NcrRifle
+    - N14Weapon50NcrRifle
       amount: 1
-    - id: DSMagazine127x99mm
+    - Magazine127x99mm
       amount: 1
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongN14WeaponLeverRifle
+  WeaponCaseLongN14WeaponLeverRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLeverRifle
+    - N14WeaponLeverRifle
       amount: 1
-    - id: DSMagazine762x54mmRFMJ
+    - Magazine762x54mmRFMJ
       amount: 1
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponBrushGun
+  WeaponCaseLongN14WeaponBrushGun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponBrushGun
+    - N14WeaponBrushGun
       amount: 1
-    - id: DSMagazine127x99mm
+    - Magazine127x99mm
       amount: 1
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponLaserGatling
+  WeaponCaseLongN14WeaponLaserGatling
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponLaserGatling
+    - N14WeaponLaserGatling
       amount: 1
-    - id: DSN14PowerCellFusion
+    - N14PowerCellFusion
       amount: 2
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponMinigun
+  WeaponCaseLongN14WeaponMinigun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponMinigun
+    - N14WeaponMinigun
       amount: 1
-    - id: DSMagazine68x52mmCaselessBig
+    - Magazine68x52mmCaselessBig
       amount: 2
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongN14WeaponAvengerMinigun
+  WeaponCaseLongN14WeaponAvengerMinigun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSN14WeaponAvengerMinigun
+    - N14WeaponAvengerMinigun
       amount: 1
-    - id: DSMagazine8x65mmSKRBox
+    - Magazine8x65mmSKRBox
       amount: 2
 
 # МАРИНЫ ################################
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongRMCWeaponLMGM60
+  WeaponCaseLongRMCWeaponLMGM60
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponLMGM60
+    - RMCWeaponLMGM60
       amount: 1
-    - id: DSMagazine8x65mmSKRBox
+    - Magazine8x65mmSKRBox
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponPistolB92FS
+  WeaponCaseShortRMCWeaponPistolB92FS
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponPistolB92FS
+    - RMCWeaponPistolB92FS
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ
+    - Magazine9x19mmPistolFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponPistolHoldout
+  WeaponCaseShortRMCWeaponPistolHoldout
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponPistolHoldout
+    - RMCWeaponPistolHoldout
       amount: 1
-    - id: DSMagazine635x40mmCaselessPistol #Lua RMCMagazinePistolHoldout<Magazine635x40mmCaselessPistol
+    - Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolHoldout<Magazine635x40mmCaselessPistol
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponPistolD18
+  WeaponCaseShortRMCWeaponPistolD18
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponPistolD18
+    - RMCWeaponPistolD18
       amount: 1
-    - id: DSMagazine635x40mmCaselessPistol #Lua RMCMagazinePistolD18<Magazine635x40mmCaselessPistol
+    - Magazine635x40mmCaselessPistol #Lua RMCMagazinePistolD18<Magazine635x40mmCaselessPistol
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortCMWeaponPistolM1984
+  WeaponCaseShortCMWeaponPistolM1984
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSCMWeaponPistolM1984
+    - CMWeaponPistolM1984
       amount: 1
-    - id: DSMagazine45_ACPPistolFMJ
+    - Magazine45_ACPPistolFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortCMWeaponPistolM77
+  WeaponCaseShortCMWeaponPistolM77
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSCMWeaponPistolM77
+    - CMWeaponPistolM77
       amount: 1
-    - id: DSMagazine45_ACPPistolFMJ
+    - Magazine45_ACPPistolFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponPistolMK45
+  WeaponCaseShortRMCWeaponPistolMK45
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponPistolMK45
+    - RMCWeaponPistolMK45
       amount: 1
-    - id: DSMagazine45_ACPPistolFMJ #Lua RMCMagazinePistolMK45<Magazine45_ACPPistolFMJ
+    - Magazine45_ACPPistolFMJ #Lua RMCMagazinePistolMK45<Magazine45_ACPPistolFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponPistolSU6
+  WeaponCaseShortRMCWeaponPistolSU6
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponPistolSU6
+    - RMCWeaponPistolSU6
       amount: 1
-    - id: DSMagazine635x40mmCaselessPistol
+    - Magazine635x40mmCaselessPistol
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortRMCWeaponRevolverM44
+  WeaponCaseShortRMCWeaponRevolverM44
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSRMCWeaponRevolverM44
+    - RMCWeaponRevolverM44
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ
+    - SpeedLoader45_magnumFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponRifleAR10
+  WeaponCaseLongWeaponRifleAR10
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponRifleAR10
+    - WeaponRifleAR10
       amount: 1
-    - id: DSMagazine556x45mmFMJ
+    - Magazine556x45mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponRifleM16
+  WeaponCaseLongWeaponRifleM16
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponRifleM16
+    - WeaponRifleM16
       amount: 1
-    - id: DSMagazine556x45mmFMJ
+    - Magazine556x45mmFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongWeaponRifleM4SPR
+  WeaponCaseLongWeaponRifleM4SPR
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponRifleM4SPR
+    - WeaponRifleM4SPR
       amount: 1
-    - id: DSMagazine8x65mmSKRBox
+    - Magazine8x65mmSKRBox
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponRifleM4SPRCustom
+  WeaponCaseLongWeaponRifleM4SPRCustom
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponRifleM4SPRCustom
+    - WeaponRifleM4SPRCustom
       amount: 1
-    - id: DSMagazine762x54mmRFMJ
+    - Magazine762x54mmRFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponRifleM54CE2
+  WeaponCaseLongWeaponRifleM54CE2
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponRifleM54CE2
+    - WeaponRifleM54CE2
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ
+    - Magazine9x19mmSubMachineGunFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponSMGM63
+  WeaponCaseLongWeaponSMGM63
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponSMGM63
+    - WeaponSMGM63
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ
+    - Magazine9x19mmSubMachineGunFMJ
       amount: 2
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponSMGMP5
+  WeaponCaseLongWeaponSMGMP5
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSWeaponSMGMP5
+    - WeaponSMGMP5
       amount: 1
-    - id: DSMagazine635x40mmCaseless #Lua CMMagazineSMGMP5<Magazine635x40mmCaseless
+    - Magazine635x40mmCaseless #Lua CMMagazineSMGMP5<Magazine635x40mmCaseless
       amount: 2
 
 # СТОК ################
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongADTObjectsWeaponSubMachineGunPPCH45S
+  WeaponCaseLongADTObjectsWeaponSubMachineGunPPCH45S
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSADTObjectsWeaponSubMachineGunPPCH45S
+    - ADTObjectsWeaponSubMachineGunPPCH45S
       amount: 1
-    - id: DSMagazine635x40mmCaseless
+    - Magazine635x40mmCaseless
       amount: 4
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponShotgunEnforcer
+  WeaponCaseLongWeaponShotgunEnforcer
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponShotgunEnforcer
+    - NFWeaponShotgunEnforcer
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot #Lua 4 gauge
+    - AmmoBox23x75mmBuckshot #Lua 4 gauge
       amount: 2
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortWeaponMakeshiftLaser
+  WeaponCaseShortWeaponMakeshiftLaser
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyPistolLaserMakeshift
+    - NFWeaponEnergyPistolLaserMakeshift
       amount: 1
 
 - type: entity
   parent: WeaponCaseHeavy
-  id: DSWeaponCaseLongWeaponLaserCannon
+  WeaponCaseLongWeaponLaserCannon
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperCannon
+    - NFWeaponEnergyRifleSniperCannon
       amount: 1
 
 - type: entity
   parent: WeaponCaseLong
-  id: DSWeaponCaseLongWeaponXrayCannon
+  WeaponCaseLongWeaponXrayCannon
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperXrayCannon
+    - NFWeaponEnergyRifleSniperXrayCannon
       amount: 1
 
 - type: entity
   parent: WeaponCaseShort
-  id: DSWeaponCaseShortWeaponRevolverMateba
+  WeaponCaseShortWeaponRevolverMateba
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverWard45
+    - NFWeaponRevolverWard45
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> magnum
+    - SpeedLoader45_magnumFMJ #Lua 45 -> magnum
       amount: 2

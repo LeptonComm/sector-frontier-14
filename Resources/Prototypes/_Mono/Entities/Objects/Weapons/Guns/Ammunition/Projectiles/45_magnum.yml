@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: DSBullet45_magnumFMJ
+  Bullet45_magnumFMJ
   name: bullet (.45 magnum)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -16,7 +16,7 @@
 
 # Mechanical
 - type: entity
-  id: DSBullet45_magnumPractice
+  Bullet45_magnumPractice
   name: bullet (.45 magnum practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -27,7 +27,7 @@
         Blunt: 1
 
 - type: entity
-  id: DSBullet45_magnumRubber
+  Bullet45_magnumRubber
   name: bullet (.45 magnum rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -40,7 +40,7 @@
     damage: 35
 
 - type: entity
-  id: DSBullet45_magnumHP
+  Bullet45_magnumHP
   parent: BaseBullet
   name: bullet (.45 magnum hollow-point)
   categories: [ HideSpawnMenu ]
@@ -54,7 +54,7 @@
 
 # Physical
 - type: entity
-  id: DSBullet45_magnumIncendiary
+  Bullet45_magnumIncendiary
   parent: BaseBulletIncendiary
   name: bullet (.45 magnum incendiary)
   categories: [ HideSpawnMenu ]
@@ -67,7 +67,7 @@
     ignoreResistances: true
 
 - type: entity
-  id: DSBullet45_magnumUranium
+  Bullet45_magnumUranium
   name: bullet (.45 magnum uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
@@ -81,7 +81,7 @@
 
 # Special
 - type: entity
-  id: DSBullet45_magnumEMP
+  Bullet45_magnumEMP
   name: bullet (.45 magnum EMP)
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
@@ -94,7 +94,7 @@
     ignoreResistances: true
 
 - type: entity
-  id: DSBullet45_magnumCaustic
+  Bullet45_magnumCaustic
   name: bullet (.45 magnum caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -108,7 +108,7 @@
 
 # Out of balance
 - type: entity
-  id: DSBullet45_magnumRIP
+  Bullet45_magnumRIP
   parent: BaseBullet
   name: bullet (.45 magnum RIP)
   categories: [ HideSpawnMenu ]
@@ -122,7 +122,7 @@
 
 #armor-piercing:
 - type: entity
-  id: DSBullet45_magnumPlasteelAP
+  Bullet45_magnumPlasteelAP
   parent: BaseBullet
   name: bullet (.45 magnum AP)
   categories: [ HideSpawnMenu ]
@@ -134,7 +134,7 @@
         Structural: 100 #Lua add
 
 - type: entity
-  id: DSBullet45_magnumAP
+  Bullet45_magnumAP
   name: bullet (.45 magnum armor-piercing)
   parent: BaseBulletAP
   categories: [ HideSpawnMenu ]

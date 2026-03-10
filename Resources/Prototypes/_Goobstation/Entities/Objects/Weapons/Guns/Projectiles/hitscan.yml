@@ -1,5 +1,5 @@
 - type: entity
-  id: DSMediumOverchargedLaser
+  MediumOverchargedLaser
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
   components:

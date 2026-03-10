@@ -1,60 +1,60 @@
 #region 7.62x39mm
 
 - type: entity
-  id: DSLuaBoxMagazineRifle762x39mmFMJ # FMJ
+  LuaBoxMagazineRifle762x39mmFMJ # FMJ
   parent: BoxMagazine
   name: box of 7.62x39mm FMJ magazines
   description: A box full of 7.62x39mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x39mmFMJ
+      - Magazine762x39mmFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine762x39mmSubsonic # Subsonic
+  LuaBoxMagazine762x39mmSubsonic # Subsonic
   parent: BoxMagazine
   name: box of 7.62x39mm subsonic magazines
   description: A box full of 7.62x39mm subsonic magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x39mmFMJ
+      - Magazine762x39mmFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazineRifle762x39mmRubber # Rubber
+  LuaBoxMagazineRifle762x39mmRubber # Rubber
   parent: BoxMagazine
   name: box of 7.62x39mm Rubber magazines
   description: A box full of 7.62x39mm Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x39mmRubber
+      - Magazine762x39mmRubber
         amount: 4
 
 #region 5.56x45mm
 
 - type: entity
-  id: DSLuaBoxMagazineRifle556x45mmFMJ # FMJ
+  LuaBoxMagazineRifle556x45mmFMJ # FMJ
   parent: BoxMagazine
   name: box of 5.56x45mm FMJ magazines
   description: A box full of 5.56x45mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine556x45mmFMJ
+      - Magazine556x45mmFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazineRifle556x45mmRubber # Rubber
+  LuaBoxMagazineRifle556x45mmRubber # Rubber
   parent: BoxMagazine
   name: box of 5.56x45mm Rubber magazines
   description: A box full of 5.56x45mm Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine556x45mmRubber
+      - Magazine556x45mmRubber
         amount: 4
 
 #region 9x19mm
@@ -62,62 +62,62 @@
 # SubMachineGun
 
 - type: entity
-  id: DSLuaBoxMagazine9x19mmSubMachineGunFMJ # FMJ
+  LuaBoxMagazine9x19mmSubMachineGunFMJ # FMJ
   parent: BoxMagazine
   name: box of SMG 9x19mm FMJ magazines
   description: A box full of SMG 9x19mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmSubMachineGunFMJ
+      - Magazine9x19mmSubMachineGunFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine9x19mmSubMachineGunRubber # Rubber
+  LuaBoxMagazine9x19mmSubMachineGunRubber # Rubber
   parent: BoxMagazine
   name: box of SMG 9x19mm Rubber magazines
   description: A box full of SMG 9x19mm Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmSubMachineGunRubber
+      - Magazine9x19mmSubMachineGunRubber
         amount: 4
 
 # Pistol
 
 - type: entity
-  id: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ # FMJ
+  LuaBoxMagazine9x19mmPistolHighCapacityFMJ # FMJ
   parent: BoxMagazine
   name: box of pistol 9x19mm FMJ magazines
   description: A box full of pistol 9x19mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmPistolFMJ
+      - Magazine9x19mmPistolFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine9x19mmPistolHighCapacityRubber # Rubber
+  LuaBoxMagazine9x19mmPistolHighCapacityRubber # Rubber
   parent: BoxMagazine
   name: box of pistol 9x19mm Rubber magazines
   description: A box full of pistol 9x19mm Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmPistolRubber
+      - Magazine9x19mmPistolRubber
         amount: 4
 
 # topmount
 
 - type: entity
-  id: DSLuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ # FMJ
+  LuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ # FMJ
   parent: BoxMagazine
   name: box of SMG 9x19mm FMJ top mount magazines
   description: A box full of SMG 9x19mm FMJ top mount magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine9x19mmSubMachineGunTopMountedFMJ
+      - Magazine9x19mmSubMachineGunTopMountedFMJ
         amount: 4
 
 #region .45_ACP
@@ -125,49 +125,49 @@
 #SubmachineGun
 
 - type: entity
-  id: DSLuaBoxMagazine45_ACPSubMachineGunFMJ # FMJ
+  LuaBoxMagazine45_ACPSubMachineGunFMJ # FMJ
   parent: BoxMagazine
   name: box of SMG .45_ACP FMJ magazines
   description: A box full of .45_ACP FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine45_ACPSubMachineGunFMJ
+      - Magazine45_ACPSubMachineGunFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine45_ACPSubMachineGunRubber # Rubber
+  LuaBoxMagazine45_ACPSubMachineGunRubber # Rubber
   parent: BoxMagazine
   name: box of SMG .45_ACP Rubber magazines
   description: A box full of SMG .45_ACP Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine45_ACPSubMachineGunRubber
+      - Magazine45_ACPSubMachineGunRubber
         amount: 4
 
 #Pistol
 
 - type: entity
-  id: DSLuaBoxMagazine45_ACPPistolHighCapacityFMJ # FMJ
+  LuaBoxMagazine45_ACPPistolHighCapacityFMJ # FMJ
   parent: BoxMagazine
   name: box of pistol .45_ACP FMJ magazines
   description: A box full of pistol .45_ACP FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine45_ACPPistolHighCapacityFMJ
+      - Magazine45_ACPPistolHighCapacityFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine45_ACPPistolHighCapacityRubber # Rubber
+  LuaBoxMagazine45_ACPPistolHighCapacityRubber # Rubber
   parent: BoxMagazine
   name: box of pistol .45_ACP Rubber magazines
   description: A box full of pistol .45_ACP Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine45_ACPPistolHighCapacityRubber
+      - Magazine45_ACPPistolHighCapacityRubber
         amount: 4
 
 #region .45 Magnum
@@ -175,86 +175,86 @@
 # revolver
 
 - type: entity
-  id: DSLuaBoxSpeedLoader45_magnumFMJ # FMJ
+  LuaBoxSpeedLoader45_magnumFMJ # FMJ
   parent: BoxMagazine
   name: box of .45 Magnum FMJ speedloaders
   description: A box full of .45 Magnum FMJ speedloaders.
   components:
   - type: StorageFill
     contents:
-      - id: DSSpeedLoader45_magnumFMJ
+      - SpeedLoader45_magnumFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxSpeedLoader45_magnumRubber # Rubber
+  LuaBoxSpeedLoader45_magnumRubber # Rubber
   parent: BoxMagazine
   name: box of .45 Magnum Rubber speedloaders
   description: A box full of .45 Magnum Rubber speedloaders.
   components:
   - type: StorageFill
     contents:
-      - id: DSSpeedLoader45_magnumRubber
+      - SpeedLoader45_magnumRubber
         amount: 4
 
 #region 7.62x51mm
 
 - type: entity
-  id: DSLuaBoxMagazine762x51mmFMJ # FMJ
+  LuaBoxMagazine762x51mmFMJ # FMJ
   parent: BoxMagazine
   name: box of 7.62x51mm FMJ magazines
   description: A box full of 7.62x51mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x51mmFMJ
+      - Magazine762x51mmFMJ
         amount: 4
 
 - type: entity
-  id: DSLuaBoxMagazine762x51mmRubber # Rubber
+  LuaBoxMagazine762x51mmRubber # Rubber
   parent: BoxMagazine
   name: box of 7.62x51mm Rubber magazines
   description: A box full of 7.62x51mm Rubber magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x51mmRubber
+      - Magazine762x51mmRubber
         amount: 4
 
 #region 8x65mm
 
 - type: entity
-  id: DSLuaBoxMagazine8x65mmSKR # FMJ
+  LuaBoxMagazine8x65mmSKR # FMJ
   parent: BoxMagazine
   name: box of 8x65mm FMJ magazines
   description: A box full of 8x65mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine8x65mmSKRBox
+      - Magazine8x65mmSKRBox
         amount: 4
 
 #region 7.62x54mmR
 
 - type: entity
-  id: DSLuaBoxMagazine762x54mmRFMJ # FMJ
+  LuaBoxMagazine762x54mmRFMJ # FMJ
   parent: BoxMagazine
   name: box of 7.62x54mmR FMJ magazines
   description: A box full of 7.62x54mmR FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine762x54mmRFMJ
+      - Magazine762x54mmRFMJ
         amount: 4
 
 #region 6.35x40mm
 
 - type: entity
-  id: DSLuaBoxMagazine635x40mmCaseless # Caseless
+  LuaBoxMagazine635x40mmCaseless # Caseless
   parent: BoxMagazine
   name: box of 6.35x40mm FMJ magazines
   description: A box full of 6.35x40mm FMJ magazines.
   components:
   - type: StorageFill
     contents:
-      - id: DSMagazine635x40mmCaseless
+      - Magazine635x40mmCaseless
         amount: 4

@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: DSBullet762x51mmFMJ
+  Bullet762x51mmFMJ
   name: bullet (7.62x51mm FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  id: DSBullet762x51mmPractice
+  Bullet762x51mmPractice
   name: bullet (7.62x51mm practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -3
 
 - type: entity
-  id: DSBullet762x51mmRubber
+  Bullet762x51mmRubber
   name: bullet (7.62x51mm rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 17
 
 - type: entity
-  id: DSBullet762x51mmHP
+  Bullet762x51mmHP
   parent: BaseBullet
   name: bullet (7.62x51mm hollow-point)
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  id: DSBullet762x51mmIncendiary
+  Bullet762x51mmIncendiary
   parent: BaseBulletIncendiary
   name: bullet (7.62x51mm incendiary)
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 7.5
 
 - type: entity
-  id: DSBullet762x51mmUranium
+  Bullet762x51mmUranium
   parent: BaseBulletUranium
   name: bullet (7.62x51mm uranium)
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 # Special
 - type: entity
-  id: DSBullet762x51mmEMP
+  Bullet762x51mmEMP
   name: bullet (7.62x51mm EMP)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 7.5
 
 - type: entity
-  id: DSBullet762x51mmCaustic
+  Bullet762x51mmCaustic
   name: bullet (7.62x51mm caustic)
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
@@ -102,7 +102,7 @@
 
 # Out of balance
 - type: entity
-  id: DSBullet762x51mmRIP
+  Bullet762x51mmRIP
   parent: BaseBullet
   name: bullet (7.62x51mm Radically Invasive Projectile)
   categories: [ HideSpawnMenu ]
@@ -116,7 +116,7 @@
 
 #armor-piercing:
 - type: entity
-  id: DSBullet762x51mmPlasteelAP
+  Bullet762x51mmPlasteelAP
   parent: BaseBullet
   name: bullet (7.62x51mm AP)
   categories: [ HideSpawnMenu ]
