@@ -32,18 +32,8 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95 #Lua 0.9<0.95
     sprintModifier: 0.95 #Lua 0.9<0.95
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
-  - type: ItemSlots # _Lua
-    slots: # _Lua
-      beakerSlot: # _Lua
-        whitelist: # _Lua
-          tags: # _Lua
-          - FitsHardsuit # _Lua
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit #Lua
@@ -78,12 +68,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.75 #Lua 0.9<0.75
     sprintModifier: 0.75 #Lua 0.9<0.75
-  - type: FactionClothing #Lua
-    faction: NanoTrasen
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -118,10 +102,6 @@
   - type: ClothingSpeedModifier #Lua
     walkModifier: 0.95
     sprintModifier: 0.95
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -163,10 +143,6 @@
     sprintModifier: 0.75
   - type: FactionClothing
     faction: NanoTrasen
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -204,10 +180,6 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85 #Lua 0.825<0.85
     sprintModifier: 0.85 #Lua 0.825<0.85
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
 
 #Security Command Hardsuit
 - type: entity
@@ -243,7 +215,3 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85 #Lua 0.8<0.85
     sprintModifier: 0.85 #Lua 0.8<0.85
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3

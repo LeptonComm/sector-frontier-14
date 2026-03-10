@@ -3565,3 +3565,45 @@ Entries:
   id: 248
   time: '2026-03-09T12:20:14.0000000+00:00'
   url: https://github.com/Lua-Frontier/sector-frontier-14/pull/493
+- author: Vecortys
+  changes:
+    - type: Add
+      message: Портировано расширенное описание персонажа. Скриншоты в ПРе.
+  id: 249
+  time: '2026-03-09T13:41:36.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/495
+- author: 25Hydra08
+  changes:
+    - type: Add
+      message: добавлен звук шипения газовому насосу
+    - type: Remove
+      message: убран звук шипения пассивного клапана
+  id: 250
+  time: '2026-03-09T14:30:16.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/497
+- author: HacksLua
+  changes:
+    - type: Remove
+      message: >-
+        Удален механизм из-за которого разлетались вещи по шаттлу от
+        столкновений
+    - type: Remove
+      message: Удален отсек ЭП
+    - type: Tweak
+      message: Джетпаки ускорены
+  id: 251
+  time: '2026-03-10T11:38:33.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/501
+- author: HacksLua
+  changes:
+    - type: Tweak
+      message: Гипо не сбрасывается от получения урона
+    - type: Tweak
+      message: Гипо не сбрасывается при движении
+    - type: Tweak
+      message: У акционеров убран гипоспрей гв и добавлен премиум джет-инъектор
+    - type: Add
+      message: ММО добавлен джет-иньектор
+  id: 252
+  time: '2026-03-10T15:31:13.0000000+00:00'
+  url: https://github.com/Lua-Frontier/sector-frontier-14/pull/502
