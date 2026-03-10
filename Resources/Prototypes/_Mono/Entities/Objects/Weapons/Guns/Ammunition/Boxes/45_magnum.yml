@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  BaseAmmoBox45_magnum
+  id: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -38,7 +38,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  AmmoBox45_magnumFMJ
+  id: DSAmmoBox45_magnumFMJ
   name: ammunition box (.45 magnum FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  AmmoBox45_magnumPractice
+  id: DSAmmoBox45_magnumPractice
   name: ammunition box (.45 magnum practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -69,7 +69,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  AmmoBox45_magnumRubber
+  id: DSAmmoBox45_magnumRubber
   name: ammunition box (.45 magnum rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -86,7 +86,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  AmmoBox45_magnumHP
+  id: DSAmmoBox45_magnumHP
   name: ammunition box (.45 magnum hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -103,7 +103,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  AmmoBox45_magnumIncendiary
+  id: DSAmmoBox45_magnumIncendiary
   name: ammunition box (.45 magnum incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -118,7 +118,7 @@
     - state: incendiary
 
 - type: entity
-  AmmoBox45_magnumUranium
+  id: DSAmmoBox45_magnumUranium
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -135,7 +135,7 @@
 
 # Special
 - type: entity
-  AmmoBox45_magnumEMP
+  id: DSAmmoBox45_magnumEMP
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -151,7 +151,7 @@
     - state: emp
 
 - type: entity
-  AmmoBox45_magnumCaustic
+  id: DSAmmoBox45_magnumCaustic
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua

@@ -593,7 +593,7 @@
 
 - type: entity
   parent: BaseNFFlatpack
-  AmmoTechFabFlatpack
+  id: DSAmmoTechFabFlatpack
   name: ammo techfab flatpack
   description: A flatpack used for constructing an ammo techfab.
   suffix: МК, НЕ СПАВНИТЬ
@@ -617,7 +617,7 @@
 
 - type: entity
   parent: AmmoTechFabFlatpack
-  MercenaryTechFabFlatpack
+  id: DSMercenaryTechFabFlatpack
   name: mercenary techfab flatpack
   description: A flatpack used for constructing a mercenary techfab.
   suffix: МК, НЕ СПАВНИТЬ
@@ -907,7 +907,7 @@
 
 - type: entity
   parent: UniformPrinterFlatpack
-  NfsdTechFabFlatpack
+  id: DSNfsdTechFabFlatpack
   name: NFSD techfab flatpack
   description: A flatpack used for constructing an NFSD techfab.
   suffix: МК, НЕ СПАВНИТЬ

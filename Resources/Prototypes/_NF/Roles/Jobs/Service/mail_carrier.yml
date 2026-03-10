@@ -1,5 +1,5 @@
 - type: job
-  MailCarrier
+  id: DSMailCarrier
   name: job-name-mail-carrier
   description: job-description-mail-carrier
   startingGear: MailCarrierGear
@@ -28,6 +28,6 @@
     prototype: FrontierBirthdayGift # Frontier
 
 - type: chameleonOutfit
-  MailCarrierChameleonOutfit
+  id: DSMailCarrierChameleonOutfit
   job: DSMailCarrier
   hasMindShield: true

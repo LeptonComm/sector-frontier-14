@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [ BaseItem, BaseC3PirateContraband ]
-  BaseAmmoBox127x99mm
+  id: DSBaseAmmoBox127x99mm
   name: ammunition box (12.7x99mm anti-material)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -42,13 +42,13 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mm
+  id: DSAmmoBox127x99mm
   suffix: МК, НЕ СПАВНИТЬ #Lua
 
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mmHP
+  id: DSAmmoBox127x99mmHP
   name: ammunition box (12.7x99mm HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -65,7 +65,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mmIncendiary
+  id: DSAmmoBox127x99mmIncendiary
   name: ammunition box (12.7x99mm incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -81,7 +81,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mmUranium
+  id: DSAmmoBox127x99mmUranium
   name: ammunition box (12.7x99mm uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -98,7 +98,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mmEMP
+  id: DSAmmoBox127x99mmEMP
   name: ammunition box (12.7x99mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -114,7 +114,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox127x99mm
-  AmmoBox127x99mmCaustic
+  id: DSAmmoBox127x99mmCaustic
   name: ammunition box (12.7x99mm Сaustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

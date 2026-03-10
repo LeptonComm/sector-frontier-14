@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [ DSCMBaseWeaponGun, BaseItem ]
-  CMBaseWeaponRifle
+  id: DSCMBaseWeaponRifle
   components:
   - type: Gun
     shotsPerBurst: 3

@@ -1,7 +1,7 @@
 
 #region WizDen
 - type: entity
-  NFWeaponLightMachineGunL6
+  id: DSNFWeaponLightMachineGunL6
   parent: [ NFBaseWeaponLightMachineGunChamber556x45, NFBaseWeaponFrameLightMachineGunGorlex ] #Lua 20 -> 556x45
   name: GSW LMG-6
   description: |-

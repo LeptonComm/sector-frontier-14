@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbranceSubMachineGun, NFBaseGunMeleeAttackMedium, BaseWeaponBattery ]
-  NFBaseWeaponFrameEnergySubMachineGun
+  id: DSNFBaseWeaponFrameEnergySubMachineGun
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -56,7 +56,7 @@
 
 #region manufacturer
 - type: entity
-  NFBaseWeaponFrameEnergySubMachineGunNanotrasen
+  id: DSNFBaseWeaponFrameEnergySubMachineGunNanotrasen
   parent: NFBaseWeaponFrameEnergySubMachineGun
   abstract: true
   components:
@@ -71,7 +71,7 @@
 
 #region chamber
 - type: entity
-  NFBaseWeaponEnergySubMachineGunFireModes
+  id: DSNFBaseWeaponEnergySubMachineGunFireModes
   abstract: true
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
           Lethal: { state: mode-lethal }
 
 - type: entity
-  NFBaseWeaponEnergySubMachineGunDisabler
+  id: DSNFBaseWeaponEnergySubMachineGunDisabler
   abstract: true
   components:
   - type: Gun

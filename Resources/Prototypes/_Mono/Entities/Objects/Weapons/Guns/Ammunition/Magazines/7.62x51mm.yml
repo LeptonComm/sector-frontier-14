@@ -1,6 +1,6 @@
 # Empty mags
 - type: entity
-  BaseMagazine762x51mm
+  id: DSBaseMagazine762x51mm
   name: "magazine (7.62x51mm FMJ)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband added RecyclableItemSteelTiny
@@ -37,7 +37,7 @@
 # Magazines
 # Standart
 - type: entity
-  Magazine762x51mmFMJ
+  id: DSMagazine762x51mmFMJ
   name: "magazine (7.62x51mm FMJ)"
   parent: DSBaseMagazine762x51mm
   components:
@@ -51,7 +51,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x51mmEmpty
+  id: DSMagazine762x51mmEmpty
   name: "magazine (7.62x51mm any)"
   parent: DSMagazine762x51mmFMJ
   components:
@@ -65,7 +65,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x51mmPractice
+  id: DSMagazine762x51mmPractice
   name: "magazine (7.62x51mm practice)"
   parent: DSBaseMagazine762x51mm
   components:
@@ -79,7 +79,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x51mmRubber
+  id: DSMagazine762x51mmRubber
   name: "magazine (7.62x51mm rubber)"
   parent: DSMagazine762x51mmFMJ
   components:
@@ -95,7 +95,7 @@
 
 # Mechanical
 - type: entity
-  Magazine762x51mmHP
+  id: DSMagazine762x51mmHP
   name: "magazine (7.62x51mm hollow-point)"
   parent: DSBaseMagazine762x51mm
   components:
@@ -110,7 +110,7 @@
 
 # Physical
 - type: entity
-  Magazine762x51mmIncendiary
+  id: DSMagazine762x51mmIncendiary
   name: "magazine (7.62x51mm incendiary)"
   parent: DSMagazine762x51mmFMJ
   components:
@@ -124,7 +124,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x51mmUranium
+  id: DSMagazine762x51mmUranium
   name: "magazine (7.62x51mm uranium)"
   parent: DSBaseMagazine762x51mm
   components:
@@ -139,7 +139,7 @@
 
 # Special
 - type: entity
-  Magazine762x51mmEMP
+  id: DSMagazine762x51mmEMP
   name: "magazine (7.62x51mm EMP)"
   parent: DSBaseMagazine762x51mm
   components:
@@ -153,7 +153,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x51mmCaustic
+  id: DSMagazine762x51mmCaustic
   name: "magazine (7.62x51mm Caustic)"
   parent: DSBaseMagazine762x51mm
   components:

@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbrancePistol, NFBaseGunMeleeAttackLow, BaseWeaponBatterySmall ]
-  NFBaseWeaponFrameEnergyPistol
+  id: DSNFBaseWeaponFrameEnergyPistol
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -51,7 +51,7 @@
 
 #region manufacturer
 - type: entity
-  NFBaseWeaponFrameEnergyPistolNanotrasen
+  id: DSNFBaseWeaponFrameEnergyPistolNanotrasen
   parent: NFBaseWeaponFrameEnergyPistol
   abstract: true
   components:
@@ -65,7 +65,7 @@
     class: weapon-details-manufacturer-nanotrasen-munitions
 
 - type: entity
-  NFBaseWeaponFrameEnergyPistolFrontierGunsmith
+  id: DSNFBaseWeaponFrameEnergyPistolFrontierGunsmith
   parent: NFBaseWeaponFrameEnergyPistol
   abstract: true
   components:
@@ -80,7 +80,7 @@
 
 #region chamber
 - type: entity
-  NFBaseWeaponEnergyPistolFireModes
+  id: DSNFBaseWeaponEnergyPistolFireModes
   abstract: true
   components:
   - type: Sprite
@@ -118,7 +118,7 @@
           Lethal: { state: mode-lethal }
 
 - type: entity
-  NFBaseWeaponEnergyPistolDisabler
+  id: DSNFBaseWeaponEnergyPistolDisabler
   abstract: true
   components:
   - type: Gun
@@ -130,7 +130,7 @@
     fireCost: 60
 
 - type: entity
-  NFBaseWeaponEnergyGunPractice
+  id: DSNFBaseWeaponEnergyGunPractice
   abstract: true
   components:
   - type: Gun
@@ -142,7 +142,7 @@
     fireCost: 30
 
 - type: entity
-  NFBaseWeaponEnergyPistolHitScan
+  id: DSNFBaseWeaponEnergyPistolHitScan
   abstract: true
   components:
   - type: Gun
@@ -154,7 +154,7 @@
     fireCost: 60
 
 - type: entity
-  NFBaseWeaponEnergyPistolHitScanPulse
+  id: DSNFBaseWeaponEnergyPistolHitScanPulse
   abstract: true
   components:
   - type: Gun
@@ -168,7 +168,7 @@
 - type: entity
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
-  LuaPulsePistol
+  id: DSLuaPulsePistol
   components:
   - type: HitscanBasicDamage
     damage:

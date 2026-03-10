@@ -159,7 +159,7 @@
   id: BravoUplinkMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
-  LuaBoxMagazineRifle762x39mmFMJ
+  productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -170,7 +170,7 @@
   id: BravoUplinkMagazine556x45mmFMJ # Mag
   name: uplink-security-Magazine556x45mmFMJ-name
   description: uplink-security-Magazine556x45mmFMJ-desc
-  LuaBoxMagazineRifle556x45mmFMJ
+  productEntity: DSLuaBoxMagazineRifle556x45mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -181,7 +181,7 @@
   id: BravoUplinkMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
-  LuaBoxMagazine9x19mmSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -192,7 +192,7 @@
   id: BravoUplinkMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
-  LuaBoxMagazine9x19mmPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -205,7 +205,7 @@
   id: BravoUplinkMagazine45_ACPSubMachineGunFMJ # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunFMJ-name
   description: uplink-security-Magazine45_ACPSubMachineGunFMJ-desc
-  LuaBoxMagazine45_ACPSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -216,7 +216,7 @@
   id: BravoUplinkMagazine45_ACPPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-desc
-  LuaBoxMagazine45_ACPPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -227,7 +227,7 @@
   id: BravoUplinkSpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
-  LuaBoxSpeedLoader45_magnumFMJ
+  productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -238,7 +238,7 @@
   id: BravoUplinkMagazine762x51mmFMJ # Mag
   name: uplink-security-Magazine762x51mmFMJ-name
   description: uplink-security-Magazine762x51mmFMJ-desc
-  LuaBoxMagazine762x51mmFMJ
+  productEntity: DSLuaBoxMagazine762x51mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 1000
@@ -249,7 +249,7 @@
   id: BravoUplinkMagazine68x52mmCaselessBig # Mag
   name: box magazine (6.8x52mm STANAG Caseless)
   description:
-  Magazine68x52mmCaselessBig
+  productEntity: DSMagazine68x52mmCaselessBig
   icon: { sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/6.35x40mm_caseless/6.35x40mm_caseless_lmg_mag.rsi, state: base }
   cost:
     Speso: 1000
@@ -260,7 +260,7 @@
   id: BravoUplinkMagazine8x65mmSKRBox # Mag
   name: SAW box (8x65mm SKR)
   description:  
-  Magazine8x65mmSKRBox
+  productEntity: DSMagazine8x65mmSKRBox
   icon: { sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/8x65mm/8x65mm_box.rsi, state: base }
   cost:
     Speso: 1000
@@ -330,7 +330,7 @@
   id: BravoUplinkWeaponMR8CBundle # VFD MR-8C DMR (7.62x54mm)
   name:  uplink-security-MR8CBundle-name
   description: uplink-security-MR8CBundle-desc
-  WeaponCaseLongMR8CBundle
+  productEntity: DSWeaponCaseLongMR8CBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -346,7 +346,7 @@
   id: BravoUplinkWeaponGrizzlyBundle # Grizzly
   name:  uplink-security-grizzly-name
   description: uplink-security-grizzly-desc
-  WeaponCaseLongGrizzlyBundle
+  productEntity: DSWeaponCaseLongGrizzlyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -362,7 +362,7 @@
   id: BravoUplinkWeaponHristovBundle # hristov
   name:  uplink-security-hristov-name
   description: uplink-security-hristov-desc
-  WeaponCaseLongHristovExpedition
+  productEntity: DSWeaponCaseLongHristovExpedition
   icon: { sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
   cost:
     FrontierUplinkCoin: 5
@@ -378,7 +378,7 @@
   id: BravoUplinkWeaponXLR556Bundle # xlr556
   name:  uplink-security-xlr556-name
   description: uplink-security-xlr556-desc
-  WeaponCaseLongXLR556Bundle
+  productEntity: DSWeaponCaseLongXLR556Bundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/xlr556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -394,7 +394,7 @@
   id: BravoUplinkWeaponFirestarterBundle # firestarter
   name:  uplink-security-firestarter-name
   description: uplink-security-firestarter-desc
-  WeaponCaseLongFirestarterBundle
+  productEntity: DSWeaponCaseLongFirestarterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/drozd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -410,7 +410,7 @@
   id: BravoUplinkWeaponM54CE2Bundle # m54ce2
   name:  uplink-security-m54ce2-name
   description: uplink-security-m54ce2-desc
-  WeaponCaseLongWeaponRifleM54CE2
+  productEntity: DSWeaponCaseLongWeaponRifleM54CE2
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -426,7 +426,7 @@
   id: BravoUplinkWeaponUniversalBundle # Universal
   name:  uplink-security-universal-name
   description: uplink-security-universal-desc
-  WeaponCaseShortUniversalExpedition
+  productEntity: DSWeaponCaseShortUniversalExpedition
   icon: { sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -442,7 +442,7 @@
   id: BravoUplinkWeaponMP5Bundle # MP5
   name:  uplink-security-mp5-name
   description: uplink-security-mp5-desc
-  WeaponCaseLongWeaponSMGMP5
+  productEntity: DSWeaponCaseLongWeaponSMGMP5
   icon: { sprite: _RMC14/Objects/Weapons/Guns/SMGs/mp5.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -458,7 +458,7 @@
   id: BravoUplinkWeaponD18Bundle # D18
   name:  uplink-security-d18-name
   description: uplink-security-d18-desc
-  WeaponCaseShortRMCWeaponPistolD18
+  productEntity: DSWeaponCaseShortRMCWeaponPistolD18
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/m43.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -474,7 +474,7 @@
   id: BravoUplinkWeaponBigBuddyBundle # bigbuddy
   name:  uplink-security-bb-name
   description: uplink-security-bb-desc
-  WeaponCaseLongBigBuddyBundle
+  productEntity: DSWeaponCaseLongBigBuddyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigBuddy.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -490,7 +490,7 @@
   id: BravoUplinkWeaponMR8BBundle # VFD MR-8B LWMMG (8x65 SKR)
   name:  uplink-security-MR8BBundle-name
   description: uplink-security-MR8BBundle-desc
-  WeaponCaseLongLMGMR8BBundle
+  productEntity: DSWeaponCaseLongLMGMR8BBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/mr8b.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -517,7 +517,7 @@
   id: BravoUplinkWeaponNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm)
   name:  uplink-security-NtsfLtrBundle-name
   description: uplink-security-NtsfLtrBundle-desc
-  WeaponCaseLongNtsfLtrBundle
+  productEntity: DSWeaponCaseLongNtsfLtrBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -528,7 +528,7 @@
   id: BravoUplinkWeaponLecterBundle # Lecter (7.62x39mm)
   name:  uplink-security-LecterBundle-name
   description: uplink-security-LecterBundle-desc
-  WeaponCaseLongLecterBundle
+  productEntity: DSWeaponCaseLongLecterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -539,7 +539,7 @@
   id: BravoUplinkWeaponN1984 # N1984 (.45_ACP)
   name:  uplink-security-N1984Bundle-name
   description: uplink-security-N1984Bundle-desc
-  WeaponCaseShortN1984Bundle
+  productEntity: DSWeaponCaseShortN1984Bundle
   icon: { sprite: Objects/Weapons/Guns/Pistols/N1984.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -551,7 +551,7 @@
   id: BravoUplinkWeaponInspectorBundle # Inspector (.45 Magnum)
   name:  uplink-security-InspectorBundle-name
   description: uplink-security-InspectorBundle-desc
-  WeaponCaseShortInspectorBundle
+  productEntity: DSWeaponCaseShortInspectorBundle
   icon: { sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -574,7 +574,7 @@
   id: BravoUplinkWeaponLRC21PPLBundle # NT-WS LRC-21 PPL
   name: uplink-security-LRC21PPLBundle-name
   description: uplink-security-LRC21PPLBundle-desc
-  WeaponCaseHeavyLRC21PPLBundle
+  productEntity: DSWeaponCaseHeavyLRC21PPLBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/lrc21.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -586,7 +586,7 @@
   id: BravoUplinkWeaponAshstorm # EM72 Ashstorm
   name:  uplink-security-ashstorm-name
   description: uplink-security-ashstorm-desc
-  ClothingBackpackDuffelAshstormBundle
+  productEntity: DSClothingBackpackDuffelAshstormBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -598,7 +598,7 @@
   id: BravoUplinkWeaponEg4 # Energy revolver EG-4
   name:  uplink-security-eg4-name
   description: uplink-security-eg4-desc
-  WeaponEnergyRevolver
+  productEntity: DSWeaponEnergyRevolver
   cost:
     FrontierUplinkCoin: 5
   categories:
@@ -613,7 +613,7 @@
   id: BravoUplinkWeaponLaserRifle # LaserRifle
   name:  uplink-security-laserrifle-name
   description: uplink-security-laserrifle-desc
-  WeaponCaseShortN14WeaponLaserRifle
+  productEntity: DSWeaponCaseShortN14WeaponLaserRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -625,7 +625,7 @@
   id: BravoUplinkWeaponUrbanPlasma # UrbanPlasma
   name:  uplink-security-urbanplasma-name
   description: uplink-security-urbanplasma-desc
-  WeaponCaseShortN14WeaponUrbanPlasmaRifle
+  productEntity: DSWeaponCaseShortN14WeaponUrbanPlasmaRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -637,7 +637,7 @@
   id: BravoUplinkWeaponRechargerRifle # RechargerRifle
   name:  uplink-security-rechargerrifle-name
   description: uplink-security-rechargerrifle-desc
-  WeaponCaseLongN14WeaponRechargerRifle
+  productEntity: DSWeaponCaseLongN14WeaponRechargerRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -649,7 +649,7 @@
   id: BravoUplinkWeaponRechargerPistol # RechargerPistol
   name:  uplink-security-rechargerpistol-name
   description: uplink-security-rechargerpistol-desc
-  WeaponCaseShortN14WeaponRechargerPistol
+  productEntity: DSWeaponCaseShortN14WeaponRechargerPistol
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -661,7 +661,7 @@
   id: BravoUplinkWeaponRifleTemperature # RifleTemperature
   name:  uplink-security-rifletemperature-name
   description: uplink-security-rifletemperature-desc
-  WeaponCaseLongTemperatureGunExpedition
+  productEntity: DSWeaponCaseLongTemperatureGunExpedition
   icon: { sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5

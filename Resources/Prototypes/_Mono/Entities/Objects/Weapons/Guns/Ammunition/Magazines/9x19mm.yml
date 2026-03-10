@@ -1,5 +1,5 @@
 - type: entity
-  BaseMagazine9x19mm
+  id: DSBaseMagazine9x19mm
   name: pistol magazine (9x19mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
@@ -35,7 +35,7 @@
 #Pistol mags
 # Standart
 - type: entity
-  Magazine9x19mmPistolFMJ
+  id: DSMagazine9x19mmPistolFMJ
   name: pistol magazine (9x19mm FMJ)
   parent: DSBaseMagazine9x19mm
   components:
@@ -49,7 +49,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmPistolEmpty
+  id: DSMagazine9x19mmPistolEmpty
   name: pistol magazine (9x19mm any)
   parent: DSMagazine9x19mmPistolFMJ
   components:
@@ -63,7 +63,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmPistolPractice
+  id: DSMagazine9x19mmPistolPractice
   name: pistol magazine (9x19mm practice)
   parent: DSBaseMagazine9x19mm
   components:
@@ -77,7 +77,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmPistolRubber
+  id: DSMagazine9x19mmPistolRubber
   name: pistol magazine (9x19mm rubber)
   parent: DSBaseMagazine9x19mm
   components:
@@ -93,7 +93,7 @@
 
 #Mechanical
 - type: entity
-  Magazine9x19mmPistolHP
+  id: DSMagazine9x19mmPistolHP
   name: pistol magazine (9x19mm hollow-point)
   parent: DSBaseMagazine9x19mm
   components:
@@ -109,7 +109,7 @@
 
 # Physical
 - type: entity
-  Magazine9x19mmPistolIncendiary
+  id: DSMagazine9x19mmPistolIncendiary
   name: pistol magazine (9x19mm incendiary)
   parent: DSMagazine9x19mmPistolFMJ
   components:
@@ -123,7 +123,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmPistolUranium
+  id: DSMagazine9x19mmPistolUranium
   name: pistol magazine (9x19mm uranium)
   parent: DSBaseMagazine9x19mm
   components:
@@ -138,7 +138,7 @@
 
 # Special
 - type: entity
-  Magazine9x19mmPistolEMP
+  id: DSMagazine9x19mmPistolEMP
   name: pistol magazine (9x19mm emp)
   parent: DSBaseMagazine9x19mm
   components:
@@ -152,7 +152,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmPistolCaustic
+  id: DSMagazine9x19mmPistolCaustic
   name: pistol magazine (9x19mm Caustic)
   parent: DSBaseMagazine9x19mm
   components:
@@ -168,7 +168,7 @@
 # SMG's mags
 # Standart
 - type: entity
-  BaseMagazine9x19mmSubMachineGunFMJ
+  id: DSBaseMagazine9x19mmSubMachineGunFMJ
   name: SMG magazine (9x19mm FMJ)
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
@@ -201,7 +201,7 @@
   - type: Appearance
 
 - type: entity
-  Magazine9x19mmSubMachineGunFMJ
+  id: DSMagazine9x19mmSubMachineGunFMJ
   name: SMG magazine (9x19mm FMJ)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -220,7 +220,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmSubMachineGunEmpty
+  id: DSMagazine9x19mmSubMachineGunEmpty
   name: SMG magazine (9x19mm any)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -234,7 +234,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmSubMachineGunPractice
+  id: DSMagazine9x19mmSubMachineGunPractice
   name: SMG magazine (9x19mm practice)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -248,7 +248,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmSubMachineGunRubber
+  id: DSMagazine9x19mmSubMachineGunRubber
   name: SMG magazine (9x19mm rubber)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -264,7 +264,7 @@
 
 #Mechanical
 - type: entity
-  Magazine9x19mmSubMachineGunHP
+  id: DSMagazine9x19mmSubMachineGunHP
   name: SMG magazine (9x19mm hollow-point)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -281,7 +281,7 @@
 # Physical
 - type: entity
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
-  Magazine9x19mmSubMachineGunIncendiary
+  id: DSMagazine9x19mmSubMachineGunIncendiary
   name: SMG magazine (9x19mm incendiary)
   components:
   - type: BallisticAmmoProvider
@@ -294,7 +294,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmSubMachineGunUranium
+  id: DSMagazine9x19mmSubMachineGunUranium
   name: SMG magazine (9x19mm uranium)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -309,7 +309,7 @@
 
 # Special
 - type: entity
-  Magazine9x19mmSubMachineGunEMP
+  id: DSMagazine9x19mmSubMachineGunEMP
   name: SMG magazine (9x19mm emp)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -324,7 +324,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine9x19mmSubMachineGunCaustic
+  id: DSMagazine9x19mmSubMachineGunCaustic
   name: SMG magazine (9x19mm Caustic)
   parent: DSBaseMagazine9x19mmSubMachineGunFMJ
   components:
@@ -340,7 +340,7 @@
 
 # TopMounted mags
 - type: entity
-  Magazine9x19mmSubMachineGunTopMountedFMJ
+  id: DSMagazine9x19mmSubMachineGunTopMountedFMJ
   name: top-mounted magazine (9x19mm top-mounted)
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
   components:
@@ -372,7 +372,7 @@
       ballistic-ammo: !type:Container
 
 - type: entity
-  Magazine9x19mmSubMachineGunTopMountedEmpty
+  id: DSMagazine9x19mmSubMachineGunTopMountedEmpty
   name: top-mounted magazine (9x19mm top-mounted any)
   parent: DSMagazine9x19mmSubMachineGunTopMountedFMJ
   components:

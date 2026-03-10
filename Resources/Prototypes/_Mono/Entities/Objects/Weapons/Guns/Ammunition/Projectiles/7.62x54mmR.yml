@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  Bullet762x54mmRFMJ
+  id: DSBullet762x54mmRFMJ
   name: bullet (7.62x54mmR FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  Bullet762x54mmRPractice
+  id: DSBullet762x54mmRPractice
   name: bullet (7.62x54mmR practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -2
 
 - type: entity
-  Bullet762x54mmRRubber
+  id: DSBullet762x54mmRRubber
   name: bullet (7.62x54mmR rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 35
 
 - type: entity
-  Bullet762x54mmRHP
+  id: DSBullet762x54mmRHP
   parent: BaseBullet
   name: bullet (7.62x54mmR hollow-point)
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  Bullet762x54mmRIncendiary
+  id: DSBullet762x54mmRIncendiary
   parent: BaseBulletIncendiary
   name: bullet (7.62x54mmR incendiary)
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 15
 
 - type: entity
-  Bullet762x54mmRUranium
+  id: DSBullet762x54mmRUranium
   parent: BaseBulletUranium
   name: bullet (7.62x54mmR uranium)
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 #Special
 - type: entity
-  Bullet762x54mmREMP
+  id: DSBullet762x54mmREMP
   parent: BaseBulletEmp
   name: bullet (7.62x54mmR EMP)
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 15
 
 - type: entity
-  Bullet762x54mmRCaustic
+  id: DSBullet762x54mmRCaustic
   parent: BaseBullet
   name: bullet (7.62x54mmR caustic)
   categories: [ HideSpawnMenu ]
@@ -102,7 +102,7 @@
 
 # Out of balance
 - type: entity
-  Bullet762x54mmRRIP
+  id: DSBullet762x54mmRRIP
   parent: BaseBullet
   name: bullet (7.62x54mmR RIP)
   categories: [ HideSpawnMenu ]
@@ -115,7 +115,7 @@
         Blunt: 15 #Lua add
 
 - type: entity
-  Bullet762x54mmRPlasteelAP
+  id: DSBullet762x54mmRPlasteelAP
   parent: BaseBullet
   name: bullet (7.62x54mmR AP)
   categories: [ HideSpawnMenu ]

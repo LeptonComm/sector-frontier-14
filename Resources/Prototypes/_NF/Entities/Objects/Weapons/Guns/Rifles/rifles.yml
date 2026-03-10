@@ -1,6 +1,6 @@
 #region DeltaV
 - type: entity
-  NFWeaponRifleCeremonial
+  id: DSNFWeaponRifleCeremonial
   parent: [ NFBaseWeaponRifleChamber556x45, NFBaseWeaponFrameRifleFrontierGunsmith ] #Lua 20 -> 556x45
   name: ceremonial rifle
   description: A ceremonial variant of the Mark 1 Rifle, in tasteful blue and white.
@@ -21,7 +21,7 @@
 
 #region Frontier
 - type: entity
-  NFWeaponRifleRepeater
+  id: DSNFWeaponRifleRepeater
   parent: [ NFBaseWeaponRifleChamber556x45, NFBaseWeaponFrameRifleFrontierGunsmith ] #Lua 20 -> 556x45
   name: N2524 pattern repeater
   description: A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability.

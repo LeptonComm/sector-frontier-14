@@ -1,6 +1,6 @@
 - type: entity
   parent: [ BaseItem, StorePresetBravoUplink ]
-  UplinkBravo
+  id: DSUplinkBravo
   name: Аплинк рейнджеров
   description: Аплинк рейнджеров "Браво"
   suffix: Пустое; МК, НЕ СПАВНИТЬ
@@ -25,7 +25,7 @@
 
 - type: entity
   parent: DSUplinkBravo
-  UplinkBravofilled40
+  id: DSUplinkBravofilled40
   suffix: Рейнджер Браво базовый; МК, НЕ СПАВНИТЬ
   components:
   - type: Store
@@ -35,7 +35,7 @@
 
 - type: entity
   parent: DSUplinkBravo
-  UplinkBravofilled50
+  id: DSUplinkBravofilled50
   suffix: Рейнджер Браво командир; МК, НЕ СПАВНИТЬ
   components:
   - type: Store

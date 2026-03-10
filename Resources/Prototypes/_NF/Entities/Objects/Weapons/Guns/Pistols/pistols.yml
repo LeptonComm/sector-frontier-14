@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity
-  NFWeaponPistolMk58
+  id: DSNFWeaponPistolMk58
   parent: [ BaseC1Contraband, NFBaseWeaponPistolChamber9x19, DSNFBaseWeaponFramePistolNanotrasen ] #Lua 35 -> 9x19
   name: mk58
   description: A cheap semiauto sidearm.
@@ -19,10 +19,10 @@
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: NFWeaponDetails
   - type: PirateBountyItem
-    NFWeaponPistolMk58
+    id: DSNFWeaponPistolMk58
 
 - type: entity
-  NFWeaponPistolN1984
+  id: DSNFWeaponPistolN1984
   parent: [ BaseC1Contraband, NFBaseWeaponPistolChamber45ACP, DSNFBaseWeaponFramePistolNanotrasen ] #Lua 45 -> 45ACP
   name: N1984
   description: |-
@@ -42,7 +42,7 @@
     fireRate: 6
 
 - type: entity
-  NFWeaponPistolCobra
+  id: DSNFWeaponPistolCobra
   parent: [ BaseC1Contraband, NFBaseWeaponPistolChamber45ACP, DSNFBaseWeaponFramePistolCybersun ] #Lua 45 -> 45ACP
   name: cobra
   description: |-
@@ -61,7 +61,7 @@
 
 #region DeltaV
 - type: entity
-  NFWeaponPistolUniversal
+  id: DSNFWeaponPistolUniversal
   parent: [ BaseC1Contraband, NFBaseWeaponPistolChamber9x19, DSNFBaseWeaponFramePistolNanotrasen ] #Lua 35 -> 9x19
   name: mk32 "Universal"
   description: The Mark 32 Offensive Handgun.

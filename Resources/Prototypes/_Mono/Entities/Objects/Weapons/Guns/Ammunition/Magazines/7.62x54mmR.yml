@@ -1,6 +1,6 @@
 # Empty mags
 - type: entity
-  BaseMagazine762x54mmR
+  id: DSBaseMagazine762x54mmR
   name: "magazine (7.62x54mmR FMJ)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband added RecyclableItemSteelTiny
@@ -60,7 +60,7 @@
 # Magazines
 # Standart
 - type: entity
-  Magazine762x54mmRFMJ
+  id: DSMagazine762x54mmRFMJ
   name: "magazine (7.62x54mmR FMJ)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -74,7 +74,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x54mmREmpty
+  id: DSMagazine762x54mmREmpty
   name: "magazine (7.62x54mmR any)"
   parent: DSMagazine762x54mmRFMJ
   components:
@@ -88,7 +88,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x54mmRPractice
+  id: DSMagazine762x54mmRPractice
   name: "magazine (7.62x54mmR practice)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -102,7 +102,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x54mmRRubber
+  id: DSMagazine762x54mmRRubber
   name: "magazine (7.62x54mmR rubber)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -118,7 +118,7 @@
 
 # Mechanical
 - type: entity
-  Magazine762x54mmRHP
+  id: DSMagazine762x54mmRHP
   name: "magazine (7.62x54mmR hollow-point)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -133,7 +133,7 @@
 
 # Physical
 - type: entity
-  Magazine762x54mmRIncendiary
+  id: DSMagazine762x54mmRIncendiary
   name: "magazine (7.62x54mmR incendiary)"
   parent: DSMagazine762x54mmRFMJ
   components:
@@ -147,7 +147,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x54mmRUranium
+  id: DSMagazine762x54mmRUranium
   name: "magazine (7.62x54mmR uranium)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -162,7 +162,7 @@
 
 # Special
 - type: entity
-  Magazine762x54mmREMP
+  id: DSMagazine762x54mmREMP
   name: "magazine (7.62x54mmR EMP)"
   parent: DSBaseMagazine762x54mmR
   components:
@@ -176,7 +176,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine762x54mmRCaustic
+  id: DSMagazine762x54mmRCaustic
   name: "magazine (7.62x54mmR Caustic)"
   parent: DSBaseMagazine762x54mmR
   components:

@@ -1,7 +1,7 @@
 - type: entity
   name: 10mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  N14WeaponSubMachineGun10mm
+  id: DSN14WeaponSubMachineGun10mm
   description: Fully automatic submachinegun chambered in 10mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -71,7 +71,7 @@
 - type: entity
   name: 12.7mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  N14WeaponSubMachineGun12mm
+  id: DSN14WeaponSubMachineGun12mm
   description: A heavy submachinegun chambered in 12mm. # TODO: Need to create projectiles, magazines and boxes for 12mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -141,7 +141,7 @@
 - type: entity
   name: 12.7mm autopipe
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  N14weapon12mmpipe
+  id: DSN14weapon12mmpipe
   description: a makeshift 12mm SMG, looks like is gonna explode the second it shoots.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -212,7 +212,7 @@
 - type: entity
   name: 10mm autopipe
   parent: [BaseC3Contraband, BaseWeaponSubMachineGun]
-  N14weapon10mmpipe
+  id: DSN14weapon10mmpipe
   description: a makeshift 10mm SMG, if you shake it you could hear the loose parts inside of the gun.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -282,7 +282,7 @@
 - type: entity
   name: advanced 12.7mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  N14WeaponAdvanceSubMachineGun12mm
+  id: DSN14WeaponAdvanceSubMachineGun12mm
   description: A bulky sub machine gun with a top magazine fed system, it uses 12mm ammmo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -352,7 +352,7 @@
 - type: entity
   name: 9mm SMG
   parent: [BaseC2ExpeditionContraband, BaseWeaponSubMachineGun]
-  N14weapon9mmSMG
+  id: DSN14weapon9mmSMG
   description: a metallic pre-war simple SMG, chambered in 9mm.
   suffix: МК, НЕ СПАВНИТЬ
   components:

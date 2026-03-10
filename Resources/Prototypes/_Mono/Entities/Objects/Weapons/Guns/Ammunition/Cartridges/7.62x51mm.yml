@@ -1,5 +1,5 @@
 - type: entity
-  BaseCartridge762x51mm
+  id: DSBaseCartridge762x51mm
   name: cartridge (7.62x51mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
@@ -25,7 +25,7 @@
 
 # Standart
 - type: entity
-  Cartridge762x51mmFMJ
+  id: DSCartridge762x51mmFMJ
   name: cartridge (7.62x51mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -34,7 +34,7 @@
     proto: DSBullet762x51mmFMJ
 
 - type: entity
-  Cartridge762x51mmPractice
+  id: DSCartridge762x51mmPractice
   name: cartridge (7.62x51mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -50,7 +50,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  Cartridge762x51mmRubber
+  id: DSCartridge762x51mmRubber
   name: cartridge (7.62x51mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  Cartridge762x51mmHP
+  id: DSCartridge762x51mmHP
   name: cartridge (7.62x51mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -84,7 +84,7 @@
 
 # Physical
 - type: entity
-  Cartridge762x51mmIncendiary
+  id: DSCartridge762x51mmIncendiary
   name: cartridge (7.62x51mm Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -100,7 +100,7 @@
         color: "#f44336"
 
 - type: entity
-  Cartridge762x51mmUranium
+  id: DSCartridge762x51mmUranium
   name: cartridge (7.62x51mm Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  Cartridge762x51mmEMP
+  id: DSCartridge762x51mmEMP
   name: cartridge (7.62x51mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm
@@ -133,7 +133,7 @@
         color: "#044492"
 
 - type: entity
-  Cartridge762x51mmCaustic
+  id: DSCartridge762x51mmCaustic
   name: cartridge (7.62x51mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x51mm

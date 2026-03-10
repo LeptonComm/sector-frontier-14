@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  BaseSpeedLoader45_magnum
+  id: DSBaseSpeedLoader45_magnum
   name: "speed loader (.45 magnum)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
@@ -23,7 +23,7 @@
 
 # Standart
 - type: entity
-  SpeedLoader45_magnumFMJ
+  id: DSSpeedLoader45_magnumFMJ
   name: "speed loader (.45 magnum FMJ)"
   parent: DSBaseSpeedLoader45_magnum
   components:
@@ -43,7 +43,7 @@
   - type: Appearance
 
 - type: entity
-  SpeedLoader45_magnumEmpty
+  id: DSSpeedLoader45_magnumEmpty
   name: "speed loader (.45 magnum any)"
   parent: DSSpeedLoader45_magnumFMJ
   components:
@@ -61,7 +61,7 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
-  SpeedLoader45_magnumPractice
+  id: DSSpeedLoader45_magnumPractice
   name: "speed loader (.45 magnum practice)"
   parent: DSBaseSpeedLoader45_magnum
   components:
@@ -81,7 +81,7 @@
   - type: Appearance
 
 - type: entity
-  SpeedLoader45_magnumRubber
+  id: DSSpeedLoader45_magnumRubber
   name: "speed loader (.45 magnum rubber)"
   parent: DSBaseSpeedLoader45_magnum
   components:
@@ -102,7 +102,7 @@
 
 #Mechanical
 - type: entity
-  SpeedLoader45_magnumHP
+  id: DSSpeedLoader45_magnumHP
   name: speed loader (.45 magnum hollow-point)
   parent: DSBaseSpeedLoader45_magnum
   components:
@@ -123,7 +123,7 @@
 
 # Physical
 - type: entity
-  SpeedLoader45_magnumIncendiary
+  id: DSSpeedLoader45_magnumIncendiary
   name: "speed loader (.45 magnum incendiary)"
   parent: DSSpeedLoader45_magnumFMJ
   components:
@@ -131,7 +131,7 @@
     proto: DSCartridge45_magnumIncendiary
 
 - type: entity
-  SpeedLoader45_magnumUranium
+  id: DSSpeedLoader45_magnumUranium
   name: "speed loader (.45 magnum uranium)"
   parent: DSBaseSpeedLoader45_magnum
   components:

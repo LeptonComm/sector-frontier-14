@@ -1,6 +1,6 @@
 - type: entity
   name: 45_magnum bolt
-  BulletEnergyGun45_magnum
+  id: DSBulletEnergyGun45_magnum
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -40,7 +40,7 @@
 
 - type: entity
   name: non lethal Laser bolt
-  BulletEnergyGunFrostNonLethal
+  id: DSBulletEnergyGunFrostNonLethal
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

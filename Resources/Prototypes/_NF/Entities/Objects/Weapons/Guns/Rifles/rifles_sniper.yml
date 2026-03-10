@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity
-  NFWeaponRifleSniperHristov
+  id: DSNFWeaponRifleSniperHristov
   parent: [ DSNFBaseWeaponRifleChamber60, DSNFBaseWeaponFrameRifleSniperCybersun ]
   name: Hristov
   description: A portable anti-materiel rifle.

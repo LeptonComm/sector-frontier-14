@@ -1,5 +1,5 @@
 - type: entity
-  BaseShellShotgun23x75mm
+  id: DSBaseShellShotgun23x75mm
   name: shotgun shell (4 gauge)
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: added BaseC1Contraband
   description: Large shotgun round. Kicks like a mule, and will tear a chunk out of anything that doesnt have the armor to protect it.
@@ -33,7 +33,7 @@
 
 # Standart
 - type: entity
-  ShellShotgun23x75mmBeanbag
+  id: DSShellShotgun23x75mmBeanbag
   name: shotgun shell (4 gauge beanbag)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm # Frontier: remove BaseSecurityBartenderContraband
@@ -52,7 +52,7 @@
     state: beanbag-spent
 
 - type: entity
-  ShellShotgun23x75mmPractice
+  id: DSShellShotgun23x75mmPractice
   name: shotgun shell (4 gauge practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -67,7 +67,7 @@
     state: practice-spent
 
 - type: entity
-  ShellShotgun23x75mmDozd
+  id: DSShellShotgun23x75mmDozd
   name: shotgun shell (4 gauge Dozd)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -82,7 +82,7 @@
     state: dozd-spent
 
 - type: entity
-  ShellShotgun23x75mmSlug
+  id: DSShellShotgun23x75mmSlug
   name: shotgun shell (4 gauge slug)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -97,7 +97,7 @@
     state: slug-spent
 
 - type: entity
-  ShellShotgun23x75mmBuckshot
+  id: DSShellShotgun23x75mmBuckshot
   name: shotgun shell (4 gauge buckshot)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -111,7 +111,7 @@
 
 #Mechanical
 - type: entity
-  ShellShotgun23x75mmOOBuckshot
+  id: DSShellShotgun23x75mmOOBuckshot
   name: shotgun shell (4 gauge OO Buckshot)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -126,7 +126,7 @@
 
 # Physical
 - type: entity
-  ShellShotgun23x75mmIncendiary
+  id: DSShellShotgun23x75mmIncendiary
   name: shotgun shell (4 gauge incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -141,7 +141,7 @@
     state: incendiary-spent
 
 - type: entity
-  ShellShotgun23x75mmUranium
+  id: DSShellShotgun23x75mmUranium
   name: shotgun shell (4 gauge uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -157,7 +157,7 @@
 
 # Special
 - type: entity
-  ShellShotgun23x75mmEMP
+  id: DSShellShotgun23x75mmEMP
   name: shotgun shell (4 gauge EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm
@@ -172,7 +172,7 @@
       state: emp-spent
 
 - type: entity
-  ShellShotgun23x75mmCaustic
+  id: DSShellShotgun23x75mmCaustic
   name: shotgun shell (4 gauge Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseShellShotgun23x75mm

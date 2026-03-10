@@ -474,6 +474,40 @@
     - SecurityUplink
 
 - type: entity
+  name: стационарный аплинк службы безопасности
+  parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetSecurityUplink, BaseStructureIndestructible, BaseStructureComputer]
+  id: DSComputerUplinkNF
+  description: Покупайте снаряжение за таможенные кредиты.
+  suffix: МК, НЕ СПАВНИТЬ
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    netsync: false
+    noRot: true
+    sprite: _Lua/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: suplink
+    - map: ["computerLayerKeys"]
+      state: uplink_key
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      board: !type:Container
+  - type: Store
+    balance:
+      FrontierUplinkCoin: 0
+  - type: Tag
+    tags:
+    - DSSecurityUplink
+
+- type: entity
   name: стационарный аплинк Нордфолла
   parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetUplink, BaseStructureIndestructible, BaseStructureComputer]
   id: ComputerUplinkTypan

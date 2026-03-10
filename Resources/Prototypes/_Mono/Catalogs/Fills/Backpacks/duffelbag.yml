@@ -12,13 +12,13 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
-  ClothingBackpackDuffelAshstormBundle
+  id: DSClothingBackpackDuffelAshstormBundle
   name: EM72 Ashstorm bundle
   description: "More dakka: The iconic L6 lightmachinegun, bundled with 2 box magazines."
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: StorageFill
     contents:
-      - WeaponLaserCellMG
-      - MilitaryPowerCellMG
-      - MilitaryPowerCellMG
+      - id: DSWeaponLaserCellMG
+      - id: DSMilitaryPowerCellMG
+      - id: DSMilitaryPowerCellMG

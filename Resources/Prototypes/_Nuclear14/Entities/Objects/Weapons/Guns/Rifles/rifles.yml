@@ -1,7 +1,7 @@
 - type: entity
   name: R-91
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponRifleR91
+  id: DSN14WeaponRifleR91
   description: An old fashioned assault rifle chambered in 5.56.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -71,7 +71,7 @@
 - type: entity
   name: chinese assault rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponChineseRifle
+  id: DSN14WeaponChineseRifle
   description: A old foreing assault rifle with strange simbols on it, the chamber has enough space to hold a 7,62 bullet.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -137,7 +137,7 @@
 - type: entity
   name: assault carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponCarbine
+  id: DSN14WeaponCarbine
   description: A black compact assault rifle, uses 5.56 ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -230,7 +230,7 @@
 - type: entity
   name: marksman carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponMarksman
+  id: DSN14WeaponMarksman
   description: A heavy semiautomatic rifle with a scope, uses 7.62 ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -299,7 +299,7 @@
 - type: entity
   name: service rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponService
+  id: DSN14WeaponService
   description: A cheap mass produced post war rifle made by the NCR, chambered in 5.56.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -390,7 +390,7 @@
 - type: entity
   name: scout rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponScout
+  id: DSN14WeaponScout
   description: A modified version of the service rifle made by rangers in the field. It is capable of using larger 5.56 magazines.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -482,7 +482,7 @@
 - type: entity
   name: carbine
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  N14WeaponOldCarbine
+  id: DSN14WeaponOldCarbine
   description: A short compact rifle of the pre-war, chambered in 5.56.
   suffix: МК, НЕ СПАВНИТЬ
   components:

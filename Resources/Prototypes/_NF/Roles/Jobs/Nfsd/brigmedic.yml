@@ -1,5 +1,5 @@
 - type: job
-  Brigmedic
+  id: DSBrigmedic
   name: job-name-brigmedic
   description: job-description-brigmedic-nf
   playTimeTracker: DSJobBrigmedic
@@ -42,7 +42,7 @@
         companyName: Security
 
 - type: chameleonOutfit
-  BrigmedicChameleonOutfit
+  id: DSBrigmedicChameleonOutfit
   job: DSBrigmedic
   hasMindShield: true
   equipment:

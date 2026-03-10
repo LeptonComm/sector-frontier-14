@@ -1,5 +1,5 @@
 - type: entity
-  BaseMagazine45_ACP
+  id: DSBaseMagazine45_ACP
   name: pistol magazine (.45 ACP FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
@@ -36,7 +36,7 @@
 #Pistol mags
 #Standart
 - type: entity
-  Magazine45_ACPPistolFMJ
+  id: DSMagazine45_ACPPistolFMJ
   name: pistol magazine (.45 ACP FMJ)
   parent: DSBaseMagazine45_ACP
   components:
@@ -50,7 +50,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolEmpty
+  id: DSMagazine45_ACPPistolEmpty
   name: pistol magazine (.45 ACP any)
   parent: DSMagazine45_ACPPistolFMJ
   components:
@@ -64,7 +64,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolPractice
+  id: DSMagazine45_ACPPistolPractice
   name: pistol magazine (.45 ACP practice)
   parent: DSBaseMagazine45_ACP
   components:
@@ -78,7 +78,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolRubber
+  id: DSMagazine45_ACPPistolRubber
   name: pistol magazine (.45 ACP rubber)
   parent: DSBaseMagazine45_ACP
   components:
@@ -95,7 +95,7 @@
 
 #Mechanical
 - type: entity
-  Magazine45_ACPPistolHP
+  id: DSMagazine45_ACPPistolHP
   name: pistol magazine (.45 ACP hollow-point)
   parent: DSBaseMagazine45_ACP
   components:
@@ -112,7 +112,7 @@
 
 # Physical
 - type: entity
-  Magazine45_ACPPistolIncendiary
+  id: DSMagazine45_ACPPistolIncendiary
   name: pistol magazine (.45 ACP incendiary)
   parent: DSMagazine45_ACPPistolFMJ
   components:
@@ -126,7 +126,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolUranium
+  id: DSMagazine45_ACPPistolUranium
   name: pistol magazine (.45 ACP uranium)
   parent: DSBaseMagazine45_ACP
   components:
@@ -141,7 +141,7 @@
 
 # Special
 - type: entity
-  Magazine45_ACPPistolEMP
+  id: DSMagazine45_ACPPistolEMP
   name: pistol magazine (.45 ACP EMP)
   parent: DSBaseMagazine45_ACP
   components:
@@ -155,7 +155,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolCaustic
+  id: DSMagazine45_ACPPistolCaustic
   name: pistol magazine (.45 ACP Caustic)
   parent: DSBaseMagazine45_ACP
   components:
@@ -170,7 +170,7 @@
 
 ## HighCapacity mags
 - type: entity
-  BaseMagazine45_ACPPistolHighCapacityFMJ
+  id: DSBaseMagazine45_ACPPistolHighCapacityFMJ
   name: machine pistol magazine (.45 ACP FMJ)
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseC1Contraband
   abstract: true
@@ -203,7 +203,7 @@
   - type: Appearance
 
 - type: entity
-  Magazine45_ACPPistolHighCapacityEmpty
+  id: DSMagazine45_ACPPistolHighCapacityEmpty
   name: machine pistol magazine (.45 ACP any)
   parent: DSBaseMagazine45_ACPPistolHighCapacityFMJ
   components:
@@ -217,7 +217,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolHighCapacityFMJ
+  id: DSMagazine45_ACPPistolHighCapacityFMJ
   name: machine pistol magazine (.45 ACP FMJ)
   parent: DSBaseMagazine45_ACPPistolHighCapacityFMJ
   components:
@@ -231,7 +231,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolHighCapacityPractice
+  id: DSMagazine45_ACPPistolHighCapacityPractice
   name: machine pistol magazine (.45 ACP practice)
   parent: DSBaseMagazine45_ACPPistolHighCapacityFMJ
   components:
@@ -245,7 +245,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPPistolHighCapacityRubber
+  id: DSMagazine45_ACPPistolHighCapacityRubber
   name: machine pistol magazine (.45 ACP rubber)
   parent: DSBaseMagazine45_ACPPistolHighCapacityFMJ
   components:
@@ -262,7 +262,7 @@
 # SMG's mags
 # Base
 - type: entity
-  BaseMagazine45_ACPSubMachineGunFMJ
+  id: DSBaseMagazine45_ACPSubMachineGunFMJ
   name: SMG magazine (.45 ACP FMJ)
   parent: [BaseItem, BaseC1Contraband, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny, BaseSecurityContraband<BaseC1Contraband
   abstract: true
@@ -296,7 +296,7 @@
 
 # Standart
 - type: entity
-  Magazine45_ACPSubMachineGunFMJ
+  id: DSMagazine45_ACPSubMachineGunFMJ
   name: SMG magazine (.45 ACP FMJ)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -315,7 +315,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPSubMachineGunEmpty
+  id: DSMagazine45_ACPSubMachineGunEmpty
   name: SMG magazine (.45 ACP any)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -329,7 +329,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPSubMachineGunPractice
+  id: DSMagazine45_ACPSubMachineGunPractice
   name: SMG magazine (.45 ACP practice)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -343,7 +343,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPSubMachineGunRubber
+  id: DSMagazine45_ACPSubMachineGunRubber
   name: SMG magazine (.45 ACP rubber)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -359,7 +359,7 @@
 
 # Mechanical
 - type: entity
-  Magazine45_ACPSubMachineGunHP
+  id: DSMagazine45_ACPSubMachineGunHP
   name: SMG magazine (.45 ACP hollow-point)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -376,7 +376,7 @@
 # Physical
 - type: entity
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
-  Magazine45_ACPSubMachineGunIncendiary
+  id: DSMagazine45_ACPSubMachineGunIncendiary
   name: SMG magazine (.45 ACP incendiary)
   components:
   - type: BallisticAmmoProvider
@@ -389,7 +389,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPSubMachineGunUranium
+  id: DSMagazine45_ACPSubMachineGunUranium
   name: SMG magazine (.45 ACP uranium)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -404,7 +404,7 @@
 
 # Special
 - type: entity
-  Magazine45_ACPSubMachineGunEMP
+  id: DSMagazine45_ACPSubMachineGunEMP
   name: SMG magazine (.45 ACP emp)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:
@@ -419,7 +419,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine45_ACPSubMachineGunCaustic
+  id: DSMagazine45_ACPSubMachineGunCaustic
   name: SMG magazine (.45 ACP Caustic)
   parent: DSBaseMagazine45_ACPSubMachineGunFMJ
   components:

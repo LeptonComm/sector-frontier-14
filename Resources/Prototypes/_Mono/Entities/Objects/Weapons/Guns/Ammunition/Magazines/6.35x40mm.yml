@@ -1,6 +1,6 @@
 # Base for rifles
 - type: entity
-  BaseMagazine635x40mmCaseless
+  id: DSBaseMagazine635x40mmCaseless
   name: "magazine (635x40mm Caseless)"
   parent: [ BaseCartridge, BaseC3SyndicateContrabandNoValue, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC3SyndicateContraband, added RecyclableItemSteelTiny
   abstract: true
@@ -35,7 +35,7 @@
 
 # Base for pistols
 - type: entity
-  BaseMagazine635x40mmCaselessPistol
+  id: DSBaseMagazine635x40mmCaselessPistol
   name: "pistol magazine (635x40mm Caseless)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -68,7 +68,7 @@
 # Pistol mags
 # Standart
 - type: entity
-  Magazine635x40mmCaselessPistol
+  id: DSMagazine635x40mmCaselessPistol
   name: "pistol magazine (635x40mm Caseless)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -89,7 +89,7 @@
   - type: Appearance
 
 - type: entity
-  Magazine635x40mmCaselessPistolPractice
+  id: DSMagazine635x40mmCaselessPistolPractice
   name: "pistol magazine (635x40mm Caseless practice)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -111,7 +111,7 @@
 
 # Mechanical
 - type: entity
-  Magazine635x40mmCaselessPistolHP
+  id: DSMagazine635x40mmCaselessPistolHP
   name: "pistol magazine (635x40mm HP)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -133,7 +133,7 @@
 
 # Physical
 - type: entity
-  Magazine635x40mmCaselessPistolIncendiary
+  id: DSMagazine635x40mmCaselessPistolIncendiary
   name: "pistol magazine (635x40mm Incendiary)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -154,7 +154,7 @@
   - type: Appearance
 
 - type: entity
-  Magazine635x40mmCaselessPistolUranium
+  id: DSMagazine635x40mmCaselessPistolUranium
   name: "pistol magazine (635x40mm Uranium)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -176,7 +176,7 @@
 
 # Special
 - type: entity
-  Magazine635x40mmCaselessPistolEMP
+  id: DSMagazine635x40mmCaselessPistolEMP
   name: "pistol magazine (635x40mm EMP)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -197,7 +197,7 @@
   - type: Appearance
 
 - type: entity
-  Magazine635x40mmCaselessPistolCaustic
+  id: DSMagazine635x40mmCaselessPistolCaustic
   name: "pistol magazine (635x40mm Caustic)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaselessPistol
@@ -220,7 +220,7 @@
 # Rifles
 # Standart
 - type: entity
-  Magazine635x40mmCaseless
+  id: DSMagazine635x40mmCaseless
   name: "magazine (635x40mm Caseless)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -235,7 +235,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine635x40mmCaselessRubber
+  id: DSMagazine635x40mmCaselessRubber
   name: "magazine (635x40mm Caseless)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -250,7 +250,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine635x40mmCaselessPractice
+  id: DSMagazine635x40mmCaselessPractice
   name: "magazine (635x40mm Caseless practice)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -266,7 +266,7 @@
 
 # Mechanical
 - type: entity
-  Magazine635x40mmCaselessHP
+  id: DSMagazine635x40mmCaselessHP
   name: "magazine (635x40mm HP)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -282,7 +282,7 @@
 
 # Physical
 - type: entity
-  Magazine635x40mmCaselessIncendiary
+  id: DSMagazine635x40mmCaselessIncendiary
   name: "magazine (635x40mm Incendiary)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -297,7 +297,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine635x40mmCaselessUranium
+  id: DSMagazine635x40mmCaselessUranium
   name: "magazine (635x40mm Uranium)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -313,7 +313,7 @@
 
 # Special
 - type: entity
-  Magazine635x40mmCaselessEMP
+  id: DSMagazine635x40mmCaselessEMP
   name: "magazine (635x40mm EMP)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless
@@ -328,7 +328,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine635x40mmCaselessCaustic
+  id: DSMagazine635x40mmCaselessCaustic
   name: "magazine (635x40mm Caustic)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseMagazine635x40mmCaseless

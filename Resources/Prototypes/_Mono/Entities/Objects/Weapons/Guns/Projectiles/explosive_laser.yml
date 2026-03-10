@@ -1,5 +1,5 @@
 - type: entity
-  SimpleLaserExplosion
+  id: DSSimpleLaserExplosion
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: BasicHitscan
-  ExplosiveLaser
+  id: DSExplosiveLaser
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanSpawnEntity
@@ -20,7 +20,7 @@
 - type: entity
   name: explosive laser gun
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable]
-  explosivelasergun
+  id: DSexplosivelasergun
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
   components:
   - type: StaticPrice

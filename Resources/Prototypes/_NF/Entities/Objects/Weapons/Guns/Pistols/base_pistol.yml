@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbrancePistol, NFBaseGunMeleeAttackLow, NFBaseItemWeaponGunMagazineFed ]
-  NFBaseWeaponFramePistol
+  id: DSNFBaseWeaponFramePistol
   name: pistol
   components:
   # Goobstation edit start
@@ -36,7 +36,7 @@
 - type: entity
   abstract: true
   parent: DSNFBaseWeaponFramePistol
-  NFBaseWeaponFramePistolNanotrasen
+  id: DSNFBaseWeaponFramePistolNanotrasen
   components:
   - type: Gun
     minAngle: 3.1
@@ -50,7 +50,7 @@
 - type: entity
   abstract: true
   parent: [ BaseC3SyndicateContraband, DSNFBaseWeaponFramePistol ]
-  NFBaseWeaponFramePistolCybersun
+  id: DSNFBaseWeaponFramePistolCybersun
   components:
   - type: Gun
     angleIncrease: 0.8

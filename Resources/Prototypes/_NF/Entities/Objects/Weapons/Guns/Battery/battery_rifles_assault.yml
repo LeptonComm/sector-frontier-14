@@ -1,7 +1,7 @@
 #region Pulse
 # WizDen
 - type: entity
-  NFWeaponEnergyRifleAssaultPulseCarbine
+  id: DSNFWeaponEnergyRifleAssaultPulseCarbine
   parent: [ BaseC2Contraband, NFBaseWeaponEnergyRifleAssaultHitScanPulse, NFBaseWeaponFrameEnergyRifleAssaultNanotrasen ]
   name: pulse carbine
   description: |-
@@ -28,7 +28,7 @@
 - type: entity #Lua
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
-  LuaPulseRifleLow
+  id: DSLuaPulseRifleLow
   components:
   - type: HitscanBasicDamage
     damage:
@@ -49,7 +49,7 @@
 #region Laser
 # Frontier
 - type: entity
-  NFWeaponEnergyLightMachineGunTurbo
+  id: DSNFWeaponEnergyLightMachineGunTurbo
   parent: [ BaseC3ContrabandUnredeemable, NFBaseWeaponEnergyRifleAssaultFireModes, NFBaseWeaponFrameEnergyRifleAssaultCybersun ]
   name: turbo laser mk3
   description: |-
@@ -116,7 +116,7 @@
       fireCost: 80
 
 - type: entity #Lua
-  LuaBulletLaserHigh
+  id: DSLuaBulletLaserHigh
   parent: NFBaseBulletLaser
   categories: [ HideSpawnMenu ]
   components:

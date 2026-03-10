@@ -1,6 +1,6 @@
 - type: entity
   parent: [ BaseItem, StorePresetCharlieUplink ]
-  UplinkCharlie
+  id: DSUplinkCharlie
   name: Аплинк рейнджеров
   description: Аплинк рейнджеров "Чарли"
   suffix: Пустое
@@ -25,7 +25,7 @@
 
 - type: entity
   parent: DSUplinkCharlie
-  UplinkCharlieFilled45
+  id: DSUplinkCharlieFilled45
   suffix: Рейнджер Чарли базовый
   components:
   - type: Store
@@ -35,7 +35,7 @@
 
 - type: entity
   parent: DSUplinkCharlie
-  UplinkCharlieFilled60
+  id: DSUplinkCharlieFilled60
   suffix: Рейнджер Чарли командир
   components:
   - type: Store

@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseC2ExpeditionContraband, CMBaseWeaponSMG]
   name: MP5 submachine gun
-  WeaponSMGMP5 # TODO RMC14 10% chance to have an underbarrel grenade launcher
+  id: DSWeaponSMGMP5 # TODO RMC14 10% chance to have an underbarrel grenade launcher
   description: A German design, this was one of the most widely used submachine guns in the world. It's still possible to find this firearm in the hands of collectors or gun fanatics.
   suffix: Filled
   components:
@@ -78,7 +78,7 @@
 
 - type: entity
   parent: BaseMagazineRifle
-  CMMagazineSMGMP5
+  id: DSCMMagazineSMGMP5
   name: "MP5 magazine (9mm)"
   description: "A 9mm magazine for the MP5."
   components:
@@ -108,7 +108,7 @@
 
 - type: entity
   parent: CMCartridge10x20mm
-  CMCartridge9mmSMG
+  id: DSCMCartridge9mmSMG
   name: cartridge (9mm SMG)
   description: A 9mm cartridge for the mp5 submachinegun.
   components:
@@ -123,7 +123,7 @@
 - type: entity
   parent: Bullet10x20mm
   categories: [ HideSpawnMenu ]
-  CMBullet9mmSMG #Yes it does use a seperate type of 9mm thats mechanically identical to 10x20mm for some reason
+  id: DSCMBullet9mmSMG #Yes it does use a seperate type of 9mm thats mechanically identical to 10x20mm for some reason
   components:
   - type: Projectile
     damage:
@@ -131,7 +131,7 @@
         Piercing: 18
 
 - type: Tag
-  CMMagazineSMGMP5
+  id: DSCMMagazineSMGMP5
 
 - type: Tag
-  CMCartridge9mmSMG
+  id: DSCMCartridge9mmSMG

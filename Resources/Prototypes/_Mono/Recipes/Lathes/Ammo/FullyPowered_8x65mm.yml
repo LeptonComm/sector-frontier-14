@@ -1,72 +1,72 @@
 #Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBox
+  id: DSMagazine8x65mmSKRBox
   result: DSMagazine8x65mmSKRBox
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBoxIncendiary
+  id: DSMagazine8x65mmSKRBoxIncendiary
   result: DSMagazine8x65mmSKRBoxIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
-  Magazine8x65mmEmptyBox
+  id: DSMagazine8x65mmEmptyBox
   result: DSMagazine8x65mmEmptyBox
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBoxHP
+  id: DSMagazine8x65mmSKRBoxHP
   result: DSMagazine8x65mmSKRBoxHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBoxUranium
+  id: DSMagazine8x65mmSKRBoxUranium
   result: DSMagazine8x65mmSKRBoxUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBoxEMP
+  id: DSMagazine8x65mmSKRBoxEMP
   result: DSMagazine8x65mmSKRBoxEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticFullyPoweredMagazineRecipe
-  Magazine8x65mmSKRBoxCaustic
+  id: DSMagazine8x65mmSKRBoxCaustic
   result: DSMagazine8x65mmSKRBoxCaustic
 
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKR
+  id: DSAmmoBox8x65mmSKR
   result: DSAmmoBox8x65mmSKR
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKRIncendiary
+  id: DSAmmoBox8x65mmSKRIncendiary
   result: DSAmmoBox8x65mmSKRIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKRPractice
+  id: DSAmmoBox8x65mmSKRPractice
   result: DSAmmoBox8x65mmSKRPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKRHP
+  id: DSAmmoBox8x65mmSKRHP
   result: DSAmmoBox8x65mmSKRHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKRUranium
+  id: DSAmmoBox8x65mmSKRUranium
   result: DSAmmoBox8x65mmSKRUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKREMP
+  id: DSAmmoBox8x65mmSKREMP
   result: DSAmmoBox8x65mmSKREMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
-  AmmoBox8x65mmSKRCaustic
+  id: DSAmmoBox8x65mmSKRCaustic
   result: DSAmmoBox8x65mmSKRCaustic

@@ -1,5 +1,5 @@
 - type: job
-  Cadet
+  id: DSCadet
   name: job-name-cadet-nf
   description: job-description-cadet-nf
   playTimeTracker: DSJobSecurityCadet
@@ -34,7 +34,7 @@
         companyName: Security
 
 - type: chameleonOutfit
-  CadetChameleonOutfit
+  id: DSCadetChameleonOutfit
   job: DSCadet
   hasMindShield: true
   equipment:

@@ -1,5 +1,5 @@
 - type: entity
-  BaseCartridge762x54mmR
+  id: DSBaseCartridge762x54mmR
   name: cartridge (7.62x54mmR FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
@@ -25,7 +25,7 @@
 
 # Standart
 - type: entity
-  Cartridge762x54mmRFMJ
+  id: DSCartridge762x54mmRFMJ
   name: cartridge (7.62x54mmR FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -34,7 +34,7 @@
     proto: DSBullet762x54mmRFMJ
 
 - type: entity
-  Cartridge762x54mmRPractice
+  id: DSCartridge762x54mmRPractice
   name: cartridge (7.62x54mmR practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -50,7 +50,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  Cartridge762x54mmRRubber
+  id: DSCartridge762x54mmRRubber
   name: cartridge (7.62x54mmR rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  Cartridge762x54mmRHP
+  id: DSCartridge762x54mmRHP
   name: cartridge (7.62x54mmR hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -84,7 +84,7 @@
 
 # Physical
 - type: entity
-  Cartridge762x54mmRIncendiary
+  id: DSCartridge762x54mmRIncendiary
   name: cartridge (7.62x54mmR Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -100,7 +100,7 @@
         color: "#f44336"
 
 - type: entity
-  Cartridge762x54mmRUranium
+  id: DSCartridge762x54mmRUranium
   name: cartridge (7.62x54mmR Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  Cartridge762x54mmREMP
+  id: DSCartridge762x54mmREMP
   name: cartridge (7.62x54mmR EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -133,7 +133,7 @@
         color: "#044492"
 
 - type: entity
-  Cartridge762x54mmRCaustic
+  id: DSCartridge762x54mmRCaustic
   name: cartridge (7.62x54mmR Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR

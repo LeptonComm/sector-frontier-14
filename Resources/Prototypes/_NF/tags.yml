@@ -124,10 +124,10 @@
   id: PirateUplink
 
 - type: Tag
-  SecurityUplink
+  id: DSSecurityUplink
 
 - type: Tag
-  PirateUplink
+  id: DSPirateUplink
 
 - type: Tag
   id: DroneUsable

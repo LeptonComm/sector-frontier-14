@@ -1,0 +1,33 @@
+- type: entity
+  id: Bullet8x65mmSKR
+  name: bullet (8x65mm SKR)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 45 #Lua 45
+
+- type: entity
+  id: Bullet8x65mmSKRPractice
+  name: bullet (8x65mm SKR practice)
+  parent: BaseBulletPractice
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1 #Lua -2
+
+- type: entity
+  id: Bullet8x65mmSKRIncendiary
+  parent: BaseBulletIncendiary
+  name: bullet (8x65mm SKR incendiary)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        piercing: 10 #Lua add
+        Heat: 35 #Lua +3

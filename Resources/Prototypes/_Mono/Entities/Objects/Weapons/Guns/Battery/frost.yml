@@ -1,7 +1,7 @@
 - type: entity
   name: VFD EN-5 FROST
   parent: [BaseWeaponBattery, BaseCommandContraband] # Frontier: added BaseCommandContraband #Lua BaseGunWieldable
-  WeaponEnergyGunFrost
+  id: DSWeaponEnergyGunFrost
   description: A self-recharging energy gun with lethal rounds that can inflict serious damage. Comes with disabling munitions and improved accuracy compared to it's previous versions.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

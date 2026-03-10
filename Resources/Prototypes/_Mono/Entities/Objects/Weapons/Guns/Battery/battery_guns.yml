@@ -1,5 +1,5 @@
 - type: entity
-  MonoBaseWeaponPowerCell
+  id: DSMonoBaseWeaponPowerCell
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: BaseItem
   abstract: true

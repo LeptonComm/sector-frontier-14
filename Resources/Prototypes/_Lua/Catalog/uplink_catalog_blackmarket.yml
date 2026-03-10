@@ -144,7 +144,7 @@
   id: UplinkBMAutoRifle
   name:  uplink-bm-autorifle-name
   description: uplink-bm-autorifle-desc
-  N14WeaponAutoRifle
+  productEntity: DSN14WeaponAutoRifle
   cost:
     Speso: 35000
   categories:
@@ -160,7 +160,7 @@
   id: UplinkBMLMG
   name:  uplink-bm-LMG-name
   description: uplink-bm-LMG-desc
-  N14WeaponLMG
+  productEntity: DSN14WeaponLMG
   cost:
     Speso: 35000
   categories:
@@ -176,7 +176,7 @@
   id: UplinkBMBrushGun
   name:  uplink-bm-brushgun-name
   description: uplink-bm-brushgun-desc
-  N14WeaponBrushGun
+  productEntity: DSN14WeaponBrushGun
   cost:
     Speso: 35000
   categories:
@@ -192,7 +192,7 @@
   id: UplinkBMRifleR91
   name:  uplink-bm-R91-name
   description: uplink-bm-R91-desc
-  N14WeaponRifleR91
+  productEntity: DSN14WeaponRifleR91
   cost:
     Speso: 25000
   categories:
@@ -208,7 +208,7 @@
   id: UplinkBMChineseRifle
   name:  uplink-bm-chinese-name
   description: uplink-bm-chinese-desc
-  N14WeaponChineseRifle
+  productEntity: DSN14WeaponChineseRifle
   cost:
     Speso: 25000
   categories:
@@ -224,7 +224,7 @@
   id: UplinkBMService
   name:  uplink-bm-service-name
   description: uplink-bm-service-desc
-  N14WeaponService
+  productEntity: DSN14WeaponService
   cost:
     Speso: 25000
   categories:
@@ -240,7 +240,7 @@
   id: UplinkBMLeverRifle
   name:  uplink-bm-lever-name
   description: uplink-bm-lever-desc
-  N14WeaponLeverRifle
+  productEntity: DSN14WeaponLeverRifle
   cost:
     Speso: 35000
   categories:
@@ -256,7 +256,7 @@
   id: UplinkBMMagnum
   name:  uplink-bm-magnum-name
   description: uplink-bm-magnum-desc
-  N14WeaponRevolverMagnun
+  productEntity: DSN14WeaponRevolverMagnun
   cost:
     Speso: 15000
   categories:
@@ -272,7 +272,7 @@
   id: UplinkBM12mmPipe
   name:  uplink-bm-12mmpipe-name
   description: uplink-bm-12mmpipe-desc
-  N14weapon12mmpipe
+  productEntity: DSN14weapon12mmpipe
   cost:
     Speso: 25000
   categories:
@@ -287,7 +287,7 @@
   id: UplinkBMPistol12mm
   name:  uplink-bm-pistol12mm-name
   description: uplink-bm-pistol12mm-desc
-  N14WeaponPistol12mm
+  productEntity: DSN14WeaponPistol12mm
   cost:
     Speso: 15000
   categories:
@@ -303,7 +303,7 @@
   id: UplinkBM10mmPipe
   name:  uplink-bm-10mmpipe-name
   description: uplink-bm-10mmpipe-desc
-  N14weapon10mmpipe
+  productEntity: DSN14weapon10mmpipe
   cost:
     Speso: 25000
   categories:
@@ -318,7 +318,7 @@
   id: UplinkBMPistol9mm
   name:  uplink-bm-pistol9mm-name
   description: uplink-bm-pistol9mm-desc
-  N14WeaponPistol9mm
+  productEntity: DSN14WeaponPistol9mm
   cost:
     Speso: 15000
   categories:
@@ -334,7 +334,7 @@
   id: UplinkBM9mmSMG
   name:  uplink-bm-9mmsmg-name
   description: uplink-bm-9mmsmg-desc
-  N14weapon9mmSMG
+  productEntity: DSN14weapon9mmSMG
   cost:
     Speso: 25000
   categories:
@@ -349,7 +349,7 @@
   id: UplinkBMPistolChinese
   name:  uplink-bm-pistolchinese-name
   description: uplink-bm-pistolchinese-desc
-  N14WeaponPistolChinese
+  productEntity: DSN14WeaponPistolChinese
   cost:
     Speso: 15000
   categories:
@@ -365,7 +365,7 @@
   id: UplinkBMShotgun
   name:  uplink-bm-shotgun-name
   description: uplink-bm-shotgun-desc
-  N14WeaponShotgun
+  productEntity: DSN14WeaponShotgun
   cost:
     Speso: 25000
   categories:
@@ -380,7 +380,7 @@
   id: UplinkBMDBShotgun
   name:  uplink-bm-dbshotgun-name
   description: uplink-bm-dbshotgun-desc
-  N14WeaponDoubleBarrelShotgun
+  productEntity: DSN14WeaponDoubleBarrelShotgun
   cost:
     Speso: 25000
   categories:
@@ -396,7 +396,7 @@
   id: UplinkBMLaserAutoRifle
   name: uplink-bm-laserautorifle-name
   description: uplink-bm-laserautorifle-desc
-  WeaponCaseShortN14WeaponLaserAutoRifle
+  productEntity: DSWeaponCaseShortN14WeaponLaserAutoRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_autorifle.rsi, state: icon }
   cost:
     Speso: 50000
@@ -412,7 +412,7 @@
   id: UplinkBMPlasmaRifle
   name: uplink-bm-plasmarifle-name
   description: uplink-bm-plasmarifle-desc
-  WeaponCaseShortN14WeaponPlasmaRifle
+  productEntity: DSWeaponCaseShortN14WeaponPlasmaRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_rifle.rsi, state: icon }
   cost:
     Speso: 50000
@@ -428,7 +428,7 @@
   id: UplinkBMWatzz2000
   name: uplink-bm-wattz2-name
   description: uplink-bm-wattz2-desc
-  WeaponCaseShortN14WeaponWattz2000
+  productEntity: DSWeaponCaseShortN14WeaponWattz2000
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz2000.rsi, state: icon }
   cost:
     Speso: 50000
@@ -459,7 +459,7 @@
   id: UplinkBMAutoPulser
   name: uplink-bm-autopulser-name
   description: uplink-bm-autopulser-desc
-  WeaponRifleAsakimAutopulser
+  productEntity: DSWeaponRifleAsakimAutopulser
   cost:
     Speso: 50000
   categories:
@@ -480,7 +480,7 @@
   id: UplinkBMMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
-  LuaBoxMagazineRifle762x39mmFMJ
+  productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -498,7 +498,7 @@
   id: UplinkBMMagazine762x39mmRubber # Mag
   name: uplink-security-Magazine762x39mmRubber-name
   description: uplink-security-Magazine762x39mmRubber-desc
-  LuaBoxMagazineRifle762x39mmRubber
+  productEntity: DSLuaBoxMagazineRifle762x39mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -518,7 +518,7 @@
   id: UplinkBMMagazine556x45mmFMJ # Mag
   name: uplink-security-Magazine556x45mmFMJ-name
   description: uplink-security-Magazine556x45mmFMJ-desc
-  LuaBoxMagazineRifle556x45mmFMJ
+  productEntity: DSLuaBoxMagazineRifle556x45mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -536,7 +536,7 @@
   id: UplinkBMMagazine556x45mmRubber # Mag
   name: uplink-security-Magazine556x45mmRubber-name
   description: uplink-security-Magazine556x45mmRubber-desc
-  LuaBoxMagazineRifle556x45mmRubber
+  productEntity: DSLuaBoxMagazineRifle556x45mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -558,7 +558,7 @@
   id: UplinkBMMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
-  LuaBoxMagazine9x19mmSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -576,7 +576,7 @@
   id: UplinkBMMagazine9x19mmSubMachineGunRubber # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunRubber-name
   description: uplink-security-Magazine9x19mmSubMachineGunRubber-desc
-  LuaBoxMagazine9x19mmSubMachineGunRubber
+  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -596,7 +596,7 @@
   id: UplinkBMMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
-  LuaBoxMagazine9x19mmPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -614,7 +614,7 @@
   id: UplinkBMMagazine9x19mmPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityRubber-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityRubber-desc
-  LuaBoxMagazine9x19mmPistolHighCapacityRubber
+  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -636,7 +636,7 @@
   id: UplinkBMMagazine45_ACPSubMachineGunFMJ # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunFMJ-name
   description: uplink-security-Magazine45_ACPSubMachineGunFMJ-desc
-  LuaBoxMagazine45_ACPSubMachineGunFMJ
+  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -654,7 +654,7 @@
   id: UplinkBMMagazine45_ACPSubMachineGunRubber # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunRubber-name
   description: uplink-security-Magazine45_ACPSubMachineGunRubber-desc
-  LuaBoxMagazine45_ACPSubMachineGunRubber
+  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -674,7 +674,7 @@
   id: UplinkBMMagazine45_ACPPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-desc
-  LuaBoxMagazine45_ACPPistolHighCapacityFMJ
+  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -692,7 +692,7 @@
   id: UplinkBMMagazine45_ACPPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityRubber-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityRubber-desc
-  LuaBoxMagazine45_ACPPistolHighCapacityRubber
+  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -712,7 +712,7 @@
   id: UplinkBMSpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
-  LuaBoxSpeedLoader45_magnumFMJ
+  productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -730,7 +730,7 @@
   id: UplinkBMSpeedLoader45_magnumRubber # speedloader
   name: uplink-security-SpeedLoader45_magnumRubber-name
   description: uplink-security-SpeedLoader45_magnumRubber-desc
-  LuaBoxSpeedLoader45_magnumRubber
+  productEntity: DSLuaBoxSpeedLoader45_magnumRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -750,7 +750,7 @@
   id: UplinkBMMagazine762x51mmFMJ # Mag
   name: uplink-security-Magazine762x51mmFMJ-name
   description: uplink-security-Magazine762x51mmFMJ-desc
-  LuaBoxMagazine762x51mmFMJ
+  productEntity: DSLuaBoxMagazine762x51mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000
@@ -766,7 +766,7 @@
   id: UplinkBMAmmoBox762x51mmFMJ # Mag (For VFD MR-8B LWMMG (7.62x51mm))
   name: uplink-security-AmmoBox762x51mmFMJ-name
   description: uplink-security-AmmoBox762x51mmFMJ-desc
-  AmmoBox762x51mmFMJ
+  productEntity: DSAmmoBox762x51mmFMJ
   cost:
     Speso: 10000
   categories:
@@ -783,7 +783,7 @@
   id: UplinkBMMagazine762x51mmRubber # Mag
   name: uplink-security-Magazine762x51mmRubber-name
   description: uplink-security-Magazine762x51mmRubber-desc
-  LuaBoxMagazine762x51mmRubber
+  productEntity: DSLuaBoxMagazine762x51mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 5000
@@ -803,7 +803,7 @@
   id: UplinkBMMagazine8x65mmSKR # Mag
   name: uplink-security-Magazine8x65mmSKR-name
   description: uplink-security-Magazine8x65mmSKR-desc
-  LuaBoxMagazine8x65mmSKR
+  productEntity: DSLuaBoxMagazine8x65mmSKR
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 10000

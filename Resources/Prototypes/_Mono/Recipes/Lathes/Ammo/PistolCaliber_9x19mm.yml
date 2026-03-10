@@ -1,186 +1,186 @@
 #Pistol Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolFMJ
+  id: DSMagazine9x19mmPistolFMJ
   result: DSMagazine9x19mmPistolFMJ
 
 #- type: latheRecipe
 #  parent: BaseAmmoPlasteelAPPistolCaliberPistolMagazineRecipe
-#  Magazine9x19mmPistolPlasteelAP
+#  id: DSMagazine9x19mmPistolPlasteelAP
 #  result: DSMagazine9x19mmPistolPlasteelAP
 
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolRubber
+  id: DSMagazine9x19mmPistolRubber
   result: DSMagazine9x19mmPistolRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolIncendiary
+  id: DSMagazine9x19mmPistolIncendiary
   result: DSMagazine9x19mmPistolIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticePistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolPractice
+  id: DSMagazine9x19mmPistolPractice
   result: DSMagazine9x19mmPistolPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolEmpty
+  id: DSMagazine9x19mmPistolEmpty
   result: DSMagazine9x19mmPistolEmpty
 
 - type: latheRecipe
   parent: BaseAmmoUraniumPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolUranium
+  id: DSMagazine9x19mmPistolUranium
   result: DSMagazine9x19mmPistolUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolEMP
+  id: DSMagazine9x19mmPistolEMP
   result: DSMagazine9x19mmPistolEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolCaustic
+  id: DSMagazine9x19mmPistolCaustic
   result: DSMagazine9x19mmPistolCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPPistolCaliberPistolMagazineRecipe
-  Magazine9x19mmPistolHP
+  id: DSMagazine9x19mmPistolHP
   result: DSMagazine9x19mmPistolHP
 
 #SMG Magazines
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunFMJ
+  id: DSMagazine9x19mmSubMachineGunFMJ
   result: DSMagazine9x19mmSubMachineGunFMJ
 
 #- type: latheRecipe
 #  parent: BaseAmmoPlasteelAPPistolCaliberSubMachineGunMagazineRecipe
-#  Magazine9x19mmSubMachineGunPlasteelAP
+#  id: DSMagazine9x19mmSubMachineGunPlasteelAP
 #  result: DSMagazine9x19mmSubMachineGunPlasteelAP
 
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunRubber
+  id: DSMagazine9x19mmSubMachineGunRubber
   result: DSMagazine9x19mmSubMachineGunRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunIncendiary
+  id: DSMagazine9x19mmSubMachineGunIncendiary
   result: DSMagazine9x19mmSubMachineGunIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticePistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunPractice
+  id: DSMagazine9x19mmSubMachineGunPractice
   result: DSMagazine9x19mmSubMachineGunPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunEmpty
+  id: DSMagazine9x19mmSubMachineGunEmpty
   result: DSMagazine9x19mmSubMachineGunEmpty
 
 - type: latheRecipe
   parent: BaseAmmoUraniumPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunUranium
+  id: DSMagazine9x19mmSubMachineGunUranium
   result: DSMagazine9x19mmSubMachineGunUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunEMP
+  id: DSMagazine9x19mmSubMachineGunEMP
   result: DSMagazine9x19mmSubMachineGunEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunCaustic
+  id: DSMagazine9x19mmSubMachineGunCaustic
   result: DSMagazine9x19mmSubMachineGunCaustic
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunTopMountedFMJ
+  id: DSMagazine9x19mmSubMachineGunTopMountedFMJ
   result: DSMagazine9x19mmSubMachineGunTopMountedFMJ
 
 - type: latheRecipe
   parent: BaseAmmoEmptyPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunTopMountedEmpty
+  id: DSMagazine9x19mmSubMachineGunTopMountedEmpty
   result: DSMagazine9x19mmSubMachineGunTopMountedEmpty
 
 - type: latheRecipe
   parent: BaseAmmoHPPistolCaliberSubMachineGunMagazineRecipe
-  Magazine9x19mmSubMachineGunHP
+  id: DSMagazine9x19mmSubMachineGunHP
   result: DSMagazine9x19mmSubMachineGunHP
 
 #Speedloaders
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmFMJ
+  id: DSSpeedLoader9x19mmFMJ
   result: DSSpeedLoader9x19mmFMJ
 
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmRubber
+  id: DSSpeedLoader9x19mmRubber
   result: DSSpeedLoader9x19mmRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryPistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmIncendiary
+  id: DSSpeedLoader9x19mmIncendiary
   result: DSSpeedLoader9x19mmIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticePistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmPractice
+  id: DSSpeedLoader9x19mmPractice
   result: DSSpeedLoader9x19mmPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyPistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmEmpty
+  id: DSSpeedLoader9x19mmEmpty
   result: DSSpeedLoader9x19mmEmpty
 
 - type: latheRecipe
   parent: BaseAmmoUraniumPistolCaliberSpeedloaderRecipe
-  SpeedLoader9x19mmUranium
+  id: DSSpeedLoader9x19mmUranium
   result: DSSpeedLoader9x19mmUranium
 
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmFMJ
+  id: DSAmmoBox9x19mmFMJ
   result: DSAmmoBox9x19mmFMJ
 
 - type: latheRecipe
   parent: BaseAmmoRubberPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmRubber
+  id: DSAmmoBox9x19mmRubber
   result: DSAmmoBox9x19mmRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmIncendiary
+  id: DSAmmoBox9x19mmIncendiary
   result: DSAmmoBox9x19mmIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticePistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmPractice
+  id: DSAmmoBox9x19mmPractice
   result: DSAmmoBox9x19mmPractice
 
 - type: latheRecipe
   parent: BaseAmmoUraniumPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmUranium
+  id: DSAmmoBox9x19mmUranium
   result: DSAmmoBox9x19mmUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmEMP
+  id: DSAmmoBox9x19mmEMP
   result: DSAmmoBox9x19mmEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmCaustic
+  id: DSAmmoBox9x19mmCaustic
   result: DSAmmoBox9x19mmCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
-  AmmoBox9x19mmHP
+  id: DSAmmoBox9x19mmHP
   result: DSAmmoBox9x19mmHP

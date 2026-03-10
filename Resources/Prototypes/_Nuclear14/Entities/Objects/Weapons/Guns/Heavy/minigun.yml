@@ -1,7 +1,7 @@
 - type: entity
   name: minigun
   parent: BaseWeaponRifle
-  BaseWeaponMinigun
+  id: DSBaseWeaponMinigun
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo.
   categories: [ HideSpawnMenu ]
   suffix: МК, НЕ СПАВНИТЬ
@@ -63,7 +63,7 @@
 - type: entity
   name: minigun
   parent: [BaseC3Contraband, BaseWeaponMinigun]
-  N14WeaponMinigun
+  id: DSN14WeaponMinigun
   description: A extremely heavy minigun with 3 barrels, it uses 5mm ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -78,7 +78,7 @@
 - type: entity
   name: avenger minigun
   parent: [BaseC2Contraband, BaseWeaponMinigun]
-  N14WeaponAvengerMinigun
+  id: DSN14WeaponAvengerMinigun
   description: A extremely heavy advance minigun with multiple barrels, it uses 5mm ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:

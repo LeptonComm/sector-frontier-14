@@ -1,7 +1,7 @@
 # Security
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  ClothingOuterHardsuitTSFMCM73
+  id: DSClothingOuterHardsuitTSFMCM73
   name: TSFMC M73 tacsuit
   description: The standard-issue TSFMC tacsuit for patrol duty. This bronze variant has private rank markings.
   suffix: TSF, Light, Standart #Lua
@@ -47,7 +47,7 @@
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit #Lua
-  ClothingOuterHardsuitTSFMCM92
+  id: DSClothingOuterHardsuitTSFMCM92
   name: TSFMC M92 tacsuit
   description: A heavy tacsuit, capable of taking a lot of physical damage.
   suffix: TSF, Heavy, Standart #Lua
@@ -89,7 +89,7 @@
 
 - type: entity
   parent: ClothingOuterHardsuitNfsdBronze
-  ClothingOuterHardsuitTSFMCM73-C
+  id: DSClothingOuterHardsuitTSFMCM73-C
   name: TSFMC M73-C tacsuit
   description: A variant of the M73 tacsuit for combat medical and NBC use. Provides greater caustic and radiation protection.
   suffix: TSF, Light, Special #Lua
@@ -127,7 +127,7 @@
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, ClothingOuterHardsuitJuggernaut] # Jugger Suit
-  ClothingOuterHardsuitTSFMCM92-X
+  id: DSClothingOuterHardsuitTSFMCM92-X
   name: TSFMC M92-X tacsuit
   description: A experimental modification of the M92 tacsuit for spec-ops units of the TSFMC. Externally the same, internally its higher-quality alloys and fabric.
   suffix: TSF, Heavy, Special #Lua
@@ -173,7 +173,7 @@
 #Security Combat Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  ClothingOuterHardsuitTSFMCM93
+  id: DSClothingOuterHardsuitTSFMCM93
   name: TSFMC M93 tacsuit
   description: A heavily armored TSFMC suit. Space proof, with thick armor plating at the expense of mobility.
   suffix: TSF, Medium, Standart #Lua
@@ -212,7 +212,7 @@
 #Security Command Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
-  ClothingOuterHardsuitTSFMCM93-C
+  id: DSClothingOuterHardsuitTSFMCM93-C
   name: TSFMC M93-C tacsuit
   description: A variant of the M93 tacsuit with slightly better plating. It isn't much extra.
   suffix: TSF, Medium, Special #Lua

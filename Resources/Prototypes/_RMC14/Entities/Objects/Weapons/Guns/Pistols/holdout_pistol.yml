@@ -1,6 +1,6 @@
 - type: entity
   parent: DSCMWeaponPistolBase
-  RMCWeaponPistolHoldout
+  id: DSRMCWeaponPistolHoldout
   name: holdout pistol
   description: A tiny pistol meant for hiding in hard-to-reach areas. Best not ask where it came from.
   suffix: МК, НЕ СПАВНИТЬ

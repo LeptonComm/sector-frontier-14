@@ -1,5 +1,5 @@
 - type: entity
-  BaseCartridge45_magnum
+  id: DSBaseCartridge45_magnum
   name: cartridge (.45 magnum)
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: Heavy magnum round, usually only seen in magnums or manually-cycled rifles.
@@ -24,7 +24,7 @@
 
 # Standart
 - type: entity
-  Cartridge45_magnumFMJ
+  id: DSCartridge45_magnumFMJ
   name: cartridge (.45 magnum)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -33,7 +33,7 @@
     proto: DSBullet45_magnumFMJ
 
 - type: entity
-  Cartridge45_magnumPractice
+  id: DSCartridge45_magnumPractice
   name: cartridge (.45 magnum practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -49,7 +49,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  Cartridge45_magnumRubber
+  id: DSCartridge45_magnumRubber
   name: cartridge (.45 magnum rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -66,7 +66,7 @@
 
 # Mechanical
 - type: entity
-  Cartridge45_magnumHP
+  id: DSCartridge45_magnumHP
   name: cartridge (.45 magnum hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -83,7 +83,7 @@
 
 # Physical
 - type: entity
-  Cartridge45_magnumIncendiary
+  id: DSCartridge45_magnumIncendiary
   name: cartridge (.45 magnum Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -99,7 +99,7 @@
         color: "#f44336"
 
 - type: entity
-  Cartridge45_magnumUranium
+  id: DSCartridge45_magnumUranium
   name: cartridge (.45 magnum Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -116,7 +116,7 @@
 
 # Special
 - type: entity
-  Cartridge45_magnumEMP
+  id: DSCartridge45_magnumEMP
   name: cartridge (.45 magnum EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum
@@ -132,7 +132,7 @@
         color: "#044492"
 
 - type: entity
-  Cartridge45_magnumCaustic
+  id: DSCartridge45_magnumCaustic
   name: cartridge (.45 magnum Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge45_magnum

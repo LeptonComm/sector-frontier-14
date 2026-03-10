@@ -1,7 +1,7 @@
 - type: entity
   name: Big Leady (4 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3SyndicateContraband]
-  WeaponShotgunBigLeady
+  id: DSWeaponShotgunBigLeady
   description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
@@ -40,7 +40,7 @@
 - type: entity
   name: Big Johnny (4 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband]
-  WeaponShotgunBigJohnny
+  id: DSWeaponShotgunBigJohnny
   description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant. This one is outfitted with various tactical additions and is made for CQC at the cost of low ammo capacity.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
@@ -79,7 +79,7 @@
 - type: entity
   name: Big Buddy (4 gauge)
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3SyndicateContraband]
-  WeaponShotgunBigBuddy
+  id: DSWeaponShotgunBigBuddy
   description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components: # intend for BigBuddy to have tighter choke for slower fire rate and/or manual cycling

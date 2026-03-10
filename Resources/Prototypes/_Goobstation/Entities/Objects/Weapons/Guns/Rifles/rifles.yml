@@ -1,7 +1,7 @@
 - type: entity
   name: TCA M27 Annie (7.62x39mm)
   parent: [BaseC2ContrabandUnredeemable, BaseWeaponRifle] # Mono - C2 contra
-  WeaponRifleAnnie
+  id: DSWeaponRifleAnnie
   description: A beast designed to shoulder the weight of impossible missions. Uses 7.62x39mm ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -75,7 +75,7 @@
 - type: entity
   name: CS KMP-WSPR (7.62x39mm)
   parent: [BaseC3PirateContraband, BaseWeaponRifle] # Mono - C3
-  WeaponRifleWSPR
+  id: DSWeaponRifleWSPR
   description: A cutting-edge rifle from Cybersun, versatile, reliable, and Syndicate-approved. Uses 7.62x39mm subsonic ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -147,7 +147,7 @@
 - type: entity
   name: PA M-90 (7.62x51mm) # mono - 762x51mm
   parent: [BaseWeaponRifleUnwieldable, BaseC3PirateContraband] # Mono - pirate contra #Lua BaseWeaponRifle<BaseWeaponRifleUnwieldable
-  WeaponRifleM90
+  id: DSWeaponRifleM90
   description: A compact bullpup design. Uses 7.62x51mm rifle ammo. # mono
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -220,7 +220,7 @@
 - type: entity
   name: CS Burner (7.62x54)
   parent: [BaseWeaponRifle, BaseC3PirateContraband] # Mono - Changed to HighValue
-  WeaponRifleBurner
+  id: DSWeaponRifleBurner
   description: A high caliber syndicate gun chambered in 12.7x99mm, capable of firing anti-material and high explosive rounds.
   suffix: МК, НЕ СПАВНИТЬ
   components:

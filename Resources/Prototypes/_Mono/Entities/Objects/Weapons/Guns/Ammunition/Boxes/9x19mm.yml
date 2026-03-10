@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  BaseAmmoBox9x19mm
+  id: DSBaseAmmoBox9x19mm
   name: ammunition box (9x19mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -41,7 +41,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmFMJ
+  id: DSAmmoBox9x19mmFMJ
   name: ammunition box (9x19mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmPractice
+  id: DSAmmoBox9x19mmPractice
   name: ammunition box (9x19mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmRubber
+  id: DSAmmoBox9x19mmRubber
   name: ammunition box (9x19mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -89,7 +89,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmHP
+  id: DSAmmoBox9x19mmHP
   name: ammunition box (9x19mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -106,7 +106,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmIncendiary
+  id: DSAmmoBox9x19mmIncendiary
   name: ammunition box (9x19mm incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -121,7 +121,7 @@
     - state: incendiary
 
 - type: entity
-  AmmoBox9x19mmUranium
+  id: DSAmmoBox9x19mmUranium
   parent: DSBaseAmmoBox9x19mm
   name: ammunition box (9x19mm uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmEMP
+  id: DSAmmoBox9x19mmEMP
   name: ammunition box (9x19mm emp)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox9x19mm
-  AmmoBox9x19mmCaustic
+  id: DSAmmoBox9x19mmCaustic
   name: ammunition box (9x19mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

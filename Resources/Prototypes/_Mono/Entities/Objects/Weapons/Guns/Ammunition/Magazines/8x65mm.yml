@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  BaseMagazine8x65mmBox
+  id: DSBaseMagazine8x65mmBox
   name: SAW box (8x65mm SKR)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [BaseItem, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny
@@ -36,7 +36,7 @@
 # Standart
 
 - type: entity
-  Magazine8x65mmSKRBox
+  id: DSMagazine8x65mmSKRBox
   name: SAW box (8x65mm SKR)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -51,7 +51,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine8x65mmEmptyBox
+  id: DSMagazine8x65mmEmptyBox
   name: SAW box (8x65mm SKR any)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  Magazine8x65mmSKRBoxHP
+  id: DSMagazine8x65mmSKRBoxHP
   name: SAW box (8x65mm SKR HP)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -83,7 +83,7 @@
 
 # Physical
 - type: entity
-  Magazine8x65mmSKRBoxIncendiary
+  id: DSMagazine8x65mmSKRBoxIncendiary
   name: SAW box (8x65mm SKR Incendiary)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -98,7 +98,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine8x65mmSKRBoxUranium
+  id: DSMagazine8x65mmSKRBoxUranium
   name: SAW box (8x65mm SKR Uranium)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -114,7 +114,7 @@
 
 # Special
 - type: entity
-  Magazine8x65mmSKRBoxEMP
+  id: DSMagazine8x65mmSKRBoxEMP
   name: SAW box (8x65mm SKR EMP)
   parent: DSBaseMagazine8x65mmBox
   components:
@@ -129,7 +129,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  Magazine8x65mmSKRBoxCaustic
+  id: DSMagazine8x65mmSKRBoxCaustic
   name: SAW box (8x65mm SKR Caustic)
   parent: DSBaseMagazine8x65mmBox
   components:

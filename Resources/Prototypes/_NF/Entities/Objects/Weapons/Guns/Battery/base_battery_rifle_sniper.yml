@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ DSNFBaseWeaponEncumbranceLauncher, NFBaseGunMeleeAttackHigh, BaseWeaponBattery ]
-  NFBaseWeaponFrameEnergyRifleSniper
+  id: DSNFBaseWeaponFrameEnergyRifleSniper
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -66,7 +66,7 @@
 
 #region manufacturer
 - type: entity
-  NFBaseWeaponFrameEnergyRifleSniperNanotrasen
+  id: DSNFBaseWeaponFrameEnergyRifleSniperNanotrasen
   parent: NFBaseWeaponFrameEnergyRifleSniper
   abstract: true
   components:
@@ -81,7 +81,7 @@
 
 #region chamber
 - type: entity
-  NFBaseWeaponEnergyRifleSniperHitScan
+  id: DSNFBaseWeaponEnergyRifleSniperHitScan
   abstract: true
   components:
   - type: Gun
@@ -93,7 +93,7 @@
     fireCost: 120
 
 - type: entity
-  NFBaseWeaponEnergyRifleSniperHitScanXray
+  id: DSNFBaseWeaponEnergyRifleSniperHitScanXray
   abstract: true
   components:
   - type: Gun
