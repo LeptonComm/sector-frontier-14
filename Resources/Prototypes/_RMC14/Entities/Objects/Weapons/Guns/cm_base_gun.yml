@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: RMCBaseMeleeWeapon
-  id: DSCMBaseWeaponGun
+  id: CMBaseWeaponGun
   components:
   - type: Clothing
     quickEquip: false

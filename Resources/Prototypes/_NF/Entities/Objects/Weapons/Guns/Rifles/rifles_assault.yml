@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity # TODO: switch to .25 rifle (caseless)
-  id: DSNFWeaponRifleAssaultSm
+  id: NFWeaponRifleAssaultSm
   parent: [ NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultCybersun ] #Lua 30 -> 762x39
   name: Soland-Moss # Renamed: real brand name
   suffix: МК, НЕ СПАВНИТЬ
@@ -33,7 +33,7 @@
     fireRate: 5 #Lua
 
 - type: entity # TODO: switch to .25 rifle (caseless)
-  id: DSNFWeaponRifleAssaultM90GrenadeLauncher
+  id: NFWeaponRifleAssaultM90GrenadeLauncher
   parent: [ NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultCybersun ] #Lua 20 -> 556x45
   name: M-90gl
   description: |-
@@ -77,7 +77,7 @@
             - Cartridge762x51mmFMJ
 
 - type: entity
-  id: DSNFWeaponRifleAssaultLecter
+  id: NFWeaponRifleAssaultLecter
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultNanotrasen ] #Lua 20 -> 556x45
   name: Lecter
   description: |-
@@ -128,7 +128,7 @@
 
 #region DeltaV
 - type: entity
-  id: DSNFWeaponRifleAssaultVulcan
+  id: NFWeaponRifleAssaultVulcan
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber762x39, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 30 -> 762x39
   name: Vulcan
   description: |-
@@ -155,7 +155,7 @@
     fireRate: 4
 
 - type: entity
-  id: DSNFWeaponRifleAssaultJackdaw
+  id: NFWeaponRifleAssaultJackdaw
   parent: [ BaseC2ExpeditionContraband, NFBaseWeaponRifleAssaultChamber556x45, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 25 -> 556x45
   name: Jackdaw
   categories: [ HideSpawnMenu ] #Lua
@@ -176,7 +176,7 @@
 
 #region Frontier
 - type: entity
-  id: DSNFWeaponRifleAssaultGestio
+  id: NFWeaponRifleAssaultGestio
   parent: [ NFBaseWeaponRifleAssaultChamber762x39LowCapacity, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 30 -> 762x39
   name: Gestio
   description: |-
@@ -207,7 +207,7 @@
       path: /Audio/_NF/Weapons/Guns/Gunshots/rifle.ogg
 
 - type: entity
-  id: DSNFWeaponRifleAssaultNovaliteC1
+  id: NFWeaponRifleAssaultNovaliteC1
   parent: [ NFBaseWeaponRifleAssaultChamber556x45Clip, NFBaseWeaponFrameRifleAssaultFrontierGunsmith ] #Lua 20 -> 556x45
   name: Novalite C1
   description: |-

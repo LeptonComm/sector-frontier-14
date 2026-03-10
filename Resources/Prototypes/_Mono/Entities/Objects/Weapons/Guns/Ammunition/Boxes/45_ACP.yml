@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox45_ACP
+  id: BaseAmmoBox45_ACP
   name: ammunition box (.45 ACP FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -41,7 +41,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPFMJ
+  id: AmmoBox45_ACPFMJ
   name: ammunition box (.45 ACP FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPPractice
+  id: AmmoBox45_ACPPractice
   name: ammunition box (.45 ACP practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPRubber
+  id: AmmoBox45_ACPRubber
   name: ammunition box (.45 ACP rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -89,7 +89,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPHP
+  id: AmmoBox45_ACPHP
   name: ammunition box (.45 ACP hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -106,7 +106,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPIncendiary
+  id: AmmoBox45_ACPIncendiary
   name: ammunition box (.45 ACP incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -121,7 +121,7 @@
     - state: incendiary
 
 - type: entity
-  id: DSAmmoBox45_ACPUranium
+  id: AmmoBox45_ACPUranium
   parent: DSBaseAmmoBox45_ACP
   name: ammunition box (.45 ACP uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPEMP
+  id: AmmoBox45_ACPEMP
   name: ammunition box (.45 ACP emp)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_ACP
-  id: DSAmmoBox45_ACPCaustic
+  id: AmmoBox45_ACPCaustic
   name: ammunition box (.45 ACP Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

@@ -1,6 +1,6 @@
 - type: entity
   parent: [BaseAmmoProvider, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSAmmoProvider12_gaugeShotgunShell
+  id: AmmoProvider12_gaugeShotgunShell
   abstract: true
   components:
     - type: Sprite
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: [BaseAmmoProvider, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSAmmoProvider23x75mmShotgunShell
+  id: AmmoProvider23x75mmShotgunShell
   abstract: true
   components:
     - type: Sprite

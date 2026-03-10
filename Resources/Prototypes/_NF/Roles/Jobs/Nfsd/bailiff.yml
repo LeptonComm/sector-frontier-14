@@ -1,5 +1,5 @@
 - type: job
-  id: DSBailiff
+  id: Bailiff
   name: job-name-bailiff
   description: job-description-bailiff
   playTimeTracker: DSJobBailiff
@@ -33,7 +33,7 @@
         companyName: Security
 
 - type: chameleonOutfit
-  id: DSBailiffChameleonOutfit
+  id: BailiffChameleonOutfit
   job: DSBailiff
   hasMindShield: true
   equipment:

@@ -1,119 +1,119 @@
 #SMG Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaseless
+  id: Magazine635x40mmCaseless
   result: DSMagazine635x40mmCaseless
 
 - type: latheRecipe #Lua
   parent: BaseAmmoPracticePistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPractice
+  id: Magazine635x40mmCaselessPractice
   result: DSMagazine635x40mmCaselessPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoRubberPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessRubber
+  id: Magazine635x40mmCaselessRubber
   result: DSMagazine635x40mmCaselessRubber
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessHP
+  id: Magazine635x40mmCaselessHP
   result: DSMagazine635x40mmCaselessHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoIncendiaryPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessIncendiary
+  id: Magazine635x40mmCaselessIncendiary
   result: DSMagazine635x40mmCaselessIncendiary
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessUranium
+  id: Magazine635x40mmCaselessUranium
   result: DSMagazine635x40mmCaselessUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessEMP
+  id: Magazine635x40mmCaselessEMP
   result: DSMagazine635x40mmCaselessEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessCaustic
+  id: Magazine635x40mmCaselessCaustic
   result: DSMagazine635x40mmCaselessCaustic
 
 #Ammo boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaseless
   result: DSAmmoBox635x40mmCaseless
 
 - type: latheRecipe #Lua
   parent: BaseAmmoPracticePistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessPractice
+  id: AmmoBox635x40mmCaselessPractice
   result: DSAmmoBox635x40mmCaselessPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoRubberPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessRubber
+  id: AmmoBox635x40mmCaselessRubber
   result: DSAmmoBox635x40mmCaselessRubber
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessHP
+  id: AmmoBox635x40mmCaselessHP
   result: DSAmmoBox635x40mmCaselessHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoIncendiaryPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessIncendiary
+  id: AmmoBox635x40mmCaselessIncendiary
   result: DSAmmoBox635x40mmCaselessIncendiary
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessUranium
+  id: AmmoBox635x40mmCaselessUranium
   result: DSAmmoBox635x40mmCaselessUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessEMP
+  id: AmmoBox635x40mmCaselessEMP
   result: DSAmmoBox635x40mmCaselessEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberAmmoBoxRecipe
-  id: DSAmmoBox635x40mmCaselessCaustic
+  id: AmmoBox635x40mmCaselessCaustic
   result: DSAmmoBox635x40mmCaselessCaustic
 
 # Pistol mags
 
 - type: latheRecipe
   parent: BaseAmmoFMJPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistol
+  id: Magazine635x40mmCaselessPistol
   result: DSMagazine635x40mmCaselessPistol
 
 - type: latheRecipe #Lua
   parent: BaseAmmoPracticePistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolPractice
+  id: Magazine635x40mmCaselessPistolPractice
   result: DSMagazine635x40mmCaselessPistolPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoHPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolHP
+  id: Magazine635x40mmCaselessPistolHP
   result: DSMagazine635x40mmCaselessPistolHP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoIncendiaryPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolIncendiary
+  id: Magazine635x40mmCaselessPistolIncendiary
   result: DSMagazine635x40mmCaselessPistolIncendiary
 
 - type: latheRecipe #Lua
   parent: BaseAmmoUraniumPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolUranium
+  id: Magazine635x40mmCaselessPistolUranium
   result: DSMagazine635x40mmCaselessPistolUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolEMP
+  id: Magazine635x40mmCaselessPistolEMP
   result: DSMagazine635x40mmCaselessPistolEMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticPistolCaliberSubMachineGunMagazineRecipe
-  id: DSMagazine635x40mmCaselessPistolCaustic
+  id: Magazine635x40mmCaselessPistolCaustic
   result: DSMagazine635x40mmCaselessPistolCaustic

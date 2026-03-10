@@ -1,104 +1,104 @@
 #Magazines
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRFMJ
+  id: Magazine762x54mmRFMJ
   result: DSMagazine762x54mmRFMJ
 
 #- type: latheRecipe
 #  parent: BaseAmmoPlasteelAPFullyPoweredMagazineRecipe
-#  id: DSMagazine762x54mmRPlasteelAP
+#  id: Magazine762x54mmRPlasteelAP
 #  result: DSMagazine762x54mmRPlasteelAP
 
 - type: latheRecipe
   parent: BaseAmmoRubberFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRRubber
+  id: Magazine762x54mmRRubber
   result: DSMagazine762x54mmRRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRIncendiary
+  id: Magazine762x54mmRIncendiary
   result: DSMagazine762x54mmRIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRPractice
+  id: Magazine762x54mmRPractice
   result: DSMagazine762x54mmRPractice
 
 - type: latheRecipe
   parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmREmpty
+  id: Magazine762x54mmREmpty
   result: DSMagazine762x54mmREmpty
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRUranium
+  id: Magazine762x54mmRUranium
   result: DSMagazine762x54mmRUranium
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmREMP
+  id: Magazine762x54mmREMP
   result: DSMagazine762x54mmREMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRCaustic
+  id: Magazine762x54mmRCaustic
   result: DSMagazine762x54mmRCaustic
 
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredMagazineRecipe
-  id: DSMagazine762x54mmRHP
+  id: Magazine762x54mmRHP
   result: DSMagazine762x54mmRHP
 
 #Speedloaders
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredSpeedloaderRecipe
-  id: DSSpeedLoader762x54mmRFMJ
+  id: SpeedLoader762x54mmRFMJ
   result: DSSpeedLoader762x54mmRFMJ
 
 #Boxes
 
 - type: latheRecipe
   parent: BaseAmmoFMJFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRFMJ
+  id: AmmoBox762x54mmRFMJ
   result: DSAmmoBox762x54mmRFMJ
 
 #- type: latheRecipe
 #  parent: BaseAmmoPlasteelAPFullyPoweredAmmoBoxRecipe
-#  id: DSAmmoBox762x54mmRPlasteelAP
+#  id: AmmoBox762x54mmRPlasteelAP
 #  result: DSAmmoBox762x54mmRPlasteelAP
 
 - type: latheRecipe
   parent: BaseAmmoRubberFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRRubber
+  id: AmmoBox762x54mmRRubber
   result: DSAmmoBox762x54mmRRubber
 
 - type: latheRecipe
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRIncendiary
+  id: AmmoBox762x54mmRIncendiary
   result: DSAmmoBox762x54mmRIncendiary
 
 - type: latheRecipe
   parent: BaseAmmoPracticeFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRPractice
+  id: AmmoBox762x54mmRPractice
   result: DSAmmoBox762x54mmRPractice
 
 - type: latheRecipe #Lua
   parent: BaseAmmoEMPFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmREMP
+  id: AmmoBox762x54mmREMP
   result: DSAmmoBox762x54mmREMP
 
 - type: latheRecipe #Lua
   parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRCaustic
+  id: AmmoBox762x54mmRCaustic
   result: DSAmmoBox762x54mmRCaustic
 
 - type: latheRecipe
   parent: BaseAmmoUraniumFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRUranium
+  id: AmmoBox762x54mmRUranium
   result: DSAmmoBox762x54mmRUranium
 
 - type: latheRecipe
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
-  id: DSAmmoBox762x54mmRHP
+  id: AmmoBox762x54mmRHP
   result: DSAmmoBox762x54mmRHP

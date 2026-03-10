@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox8x65mm
+  id: BaseAmmoBox8x65mm
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
@@ -37,7 +37,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKR
+  id: AmmoBox8x65mmSKR
   name: ammunition box (8x65mm SKR FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKRPractice
+  id: AmmoBox8x65mmSKRPractice
   name: ammunition box (8x65mm SKR practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -70,7 +70,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKRHP
+  id: AmmoBox8x65mmSKRHP
   name: ammunition box (8x65mm SKR HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -87,7 +87,7 @@
 
 # Physical
 - type: entity
-  id: DSAmmoBox8x65mmSKRIncendiary
+  id: AmmoBox8x65mmSKRIncendiary
   parent: DSBaseAmmoBox8x65mm
   name: ammunition box (8x65mm SKR incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -104,7 +104,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKRUranium
+  id: AmmoBox8x65mmSKRUranium
   name: ammunition box (8x65mm SKR uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -122,7 +122,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKREMP
+  id: AmmoBox8x65mmSKREMP
   name: ammunition box (8x65mm SKR EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -139,7 +139,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox8x65mm
-  id: DSAmmoBox8x65mmSKRCaustic
+  id: AmmoBox8x65mmSKRCaustic
   name: ammunition box (8x65mm SKR Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

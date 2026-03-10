@@ -1,7 +1,7 @@
 - type: entity
   name: automatic rifle
   parent: [BaseC2ExpeditionContraband, BaseWeaponRifle]
-  id: DSN14WeaponAutoRifle
+  id: N14WeaponAutoRifle
   description: A high caliber long and heavy machine gun of the pre-war, chambered in the powerfull 308.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -69,7 +69,7 @@
 - type: entity
   name: light machine gun
   parent: BaseWeaponRifle
-  id: DSN14WeaponLMG
+  id: N14WeaponLMG
   description: A light machine gun designed by the NCR for their heavy troops, sometimes gived to the troops in low numbers, chambered in 5.56.
   suffix: МК, НЕ СПАВНИТЬ
   components:

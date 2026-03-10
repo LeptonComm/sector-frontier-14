@@ -33,7 +33,7 @@
           defaultPrototype: Beaker
 
 - type: entity
-  id: DSMercenaryTechFabCircuitboardNF
+  id: MercenaryTechFabCircuitboardNF
   parent: SecurityTechFabCircuitboard
   name: mercenary techfab machine board
   description: A machine printed circuit board for a mercenary techfab.
@@ -131,7 +131,7 @@
       prototype: NfsdTechFab
 
 - type: entity
-  id: DSNfsdTechFabCircuitboard
+  id: NfsdTechFabCircuitboard
   parent: SecurityTechFabCircuitboard
   name: NFSD techfab machine board
   description: A machine printed circuit board for an NFSD techfab.

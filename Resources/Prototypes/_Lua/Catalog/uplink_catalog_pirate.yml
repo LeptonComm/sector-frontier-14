@@ -1,6 +1,6 @@
 # doubloons
 - type: listing
-  id: DSUplinkConvertDoubloon
+  id: UplinkConvertDoubloon
   name: uplink-convert-doubloon-name
   description: uplink-convert-doubloon-desc
   productEntity: Doubloon1
@@ -12,12 +12,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region hardsuits
 
 - type: listing
-  id: DSUplinkPirateCombatHardsuit
+  id: UplinkPirateCombatHardsuit
   name: uplink-pirate-combat-hardsuit-name
   description: uplink-pirate-combat-hardsuit-desc
   productEntity: DSClothingOuterHardsuitPirateScaf
@@ -30,10 +30,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkViperStandardHardsuit
+  id: UplinkViperStandardHardsuit
   name: uplink-pirate-viper-group-standard-hardsuit-name
   description: uplink-pirate-viper-group-standard-hardsuit-desc
   productEntity: DSClothingOuterHardsuitViperGroupStandard
@@ -46,10 +46,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkViperMedicHardsuit
+  id: UplinkViperMedicHardsuit
   name: uplink-pirate-viper-group-medic-hardsuit-name
   description: uplink-pirate-viper-group-medic-hardsuit-desc
   productEntity: DSClothingOuterHardsuitViperGroupMedic
@@ -62,10 +62,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing #Lua
-  id: DSUplinkPirateEVAHardsuit
+  id: UplinkPirateEVAHardsuit
   name: uplink-pirate-EVA-hardsuit-name
   description: uplink-pirate-EVA-hardsuit-desc
   productEntity: LuaClothingOuterHardsuitPirateEVA
@@ -78,10 +78,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing #Lua
-  id: DSUplinkBloodRedPirateHardsuit
+  id: UplinkBloodRedPirateHardsuit
   name: uplink-pirate-bloodred-hardsuit-name
   description: uplink-pirate-bloodred-hardsuit-desc
   productEntity: ClothingOuterHardsuitBloodRedPirate
@@ -94,10 +94,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing #Lua
-  id: DSUplinkPirateBloodRedEliteHardsuit
+  id: UplinkPirateBloodRedEliteHardsuit
   name: uplink-pirate-bloodred-elite-hardsuit-name
   description: uplink-pirate-bloodred-elite-hardsuit-desc
   productEntity: ClothingOuterHardsuitBloodRedElitePirate
@@ -110,10 +110,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateWebVest
+  id: UplinkPirateWebVest
   name: uplink-pirate-webvest-name
   description: uplink-pirate-webvest-desc
   productEntity: ClothingOuterVestWeb
@@ -126,10 +126,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateSyndieMask
+  id: UplinkPirateSyndieMask
   name: uplink-pirate-syndie-mask-name
   description: uplink-pirate-syndie-mask-desc
   productEntity: ClothingMaskGasSyndicate
@@ -142,10 +142,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkNFPouchPirateCaptain
+  id: UplinkNFPouchPirateCaptain
   name: uplink-pirate-pouch-captain-name
   description: uplink-pirate-pouch-captain-desc
   productEntity: NFPouchPirateCaptain
@@ -156,7 +156,7 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
     - !type:BuyerJobCondition
       whitelist:
         - StormCreedCaptain #Lua NFPirateCaptain<StormCreedCaptain
@@ -164,7 +164,7 @@
   - UplinkPirateUtility
 
 - type: listing
-  id: DSUplinkNFPouchPirate
+  id: UplinkNFPouchPirate
   name: uplink-pirate-pouch-name
   description: uplink-pirate-pouch-desc
   productEntity: NFPouchPirate
@@ -175,12 +175,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
   categories:
   - UplinkPirateUtility
 
 - type: listing
-  id: DSUplinkPirateSyndicateMagboots
+  id: UplinkPirateSyndicateMagboots
   name: uplink-pirate-syndicate-magboots-name
   description: uplink-pirate-syndicate-magboots-desc
   productEntity: ClothingShoesBootsMagSyndie
@@ -192,10 +192,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateSyndicateJetpack
+  id: UplinkPirateSyndicateJetpack
   name: uplink-pirate-syndicate-jetpack-name
   description: uplink-pirate-syndicate-jetpack-desc
   productEntity: JetpackBlackFilled
@@ -207,10 +207,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateStealthJetpack
+  id: UplinkPirateStealthJetpack
   name: uplink-pirate-stealth-jetpack-name
   description: uplink-pirate-stealth-jetpack-desc
   productEntity: JetpackStealthFilled
@@ -222,12 +222,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region weapons
 
 - type: listing
-  id: DSUplinkPirateEnergySword # энергетический меч
+  id: UplinkPirateEnergySword # энергетический меч
   name: uplink-pirate-energy-sword-name
   description: uplink-pirate-energy-sword-desc
   productEntity: EnergySword
@@ -239,10 +239,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAK220Bundle # NCI AK-220
+  id: UplinkPirateAK220Bundle # NCI AK-220
   name: uplink-pirate-AK220Bundle-name
   description: uplink-pirate-AK220Bundle-desc
   productEntity: DSWeaponCaseLongAK220Bundle
@@ -255,10 +255,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateRatelBundle # LMGRatel
+  id: UplinkPirateRatelBundle # LMGRatel
   name: uplink-pirate-RatelBundle-name
   description: uplink-pirate-RatelBundle-desc
   productEntity: DSWeaponCaseHeavyRatelBundle
@@ -271,10 +271,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAntiMaterielBundle # AntiMateriel
+  id: UplinkPirateAntiMaterielBundle # AntiMateriel
   name: uplink-pirate-AMBundle-name
   description: uplink-pirate-AMBundle-desc
   productEntity: DSWeaponCaseLongN14WeaponAntiMateriel
@@ -287,10 +287,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPiratePrometheusBundle # Prometheus
+  id: UplinkPiratePrometheusBundle # Prometheus
   name: uplink-pirate-PrometheusBundle-name
   description: uplink-pirate-PrometheusBundle-desc
   productEntity: DSWeaponCaseLongPrometheusBundle
@@ -303,10 +303,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateKnallstockBundle # Knallstock
+  id: UplinkPirateKnallstockBundle # Knallstock
   name: uplink-pirate-KnallstockBundle-name
   description: uplink-pirate-KnallstockBundle-desc
   productEntity: DSWeaponCaseLongKnallstockBundle
@@ -319,10 +319,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateMK45Bundle # MK45
+  id: UplinkPirateMK45Bundle # MK45
   name: uplink-pirate-MK45Bundle-name
   description: uplink-pirate-MK45Bundle-desc
   productEntity: DSWeaponCaseShortRMCWeaponPistolMK45
@@ -335,10 +335,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateMLA73Bundle # Mla73
+  id: UplinkPirateMLA73Bundle # Mla73
   name: uplink-typan-Mla73Bundle-name
   description: uplink-typan-Mla73Bundle-desc
   productEntity: DSWeaponCaseLongMla73Bundle
@@ -351,10 +351,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateHoldoutBundle # pistol holdout
+  id: UplinkPirateHoldoutBundle # pistol holdout
   name: uplink-pirate-HoldoutBundle-name
   description: uplink-pirate-HoldoutBundle-desc
   productEntity: DSWeaponCaseShortRMCWeaponPistolHoldout
@@ -367,10 +367,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateBidLeadyBundle # BigLeady
+  id: UplinkPirateBidLeadyBundle # BigLeady
   name: uplink-pirate-BigLeadyBundle-name
   description: uplink-pirate-BigLeadyBundle-desc
   productEntity: DSWeaponCaseLongBigLeadyBundle
@@ -383,10 +383,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateBulldogBundle # Bulldog
+#  id: UplinkPirateBulldogBundle # Bulldog
 #  name: uplink-pirate-BulldogBundle-name
 #  description: uplink-pirate-BulldogBundle-desc
 #  productEntity: DSWeaponCaseLongBulldogBundle
@@ -399,10 +399,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateRitlandBundle # Ritland
+  id: UplinkPirateRitlandBundle # Ritland
   name: uplink-pirate-RitlandBundle-name
   description: uplink-pirate-RitlandBundle-desc
   productEntity: DSWeaponCaseShortRitlandBundle
@@ -415,10 +415,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateViperBundle # Viper
+  id: UplinkPirateViperBundle # Viper
   name: uplink-pirate-ViperBundle-name
   description: uplink-pirate-ViperBundle-desc
   productEntity: DSWeaponCaseShortViperBundle
@@ -431,10 +431,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAssaultSmBundle # AK-74M
+  id: UplinkPirateAssaultSmBundle # AK-74M
   name: uplink-pirate-AssaultSmBundle-name
   description: uplink-pirate-AssaultSmBundle-desc
   productEntity: DSWeaponCaseLongAssaultSmBundle
@@ -447,10 +447,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateAnaconda # Anaconda
+#  id: UplinkPirateAnaconda # Anaconda
 #  name: uplink-pirate-anaconda-name
 #  description: uplink-pirate-anaconda-desc
 #  productEntity: DSWeaponPistolAnaconda
@@ -463,10 +463,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateWSPRBundle # WSPR
+#  id: UplinkPirateWSPRBundle # WSPR
 #  name: uplink-pirate-WSPRBundle-name
 #  description: uplink-pirate-WSPRBundle-desc
 #  productEntity: DSWeaponCaseLongWSPRBundle
@@ -479,10 +479,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateHammerBundle # NCI AK-150 HAMMER
+  id: UplinkPirateHammerBundle # NCI AK-150 HAMMER
   name: uplink-pirate-HammerBundle-name
   description: uplink-pirate-HammerBundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-icon.rsi, state: icon }
@@ -495,10 +495,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAK410Bundle # NCI AK-410
+  id: UplinkPirateAK410Bundle # NCI AK-410
   name: uplink-pirate-AK410Bundle-name
   description: uplink-pirate-AK410Bundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/Snipers/ak410.rsi, state: icon }
@@ -511,10 +511,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAK502Bundle # NCI AK-502
+  id: UplinkPirateAK502Bundle # NCI AK-502
   name: uplink-pirate-AK502Bundle-name
   description: uplink-pirate-AK502Bundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/ak502.rsi, state: icon }
@@ -527,11 +527,11 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region energy guns
 - type: listing
-  id: DSUplinkPirateLaserGatlingBundle # LaserGatling
+  id: UplinkPirateLaserGatlingBundle # LaserGatling
   name: uplink-pirate-LGBundle-name
   description: uplink-pirate-LGBundle-desc
   productEntity: DSWeaponCaseLongN14WeaponLaserGatling
@@ -544,10 +544,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateProtoRifleBundle # ProtoRifle
+  id: UplinkPirateProtoRifleBundle # ProtoRifle
   name: uplink-pirate-PRBundle-name
   description: uplink-pirate-PRBundle-desc
   productEntity: DSWeaponCaseShortN14WeaponLaserProtoRifle
@@ -560,10 +560,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPiratePlasmaAutoRifleBundle # PlasmaAutoRifle
+  id: UplinkPiratePlasmaAutoRifleBundle # PlasmaAutoRifle
   name: uplink-pirate-PARBundle-name
   description: uplink-pirate-PARBundle-desc
   productEntity: DSWeaponCaseShortN14WeaponPlasmaAutoRifle
@@ -576,10 +576,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateWattz3000Bundle # Wattz3000
+  id: UplinkPirateWattz3000Bundle # Wattz3000
   name: uplink-pirate-wattz3Bundle-name
   description: uplink-pirate-wattz3Bundle-desc
   productEntity: DSWeaponCaseShortN14WeaponWattz3000
@@ -592,10 +592,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateLaserPistolBundle # LaserPistol
+  id: UplinkPirateLaserPistolBundle # LaserPistol
   name: uplink-pirate-LPBundle-name
   description: uplink-pirate-LPBundle-desc
   productEntity: DSWeaponCaseShortN14WeaponLaserPistol
@@ -608,10 +608,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPiratePlasmaDefenderBundle # PlasmaDefender
+  id: UplinkPiratePlasmaDefenderBundle # PlasmaDefender
   name: uplink-pirate-PDBundle-name
   description: uplink-pirate-PDBundle-desc
   productEntity: DSWeaponCaseShortN14WeaponPlasmaDefender
@@ -624,10 +624,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateEGunFrostBundle # EnergyGunFrost
+  id: UplinkPirateEGunFrostBundle # EnergyGunFrost
   name: uplink-pirate-EGFBundle-name
   description: uplink-pirate-EGFBundle-desc
   productEntity: DSWeaponCaseLongEGFrostBundle
@@ -640,7 +640,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region ammo
 
@@ -649,7 +649,7 @@
 # FMJ
 
 - type: listing
-  id: DSUplinkPirateMagazine762x54mmRFMJ # Mag
+  id: UplinkPirateMagazine762x54mmRFMJ # Mag
   name: uplink-pirate-Magazine762x54mmRFMJ-name
   description: uplink-pirate-Magazine762x54mmRFMJ-desc
   productEntity: DSLuaBoxMagazine762x54mmRFMJ
@@ -662,14 +662,14 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #7.62x39mm
 
 # FMJ
 
 - type: listing
-  id: DSUplinkPirateMagazine762x39mmFMJ # Mag
+  id: UplinkPirateMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
   productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
@@ -682,10 +682,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateMagazine762x39mmBox # Box mag
+  id: UplinkPirateMagazine762x39mmBox # Box mag
   name: uplink-pirate-Magazine762x39mmBox-name
   description: uplink-pirate-Magazine762x39mmBox-desc
   productEntity: DSMagazine762x39mmFMJ
@@ -697,12 +697,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 # Subsonic
 
 #- type: listing
-#  id: DSUplinkPirateMagazine762x39mmSubsonic # Mag
+#  id: UplinkPirateMagazine762x39mmSubsonic # Mag
 #  name: uplink-pirate-Magazine762x39mmSubsonic-name
 #  description: uplink-pirate-Magazine762x39mmSubsonic-desc
 #  productEntity: DSLuaBoxMagazine762x39mmSubsonic
@@ -715,14 +715,14 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 #.45 Magnum
 
 # FMJ
 
 - type: listing
-  id: DSUplinkPirateSpeedLoader45_magnumFMJ # speedloader
+  id: UplinkPirateSpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
   productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
@@ -735,14 +735,14 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #4 gauge (23x75mm)
 
 # buckshot
 
 - type: listing
-  id: DSUplinkPirateShotgunDrum # mag
+  id: UplinkPirateShotgunDrum # mag
   name: uplink-pirate-bulldog-ammo-name
   description: uplink-pirate-bulldog-ammo-desc
   productEntity: DSNFMagazineShotgunDrum
@@ -754,12 +754,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 # slug
 
 - type: listing
-  id: DSUplinkPirateShotgunDrumSlug # mag
+  id: UplinkPirateShotgunDrumSlug # mag
   name: uplink-pirate-bulldog-slug-ammo-name
   description: uplink-pirate-bulldog-slug-ammo-desc
   productEntity: DSNFMagazineShotgunDrumSlug
@@ -771,7 +771,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #9x19mm
 
@@ -780,7 +780,7 @@
 # FMJ
 
 - type: listing
-  id: DSUplinkPirateMagazine9x19mmSubMachineGunFMJ # Mag
+  id: UplinkPirateMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
   productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
@@ -793,14 +793,14 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 # Pistol
 
 # FMJ
 
 - type: listing
-  id: DSUplinkPirateMagazine9x19mmPistolHighCapacityFMJ # Mag extended
+  id: UplinkPirateMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
   productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
@@ -813,12 +813,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region explosive
 
 - type: listing
-  id: DSUplinkPirateFlashbangGrenadeBox
+  id: UplinkPirateFlashbangGrenadeBox
   name:  uplink-pirate-flashbanggrenade-box-name
   description: uplink-pirate-flashbanggrenade-box-desc
   productEntity: BoxFlashBangGrenades
@@ -831,10 +831,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateSmokeGrenadeBox
+  id: UplinkPirateSmokeGrenadeBox
   name:  uplink-pirate-smokegrenade-box-name
   description: uplink-pirate-smokegrenade-box-desc
   productEntity: BoxSmokeGrenades
@@ -847,10 +847,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateC4
+  id: UplinkPirateC4
   name: uplink-pirate-c4-name
   description: uplink-pirate-c4-desc
   productEntity: C4
@@ -862,10 +862,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateC4Bundle
+  id: UplinkPirateC4Bundle
   name: uplink-pirate-c4-bundle-name
   description: uplink-pirate-c4-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
@@ -877,10 +877,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateEmpGrenadeBox
+  id: UplinkPirateEmpGrenadeBox
   name: uplink-pirate-empgrenade-box-name
   description: uplink-pirate-empgrenade-box-desc
   productEntity: BoxEMPGrenadesNfsd
@@ -893,10 +893,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateIncendiaryGrenadeBox
+  id: UplinkPirateIncendiaryGrenadeBox
   name: uplink-pirate-incendiarygrenade-box-name
   description: uplink-pirate-incendiarygrenade-box-desc
   productEntity: BoxIncendiaryGrenadesNfsd
@@ -909,10 +909,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateShrapnelGrenadeBox
+  id: UplinkPirateShrapnelGrenadeBox
   name: uplink-pirate-shrapnelgrenade-box-name
   description: uplink-pirate-shrapnelgrenade-box-desc
   productEntity: BoxShrapnelGrenadesNfsd
@@ -925,10 +925,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateExplosiveGrenadeBox
+  id: UplinkPirateExplosiveGrenadeBox
   name:  uplink-pirate-explosivegrenade-box-name
   description: uplink-pirate-explosivegrenade-box-desc
   productEntity: BoxExplosiveGrenadesNfsd
@@ -941,10 +941,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateRedGrenade
+  id: UplinkPirateRedGrenade
   name:  uplink-pirate-redgrenade-name
   description: uplink-pirate-redgrenade-desc
   productEntity: PirateGrenadeFire
@@ -957,10 +957,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateGreenGrenade
+  id: UplinkPirateGreenGrenade
   name:  uplink-pirate-greengrenade-name
   description: uplink-pirate-greengrenade-desc
   productEntity: PirateGrenadeRadiation
@@ -973,10 +973,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateGrayGrenade
+  id: UplinkPirateGrayGrenade
   name:  uplink-pirate-graygrenade-name
   description: uplink-pirate-graygrenade-desc
   productEntity: PirateGrenadeConcussion
@@ -989,12 +989,12 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 #region medicine
 
 #- type: listing
-#  id: DSUplinkPirateHypopen
+#  id: UplinkPirateHypopen
 #  name: uplink-pirate-hypopen-name
 #  description: uplink-pirate-hypopen-desc
 #  productEntity: HypopenBox
@@ -1007,10 +1007,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateMedicalBundle
+  id: UplinkPirateMedicalBundle
   name: uplink-pirate-medical-bundle-name
   description: uplink-pirate-medical-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateMedicalBundleFilled
@@ -1022,10 +1022,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateChemicalSynthesisKit
+  id: UplinkPirateChemicalSynthesisKit
   name: uplink-pirate-chemical-synthesis-kit-name
   description: uplink-pirate-chemical-synthesis-kit-desc
   icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: vials }
@@ -1038,10 +1038,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateCombatMedkit
+  id: UplinkPirateCombatMedkit
   name: uplink-pirate-combat-medkit-name
   description: uplink-pirate-combat-medkit-desc
   productEntity: MedkitCombatFilled
@@ -1054,10 +1054,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateSyringeCaseFilled
+  id: UplinkPirateSyringeCaseFilled
   name: uplink-pirate-syringe-case-name
   description: uplink-pirate-syringe-case-desc
   productEntity: SyringeCaseAltFilled
@@ -1069,10 +1069,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateCombatPen
+  id: UplinkPirateCombatPen
   name:  uplink-pirate-combat-pen-name
   description: uplink-pirate-combat-pen-desc
   productEntity: CombatMedipen
@@ -1085,10 +1085,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAntiPoisonPen
+  id: UplinkPirateAntiPoisonPen
   name: uplink-pirate-anti-poison-pen-name
   description: uplink-pirate-anti-poison-pen-desc
   productEntity: AntiPoisonMedipen
@@ -1101,10 +1101,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPiratePuncturasePen
+  id: UplinkPiratePuncturasePen
   name: uplink-pirate-puncturase-pen-name
   description: uplink-pirate-puncturase-pen-desc
   productEntity: PunctAutoInjector
@@ -1117,10 +1117,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPiratePyrazinePen
+  id: UplinkPiratePyrazinePen
   name: uplink-pirate-pyrazine-pen-name
   description: uplink-pirate-pyrazine-pen-desc
   productEntity: PyraAutoInjector
@@ -1133,10 +1133,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateRadPen
+  id: UplinkPirateRadPen
   name: uplink-pirate-rad-pen-name
   description: uplink-pirate-rad-pen-desc
   productEntity: RadAutoInjector
@@ -1149,10 +1149,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateHyperzine
+  id: UplinkPirateHyperzine
   name: uplink-pirate-hyperzine-name
   description: uplink-pirate-hyperzine-desc
   productEntity: Stimpack
@@ -1165,12 +1165,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region starmap
 
 - type: listing
-  id: DSUplinkPirateCoordinatesDiskPirate
+  id: UplinkPirateCoordinatesDiskPirate
   name: uplink-pirate-coordinates-disk-pirate-name
   description: uplink-pirate-coordinates-disk-pirate-desc
   productEntity: CoordinatesDiskPirate
@@ -1183,10 +1183,10 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateSectorBanner
+  id: UplinkPirateSectorBanner
   name: uplink-pirate-sector-banner-name
   description: uplink-pirate-sector-banner-desc
   productEntity: BannerSectorPirates
@@ -1198,12 +1198,12 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #region utility
 
 #- type: listing
-#  id: DSUplinkPirateHoverbikeFlatpack
+#  id: UplinkPirateHoverbikeFlatpack
 #  name: uplink-pirate-hoverbike-name
 #  description: uplink-pirate-hoverbike-desc
 #  productEntity: CrateFunHoverbikeNFPirate
@@ -1216,10 +1216,10 @@
 #    - !type:StoreWhitelistCondition
 #      whitelist:
 #        tags:
-#          - DSPirateUplink
+#          - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateEnergyShield
+  id: UplinkPirateEnergyShield
   name: uplink-pirate-energy-shield-name
   description: uplink-pirate-energy-shield-desc
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
@@ -1232,10 +1232,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateThrusterKit
+#  id: UplinkPirateThrusterKit
 #  name: uplink-pirate-thruster-kit-name
 #  description: uplink-pirate-thruster-kit-desc
 #  icon: { sprite: Objects/Storage/boxes.rsi, state: box}
@@ -1248,10 +1248,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateAgentIDCard
+#  id: UplinkPirateAgentIDCard
 #  name: uplink-pirate-agent-id-card-name
 #  description: uplink-pirate-agent-id-card-desc
 #  productEntity: AgentIDCard
@@ -1263,10 +1263,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateRadioJammer
+  id: UplinkPirateRadioJammer
   name: uplink-pirate-radio-jammer-name
   description: uplink-pirate-radio-jammer-desc
   productEntity: RadioJammer
@@ -1278,10 +1278,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateEmag
+  id: UplinkPirateEmag
   name: uplink-pirate-emag-name
   description: uplink-pirate-emag-desc
   productEntity: Emag
@@ -1294,10 +1294,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAccessBreaker
+  id: UplinkPirateAccessBreaker
   name: uplink-pirate-access-breaker-name
   description: uplink-pirate-access-breaker-desc
   productEntity: AccessBreaker
@@ -1310,10 +1310,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateJaws
+  id: UplinkPirateJaws
   name: uplink-pirate-jaws-name
   description: uplink-pirate-jaws-desc
   productEntity: SyndicateJawsOfLife
@@ -1326,10 +1326,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateImplanterFreelance
+  id: UplinkPirateImplanterFreelance
   name: uplink-pirate-implanter-freelance-name
   description: uplink-pirate-implanter-freelance-desc
   icon: { sprite: Objects/Devices/encryption_keys.rsi, state: pirate_label }
@@ -1342,10 +1342,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateSecurityCyborgModule
+#  id: UplinkPirateSecurityCyborgModule
 #  name: uplink-pirate-security-cyborg-module-name
 #  description: uplink-pirate-security-cyborg-module-desc
 #  icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-weapon-module }
@@ -1358,10 +1358,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 #- type: listing
-#  id: DSUplinkPirateCash2500
+#  id: UplinkPirateCash2500
 #  name: uplink-pirate-cash2500-name
 #  description: uplink-pirate-cash2500-desc
 #  productEntity: SpaceCash2500
@@ -1374,10 +1374,10 @@
 #  - !type:StoreWhitelistCondition
 #    whitelist:
 #      tags:
-#      - DSPirateUplink
+#      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateCash25000
+  id: UplinkPirateCash25000
   name: uplink-pirate-cash25000-name
   description: uplink-pirate-cash25000-desc
   productEntity: SpaceCash25000
@@ -1390,10 +1390,10 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - DSPirateUplink
+      - PirateUplink
 
 - type: listing
-  id: DSUplinkPirateAccessConfigurator
+  id: UplinkPirateAccessConfigurator
   name:  uplink-pirate-accessconfigurator-captain-name
   description: uplink-pirate-accessconfigurator-captain-desc
   productEntity: AccessConfiguratorAntag
@@ -1406,4 +1406,4 @@
     - !type:StoreWhitelistCondition
       whitelist:
         tags:
-          - DSPirateUplink
+          - PirateUplink

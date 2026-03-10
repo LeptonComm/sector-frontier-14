@@ -1,21 +1,21 @@
 ### Civilian
 - type: entity
-  id: DSSpawnPointContractor
+  id: SpawnPointContractor
   parent: SpawnPointPassenger
   name: contractor
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSContractor
+    job_id: Contractor
 
 - type: entity
-  id: DSSpawnPointMercenary
+  id: SpawnPointMercenary
   parent: SpawnPointJobBase
   name: mercenary
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSMercenary
+    job_id: Mercenary
   - type: Sprite
     sprite: _NF/Markers/jobs.rsi
     layers:
@@ -26,22 +26,22 @@
 
 ### ERC
 - type: entity
-  id: DSSpawnPointStationRepresentative
+  id: SpawnPointStationRepresentative
   parent: SpawnPointHeadOfPersonnel
   name: station representative
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSStationRepresentative
+    job_id: StationRepresentative
 
 - type: entity
-  id: DSSpawnPointSecurityGuard
+  id: SpawnPointSecurityGuard
   parent: SpawnPointJobBase
   name: security guard
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSSecurityGuard
+    job_id: SecurityGuard
   - type: Sprite
     sprite: _NF/Markers/jobs.rsi
     layers:
@@ -49,39 +49,39 @@
       - state: securityguard
 
 - type: entity
-  id: DSSpawnPointValet
+  id: SpawnPointValet
   parent: SpawnPointJobBase
   name: valet
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSValet
+    job_id: Valet
   - type: Sprite
     layers:
       - state: green
       - state: passenger
 
 - type: entity
-  id: DSSpawnPointMailCarrier
+  id: SpawnPointMailCarrier
   parent: SpawnPointJobBase
   name: mailcarrier
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSMailCarrier
+    job_id: MailCarrier
   - type: Sprite
     layers:
       - state: green
       - state: mailcarrier
 
 - type: entity
-  id: DSSpawnPointPilot
+  id: SpawnPointPilot
   parent: SpawnPointJobBase
   name: pilot
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSPilot
+    job_id: Pilot
   - type: Sprite
     sprite: _NF/Markers/jobs.rsi
     layers:
@@ -92,59 +92,59 @@
 
 ### SD
 - type: entity
-  id: DSSpawnPointSheriff
+  id: SpawnPointSheriff
   parent: SpawnPointHeadOfSecurity
   name: sheriff
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSSheriff
+    job_id: Sheriff
 
 - type: entity
-  id: DSSpawnPointBailiff
+  id: SpawnPointBailiff
   parent: SpawnPointWarden
   name: bailiff
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSBailiff
+    job_id: Bailiff
 
 - type: entity
-  id: DSNFSpawnPointSeniorOfficer
+  id: NFSpawnPointSeniorOfficer
   parent: SpawnPointWarden
   name: sergeant
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSSeniorOfficer
+    job_id: SeniorOfficer
 
 - type: entity
-  id: DSSpawnPointBrigmedic
+  id: SpawnPointBrigmedic
   parent: SpawnPointJobBase
   name: brigmedic
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSBrigmedic
+    job_id: Brigmedic
   - type: Sprite
     layers:
       - state: green
       - state: brigmedic
 
 - type: entity
-  id: DSSpawnPointDeputy
+  id: SpawnPointDeputy
   parent: SpawnPointSecurityOfficer
   name: deputy
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSDeputy
+    job_id: Deputy
 
 - type: entity
-  id: DSSpawnPointCadet
+  id: SpawnPointCadet
   parent: SpawnPointSecurityCadet
   name: cadet
   suffix: МК, НЕ СПАВНИТЬ
   components:
   - type: SpawnPoint
-    job_id: DSCadet
+    job_id: Cadet

@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity
-  id: DSNFWeaponSubMachineGunC20r
+  id: NFWeaponSubMachineGunC20r
   parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunCybersun ] #Lua 35 -> 9x19 base
   name: C-20r
   description: |-
@@ -50,7 +50,7 @@
             - Cartridge45_ACPFMJ #Lua Cartridge9x19mmFMJ<Cartridge45_ACPFMJ
 
 - type: entity
-  id: DSNFWeaponSubMachineGunDrozd
+  id: NFWeaponSubMachineGunDrozd
   parent: [ NFBaseWeaponSubMachineGunChamber9x19, NFBaseWeaponFrameSubMachineGunNanotrasen ] #Lua 35 -> 9x19 base
   name: Drozd
   description: A fully automatic SMG.
@@ -74,7 +74,7 @@
     sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi
 
 - type: entity
-  id: DSNFWeaponSubMachineGunWt550
+  id: NFWeaponSubMachineGunWt550
   parent: [ BaseC2ContrabandUnredeemable, NFBaseWeaponSubMachineGunChamber35TopMounted, NFBaseWeaponFrameSubMachineGunNanotrasen ]
   name: WT-550
   description: |-

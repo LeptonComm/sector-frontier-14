@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox68x52mmCaseless
+  id: BaseAmmoBox68x52mmCaseless
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
@@ -40,7 +40,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaseless
+  id: AmmoBox68x52mmCaseless
   name: ammunition box (6.8x52mm STANAG Caseless)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessPractice
+  id: AmmoBox68x52mmCaselessPractice
   name: ammunition box (6.8x52mm STANAG Caseless practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -71,7 +71,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessRubber
+  id: AmmoBox68x52mmCaselessRubber
   name: ammunition box (6.8x52mm STANAG Caseless rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -89,7 +89,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessHP
+  id: AmmoBox68x52mmCaselessHP
   name: ammunition box (6.8x52mm STANAG Caseless HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -106,7 +106,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessIncendiary
+  id: AmmoBox68x52mmCaselessIncendiary
   name: ammunition box (6.8x52mm STANAG Caseless Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -122,7 +122,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessUranium
+  id: AmmoBox68x52mmCaselessUranium
   name: ammunition box (6.8x52mm STANAG Caseless Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessEMP
+  id: AmmoBox68x52mmCaselessEMP
   name: ammunition box (6.8x52mm STANAG Caseless EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox68x52mmCaseless
-  id: DSAmmoBox68x52mmCaselessCaustic
+  id: AmmoBox68x52mmCaselessCaustic
   name: ammunition box (6.8x52mm STANAG Caseless Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

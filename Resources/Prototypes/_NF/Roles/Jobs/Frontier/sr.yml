@@ -1,5 +1,5 @@
 - type: job
-  id: DSStationRepresentative
+  id: StationRepresentative
   name: job-name-sr
   description: job-description-sr
   playTimeTracker: DSJobHeadOfPersonnel
@@ -35,7 +35,7 @@
     prototype: FrontierBirthdayGift
 
 - type: chameleonOutfit
-  id: DSStationRepresentativeChameleonOutfit
+  id: StationRepresentativeChameleonOutfit
   job: DSStationRepresentative
   hasMindShield: true
   equipment:

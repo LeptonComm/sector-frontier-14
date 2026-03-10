@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  id: DSBaseMagazine68x52mmCaseless
+  id: BaseMagazine68x52mmCaseless
   name: "magazine (6.8x52mm STANAG Caseless)"
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, RecyclableItemSteelTiny ]
@@ -35,7 +35,7 @@
   - type: Appearance
 
 - type: entity
-  id: DSBaseMagazine68x52mmCaselessShort
+  id: BaseMagazine68x52mmCaselessShort
   name: "caseless rifle short magazine (6.8x52mm STANAG Caseless)"
   parent: DSBaseMagazine68x52mmCaseless
   abstract: true
@@ -55,7 +55,7 @@
 
 # Standart
 - type: entity
-  id: DSMagazine68x52mmCaselessBig
+  id: Magazine68x52mmCaselessBig
   name: "box magazine (6.8x52mm STANAG Caseless)"
   parent: DSBaseMagazine68x52mmCaseless
   components:
@@ -71,7 +71,7 @@
 
 # Mechanical
 - type: entity
-  id: DSMagazine68x52mmCaselessBigHP
+  id: Magazine68x52mmCaselessBigHP
   name: "magazine (6.8x52mm STANAG HP)"
   parent: DSMagazine68x52mmCaselessBig
   components:
@@ -90,7 +90,7 @@
 
 # Physical
 - type: entity
-  id: DSMagazine68x52mmCaselessBigIncendiary
+  id: Magazine68x52mmCaselessBigIncendiary
   name: "magazine (6.8x52mm STANAG Incendiary)"
   parent: DSMagazine68x52mmCaselessBig
   components:
@@ -108,7 +108,7 @@
     zeroVisible: false
 
 - type: entity
-  id: DSMagazine68x52mmCaselessBigUranium
+  id: Magazine68x52mmCaselessBigUranium
   name: "magazine (6.8x52mm STANAG Uranium)"
   parent: DSMagazine68x52mmCaselessBig
   components:
@@ -127,7 +127,7 @@
 
 # Special
 - type: entity
-  id: DSMagazine68x52mmCaselessBigEMP
+  id: Magazine68x52mmCaselessBigEMP
   name: "magazine (6.8x52mm STANAG EMP)"
   parent: DSMagazine68x52mmCaselessBig
   components:
@@ -145,7 +145,7 @@
     zeroVisible: false
 
 - type: entity
-  id: DSMagazine68x52mmCaselessBigCaustic
+  id: Magazine68x52mmCaselessBigCaustic
   name: "magazine (6.8x52mm STANAG Caustic)"
   parent: DSMagazine68x52mmCaselessBig
   components:
@@ -164,7 +164,7 @@
 
 # Out of balance
 - type: entity
-  id: DSMagazine68x52mmCaseless
+  id: Magazine68x52mmCaseless
   name: "magazine (6.8x52mm STANAG Caseless)"
   parent: DSBaseMagazine68x52mmCaseless
   components:
@@ -178,7 +178,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine68x52mmCaselessPractice
+  id: Magazine68x52mmCaselessPractice
   name: "magazine (6.8x52mm STANAG Caseless practice)"
   parent: DSBaseMagazine68x52mmCaseless
   components:
@@ -192,7 +192,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine68x52mmCaselessEmpty
+  id: Magazine68x52mmCaselessEmpty
   name: "magazine (6.8x52mm STANAG Caseless any)"
   parent: DSBaseMagazine68x52mmCaseless
   components:
@@ -206,7 +206,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine68x52mmCaselessShort
+  id: Magazine68x52mmCaselessShort
   name: "short magazine (6.8x52mm STANAG Caseless)"
   parent: DSBaseMagazine68x52mmCaselessShort
   components:
@@ -221,7 +221,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine68x52mmCaselessShortPractice
+  id: Magazine68x52mmCaselessShortPractice
   name: "short magazine (6.8x52mm STANAG Caseless practice)"
   parent: DSBaseMagazine68x52mmCaselessShort
   components:
@@ -236,7 +236,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: DSMagazine68x52mmCaselessRubber
+  id: Magazine68x52mmCaselessRubber
   name: "magazine (6.8x52mm STANAG Caseless rubber)"
   parent: DSBaseMagazine68x52mmCaseless
   components:

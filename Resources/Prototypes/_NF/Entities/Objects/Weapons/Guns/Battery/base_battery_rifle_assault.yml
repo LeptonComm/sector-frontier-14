@@ -2,7 +2,7 @@
 - type: entity
   abstract: true
   parent: [ NFBaseWeaponEncumbranceRifleAssault, NFBaseGunMeleeAttackMedium, BaseWeaponBattery ]
-  id: DSNFBaseWeaponFrameEnergyRifleAssault
+  id: NFBaseWeaponFrameEnergyRifleAssault
   suffix: Frontier
   components:
   # Goobstation edit start
@@ -63,7 +63,7 @@
 
 #region manufacturer
 - type: entity
-  id: DSNFBaseWeaponFrameEnergyRifleAssaultNanotrasen
+  id: NFBaseWeaponFrameEnergyRifleAssaultNanotrasen
   parent: NFBaseWeaponFrameEnergyRifleAssault
   abstract: true
   components:
@@ -77,7 +77,7 @@
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
 - type: entity
-  id: DSNFBaseWeaponFrameEnergyRifleAssaultCybersun
+  id: NFBaseWeaponFrameEnergyRifleAssaultCybersun
   parent: [ BaseC3Contraband, NFBaseWeaponFrameEnergyRifleAssault ]
   abstract: true
   components:
@@ -94,7 +94,7 @@
 
 #region chamber
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleAssaultFireModes
+  id: NFBaseWeaponEnergyRifleAssaultFireModes
   abstract: true
   components:
   - type: Gun
@@ -112,7 +112,7 @@
       fireCost: 80
 
 - type: entity
-  id: DSNFBaseWeaponEnergyRifleAssaultHitScanPulse
+  id: NFBaseWeaponEnergyRifleAssaultHitScanPulse
   abstract: true
   components:
   - type: Gun

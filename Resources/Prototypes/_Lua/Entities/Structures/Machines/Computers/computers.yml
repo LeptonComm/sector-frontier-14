@@ -476,7 +476,7 @@
 - type: entity
   name: стационарный аплинк службы безопасности
   parent: [BaseStructureDisableToolUse, ComputerUplinkBase, StorePresetSecurityUplink, BaseStructureIndestructible, BaseStructureComputer]
-  id: DSComputerUplinkNF
+  id: ComputerUplinkNF
   description: Покупайте снаряжение за таможенные кредиты.
   suffix: МК, НЕ СПАВНИТЬ
   placement:
@@ -505,7 +505,7 @@
       FrontierUplinkCoin: 0
   - type: Tag
     tags:
-    - DSSecurityUplink
+    - SecurityUplink
 
 - type: entity
   name: стационарный аплинк Нордфолла

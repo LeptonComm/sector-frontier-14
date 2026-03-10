@@ -1,7 +1,7 @@
 # WizDen
 #region Laser
 - type: entity
-  id: DSNFWeaponEnergyPistolLaserMakeshift
+  id: NFWeaponEnergyPistolLaserMakeshift
   parent: [ BaseC1Contraband, NFBaseWeaponEnergyPistolHitScan, NFBaseWeaponFrameEnergyPistolFrontierGunsmith ]
   name: makeshift laser pistol
   description: Better pray it won't burn your hands off. At least it's legal.
@@ -25,7 +25,7 @@
 
 - type: entity
   categories: [ DoNotMap ]
-  id: DSNFWeaponEnergyPistolLaserAntique
+  id: NFWeaponEnergyPistolLaserAntique
   parent: [ NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ]
   name: antique laser pistol
   description: |-
@@ -55,7 +55,7 @@
 
 - type: entity
   categories: [ DoNotMap ]
-  id: DSNFWeaponEnergyPistolLaserX01Multiphase
+  id: NFWeaponEnergyPistolLaserX01Multiphase
   parent: [ BaseC2ExpeditionContraband, NFWeaponEnergyPistolLaserAntique ]
   name: X-01 multiphase energy gun
   description: |-
@@ -71,7 +71,7 @@
     inhandVisuals: {} # FIXME: overwriting antique laser
 
 - type: entity
-  id: DSNFWeaponEnergyPistolLaserAdvanced
+  id: NFWeaponEnergyPistolLaserAdvanced
   parent: [ BaseC1Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ]
   name: advanced laser pistol
   description: |-
@@ -105,7 +105,7 @@
 
 # Frontier
 - type: entity
-  id: DSNFWeaponEnergyPistolLaser
+  id: NFWeaponEnergyPistolLaser
   parent: [ BaseC1Contraband, NFBaseWeaponEnergyPistolFireModes, NFBaseWeaponFrameEnergyPistolNanotrasen ]
   name: laser pistol
   description: |-
@@ -136,7 +136,7 @@
 
 #region Pulse
 - type: entity
-  id: DSNFWeaponEnergyPistolPulse
+  id: NFWeaponEnergyPistolPulse
   parent: [ BaseC2Contraband, NFBaseWeaponEnergyPistolHitScanPulse, NFBaseWeaponFrameEnergyPistolNanotrasen ]
   name: pulse pistol
   description: |-

@@ -4,7 +4,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: DSPellet23x75mmSlug
+  id: Pellet23x75mmSlug
   name: pellet (4 gauge slug)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -18,7 +18,7 @@
         Slash: 60
 
 - type: entity
-  id: DSPellet23x75mmBuckshot
+  id: Pellet23x75mmBuckshot
   name: pellet (4 gauge)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -32,7 +32,7 @@
         Slash: 14
 
 - type: entity
-  id: DSPellet23x75mmBuckshotSpread
+  id: Pellet23x75mmBuckshotSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmBuckshot
   components:
@@ -42,7 +42,7 @@
     spread: 15
 
 - type: entity
-  id: DSPellet23x75mmDozd
+  id: Pellet23x75mmDozd
   name: pellet (4 gauge)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -56,7 +56,7 @@
         Slash: 7
 
 - type: entity
-  id: DSPellet23x75mmDozdSpread
+  id: Pellet23x75mmDozdSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmDozd
   components:
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  id: DSPellet23x75mmPractice
+  id: Pellet23x75mmPractice
   name: pellet (4 gauge practice)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
@@ -83,7 +83,7 @@
     lifetime: 0.3 #taked from NFBasePellet
 
 - type: entity
-  id: DSPellet23x75mmPracticeSpread
+  id: Pellet23x75mmPracticeSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmPractice
   components:
@@ -93,7 +93,7 @@
     spread: 15
 
 - type: entity
-  id: DSPellet23x75mmBeanbag
+  id: Pellet23x75mmBeanbag
   name: beanbag (4 gauge)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -109,7 +109,7 @@
     damage: 80 #Lua -15
 
 - type: entity
-  id: DSPellet23x75mmOOBuckshot
+  id: Pellet23x75mmOOBuckshot
   name: Pellet23x75mm (4 gauge OO magnum buckshot)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -125,7 +125,7 @@
         Piercing: 3.5
 
 - type: entity
-  id: DSPellet23x75mmOOBuckshotSpread
+  id: Pellet23x75mmOOBuckshotSpread
   parent: DSPellet23x75mmOOBuckshot
   categories: [ HideSpawnMenu ]
   components:
@@ -136,7 +136,7 @@
 
 # Physical
 - type: entity
-  id: DSPellet23x75mmIncendiary
+  id: Pellet23x75mmIncendiary
   name: pellet (4 gauge incendiary)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
@@ -153,7 +153,7 @@
     ignited: true
 
 - type: entity
-  id: DSPellet23x75mmIncendiarySpread
+  id: Pellet23x75mmIncendiarySpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmIncendiary
   components:
@@ -163,7 +163,7 @@
     spread: 15
 
 - type: entity
-  id: DSPellet23x75mmUranium
+  id: Pellet23x75mmUranium
   name: pellet (4 gauge uranium)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -178,7 +178,7 @@
         Radiation: 4.2
 
 - type: entity
-  id: DSPellet23x75mmUraniumSpread
+  id: Pellet23x75mmUraniumSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmUranium
   components:
@@ -189,7 +189,7 @@
 
 # Special
 - type: entity
-  id: DSPellet23x75mmBuckshotEMP
+  id: Pellet23x75mmBuckshotEMP
   name: pellet (4 gauge EMP)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletEmp
@@ -204,7 +204,7 @@
         Shock: 4.2
 
 - type: entity
-  id: DSPellet23x75mmBuckshotEMPSpread
+  id: Pellet23x75mmBuckshotEMPSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmBuckshotEMP
   components:
@@ -214,7 +214,7 @@
     spread: 15
 
 - type: entity
-  id: DSPellet23x75mmBuckshotCaustic
+  id: Pellet23x75mmBuckshotCaustic
   name: pellet (4 gauge caustic)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -229,7 +229,7 @@
         Caustic: 3.6
 
 - type: entity
-  id: DSPellet23x75mmBuckshotCausticSpread
+  id: Pellet23x75mmBuckshotCausticSpread
   categories: [ HideSpawnMenu ]
   parent: DSPellet23x75mmBuckshotCaustic
   components:
@@ -240,7 +240,7 @@
 
 # Utilitary
 - type: entity
-  id: DSPellet23x75mmFlare
+  id: Pellet23x75mmFlare
   name: pellet (4 gauge flare)
   categories: [ HideSpawnMenu ]
   components:
@@ -287,7 +287,7 @@
         Heat: 10
 
 - type: entity
-  id: DSPellet23x75mmFlashbang
+  id: Pellet23x75mmFlashbang
   name: pellet (4 gauge flashbang)
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
@@ -306,7 +306,7 @@
     damage: 40
 
 - type: entity
-  id: DSPellet23x75mmFlechette
+  id: Pellet23x75mmFlechette
   name: Pellet23x75mm (4 gauge flechette)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -326,7 +326,7 @@
     lifetime: 0.3 #taked from NFBasePellet
 
 - type: entity
-  id: DSPellet23x75mmFlechetteSpread
+  id: Pellet23x75mmFlechetteSpread
   parent: DSPellet23x75mmFlechette
   categories: [ HideSpawnMenu ]
   components:
@@ -337,7 +337,7 @@
 
 # Out of balance
 - type: entity
-  id: DSPellet23x75mmSlugRIP
+  id: Pellet23x75mmSlugRIP
   name: Pellet23x75mm (4 gauge RIP)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
@@ -354,7 +354,7 @@
         Structural: 250
 
 - type: entity
-  id: DSPellet23x75mmSlugAP
+  id: Pellet23x75mmSlugAP
   name: Pellet23x75mm (4 gauge armor-piercing slug)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet

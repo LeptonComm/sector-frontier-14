@@ -1,5 +1,5 @@
 - type: job
-  id: DSSheriff
+  id: Sheriff
   name: job-name-sheriff
   description: job-description-sheriff
   playTimeTracker: DSJobHeadOfSecurity
@@ -54,7 +54,7 @@
     prototype: FrontierBirthdayGift
 
 - type: chameleonOutfit
-  id: DSSheriffChameleonOutfit
+  id: SheriffChameleonOutfit
   job: DSSheriff
   hasMindShield: true
   equipment:

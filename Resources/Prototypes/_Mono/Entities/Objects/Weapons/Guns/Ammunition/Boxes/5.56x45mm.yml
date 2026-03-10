@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox556x45mm
+  id: BaseAmmoBox556x45mm
   name: ammunition box (5.56x45mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -41,7 +41,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmFMJ
+  id: AmmoBox556x45mmFMJ
   name: ammunition box (5.56x45mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmPractice
+  id: AmmoBox556x45mmPractice
   name: ammunition box (5.56x45mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmRubber
+  id: AmmoBox556x45mmRubber
   name: ammunition box (5.56x45mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -89,7 +89,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmHP
+  id: AmmoBox556x45mmHP
   name: ammunition box (5.56x45mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -106,7 +106,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmIncendiary
+  id: AmmoBox556x45mmIncendiary
   name: ammunition box (5.56x45mm incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -121,7 +121,7 @@
     - state: incendiary
 
 - type: entity
-  id: DSAmmoBox556x45mmUranium
+  id: AmmoBox556x45mmUranium
   parent: DSBaseAmmoBox556x45mm
   name: ammunition box (5.56x45mm uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -139,7 +139,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmEMP
+  id: AmmoBox556x45mmEMP
   name: ammunition box (5.56x45mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox556x45mm
-  id: DSAmmoBox556x45mmCaustic
+  id: AmmoBox556x45mmCaustic
   name: ammunition box (5.56x45mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

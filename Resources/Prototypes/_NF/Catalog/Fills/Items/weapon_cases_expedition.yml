@@ -2,355 +2,355 @@
 #region Pistols
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortMk58Expedition
+  id: WeaponCaseShortMk58Expedition
   suffix: Dungeon, Mk58
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolMk58
+    - id: NFWeaponPistolMk58
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongTemperatureGunExpedition
+  id: WeaponCaseLongTemperatureGunExpedition
   suffix: Dungeon, Temperature Gun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleTemperature
+    - id: NFWeaponEnergyRifleTemperature
       amount: 1
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortViper
+  id: WeaponCaseShortViper
   suffix: Dungeon, Viper
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolViper
+    - id: NFWeaponPistolViper
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortPollockExpedition
+  id: WeaponCaseShortPollockExpedition
   suffix: Dungeon, Pollock
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponPistolPollock
+    - id: NFWeaponPistolPollock
       amount: 1
-    - id: DSMagazine9x19mmPistolFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
 
 #region Revolvers
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortArgentiExpedition
+  id: WeaponCaseShortArgentiExpedition
   suffix: Dungeon, Argenti
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverArgenti
+    - id: NFWeaponRevolverArgenti
       amount: 1
     - id: NFSpeedLoaderPistol35
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortRitland45Expedition
+  id: WeaponCaseShortRitland45Expedition
   suffix: Dungeon, Ritland-45
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverRitland45
+    - id: NFWeaponRevolverRitland45
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortWard45Expedition
+  id: WeaponCaseShortWard45Expedition
   suffix: Dungeon, Ward-45
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverWard45
+    - id: NFWeaponRevolverWard45
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortFitzExpedition
+  id: WeaponCaseShortFitzExpedition
   suffix: Dungeon, Fitz
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverFitz
+    - id: NFWeaponRevolverFitz
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortFaithExpedition
+  id: WeaponCaseShortFaithExpedition
   suffix: Dungeon, Faith
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverFaith
+    - id: NFWeaponRevolverFaith
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortLuckyExpedition
+  id: WeaponCaseShortLuckyExpedition
   suffix: Dungeon, Lucky 37
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRevolverLucky
+    - id: NFWeaponRevolverLucky
       amount: 1
-    - id: DSSpeedLoader45_magnumFMJ #Lua 45 -> Magnum
+    - id: SpeedLoader45_magnumFMJ #Lua 45 -> Magnum
       amount: 2
 
 #region Shotguns
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongKammererExpedition
+  id: WeaponCaseLongKammererExpedition
   suffix: Dungeon, Kammerer
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponShotgunKammerer
+    - id: NFWeaponShotgunKammerer
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot #Lua 4 gauge
+    - id: AmmoBox23x75mmBuckshot #Lua 4 gauge
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongEnforcerExpedition
+  id: WeaponCaseLongEnforcerExpedition
   suffix: Dungeon, Enforcer
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponShotgunEnforcer
+    - id: NFWeaponShotgunEnforcer
       amount: 1
-    - id: DSAmmoBox23x75mmBuckshot #Lua 4 gauge
+    - id: AmmoBox23x75mmBuckshot #Lua 4 gauge
       amount: 2
 
 #region SMGs
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongWT550Expedition
+  id: WeaponCaseLongWT550Expedition
   suffix: Dungeon, WT550
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunWt550
+    - id: NFWeaponSubMachineGunWt550
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunTopMountedFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmSubMachineGunTopMountedFMJ #Lua 35 -> 9x19
       amount: 3
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongDrozdExpedition
+  id: WeaponCaseLongDrozdExpedition
   suffix: Dungeon, Drozd
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunDrozd
+    - id: NFWeaponSubMachineGunDrozd
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
       amount: 3
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongC20r
+  id: WeaponCaseLongC20r
   suffix: Dungeon, C20r
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponSubMachineGunC20r
+    - id: NFWeaponSubMachineGunC20r
       amount: 1
-    - id: DSMagazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmSubMachineGunFMJ #Lua 35 -> 9x19
       amount: 3
 
 #region Rifles
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongGestioExpedition
+  id: WeaponCaseLongGestioExpedition
   suffix: Dungeon, Gestio
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultGestio
+    - id: NFWeaponRifleAssaultGestio
       amount: 1
-    - id: DSMagazine762x39mmFMJ #Lua 30 -> 762x39
+    - id: Magazine762x39mmFMJ #Lua 30 -> 762x39
       amount: 3
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongWeaponRifleNovaliteC1Expedition
+  id: WeaponCaseLongWeaponRifleNovaliteC1Expedition
   suffix: Dungeon, NovaliteC1
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultNovaliteC1
+    - id: NFWeaponRifleAssaultNovaliteC1
       amount: 1
-    - id: DSMagazineNovaliteC1 #Lua 20 -> 556x45
+    - id: MagazineNovaliteC1 #Lua 20 -> 556x45
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongSm
+  id: WeaponCaseLongSm
   suffix: Dungeon, Soland-Moss AR
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultSm
+    - id: NFWeaponRifleAssaultSm
       amount: 1
-    - id: DSMagazine762x39mmFMJ #Lua 30 -> 762x39
+    - id: Magazine762x39mmFMJ #Lua 30 -> 762x39
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongVulcanExpedition
+  id: WeaponCaseLongVulcanExpedition
   suffix: Dungeon, Vulcan
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultVulcan
+    - id: NFWeaponRifleAssaultVulcan
       amount: 1
-    - id: DSMagazine762x39mmFMJ #Lua 30 -> 762x39
+    - id: Magazine762x39mmFMJ #Lua 30 -> 762x39
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongJackdaw
+  id: WeaponCaseLongJackdaw
   suffix: Dungeon, Jackdaw
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleAssaultJackdaw
+    - id: NFWeaponRifleAssaultJackdaw
       amount: 1
-    - id: DSMagazine556x45mmFMJ #Lua 20 -> 556x45
+    - id: Magazine556x45mmFMJ #Lua 20 -> 556x45
       amount: 2
 
 #region Energy
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortLaserGunExpedition
+  id: WeaponCaseShortLaserGunExpedition
   suffix: Dungeon, Laser Pistol
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyPistolLaser
+    - id: NFWeaponEnergyPistolLaser
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongLaserCarbineExpedition
+  id: WeaponCaseLongLaserCarbineExpedition
   suffix: Dungeon, Laser Carbine
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleCarbine
+    - id: NFWeaponEnergyRifleCarbine
       amount: 1
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongEnergyGunExpedition
+  id: WeaponCaseLongEnergyGunExpedition
   suffix: Dungeon, Energy Gun
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergySubMachineGunDeltaV
+    - id: NFWeaponEnergySubMachineGunDeltaV
       amount: 1
 
 - type: entity
   parent: [WeaponCaseShort] #Lua
-  id: DSWeaponCaseShortAdvancedLaserExpedition
+  id: WeaponCaseShortAdvancedLaserExpedition
   suffix: Dungeon, Advanced Laser
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyPistolLaserAdvanced
+    - id: NFWeaponEnergyPistolLaserAdvanced
       amount: 1
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongLaserCannonExpedition
+  id: WeaponCaseLongLaserCannonExpedition
   suffix: Dungeon, Laser Cannon
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperCannon
+    - id: NFWeaponEnergyRifleSniperCannon
       amount: 1
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongXrayCannonExpedition
+  id: WeaponCaseLongXrayCannonExpedition
   suffix: Dungeon, Xray Cannon
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponEnergyRifleSniperXrayCannon
+    - id: NFWeaponEnergyRifleSniperXrayCannon
       amount: 1
 
 - type: entity
   parent: [WeaponCaseHeavy] #Lua WeaponCaseLong<WeaponCaseHeavy
-  id: DSWeaponCaseLongRepeaterExpedition
+  id: WeaponCaseLongRepeaterExpedition
   suffix: Dungeon, Repeater
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleRepeater
+    - id: NFWeaponRifleRepeater
       amount: 1
-    - id: DSAmmoBox556x45mmFMJ #Lua 20 -> 556x45
+    - id: AmmoBox556x45mmFMJ #Lua 20 -> 556x45
       amount: 2
 
 - type: entity
   parent: [WeaponCaseLong] #Lua
-  id: DSWeaponCaseLongSniperCeremonialExpedition
+  id: WeaponCaseLongSniperCeremonialExpedition
   suffix: Dungeon, Ceremonial Rifle
   categories: [ HideSpawnMenu ]
   components:
   - type: StorageFill
     contents:
-    - id: DSNFWeaponRifleCeremonial
+    - id: NFWeaponRifleCeremonial
       amount: 1
-    - id: DSAmmoBox556x45mmFMJ #Lua 20 -> 556x45
+    - id: AmmoBox556x45mmFMJ #Lua 20 -> 556x45
       amount: 2

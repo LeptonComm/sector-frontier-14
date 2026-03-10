@@ -68,7 +68,7 @@
   - type: OreSiloClient
 
 - type: entity
-  id: DSNfsdTechFab
+  id: NfsdTechFab
   parent: [ NFBlueprintReceiverBase, SecurityTechFab ]
   name: NFSD techfab
   description: Prints equipment for use by NFSD.
@@ -167,7 +167,7 @@
   - type: OreSiloClient
 
 - type: entity
-  id: DSMercenaryTechFab
+  id: MercenaryTechFab
   parent: [ NFBlueprintReceiverBase, BaseLatheLube ]
   name: mercenary techfab
   description: Prints the bare minimum of tools of the trade that any budget mercenary or private security could need. Nothing fancy.

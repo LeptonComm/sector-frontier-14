@@ -1175,7 +1175,7 @@
 # Split for DS balance
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing, HardsuitIdentify] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent # Lua added: HardsuitIdentify
-  id: DSClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitSyndie
   name: blood-red hardsuit
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   suffix: Events, Light, Standart #Lua
@@ -1226,7 +1226,7 @@
 # Syndicate Medic Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitSyndie, BaseC3SyndicateContraband, ContrabandClothing, HardsuitIdentify] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent # Lua: added HardsuitIdentify
-  id: DSClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitSyndieMedic
   name: blood-red medic hardsuit
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   suffix: Events, Light, Special #Lua
@@ -1255,7 +1255,7 @@
 #Syndicate Elite Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing, HardsuitIdentify] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent # Lua: added HardsuitIdentify
-  id: DSClothingOuterHardsuitSyndieElite
+  id: ClothingOuterHardsuitSyndieElite
   name: syndicate elite hardsuit
   description: An elite version of the blood-red hardsuit, with improved radiation resistance and fireproofing. Property of Gorlex Marauders.
   suffix: Events, Heavy, Standart #Lua
@@ -1305,7 +1305,7 @@
 #Wizard Hardsuit
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3WizardContraband, ContrabandClothing] # Frontier: BaseMagicalContraband<BaseC3WizardContraband, ContrabandClothing as parent
-  id: DSClothingOuterHardsuitWizard
+  id: ClothingOuterHardsuitWizard
   name: wizard hardsuit
   description: A bizarre gem-encrusted suit that radiates magical energies.
   suffix: Events, Heavy, Special #Lua

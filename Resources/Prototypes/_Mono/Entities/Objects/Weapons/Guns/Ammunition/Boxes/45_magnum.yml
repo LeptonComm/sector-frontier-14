@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox45_magnum
+  id: BaseAmmoBox45_magnum
   name: ammunition box (.45 magnum FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -38,7 +38,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  id: DSAmmoBox45_magnumFMJ
+  id: AmmoBox45_magnumFMJ
   name: ammunition box (.45 magnum FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  id: DSAmmoBox45_magnumPractice
+  id: AmmoBox45_magnumPractice
   name: ammunition box (.45 magnum practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -69,7 +69,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  id: DSAmmoBox45_magnumRubber
+  id: AmmoBox45_magnumRubber
   name: ammunition box (.45 magnum rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -86,7 +86,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  id: DSAmmoBox45_magnumHP
+  id: AmmoBox45_magnumHP
   name: ammunition box (.45 magnum hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -103,7 +103,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox45_magnum
-  id: DSAmmoBox45_magnumIncendiary
+  id: AmmoBox45_magnumIncendiary
   name: ammunition box (.45 magnum incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -118,7 +118,7 @@
     - state: incendiary
 
 - type: entity
-  id: DSAmmoBox45_magnumUranium
+  id: AmmoBox45_magnumUranium
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -135,7 +135,7 @@
 
 # Special
 - type: entity
-  id: DSAmmoBox45_magnumEMP
+  id: AmmoBox45_magnumEMP
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
@@ -151,7 +151,7 @@
     - state: emp
 
 - type: entity
-  id: DSAmmoBox45_magnumCaustic
+  id: AmmoBox45_magnumCaustic
   parent: DSBaseAmmoBox45_magnum
   name: ammunition box (.45 magnum Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua

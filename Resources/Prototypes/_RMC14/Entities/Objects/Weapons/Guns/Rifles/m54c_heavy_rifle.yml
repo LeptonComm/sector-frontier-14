@@ -1,7 +1,7 @@
 - type: entity
   name: M54CE2 heavy assault rifle
   parent: [BaseC3Contraband, CMBaseWeaponRifleUnwieldable] #Lua CMBaseWeaponRifle<CMBaseWeaponRifleUnwieldable
-  id: DSWeaponRifleM54CE2
+  id: WeaponRifleM54CE2
   description: A large squad support weapon capable of laying down sustained suppressing fire from a mounted position. While unstable and less accurate, it can be lugged and shot with two hands.
   suffix: МК, НЕ СПАВНИТЬ
   components:

@@ -1,6 +1,6 @@
 #region WizDen
 - type: entity
-  id: DSNFWeaponShotgunBulldog
+  id: NFWeaponShotgunBulldog
   parent:
   - BaseC3SyndicateContraband
   - NFBaseWeaponShotgunChamber23x75Magazine #Lua 4 gauge
@@ -33,7 +33,7 @@
     - 0,0,3,1
 
 - type: entity
-  id: DSNFWeaponShotgunDoubleBarreled
+  id: NFWeaponShotgunDoubleBarreled
   parent: [ NFBaseWeaponShotgunChamber23x75, NFBaseWeaponFrameShotgunWieldable ] #Lua 4 gauge
   name: double-barreled shotgun
   description: |-
@@ -64,7 +64,7 @@
     manufacturer: weapon-details-manufacturer-frontier-gunsmith-consortium
 
 - type: entity
-  id: DSNFWeaponShotgunEnforcer
+  id: NFWeaponShotgunEnforcer
   parent: [ NFBaseWeaponShotgunChamber23x75, NFBaseWeaponFrameShotgunWieldable ] #Lua 4 gauge
   name: Enforcer
   description: |-
@@ -88,7 +88,7 @@
     fireRate: 2
 
 - type: entity
-  id: DSNFWeaponShotgunKammerer
+  id: NFWeaponShotgunKammerer
   parent: [ NFBaseWeaponShotgunChamber23x75, NFBaseWeaponFrameShotgunWieldable ] #Lua 4 gauge
   name: Kammerer
   description: |-
@@ -118,7 +118,7 @@
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
 - type: entity
-  id: DSNFWeaponShotgunSawn
+  id: NFWeaponShotgunSawn
   parent: [ NFBaseWeaponShotgunChamber23x75, NFBaseWeaponFrameShotgun ] #Lua 4 gauge
   name: sawn-off shotgun
   description: |-

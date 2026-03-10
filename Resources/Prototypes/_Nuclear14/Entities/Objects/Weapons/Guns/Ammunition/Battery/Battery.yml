@@ -2,7 +2,7 @@
 - type: entity
   name: microfusion cell
   description: A small energy container the size of a palm, commonly used has ammo for any kind of laser weapon.
-  id: DSN14PowerCellHigh
+  id: N14PowerCellHigh
   suffix: Full
   parent: N14BasePowerCell
   components:
@@ -23,7 +23,7 @@
 - type: entity #Lua
   parent: BasicHitscan
   categories: [ HideSpawnMenu ]
-  id: DSLuaRedHighLaser
+  id: LuaRedHighLaser
   components:
   - type: HitscanBasicDamage
     damage:
@@ -46,7 +46,7 @@
 - type: entity
   name: fusion cell
   description: A large energy container the size of a hand, commonly used as ammo for heavy laser weapons.
-  id: DSN14PowerCellFusion
+  id: N14PowerCellFusion
   suffix: Full
   parent: N14BasePowerCell
   components:
@@ -74,7 +74,7 @@
 - type: entity
   name: plasma cartridge
   description: A small green glowing cartridge, commonly used has ammo for any kind of plasma weapon.
-  id: DSN14BasePlasmaCell
+  id: N14BasePlasmaCell
   abstract: true
   parent: BaseItem
   components:
@@ -113,7 +113,7 @@
 - type: entity
   name: plasma cartridge
   description: A small green glowing cartridge, commonly used has ammo for any kind of plasma weapon.
-  id: DSN14PlasmaCartridge
+  id: N14PlasmaCartridge
   suffix: Full
   parent: DSN14BasePlasmaCell
   components:

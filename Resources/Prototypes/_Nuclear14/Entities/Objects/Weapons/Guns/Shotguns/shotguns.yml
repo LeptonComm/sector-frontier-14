@@ -1,7 +1,7 @@
 - type: entity
   name: double-barrel shotgun
   parent: [BaseC1Contraband, BaseWeaponShotgun]
-  id: DSN14WeaponDoubleBarrelShotgun
+  id: N14WeaponDoubleBarrelShotgun
   description: An immortal classic, uses 12 gauge shells.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -36,7 +36,7 @@
 - type: entity
   name: shotgun
   parent: [BaseC1Contraband, BaseWeaponShotgun]
-  id: DSN14WeaponShotgun
+  id: N14WeaponShotgun
   description: A pump action shotgun.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -71,7 +71,7 @@
 - type: entity
   name: combat shotgun
   parent: [BaseC1Contraband, BaseItem]
-  id: DSN14WeaponAutoShotgun
+  id: N14WeaponAutoShotgun
   description: It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -135,7 +135,7 @@
 - type: entity
   name: caravan shotgun
   parent: [BaseC1Contraband, BaseWeaponShotgun]
-  id: DSN14WeaponCaravanShotgun
+  id: N14WeaponCaravanShotgun
   description: The perfect shotgun for a long jorney. works well for hunting brahmins, geckos and fiends, uses 20 gauge shells.
   suffix: МК, НЕ СПАВНИТЬ
   components:

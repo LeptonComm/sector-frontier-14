@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseCartridge9x19mm
+  id: BaseCartridge9x19mm
   name: cartridge (9x19mm FMJ)
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
   description: Generic pistol round. Easy to handle, with a decent effect on unarmored flesh.
@@ -25,7 +25,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge9x19mmFMJ
+  id: Cartridge9x19mmFMJ
   name: cartridge (9x19mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -34,7 +34,7 @@
     proto: DSBullet9x19mmFMJ
 
 - type: entity
-  id: DSCartridge9x19mmPractice
+  id: Cartridge9x19mmPractice
   name: cartridge (9x19mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -50,7 +50,7 @@
          color: "#dbdbdb"
 
 - type: entity
-  id: DSCartridge9x19mmRubber
+  id: Cartridge9x19mmRubber
   name: cartridge (9x19mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge9x19mmHP
+  id: Cartridge9x19mmHP
   name: cartridge (9x19mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -84,7 +84,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge9x19mmIncendiary
+  id: Cartridge9x19mmIncendiary
   name: cartridge (9x19mm Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -100,7 +100,7 @@
         color: "#f44336"
 
 - type: entity
-  id: DSCartridge9x19mmUranium
+  id: Cartridge9x19mmUranium
   name: cartridge (9x19mm Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge9x19mmEMP
+  id: Cartridge9x19mmEMP
   name: cartridge (9x19mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm
@@ -137,7 +137,7 @@
 #    disableDuration: 10
 
 - type: entity
-  id: DSCartridge9x19mmCaustic
+  id: Cartridge9x19mmCaustic
   name: cartridge (9x19mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge9x19mm

@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseCartridge762x54mmR
+  id: BaseCartridge762x54mmR
   name: cartridge (7.62x54mmR FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
@@ -25,7 +25,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge762x54mmRFMJ
+  id: Cartridge762x54mmRFMJ
   name: cartridge (7.62x54mmR FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -34,7 +34,7 @@
     proto: DSBullet762x54mmRFMJ
 
 - type: entity
-  id: DSCartridge762x54mmRPractice
+  id: Cartridge762x54mmRPractice
   name: cartridge (7.62x54mmR practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -50,7 +50,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: DSCartridge762x54mmRRubber
+  id: Cartridge762x54mmRRubber
   name: cartridge (7.62x54mmR rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge762x54mmRHP
+  id: Cartridge762x54mmRHP
   name: cartridge (7.62x54mmR hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -84,7 +84,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge762x54mmRIncendiary
+  id: Cartridge762x54mmRIncendiary
   name: cartridge (7.62x54mmR Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -100,7 +100,7 @@
         color: "#f44336"
 
 - type: entity
-  id: DSCartridge762x54mmRUranium
+  id: Cartridge762x54mmRUranium
   name: cartridge (7.62x54mmR Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge762x54mmREMP
+  id: Cartridge762x54mmREMP
   name: cartridge (7.62x54mmR EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR
@@ -133,7 +133,7 @@
         color: "#044492"
 
 - type: entity
-  id: DSCartridge762x54mmRCaustic
+  id: Cartridge762x54mmRCaustic
   name: cartridge (7.62x54mmR Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge762x54mmR

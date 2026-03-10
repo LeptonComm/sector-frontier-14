@@ -501,7 +501,7 @@
   #   channels: [Security] # Frontier
 
 - type: entity
-  id: DSAmmoTechFab
+  id: AmmoTechFab
   parent: [NFBlueprintReceiverBase, BaseLatheLube] # Frontier: added NFBlueprintReceiverBase
   name: ammo techfab
   description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.

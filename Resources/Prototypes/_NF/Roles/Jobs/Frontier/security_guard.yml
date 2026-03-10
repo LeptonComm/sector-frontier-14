@@ -1,5 +1,5 @@
 - type: job
-  id: DSSecurityGuard
+  id: SecurityGuard
   name: job-name-security-guard
   description: job-description-security-guard
   playTimeTracker: DSJobSecurityGuard
@@ -38,7 +38,7 @@
         companyName: Security
 
 - type: chameleonOutfit
-  id: DSSecurityGuardChameleonOutfit
+  id: SecurityGuardChameleonOutfit
   job: DSSecurityGuard
   hasMindShield: true
   equipment:

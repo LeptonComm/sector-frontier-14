@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseCartridge68x52mmCaseless
+  id: BaseCartridge68x52mmCaseless
   name: cartridge (6.8x52mm STANAG Caseless)
   description: A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.
   parent: BaseCartridge
@@ -24,7 +24,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge68x52mmCaseless
+  id: Cartridge68x52mmCaseless
   name: cartridge (6.8x52mm STANAG Caseless)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -33,7 +33,7 @@
     proto: DSBullet68x52mmCaseless
 
 - type: entity
-  id: DSCartridge68x52mmCaselessRubber
+  id: Cartridge68x52mmCaselessRubber
   name: cartridge (6.8x52mm STANAG Caseless rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -42,7 +42,7 @@
     proto: DSBullet68x52mmCaselessRubber
 
 - type: entity
-  id: DSCartridge68x52mmCaselessPractice
+  id: Cartridge68x52mmCaselessPractice
   name: cartridge (6.8x52mm STANAG Caseless practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -59,7 +59,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge68x52mmCaselessHP
+  id: Cartridge68x52mmCaselessHP
   name: cartridge (6.8x52mm STANAG HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -76,7 +76,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge68x52mmCaselessIncendiary
+  id: Cartridge68x52mmCaselessIncendiary
   name: cartridge (6.8x52mm STANAG Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -92,7 +92,7 @@
         color: "#f44336"
 
 - type: entity
-  id: DSCartridge68x52mmCaselessUranium
+  id: Cartridge68x52mmCaselessUranium
   name: cartridge (6.8x52mm STANAG Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -109,7 +109,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge68x52mmCaselessEMP
+  id: Cartridge68x52mmCaselessEMP
   name: cartridge (6.8x52mm STANAG EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless
@@ -125,7 +125,7 @@
         color: "#044492"
 
 - type: entity
-  id: DSCartridge68x52mmCaselessCaustic
+  id: Cartridge68x52mmCaselessCaustic
   name: cartridge (6.8x52mm STANAG Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge68x52mmCaseless

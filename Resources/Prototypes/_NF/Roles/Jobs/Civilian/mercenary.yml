@@ -1,5 +1,5 @@
 - type: job
-  id: DSMercenary
+  id: Mercenary
   name: job-name-mercenary
   description: job-description-mercenary
   playTimeTracker: DSJobMercenary
@@ -35,7 +35,7 @@
     prototype: FrontierBirthdayGift
 
 - type: chameleonOutfit
-  id: DSMercenaryChameleonOutfit
+  id: MercenaryChameleonOutfit
   job: DSMercenary
   equipment:
     head: ClothingHeadHelmetMercenary

@@ -3,7 +3,7 @@
 # LeptonComm status clear
 # Standart
 - type: entity
-  id: DSBullet9x19mmFMJ
+  id: Bullet9x19mmFMJ
   name: bullet (9x19mm FMJ)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -15,7 +15,7 @@
 
 # Mechanical
 - type: entity
-  id: DSBullet9x19mmPractice
+  id: Bullet9x19mmPractice
   name: bullet (9x19mm practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
@@ -26,7 +26,7 @@
         Blunt: 1 #Lua -1
 
 - type: entity
-  id: DSBullet9x19mmRubber
+  id: Bullet9x19mmRubber
   name: bullet (9x19mm rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
     damage: 15
 
 - type: entity
-  id: DSBullet9x19mmHP
+  id: Bullet9x19mmHP
   parent: BaseBullet
   name: bullet (9x19mm hollow-point)
   categories: [ HideSpawnMenu ]
@@ -52,7 +52,7 @@
 
 # Physical
 - type: entity
-  id: DSBullet9x19mmIncendiary
+  id: Bullet9x19mmIncendiary
   parent: BaseBulletIncendiary
   name: bullet (9x19mm incendiary)
   categories: [ HideSpawnMenu ]
@@ -64,7 +64,7 @@
         Heat: 5
 
 - type: entity
-  id: DSBullet9x19mmUranium
+  id: Bullet9x19mmUranium
   parent: BaseBulletUranium
   name: bullet (9x19mm uranium)
   categories: [ HideSpawnMenu ]
@@ -77,7 +77,7 @@
 
 # Special
 - type: entity
-  id: DSBullet9x19mmEmp
+  id: Bullet9x19mmEmp
   name: bullet (9x19mm emp)
   parent: BaseBulletEmp
   categories: [ HideSpawnMenu ]
@@ -89,7 +89,7 @@
         Shock: 5
 
 - type: entity
-  id: DSBullet9x19mmCaustic
+  id: Bullet9x19mmCaustic
   name: bullet (9x19mm caustic)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -102,7 +102,7 @@
 
 # Out of balance
 - type: entity
-  id: DSBullet9x19mmRIP
+  id: Bullet9x19mmRIP
   parent: BaseBullet
   name: bullet (9x19mm RIP)
   categories: [ HideSpawnMenu ]
@@ -117,7 +117,7 @@
     damage: 5
 
 - type: entity
-  id: DSBullet9x19mmPlasteelAP
+  id: Bullet9x19mmPlasteelAP
   parent: BaseBullet
   name: bullet (9x19mm AP)
   categories: [ HideSpawnMenu ]

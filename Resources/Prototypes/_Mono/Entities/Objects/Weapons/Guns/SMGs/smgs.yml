@@ -1,7 +1,7 @@
 - type: entity
   name: SKR-WS MLA-73 (635x40mm caseless)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunMla73
+  id: WeaponSubMachineGunMla73
   description: A reliable PDW design, commonly issued to pilots and AFV crewmen. This one has been modified with an integral suppressor. Legends around this weapons say it's a Corporate-Era schematic that's been built by The Ashen Republic.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -58,7 +58,7 @@
 - type: entity
   name: NCI AK-220 (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC1Contraband] #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunAK220
+  id: WeaponSubMachineGunAK220
   description: A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -122,7 +122,7 @@
 - type: entity
   name: LWC Vector (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunVector9x19mm
+  id: WeaponSubMachineGunVector9x19mm
   description: An excellent fully automatic SMG. Uses 9x19mm ammo.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -183,7 +183,7 @@
 - type: entity
   name: LWC Vector (.45 ACP)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunVector45_ACP
+  id: WeaponSubMachineGunVector45_ACP
   description: An excellent fully automatic SMG. Uses .45 ACP ammo.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -241,7 +241,7 @@
 - type: entity
   name: NTSF-HCLM-45 (.45 magnum)
   parent: [BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable] #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunVectorNtsfHclm
+  id: WeaponSubMachineGunVectorNtsfHclm
   description: The NTSF Heavy Caliber Light Machinegun. A very high-quality heavy SMG chambered in .45 magnum for use for the Nano Trasen Security Force and NT spec-ops.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -303,7 +303,7 @@
 - type: entity
   name: LWC Knallstock (.45 ACP)
   parent: [ BaseWeaponSubMachineGun, BaseC2Contraband ] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunKnallstock
+  id: WeaponSubMachineGunKnallstock
   description: A rugged and reliable SMG using large, rapid fire bursts. Accepts 9x19 or .45 ACP pistol magazines. Watch out for its ammo consumption.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -370,7 +370,7 @@
 - type: entity
   name: HWM Firestarter (.45 ACP)
   parent: [BaseWeaponSubMachineGun, BaseC2Contraband] # Frontier: added BaseC2Contraband #Lua: deleted BaseGunWieldable
-  id: DSWeaponSubMachineGunFirestarter
+  id: WeaponSubMachineGunFirestarter
   description: An excellent fully automatic SMG. Uses .45 ACP ammo.
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

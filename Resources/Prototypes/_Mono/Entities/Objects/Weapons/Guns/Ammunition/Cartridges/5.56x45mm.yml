@@ -1,5 +1,5 @@
 - type: entity
-  id: DSBaseCartridge556x45mm
+  id: BaseCartridge556x45mm
   name: cartridge (5.56x45mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: [ BaseCartridge, BaseC1Contraband ] # Frontier: BaseSecurityContraband<BaseC1Contraband
@@ -25,7 +25,7 @@
 
 # Standart
 - type: entity
-  id: DSCartridge556x45mmFMJ
+  id: Cartridge556x45mmFMJ
   name: cartridge (5.56x45mm FMJ)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -34,7 +34,7 @@
     proto: DSBullet556x45mmFMJ
 
 - type: entity
-  id: DSCartridge556x45mmPractice
+  id: Cartridge556x45mmPractice
   name: cartridge (5.56x45mm practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -50,7 +50,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: DSCartridge556x45mmRubber
+  id: Cartridge556x45mmRubber
   name: cartridge (5.56x45mm rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -67,7 +67,7 @@
 
 # Mechanical
 - type: entity
-  id: DSCartridge556x45mmHP
+  id: Cartridge556x45mmHP
   name: cartridge (5.56x45mm hollow-point)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -84,7 +84,7 @@
 
 # Physical
 - type: entity
-  id: DSCartridge556x45mmIncendiary
+  id: Cartridge556x45mmIncendiary
   name: cartridge (5.56x45mm incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -100,7 +100,7 @@
         color: "#f44336"
 
 - type: entity
-  id: DSCartridge556x45mmUranium
+  id: Cartridge556x45mmUranium
   name: cartridge (5.56x45mm uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -117,7 +117,7 @@
 
 # Special
 - type: entity
-  id: DSCartridge556x45mmEMP
+  id: Cartridge556x45mmEMP
   name: cartridge (5.56x45mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm
@@ -133,7 +133,7 @@
         color: "#044492"
 
 - type: entity
-  id: DSCartridge556x45mmCaustic
+  id: Cartridge556x45mmCaustic
   name: cartridge (5.56x45mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   parent: DSBaseCartridge556x45mm

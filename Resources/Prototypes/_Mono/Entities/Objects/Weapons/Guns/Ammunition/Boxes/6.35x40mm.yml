@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
-  id: DSBaseAmmoBox635x40mmCaseless
+  id: BaseAmmoBox635x40mmCaseless
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
   - type: BallisticAmmoProvider
@@ -37,7 +37,7 @@
 # Standart
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaseless
+  id: AmmoBox635x40mmCaseless
   name: ammunition box (635x40mm Caseless)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -52,7 +52,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessPractice
+  id: AmmoBox635x40mmCaselessPractice
   name: ammunition box (635x40mm Caseless practice)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -68,7 +68,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessRubber
+  id: AmmoBox635x40mmCaselessRubber
   name: ammunition box (635x40mm Caseless rubber)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -86,7 +86,7 @@
 # Mechanical
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessHP
+  id: AmmoBox635x40mmCaselessHP
   name: ammunition box (635x40mm HP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -103,7 +103,7 @@
 # Physical
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessIncendiary
+  id: AmmoBox635x40mmCaselessIncendiary
   name: ammunition box (635x40mm Incendiary)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -119,7 +119,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessUranium
+  id: AmmoBox635x40mmCaselessUranium
   name: ammunition box (635x40mm Uranium)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -136,7 +136,7 @@
 # Special
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessEMP
+  id: AmmoBox635x40mmCaselessEMP
   name: ammunition box (635x40mm EMP)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:
@@ -152,7 +152,7 @@
 
 - type: entity
   parent: DSBaseAmmoBox635x40mmCaseless
-  id: DSAmmoBox635x40mmCaselessCaustic
+  id: AmmoBox635x40mmCaselessCaustic
   name: ammunition box (635x40mm Caustic)
   suffix: МК, НЕ СПАВНИТЬ #Lua
   components:

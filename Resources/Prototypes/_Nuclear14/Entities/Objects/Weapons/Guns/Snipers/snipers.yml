@@ -1,7 +1,7 @@
 - type: entity
   name: hunting rifle
   parent: BaseWeaponSniper
-  id: DSN14WeaponSniperHunting
+  id: N14WeaponSniperHunting
   description: A rugged bolt action rifle. Uses .308 ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -57,7 +57,7 @@
 - type: entity
   name: Anti-Materiel rifle
   parent: [BaseC3SyndicateContraband, BaseWeaponRifle]
-  id: DSN14WeaponAntiMateriel
+  id: N14WeaponAntiMateriel
   description: A anti materiel rifle with a ergonomic, metallic skeleton design. only seeing at it you can tell it will rip some limbs apart. Uses .50 anti-material ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -150,7 +150,7 @@
 - type: entity
   name: .50 NCR rifle
   parent: [BaseC3SyndicateContraband, BaseWeaponSniper]
-  id: DSN14Weapon50NcrRifle
+  id: N14Weapon50NcrRifle
   description: A try by the NCR to make .50 ammo a standart on normal infantry, very cheap but it will deal a lot of damage. Uses .50 anti-material ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -229,7 +229,7 @@
 - type: entity
   name: lever action rifle
   parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
-  id: DSN14WeaponLeverRifle
+  id: N14WeaponLeverRifle
   description: A long lever action repeater rifle. Uses .308 ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
@@ -283,7 +283,7 @@
 - type: entity
   name: brush gun
   parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
-  id: DSN14WeaponBrushGun
+  id: N14WeaponBrushGun
   description: A powerfull lever action carbine. Uses .45-70 gov't ammo.
   suffix: МК, НЕ СПАВНИТЬ
   components:
