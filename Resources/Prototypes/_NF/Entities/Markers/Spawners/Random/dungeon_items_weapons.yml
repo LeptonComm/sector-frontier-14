@@ -170,14 +170,14 @@
   - type: RandomSpawner
     prototypes:
     - WeaponCaseShortMk58Expedition
-    - WeaponCaseShortUniversalExpedition
+#    - WeaponCaseShortUniversalExpedition # comment from _Lua
     - WeaponCaseShortPollockExpedition
     - WeaponCaseShortFaithExpedition
     - WeaponCaseShortArgentiExpedition
     - WeaponCaseShortLuckyExpedition
-    - WeaponCaseShortDeckardExpedition
+#    - WeaponCaseShortDeckardExpedition # comment from _Lua
     - WeaponCaseShortRitland45Expedition
-    - WeaponCaseLongBarlowsBoltExpedition
+#    - WeaponCaseLongBarlowsBoltExpedition # comment from _Lua
     - WeaponCaseLongRepeaterExpedition
     - WeaponCaseLongSniperCeremonialExpedition
     chance: 1.0
@@ -205,16 +205,16 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseShortCobra
-    - WeaponCaseShortN1984Expedition
+#    - WeaponCaseShortCobra # comment from _Lua
+#    - WeaponCaseShortN1984Expedition # comment from _Lua
     - WeaponCaseShortViper
 #    - WeaponCaseShortFitzExpedition #Lua
-    - WeaponCaseShortWard45Expedition
-    - WeaponCaseShortRevolverPirate
+#    - WeaponCaseShortWard45Expedition # comment from _Lua
+#    - WeaponCaseShortRevolverPirate # comment from _Lua
     - WeaponCaseLongC20r
     - WeaponCaseLongJackdaw
-#    - WeaponCaseLongGestioExpedition #Lua
-#    - WeaponCaseLongWeaponRifleNovaliteC1Expedition #Lua
+    - WeaponCaseLongGestioExpedition
+    - WeaponCaseLongWeaponRifleNovaliteC1Expedition
 #    - WeaponCaseLongSVSExpedition #Lua
     - WeaponCaseLongKammererExpedition
 #    - WeaponCaseShortLaserGunExpedition #Lua
@@ -244,14 +244,14 @@
       color: red
   - type: RandomSpawner
     prototypes:
-    - WeaponCaseLongTypewriterExpedition
-    - WeaponCaseLongAtreidesExpedition
+#    - WeaponCaseLongTypewriterExpedition # comment from _Lua
+#    - WeaponCaseLongAtreidesExpedition # comment from _Lua
     - WeaponCaseLongWT550Expedition
     - WeaponCaseLongDrozdExpedition
 #    - WeaponCaseLongM90Expedition
-    - WeaponCaseLongLecterExpedition
-    - WeaponCaseShortSvalinnExpedition
-    - WeaponCaseLongHristovExpedition
+#    - WeaponCaseLongLecterExpedition # comment from _Lua
+#    - WeaponCaseShortSvalinnExpedition # comment from _Lua
+#    - WeaponCaseLongHristovExpedition # comment from _Lua
 #    - WeaponCaseLongMusketExpedition
     chance: 1.0
     offset: 0.0
@@ -280,13 +280,13 @@
     prototypes:
     - WeaponCaseLongSm
     - WeaponCaseLongVulcanExpedition
-    - WeaponCaseLongBulldog
+#    - WeaponCaseLongBulldog # comment from _Lua
     - WeaponCaseLongEnforcerExpedition
-    - WeaponCaseShortAntiqueLaserExpedition
+#    - WeaponCaseShortAntiqueLaserExpedition # comment from _Lua
     - WeaponCaseShortAdvancedLaserExpedition
     - WeaponCaseLongLaserCarbineExpedition
     - WeaponCaseLongXrayCannonExpedition
-    - WeaponCaseLongTemperatureGunExpedition
+#    - WeaponCaseLongTemperatureGunExpedition # comment from _Lua
     chance: 1.0
     offset: 0.0
     rarePrototypes:
@@ -314,7 +314,7 @@
     prototypes:
     # - WeaponCaseLongLauncherRocketExpedition # Lua
     # - WeaponCaseLongLauncherChinaLake # Lua
-    - WeaponCaseHeavyLightMachineGunL6
+#    - WeaponCaseHeavyLightMachineGunL6 # comment from _Lua
     - WeaponCaseLongEnergyGunExpedition
     - WeaponCaseLongLaserCannonExpedition
     - WeaponCaseHeavyAsmgtExpeditions

@@ -640,3 +640,355 @@
 
 #DP
   - MagazineDP29
+
+# Ammo packs from _Lua for new damage balance
+
+- type: latheRecipePack
+  id: MonoAmmoPackModifiedCivilian
+  recipes:
+# Region ammo boxes
+  ## Standart
+  - AmmoBox23x75mmBuckshot
+  - AmmoBox23x75mmDozd
+  - AmmoBox23x75mmSlug
+  - AmmoBox556x45mmFMJ
+  - AmmoBox635x40mmCaseless
+  - AmmoBox762x39mmFMJ
+  - AmmoBox762x51mmFMJ
+  - AmmoBox762x54mmRFMJ
+  - AmmoBox8x65mmSKR
+  - AmmoBox9x19mmFMJ
+  - AmmoBox127x99mm
+  - AmmoBox45_ACPFMJ
+  - AmmoBox45_magnumFMJ
+  - AmmoBox68x52mmCaseless
+  ## Practice
+  - AmmoBox23x75mmPractice
+  - AmmoBox556x45mmPractice
+  - AmmoBox635x40mmCaselessPractice
+  - AmmoBox762x39mmPractice
+  - AmmoBox762x51mmPractice
+  - AmmoBox762x54mmRPractice
+  - AmmoBox8x65mmSKRPractice
+  - AmmoBox9x19mmPractice
+    # 12.7x99mm havent practice
+  - AmmoBox45_ACPPractice
+  - AmmoBox45_magnumPractice
+  - AmmoBox68x52mmCaselessPractice
+  ## Rubber
+  - AmmoBox23x75mmBeanbag
+  - AmmoBox556x45mmRubber
+  - AmmoBox635x40mmCaselessRubber
+  - AmmoBox762x39mmRubber
+  - AmmoBox762x51mmRubber
+  - AmmoBox762x54mmRRubber
+    # 8x65mm havent rubber
+  - AmmoBox9x19mmRubber
+    # 12.7 havent rubber
+  - AmmoBox45_ACPRubber
+  - AmmoBox45_magnumRubber
+  # 6.8x52 havent rubber
+# Region magazines
+  ## Standart
+  - Magazine556x45mmFMJ
+  - MagazineNovaliteC1
+  - Magazine635x40mmCaselessPistol
+  - Magazine635x40mmCaseless
+  - Magazine762x39mmFMJ
+  - Magazine762x51mmFMJ
+  - Magazine762x54mmRFMJ
+  - Magazine8x65mmSKRBox
+  - Magazine9x19mmPistolFMJ
+  - Magazine9x19mmSubMachineGunFMJ
+  - Magazine9x19mmSubMachineGunTopMountedFMJ
+  - Magazine127x99mm
+  - Magazine45_ACPPistolFMJ
+  - Magazine45_ACPSubMachineGunFMJ
+  - Magazine68x52mmCaselessBig
+  ## Empty
+  - Magazine556x45mmEmpty
+  - MagazineNovaliteC1Empty
+    # 6.35x40 havent empty
+  - Magazine762x39mmEmpty
+  - Magazine762x51mmEmpty
+  - Magazine762x54mmREmpty
+  - Magazine8x65mmEmptyBox
+  - Magazine9x19mmPistolEmpty
+  - Magazine9x19mmSubMachineGunEmpty
+  - Magazine9x19mmSubMachineGunTopMountedEmpty
+  - Magazine127x99mmEmpty
+  - Magazine45_ACPPistolEmpty
+  - Magazine45_ACPSubMachineGunEmpty
+    # 6.8x52 havent empty
+  ## Practice
+  - Magazine556x45mmPractice
+  - Magazine635x40mmCaselessPistolPractice
+  - Magazine635x40mmCaselessPractice
+  - Magazine762x39mmPractice
+  - Magazine762x51mmPractice
+  - Magazine762x54mmRPractice
+    # 8x65 havent practice
+  - Magazine9x19mmPistolPractice
+  - Magazine9x19mmSubMachineGunPractice
+    # 12.7x99 havent practice
+  - Magazine45_ACPPistolPractice
+  - Magazine45_ACPSubMachineGunPractice
+  - Magazine68x52mmCaselessPractice
+  ## Rubber
+  - Magazine556x45mmRubber
+    # 6.35x40 havent rubber
+  - Magazine635x40mmCaselessRubber
+  - Magazine762x39mmRubber
+  - Magazine762x51mmRubber
+  - Magazine762x54mmRRubber
+    # 8x65 havent rubber
+  - Magazine9x19mmPistolRubber
+  - Magazine9x19mmSubMachineGunRubber
+    # 12.7x99 havent rubber
+  - Magazine45_ACPPistolRubber
+  - Magazine45_ACPSubMachineGunRubber
+    # 6.8x52 havent rubber
+
+- type: latheRecipePack
+  id: MonoAmmoPackModified
+  recipes:
+# Region ammo boxes
+  ## Standart
+  - AmmoBox23x75mmBuckshot
+  - AmmoBox23x75mmDozd
+  - AmmoBox23x75mmSlug
+  - AmmoBox556x45mmFMJ
+  - AmmoBox635x40mmCaseless
+  - AmmoBox762x39mmFMJ
+  - AmmoBox762x51mmFMJ
+  - AmmoBox762x54mmRFMJ
+  - AmmoBox8x65mmSKR
+  - AmmoBox9x19mmFMJ
+  - AmmoBox127x99mm
+  - AmmoBox45_ACPFMJ
+  - AmmoBox45_magnumFMJ
+  - AmmoBox68x52mmCaseless
+  ## Practice
+  - AmmoBox23x75mmPractice
+  - AmmoBox556x45mmPractice
+  - AmmoBox635x40mmCaselessPractice
+  - AmmoBox762x39mmPractice
+  - AmmoBox762x51mmPractice
+  - AmmoBox762x54mmRPractice
+  - AmmoBox8x65mmSKRPractice
+  - AmmoBox9x19mmPractice
+    # 12.7x99mm havent practice
+  - AmmoBox45_ACPPractice
+  - AmmoBox45_magnumPractice
+  - AmmoBox68x52mmCaselessPractice
+  ## Rubber
+  - AmmoBox23x75mmBeanbag
+  - AmmoBox556x45mmRubber
+  - AmmoBox635x40mmCaselessRubber
+  - AmmoBox762x39mmRubber
+  - AmmoBox762x51mmRubber
+  - AmmoBox762x54mmRRubber
+    # 8x65mm havent rubber
+  - AmmoBox9x19mmRubber
+    # 12.7 havent rubber
+  - AmmoBox45_ACPRubber
+  - AmmoBox45_magnumRubber
+  # 6.8x52 havent rubber
+  ## Hollow-point
+  - AmmoBox23x75mmOOBuckshot
+  - AmmoBox556x45mmHP
+  - AmmoBox635x40mmCaselessHP
+  - AmmoBox762x39mmHP
+  - AmmoBox762x51mmHP
+  - AmmoBox762x54mmRHP
+  - AmmoBox8x65mmSKRHP
+  - AmmoBox9x19mmHP
+  - AmmoBox127x99mmHP
+  - AmmoBox45_ACPHP
+  - AmmoBox45_magnumHP
+  - AmmoBox68x52mmCaselessHP
+  ## Incendiary
+  - AmmoBox23x75mmIncendiary
+  - AmmoBox556x45mmIncendiary
+  - AmmoBox635x40mmCaselessIncendiary
+  - AmmoBox762x39mmIncendiary
+  - AmmoBox762x51mmIncendiary
+  - AmmoBox762x54mmRIncendiary
+  - AmmoBox8x65mmSKRIncendiary
+  - AmmoBox9x19mmIncendiary
+  - AmmoBox127x99mmIncendiary
+  - AmmoBox45_ACPIncendiary
+  - AmmoBox45_magnumIncendiary
+  - AmmoBox68x52mmCaselessIncendiary
+  ## Uranium
+  - AmmoBox23x75mmUranium
+  - AmmoBox556x45mmUranium
+  - AmmoBox635x40mmCaselessUranium
+  - AmmoBox762x39mmUranium
+  - AmmoBox762x51mmUranium
+  - AmmoBox762x54mmRUranium
+  - AmmoBox8x65mmSKRUranium
+  - AmmoBox9x19mmUranium
+  - AmmoBox127x99mmUranium
+  - AmmoBox45_ACPUranium
+  - AmmoBox45_magnumUranium
+  - AmmoBox68x52mmCaselessUranium
+  ## EMP
+  - AmmoBox23x75mmEMP
+  - AmmoBox556x45mmEMP
+  - AmmoBox635x40mmCaselessEMP
+  - AmmoBox762x39mmEMP
+  - AmmoBox762x51mmEMP
+  - AmmoBox762x54mmREMP
+  - AmmoBox8x65mmSKREMP
+  - AmmoBox9x19mmEMP
+  - AmmoBox127x99mmEMP
+  - AmmoBox45_ACPEMP
+  - AmmoBox45_magnumEMP
+  - AmmoBox68x52mmCaselessEMP
+  ## Caustic
+  - AmmoBox23x75mmCaustic
+  - AmmoBox556x45mmCaustic
+  - AmmoBox635x40mmCaselessCaustic
+  - AmmoBox762x39mmCaustic
+  - AmmoBox762x51mmCaustic
+  - AmmoBox762x54mmRCaustic
+  - AmmoBox8x65mmSKRCaustic
+  - AmmoBox9x19mmCaustic
+  - AmmoBox127x99mmCaustic
+  - AmmoBox45_ACPCaustic
+  - AmmoBox45_magnumCaustic
+  - AmmoBox68x52mmCaselessCaustic
+  ## Utilitary
+  - AmmoBox23x75mmFlare
+  - AmmoBox23x75mmFlashbang
+# Region magazines
+  ## Standart
+  - Magazine556x45mmFMJ
+  - MagazineNovaliteC1
+  - Magazine635x40mmCaselessPistol
+  - Magazine635x40mmCaseless
+  - Magazine762x39mmFMJ
+  - Magazine762x51mmFMJ
+  - Magazine762x54mmRFMJ
+  - Magazine8x65mmSKRBox
+  - Magazine9x19mmPistolFMJ
+  - Magazine9x19mmSubMachineGunFMJ
+  - Magazine9x19mmSubMachineGunTopMountedFMJ
+  - Magazine127x99mm
+  - Magazine45_ACPPistolFMJ
+  - Magazine45_ACPSubMachineGunFMJ
+  - Magazine68x52mmCaselessBig
+  ## Empty
+  - Magazine556x45mmEmpty
+  - MagazineNovaliteC1Empty
+    # 6.35x40 havent empty
+  - Magazine762x39mmEmpty
+  - Magazine762x51mmEmpty
+  - Magazine762x54mmREmpty
+  - Magazine8x65mmEmptyBox
+  - Magazine9x19mmPistolEmpty
+  - Magazine9x19mmSubMachineGunEmpty
+  - Magazine9x19mmSubMachineGunTopMountedEmpty
+  - Magazine127x99mmEmpty
+  - Magazine45_ACPPistolEmpty
+  - Magazine45_ACPSubMachineGunEmpty
+    # 6.8x52 havent empty
+  ## Practice
+  - Magazine556x45mmPractice
+  - Magazine635x40mmCaselessPistolPractice
+  - Magazine635x40mmCaselessPractice
+  - Magazine762x39mmPractice
+  - Magazine762x51mmPractice
+  - Magazine762x54mmRPractice
+    # 8x65 havent practice
+  - Magazine9x19mmPistolPractice
+  - Magazine9x19mmSubMachineGunPractice
+    # 12.7x99 havent practice
+  - Magazine45_ACPPistolPractice
+  - Magazine45_ACPSubMachineGunPractice
+  - Magazine68x52mmCaselessPractice
+  ## Rubber
+  - Magazine556x45mmRubber
+    # 6.35x40 havent rubber
+  - Magazine635x40mmCaselessRubber
+  - Magazine762x39mmRubber
+  - Magazine762x51mmRubber
+  - Magazine762x54mmRRubber
+    # 8x65 havent rubber
+  - Magazine9x19mmPistolRubber
+  - Magazine9x19mmSubMachineGunRubber
+    # 12.7x99 havent rubber
+  - Magazine45_ACPPistolRubber
+  - Magazine45_ACPSubMachineGunRubber
+    # 6.8x52 havent rubber
+  ## Hollow-point
+  - Magazine556x45mmHP
+  - Magazine635x40mmCaselessPistolHP
+  - Magazine635x40mmCaselessHP
+  - Magazine762x39mmHP
+  - Magazine762x51mmHP
+  - Magazine762x54mmRHP
+  - Magazine8x65mmSKRBoxHP
+  - Magazine9x19mmPistolHP
+  - Magazine9x19mmSubMachineGunHP
+  - Magazine127x99mmHP
+  - Magazine45_ACPPistolHP
+  - Magazine45_ACPSubMachineGunHP
+  - Magazine68x52mmCaselessBigHP
+  ## Incendiary
+  - Magazine556x45mmIncendiary
+  - Magazine635x40mmCaselessPistolIncendiary
+  - Magazine635x40mmCaselessIncendiary
+  - Magazine762x39mmIncendiary
+  - Magazine762x51mmIncendiary
+  - Magazine762x54mmRIncendiary
+  - Magazine8x65mmSKRBoxIncendiary
+  - Magazine9x19mmPistolIncendiary
+  - Magazine9x19mmSubMachineGunIncendiary
+  - Magazine127x99mmIncendiary
+  - Magazine45_ACPPistolIncendiary
+  - Magazine45_ACPSubMachineGunIncendiary
+  - Magazine68x52mmCaselessBigIncendiary
+  ## Uranium
+  - Magazine556x45mmUranium
+  - Magazine635x40mmCaselessPistolUranium
+  - Magazine635x40mmCaselessUranium
+  - Magazine762x39mmUranium
+  - Magazine762x51mmUranium
+  - Magazine762x54mmRUranium
+  - Magazine8x65mmSKRBoxUranium
+  - Magazine9x19mmPistolUranium
+  - Magazine9x19mmSubMachineGunUranium
+  - Magazine127x99mmUranium
+  - Magazine45_ACPPistolUranium
+  - Magazine45_ACPSubMachineGunUranium
+  - Magazine68x52mmCaselessBigUranium
+  ## EMP
+  - Magazine556x45mmEMP
+  - Magazine635x40mmCaselessPistolEMP
+  - Magazine635x40mmCaselessEMP
+  - Magazine762x39mmEMP
+  - Magazine762x51mmEMP
+  - Magazine762x54mmREMP
+  - Magazine8x65mmSKRBoxEMP
+  - Magazine9x19mmPistolEMP
+  - Magazine9x19mmSubMachineGunEMP
+  - Magazine127x99mmEMP
+  - Magazine45_ACPPistolEMP
+  - Magazine45_ACPSubMachineGunEMP
+  - Magazine68x52mmCaselessBigEMP
+  ## Caustic
+  - Magazine556x45mmCaustic
+  - Magazine635x40mmCaselessPistolCaustic
+  - Magazine635x40mmCaselessCaustic
+  - Magazine762x39mmCaustic
+  - Magazine762x51mmCaustic
+  - Magazine762x54mmRCaustic
+  - Magazine8x65mmSKRBoxCaustic
+  - Magazine9x19mmPistolCaustic
+  - Magazine9x19mmSubMachineGunCaustic
+  - Magazine127x99mmCaustic
+  - Magazine45_ACPPistolCaustic
+  - Magazine45_ACPSubMachineGunCaustic
+  - Magazine68x52mmCaselessBigCaustic

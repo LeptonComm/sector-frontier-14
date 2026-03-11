@@ -8,11 +8,10 @@
   id: Mercury
   name: Mercury
   description: Шаттл с 6 импульсными пушками, обладающий неплохим бронированием
-  price: 220155
+  price: 190000
   category: Large
   group: BlackMarket
   whitelist:
-  - Luna
   - Frontier
   class:
   - Pirate

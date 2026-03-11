@@ -90,11 +90,6 @@
   id: SpeedLoader45_magnumHP
   result: SpeedLoader45_magnumHP
 
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateSpeedloaderRecipe
-  id: SpeedLoader45_magnumRIP
-  result: SpeedLoader45_magnumRIP
-
 #Boxes
 
 - type: latheRecipe
@@ -124,22 +119,22 @@
   id: AmmoBox45_magnumPractice
   result: AmmoBox45_magnumPractice
 
+- type: latheRecipe #Lua
+  parent: BaseAmmoEMPIntermediateMagazineRecipe
+  id: AmmoBox45_magnumEMP
+  result: AmmoBox45_magnumEMP
+
+- type: latheRecipe #Lua
+  parent: BaseAmmoCausticIntermediateMagazineRecipe
+  id: AmmoBox45_magnumCaustic
+  result: AmmoBox45_magnumCaustic
+
 - type: latheRecipe
   parent: BaseAmmoUraniumIntermediateMagazineRecipe
   id: AmmoBox45_magnumUranium
   result: AmmoBox45_magnumUranium
 
 - type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: AmmoBox45_magnumAP
-  result: AmmoBox45_magnumAP
-
-- type: latheRecipe
   parent: BaseAmmoHPIntermediateMagazineRecipe
   id: AmmoBox45_magnumHP
   result: AmmoBox45_magnumHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: AmmoBox45_magnumRIP
-  result: AmmoBox45_magnumRIP
