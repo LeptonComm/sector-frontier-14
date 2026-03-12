@@ -526,7 +526,7 @@ WeaponPistolN1984: NFWeaponPistolN1984
 WeaponPistolN1984Nonlethal: NFWeaponPistolN1984
 WeaponPistolPollock: NFWeaponPistolPollock
 # WeaponPistolUniversal: NFWeaponPistolUniversalNfsd
-WeaponPistolUniversalRubber: NFWeaponPistolUniversalNfsdLessLethal
+# WeaponPistolUniversalRubber: NFWeaponPistolUniversalNfsdLessLethal
 WeaponPistolViper: NFWeaponPistolViper
 WeaponProtoKineticAccelerator: NFWeaponPka
 WeaponProtoKineticAcceleratorSawn: NFWeaponPkaSawn
