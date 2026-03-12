@@ -11,7 +11,7 @@
   - AmmoBox23x75mmUranium
   - AmmoBox23x75mmSlug
   - AmmoBox23x75mmDozd
-  - AmmoBox23x75mmSlugRIP
+  # - AmmoBox23x75mmSlugRIP
   #- AmmoBox23x75mmSlugAP Lua ignore
   - AmmoBox23x75mmOOBuckshot
   #- AmmoBox23x75mmFlechette Lua ignore
@@ -40,7 +40,7 @@
   - Magazine762x54mmREmpty
   - Magazine762x54mmRUranium
   - Magazine762x54mmRHP
-  - Magazine762x54mmRRIP
+  # - Magazine762x54mmRRIP
   - SpeedLoader762x54mmRFMJ
   - AmmoBox762x54mmRFMJ
   #- AmmoBox762x54mmRPlasteelAP Lua ignore
@@ -50,9 +50,9 @@
   - AmmoBox762x54mmRUranium
   - AmmoBox762x54mmRHP
   - AmmoBox762x54mmRRIP
-  - Magazine8x65mmSKR
-  - Magazine8x65mmSKRPractice
-  - Magazine8x65mmSKRIncendiary
+  # - Magazine8x65mmSKR
+  # - Magazine8x65mmSKRPractice
+  # - Magazine8x65mmSKRIncendiary
   - AmmoBox8x65mmSKR
   - AmmoBox8x65mmSKRIncendiary
   - AmmoBox8x65mmSKRPractice
@@ -241,7 +241,7 @@
   - AmmoBox762x51mmPractice
   - Magazine762x54mmRPractice
   - AmmoBox762x54mmRPractice
-  - Magazine8x65mmSKRPractice
+  # - Magazine8x65mmSKRPractice
   - AmmoBox8x65mmSKRPractice
   - Magazine556x45mmPractice
   - SpeedLoader556x45mmPractice
@@ -268,7 +268,7 @@
   - AmmoBox762x51mmIncendiary
   - Magazine762x54mmRIncendiary
   - AmmoBox762x54mmRIncendiary
-  - Magazine8x65mmSKRIncendiary
+  # - Magazine8x65mmSKRIncendiary
   - AmmoBox8x65mmSKRIncendiary
   - Magazine556x45mmIncendiary
   - SpeedLoader556x45mmIncendiary
@@ -386,10 +386,10 @@
 
 #RIP recipes
 
-  - AmmoBox23x75mmSlugRIP
+  # - AmmoBox23x75mmSlugRIP
   - Magazine762x51mmRIP
   - AmmoBox762x51mmRIP
-  - Magazine762x54mmRRIP
+  # - Magazine762x54mmRRIP
   - AmmoBox762x54mmRRIP
   - Magazine556x45mmRIP
   - AmmoBox556x45mmRIP
@@ -442,7 +442,7 @@
 
 #SKR
 
-  - Magazine8x65mmSKR
+  # - Magazine8x65mmSKR
 
 #Practice recipes
 
@@ -451,7 +451,7 @@
   - AmmoBox762x51mmPractice
   - Magazine762x54mmRPractice
   - AmmoBox762x54mmRPractice
-  - Magazine8x65mmSKRPractice
+  # - Magazine8x65mmSKRPractice
   - AmmoBox8x65mmSKRPractice
   - Magazine556x45mmPractice
   - SpeedLoader556x45mmPractice
@@ -569,7 +569,7 @@
   - AmmoBox762x51mmIncendiary
   - Magazine762x54mmRIncendiary
   - AmmoBox762x54mmRIncendiary
-  - Magazine8x65mmSKRIncendiary
+  # - Magazine8x65mmSKRIncendiary
   - AmmoBox8x65mmSKRIncendiary
   - Magazine556x45mmIncendiary
   - SpeedLoader556x45mmIncendiary
@@ -613,10 +613,10 @@
 
 #RIP recipes
 
-  - AmmoBox23x75mmSlugRIP
+  # - AmmoBox23x75mmSlugRIP
   - Magazine762x51mmRIP
   - AmmoBox762x51mmRIP
-  - Magazine762x54mmRRIP
+  # - Magazine762x54mmRRIP
   - AmmoBox762x54mmRRIP
   - Magazine556x45mmRIP
   - AmmoBox556x45mmRIP

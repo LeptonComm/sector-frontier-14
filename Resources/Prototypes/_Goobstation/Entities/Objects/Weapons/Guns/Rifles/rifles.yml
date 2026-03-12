@@ -50,7 +50,7 @@
         whitelist:
           tags:
             - Magazine762x39mmFMJ
-            - Magazine762x39mmLowCapacityFMJ
+            - Magazine762x39mmFMJ
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber

@@ -6996,18 +6996,6 @@ entities:
     - type: Transform
       pos: -3.4306555,-1.0607564
       parent: 179
-- proto: NFWeaponPistolUniversalNfsd
-  entities:
-  - uid: 563
-    components:
-    - type: Transform
-      pos: -3.3837805,0.017368495
-      parent: 179
-  - uid: 1674
-    components:
-    - type: Transform
-      pos: -20.39548,0.66470706
-      parent: 179
 - proto: NFWeaponPistolViper
   entities:
   - uid: 1584

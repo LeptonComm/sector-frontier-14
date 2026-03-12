@@ -42,7 +42,7 @@
     contents:
     - id: NFWeaponPistolViperExpedition
       amount: 1
-    - id: Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+    - id: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
       amount: 2
 
 - type: entity

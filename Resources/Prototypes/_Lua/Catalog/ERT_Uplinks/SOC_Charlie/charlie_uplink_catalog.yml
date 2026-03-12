@@ -26,7 +26,7 @@
   name: импульсный пистолет
   description: Новейший энергетический пистолет, предпочитаемый Рейнджерами NanoTrasen в качестве запасного оружия.
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi, state: icon }
-  productEntity:  DSNFWeaponEnergyPistolPulse
+  productEntity: NFWeaponEnergyPistolPulse
   cost:
     FrontierUplinkCoin: 5
   categories:

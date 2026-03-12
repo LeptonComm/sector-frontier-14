@@ -149,7 +149,7 @@
         - id: WeaponCaseShortAmmoBoxLethal45
       - !type:AllSelector
         children:
-        - id: WeaponCaseShortDeckardExpedition
+#        - id: WeaponCaseShortDeckardExpedition
         - id: WeaponCaseShortAmmoBoxLethal45
       - !type:AllSelector
         children:
@@ -161,7 +161,7 @@
       children:
       - !type:AllSelector
         children:
-        - id: WeaponCaseShortN1984Expedition
+#        - id: WeaponCaseShortN1984Expedition
         - id: WeaponCaseShortAmmoBoxLethal45
       - !type:AllSelector
         children:

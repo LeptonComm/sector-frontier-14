@@ -40,13 +40,13 @@
   id: SecurityGuardGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses #ClothingEyesGlassesSecurity
-    pocket1: NFWeaponPistolUniversalNfsdLessLethal
-    pocket2: Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
+#    pocket1: NFWeaponPistolUniversalNfsdLessLethal
+    pocket2: Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
   storage:
     back:
     - Flash
-    - Magazine9x19mmPistolHighCapacityFMJ #Lua 35 -> 9x19
-    - Magazine9x19mmPistolHighCapacityRubber #Lua 35 -> 9x19
+    - Magazine9x19mmPistolFMJ #Lua 35 -> 9x19
+    - Magazine9x19mmPistolRubber #Lua 35 -> 9x19
     - ShipVoucherFrontierGuard
   encryptionKeys:
   - EncryptionKeyService
