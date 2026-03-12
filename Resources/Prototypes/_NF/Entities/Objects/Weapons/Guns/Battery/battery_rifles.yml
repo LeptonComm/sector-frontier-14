@@ -219,3 +219,16 @@
       types:
         Shock: 15
         Caustic: 5
+
+- type: entity
+  id: NFWeaponEnergyRifleCarbinePractice
+  parent: [ NFBaseWeaponEnergyGunPractice, NFBaseWeaponFrameEnergyRifleNanotrasen ]
+  name: practice laser carbine
+  suffix: Frontier
+  description: |-
+    This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Battery/practice_laser_gun.rsi
