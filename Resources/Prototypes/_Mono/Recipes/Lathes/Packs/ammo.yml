@@ -100,15 +100,15 @@
   - AmmoBox762x39mmSubsonic
   - AmmoBox762x39mmHP
   - AmmoBox762x39mmRIP
-  - Magazine45_magnumPistolFMJ
-  #- Magazine45_magnumPistolPlasteelAP Lua ignore
-  - Magazine45_magnumPistolRubber
-  - Magazine45_magnumPistolIncendiary
-  - Magazine45_magnumPistolPractice
-  - Magazine45_magnumPistolEmpty
-  - Magazine45_magnumPistolUranium
-  - Magazine45_magnumPistolHP
-  - Magazine45_magnumPistolRIP
+  # - Magazine45_magnumPistolFMJ
+  # - Magazine45_magnumPistolPlasteelAP Lua ignore
+  # - Magazine45_magnumPistolRubber
+  # - Magazine45_magnumPistolIncendiary
+  # - Magazine45_magnumPistolPractice
+  # - Magazine45_magnumPistolEmpty
+  # - Magazine45_magnumPistolUranium
+  # - Magazine45_magnumPistolHP
+  # - Magazine45_magnumPistolRIP
   - SpeedLoader45_magnumFMJ
   #- SpeedLoader45_magnumPlasteelAP Lua ignore
   - SpeedLoader45_magnumRubber
@@ -326,7 +326,7 @@
   - Magazine762x39mmFMJ
   - SpeedLoader762x39mmFMJ
   - AmmoBox762x39mmFMJ
-  - Magazine45_magnumPistolFMJ
+  # - Magazine45_magnumPistolFMJ
   - SpeedLoader45_magnumFMJ
   - AmmoBox45_magnumFMJ
   - Magazine68x52mmFMJ
@@ -424,7 +424,7 @@
   - Magazine762x39mmFMJ
   - SpeedLoader762x39mmFMJ
   - AmmoBox762x39mmFMJ
-  - Magazine45_magnumPistolFMJ
+  # - Magazine45_magnumPistolFMJ
   - SpeedLoader45_magnumFMJ
   - AmmoBox45_magnumFMJ
   - Magazine68x52mmFMJ

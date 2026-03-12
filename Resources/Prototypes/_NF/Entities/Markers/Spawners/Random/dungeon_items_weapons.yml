@@ -364,14 +364,14 @@
     - sprite: Effects/crayondecals.rsi
       state: 2
       color: red
-  - type: RandomSpawner
-    prototypes:
-    - WeaponCaseShortPipeBomb
-    chance: 0.4
-    offset: 0.0
-    rarePrototypes:
-    - SpawnDungeonLootExplosivesT3
-    rareChance: 0.05
+  # - type: RandomSpawner
+  #   prototypes:
+  #   - WeaponCaseShortPipeBomb
+  #   chance: 0.4
+  #   offset: 0.0
+  #   rarePrototypes:
+  #   - SpawnDungeonLootExplosivesT3
+  #   rareChance: 0.05
 
 #region bombs T3
 - type: entity

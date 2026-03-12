@@ -70,3 +70,13 @@
   parent: BaseAmmoCausticFullyPoweredAmmoBoxRecipe
   id: AmmoBox8x65mmSKRCaustic
   result: AmmoBox8x65mmSKRCaustic
+
+- type: latheRecipe
+  parent: BaseAmmoEmptyFullyPoweredMagazineRecipe
+  id: Magazine8x65mmEmpty
+  result: Magazine8x65mmEmpty
+
+- type: latheRecipe
+  parent: BaseAmmoFMJFullyPoweredMagazineRecipe
+  id: Magazine8x65mmSKR
+  result: Magazine8x65mmSKR

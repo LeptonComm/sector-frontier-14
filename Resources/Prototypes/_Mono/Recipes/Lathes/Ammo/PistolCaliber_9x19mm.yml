@@ -184,3 +184,18 @@
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
   id: AmmoBox9x19mmHP
   result: AmmoBox9x19mmHP
+
+- type: latheRecipe
+  parent: BaseAmmoRIPPistolCaliberPistolMagazineRecipe
+  id: Magazine9x19mmPistolRIP
+  result: Magazine9x19mmPistolRIP
+
+- type: latheRecipe
+  parent: BaseAmmoRIPPistolCaliberSubMachineGunMagazineRecipe
+  id: Magazine9x19mmSubMachineGunRIP
+  result: Magazine9x19mmSubMachineGunRIP
+
+- type: latheRecipe
+  parent: BaseAmmoRIPPistolCaliberAmmoBoxRecipe
+  id: AmmoBox9x19mmRIP
+  result: AmmoBox9x19mmRIP

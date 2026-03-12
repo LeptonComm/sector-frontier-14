@@ -60,3 +60,8 @@
   parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
   id: AmmoBox23x75mmFlare
   result: AmmoBox23x75mmFlare
+
+- type: latheRecipe
+  parent: BaseAmmoIncendiaryFullyPoweredAmmoBoxRecipe
+  id: AmmoBox23x75mmFlashbang
+  result: AmmoBox23x75mmFlashbang

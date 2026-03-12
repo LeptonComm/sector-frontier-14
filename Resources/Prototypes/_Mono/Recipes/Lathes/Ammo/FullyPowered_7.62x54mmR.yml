@@ -102,3 +102,8 @@
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
   id: AmmoBox762x54mmRHP
   result: AmmoBox762x54mmRHP
+
+- type: latheRecipe
+  parent: BaseAmmoRIPFullyPoweredAmmoBoxRecipe
+  id: AmmoBox762x54mmRRIP
+  result: AmmoBox762x54mmRRIP
