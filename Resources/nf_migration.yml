@@ -525,7 +525,7 @@ WeaponPistolMk58: NFWeaponPistolMk58
 WeaponPistolN1984: NFWeaponPistolN1984
 WeaponPistolN1984Nonlethal: NFWeaponPistolN1984
 WeaponPistolPollock: NFWeaponPistolPollock
-WeaponPistolUniversal: NFWeaponPistolUniversalNfsd
+# WeaponPistolUniversal: NFWeaponPistolUniversalNfsd
 WeaponPistolUniversalRubber: NFWeaponPistolUniversalNfsdLessLethal
 WeaponPistolViper: NFWeaponPistolViper
 WeaponProtoKineticAccelerator: NFWeaponPka
