@@ -127,3 +127,16 @@
     - type: EyeCursorOffset
       maxOffset: 5
       pvsIncrease: 1
+
+- type: entity
+  id: NFWeaponRifleSVS
+  parent: [ NFBaseGunMeleeAttackBayonet, NFBaseItemWeaponGunMagazineFed, NFBaseWeaponRifleAssaultChamber762x39LowCapacity, NFBaseWeaponFrameRifleFrontierGunsmith ] #Lua 30 -> 762x39
+  name: SVS-42
+  description: Originally designed by Samonov, this old surplus battle rifle looks like it's seen a few wars. Equipped with bayonet.
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Rifles/svs42.rsi
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Rifles/svs42.rsi
+  - type: AltFireMelee
+    attackType: Light
