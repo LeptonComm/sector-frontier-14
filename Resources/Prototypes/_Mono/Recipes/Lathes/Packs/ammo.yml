@@ -126,10 +126,10 @@
   #- AmmoBox45_magnumAP Lua ignore
   - AmmoBox45_magnumHP
   # - AmmoBox45_magnumRIP
-  - Magazine68x52mmRubber
-  - Magazine68x52mmPractice
-  - AmmoBox68x52mmRubber
-  - AmmoBox68x52mmPractice
+  # - Magazine68x52mmRubber
+  # - Magazine68x52mmPractice
+  # - AmmoBox68x52mmRubber
+  # - AmmoBox68x52mmPractice
   - Magazine635x40mmCaseless
   - AmmoBox635x40mmCaseless
   - Magazine9x19mmPistolFMJ
@@ -226,7 +226,7 @@
   - Magazine762x39mmEmpty
 #  - Magazine45_magnumPistolEmpty
   - SpeedLoader45_magnumEmpty
-  - Magazine68x52mmEmpty
+  # - Magazine68x52mmEmpty
   - Magazine9x19mmPistolEmpty
   - Magazine9x19mmSubMachineGunEmpty
   - Magazine9x19mmSubMachineGunTopMountedEmpty
@@ -251,8 +251,8 @@
 #  - Magazine45_magnumPistolPractice
   - SpeedLoader45_magnumPractice
   - AmmoBox45_magnumPractice
-  - Magazine68x52mmPractice
-  - AmmoBox68x52mmPractice
+  # - Magazine68x52mmPractice
+  # - AmmoBox68x52mmPractice
   - Magazine9x19mmPistolPractice
   - Magazine9x19mmSubMachineGunPractice
   - SpeedLoader9x19mmPractice
@@ -301,8 +301,8 @@
 #  - Magazine45_magnumPistolRubber
   - SpeedLoader45_magnumRubber
   - AmmoBox45_magnumRubber
-  - Magazine68x52mmRubber
-  - AmmoBox68x52mmRubber
+  # - Magazine68x52mmRubber
+  # - AmmoBox68x52mmRubber
   - Magazine9x19mmPistolRubber
   - Magazine9x19mmSubMachineGunRubber
   - SpeedLoader9x19mmRubber
@@ -329,8 +329,8 @@
   # - Magazine45_magnumPistolFMJ
   - SpeedLoader45_magnumFMJ
   - AmmoBox45_magnumFMJ
-  - Magazine68x52mmFMJ
-  - AmmoBox68x52mmFMJ
+  # - Magazine68x52mmFMJ
+  # - AmmoBox68x52mmFMJ
   - Magazine9x19mmPistolFMJ
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunTopMountedFMJ
@@ -427,8 +427,8 @@
   # - Magazine45_magnumPistolFMJ
   - SpeedLoader45_magnumFMJ
   - AmmoBox45_magnumFMJ
-  - Magazine68x52mmFMJ
-  - AmmoBox68x52mmFMJ
+  # - Magazine68x52mmFMJ
+  # - AmmoBox68x52mmFMJ
   - Magazine9x19mmPistolFMJ
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunTopMountedFMJ
@@ -461,8 +461,8 @@
 #  - Magazine45_magnumPistolPractice
   - SpeedLoader45_magnumPractice
   - AmmoBox45_magnumPractice
-  - Magazine68x52mmPractice
-  - AmmoBox68x52mmPractice
+  # - Magazine68x52mmPractice
+  # - AmmoBox68x52mmPractice
   - Magazine9x19mmPistolPractice
   - Magazine9x19mmSubMachineGunPractice
   - SpeedLoader9x19mmPractice
@@ -481,7 +481,7 @@
   - Magazine762x39mmEmpty
 #  - Magazine45_magnumPistolEmpty
   - SpeedLoader45_magnumEmpty
-  - Magazine68x52mmEmpty
+  # - Magazine68x52mmEmpty
   - Magazine9x19mmPistolEmpty
   - Magazine9x19mmSubMachineGunEmpty
   - Magazine9x19mmSubMachineGunTopMountedEmpty
@@ -503,8 +503,8 @@
 #  - Magazine45_magnumPistolRubber
   - SpeedLoader45_magnumRubber
   - AmmoBox45_magnumRubber
-  - Magazine68x52mmRubber
-  - AmmoBox68x52mmRubber
+  # - Magazine68x52mmRubber
+  # - AmmoBox68x52mmRubber
   - Magazine9x19mmPistolRubber
   - Magazine9x19mmSubMachineGunRubber
   - SpeedLoader9x19mmRubber
