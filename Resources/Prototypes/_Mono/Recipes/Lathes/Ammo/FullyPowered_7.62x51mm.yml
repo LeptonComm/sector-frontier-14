@@ -90,13 +90,3 @@
   parent: BaseAmmoHPFullyPoweredAmmoBoxRecipe
   id: AmmoBox762x51mmHP
   result: AmmoBox762x51mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredMagazineRecipe
-  id: Magazine762x51mmRIP
-  result: Magazine762x51mmRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPFullyPoweredAmmoBoxRecipe
-  id: AmmoBox762x51mmRIP
-  result: AmmoBox762x51mmRIP

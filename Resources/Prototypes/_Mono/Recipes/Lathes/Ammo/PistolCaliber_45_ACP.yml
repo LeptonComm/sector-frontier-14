@@ -142,28 +142,3 @@
   parent: BaseAmmoHPPistolCaliberAmmoBoxRecipe
   id: AmmoBox45_ACPHP
   result: AmmoBox45_ACPHP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateSpeedloaderRecipe
-  id: SpeedLoader45_magnumRIP
-  result: SpeedLoader45_magnumRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: AmmoBox45_magnumRIP
-  result: AmmoBox45_magnumRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberPistolMagazineRecipe
-  id: Magazine45_ACPPistolRIP
-  result: Magazine45_ACPPistolRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberSubMachineGunMagazineRecipe
-  id: Magazine45_ACPSubMachineGunRIP
-  result: Magazine45_ACPSubMachineGunRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPPistolCaliberAmmoBoxRecipe
-  id: AmmoBox45_ACPRIP
-  result: AmmoBox45_ACPRIP

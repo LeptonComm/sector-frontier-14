@@ -134,7 +134,7 @@
       - !type:AllSelector
         children:
         - id: WeaponCaseShortMk58Expedition
-        - id: WeaponCaseShortAmmoBoxLethal35
+#        - id: WeaponCaseShortAmmoBoxLethal35
       - !type:AllSelector
         children:
         - id: WeaponCaseShortUniversalExpedition

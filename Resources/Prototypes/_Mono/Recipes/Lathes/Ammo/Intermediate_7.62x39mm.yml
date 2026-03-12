@@ -97,23 +97,3 @@
   parent: BaseAmmoHPIntermediateAmmoBoxRecipe
   id: AmmoBox762x39mmHP
   result: AmmoBox762x39mmHP
-
-- type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: Magazine762x39mmSubsonic
-  result: Magazine762x39mmSubsonic
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: Magazine762x39mmRIP
-  result: Magazine762x39mmRIP
-
-- type: latheRecipe
-  parent: BaseAmmoFMJIntermediateAmmoBoxRecipe
-  id: AmmoBox762x39mmSubsonic
-  result: AmmoBox762x39mmSubsonic
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateAmmoBoxRecipe
-  id: AmmoBox762x39mmRIP
-  result: AmmoBox762x39mmRIP

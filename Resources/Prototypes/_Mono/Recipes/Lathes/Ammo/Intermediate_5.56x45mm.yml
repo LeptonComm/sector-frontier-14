@@ -132,18 +132,3 @@
   parent: BaseAmmoCausticIntermediateAmmoBoxRecipe
   id: AmmoBox556x45mmCaustic
   result: AmmoBox556x45mmCaustic
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateMagazineRecipe
-  id: Magazine556x45mmRIP
-  result: Magazine556x45mmRIP
-
-- type: latheRecipe
-  parent: BaseAmmoRIPIntermediateAmmoBoxRecipe
-  id: AmmoBox556x45mmRIP
-  result: AmmoBox556x45mmRIP
-
-- type: latheRecipe
-  parent: BaseAmmoFMJIntermediateMagazineRecipe
-  id: MagazineDP29
-  result: MagazineDP29
