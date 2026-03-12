@@ -161,15 +161,15 @@ MagazinePistolUranium: Magazine9x19mmPistolUranium
 
 # Extended
 
-NFMagazineHighCapacityPistol35: Magazine9x19mmPistolHighCapacityFMJ
-NFMagazineHighCapacityPistol35Empty: Magazine9x19mmPistolHighCapacityEmpty
-NFMagazineHighCapacityPistol35Practice: Magazine9x19mmPistolHighCapacityPractice
+# NFMagazineHighCapacityPistol35: Magazine9x19mmPistolHighCapacityFMJ
+# NFMagazineHighCapacityPistol35Empty: Magazine9x19mmPistolHighCapacityEmpty
+# NFMagazineHighCapacityPistol35Practice: Magazine9x19mmPistolHighCapacityPractice
 
-BoxMagazinePistolHighCapacity: Magazine9x19mmPistolHighCapacityFMJ
-BoxMagazinePistolHighCapacityPractice: Magazine9x19mmPistolHighCapacityPractice
-MagazinePistolHighCapacity: Magazine9x19mmPistolHighCapacityFMJ
-MagazinePistolHighCapacityEmpty: Magazine9x19mmPistolHighCapacityEmpty
-MagazinePistolHighCapacityPractice: Magazine9x19mmPistolHighCapacityPractice
+# BoxMagazinePistolHighCapacity: Magazine9x19mmPistolHighCapacityFMJ
+# BoxMagazinePistolHighCapacityPractice: Magazine9x19mmPistolHighCapacityPractice
+# MagazinePistolHighCapacity: Magazine9x19mmPistolHighCapacityFMJ
+# MagazinePistolHighCapacityEmpty: Magazine9x19mmPistolHighCapacityEmpty
+# MagazinePistolHighCapacityPractice: Magazine9x19mmPistolHighCapacityPractice
 
 # Speedloaders
 
@@ -222,13 +222,13 @@ MagazineBoxRiflePractice: AmmoBox556x45mmPractice
 MagazineBoxRifleRubber: AmmoBox556x45mmRubber
 MagazineBoxRifleUranium: AmmoBox556x45mmUranium
 
-NFAmmunitionBoxBigRifle20: AmmoBox556x45mmBigFMJ
-NFAmmunitionBoxBigRifle20Rubber: AmmoBox556x45mmBigRubber
+# NFAmmunitionBoxBigRifle20: AmmoBox556x45mmBigFMJ
+# NFAmmunitionBoxBigRifle20Rubber: AmmoBox556x45mmBigRubber
 
-MagazineBoxRifleBig: AmmoBox556x45mmBigFMJ
-MagazineBoxRifleBigRubber: AmmoBox556x45mmBigRubber
+# MagazineBoxRifleBig: AmmoBox556x45mmBigFMJ
+# MagazineBoxRifleBigRubber: AmmoBox556x45mmBigRubber
 
-MagazineLightRifleBox: NFMagazineBoxRifle556x45
+# MagazineLightRifleBox: NFMagazineBoxRifle556x45
 
 # Magazines
 
@@ -282,8 +282,8 @@ MagazineBoxLightRifleIncendiary: AmmoBox762x39mmIncendiary
 MagazineBoxLightRiflePractice: AmmoBox762x39mmPractice
 MagazineBoxLightRifleUranium: AmmoBox762x39mmUranium
 
-NFAmmunitionBoxBigRifle30: AmmoBox762x39mmBigFMJ
-MagazineBoxLightRifleBig: AmmoBox762x39mmBigFMJ
+# NFAmmunitionBoxBigRifle30: AmmoBox762x39mmBigFMJ
+# MagazineBoxLightRifleBig: AmmoBox762x39mmBigFMJ
 
 # Magazines
 
