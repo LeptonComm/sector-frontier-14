@@ -117,7 +117,7 @@
     #NFMagazineHighCapacityPistol35Uranium: 4294967295 Lua ignored
     #Magazine9x19mmPistolHighCapacityPractice: 4294967295 #Lua 35 -> 9x19 base
     #NFMagazineHighCapacityPistol35Emp: 4294967295 Lua ignored
-    Magazine9x19mmPistolRubber: 4294967295 #Lua 35 -> 9x19 base
+    #Magazine9x19mmPistolHighCapacityRubber: 4294967295 #Lua 35 -> 9x19 base
     Magazine9x19mmSubMachineGunEmpty: 4294967295 #Lua 35 -> 9x19 base
     Magazine9x19mmSubMachineGunFMJ: 4294967295 #Lua 35 -> 9x19 base
     #Magazine9x19mmSubMachineGunRIP: 4294967295 #Lua 35 -> 9x19 base
