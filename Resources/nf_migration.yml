@@ -552,7 +552,7 @@ WeaponRifleFoam: NFWeaponRifleFoam
 WeaponRifleGestio: NFWeaponRifleAssaultGestio
 WeaponRifleJackdaw: NFWeaponRifleAssaultJackdaw
 WeaponRifleLecter: NFWeaponRifleAssaultLecter
-WeaponRifleLecterRubber: NFWeaponRifleAssaultLecterLessLethal # ??
+# WeaponRifleLecterRubber: NFWeaponRifleAssaultLecterLessLethal # ?? (<<<sam v ahue)
 WeaponRifleM90GrenadeLauncher: NFWeaponRifleAssaultM90GrenadeLauncher
 WeaponRifleNovaliteC1: NFWeaponRifleAssaultNovaliteC1
 WeaponRifleSVS: NFWeaponRifleSVS
