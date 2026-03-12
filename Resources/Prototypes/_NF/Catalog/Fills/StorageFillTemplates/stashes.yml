@@ -147,8 +147,8 @@
         children:
         - id: WeaponCaseShortFaithExpedition
 #        - id: WeaponCaseShortAmmoBoxLethal45
-      - !type:AllSelector
-        children:
+#      - !type:AllSelector
+#        children:
 #        - id: WeaponCaseShortDeckardExpedition
 #        - id: WeaponCaseShortAmmoBoxLethal45
       - !type:AllSelector
