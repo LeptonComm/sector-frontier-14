@@ -1,5 +1,5 @@
 - type: department
-  id: Civilian
+  id: LuaCivilian
   name: department-service
   description: department-service-description
   color: "#334E6D"

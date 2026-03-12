@@ -4,7 +4,7 @@
   id: UplinkSecurityHardsuitM73
   name:  uplink-security-hardsuitM73-name
   description: uplink-security-hardsuitM73-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM73
+  productEntity: ClothingOuterHardsuitTSFMCM73
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -20,7 +20,7 @@
   id: UplinkSecurityHardsuitM73C
   name:  uplink-security-hardsuitM73C-name
   description: uplink-security-hardsuitM73C-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM73-C
+  productEntity: ClothingOuterHardsuitTSFMCM73-C
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M73c-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -36,7 +36,7 @@
   id: UplinkSecurityHardsuitM93
   name:  uplink-security-hardsuitM93-name
   description: uplink-security-hardsuitM93-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM93
+  productEntity: ClothingOuterHardsuitTSFMCM93
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -52,7 +52,7 @@
   id: UplinkSecurityCommandM93-C
   name: uplink-security-hardsuitM93C-name
   description: uplink-security-hardsuitM93C-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM93-C
+  productEntity: ClothingOuterHardsuitTSFMCM93-C
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M93c-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -68,7 +68,7 @@
   id: UplinkSecurityHardsuitJuggernaut
   name:  uplink-security-hardsuitM92X-name
   description: uplink-security-hardsuitM92X-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM92-X
+  productEntity: ClothingOuterHardsuitTSFMCM92-X
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92x-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -84,7 +84,7 @@
   id: UplinkSecurityHardsuitM92
   name:  uplink-security-hardsuitM92-name
   description: uplink-security-hardsuitM92-desc
-  productEntity: DSClothingOuterHardsuitTSFMCM92
+  productEntity: ClothingOuterHardsuitTSFMCM92
   icon: { sprite: _Lua/Clothing/Head/SDHardsuits/M92-helmet.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -199,7 +199,7 @@
   id: UplinkSecurityMR8CBundle # VFD MR-8C DMR (7.62x54mm)
   name:  uplink-security-MR8CBundle-name
   description: uplink-security-MR8CBundle-desc
-  productEntity: DSWeaponCaseLongMR8CBundle
+  productEntity: WeaponCaseLongMR8CBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -215,7 +215,7 @@
   id: UplinkSecurityGrizzlyBundle # Grizzly
   name:  uplink-security-grizzly-name
   description: uplink-security-grizzly-desc
-  productEntity: DSWeaponCaseLongGrizzlyBundle
+  productEntity: WeaponCaseLongGrizzlyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -231,7 +231,7 @@
   id: UplinkSecurityHristovBundle # hristov
   name:  uplink-security-hristov-name
   description: uplink-security-hristov-desc
-  productEntity: DSWeaponCaseLongHristovExpedition
+  productEntity: WeaponCaseLongHristovExpedition
   icon: { sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
   cost:
     FrontierUplinkCoin: 7
@@ -247,7 +247,7 @@
   id: UplinkSecurityXLR556Bundle # xlr556
   name:  uplink-security-xlr556-name
   description: uplink-security-xlr556-desc
-  productEntity: DSWeaponCaseLongXLR556Bundle
+  productEntity: WeaponCaseLongXLR556Bundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/xlr556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -263,7 +263,7 @@
   id: UplinkSecurityFirestarterBundle # firestarter
   name:  uplink-security-firestarter-name
   description: uplink-security-firestarter-desc
-  productEntity: DSWeaponCaseLongFirestarterBundle
+  productEntity: WeaponCaseLongFirestarterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/drozd.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -279,7 +279,7 @@
   id: UplinkSecurityM54CE2Bundle # m54ce2
   name:  uplink-security-m54ce2-name
   description: uplink-security-m54ce2-desc
-  productEntity: DSWeaponCaseLongWeaponRifleM54CE2
+  productEntity: WeaponCaseLongWeaponRifleM54CE2
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54ce2.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -295,7 +295,7 @@
   id: UplinkSecurityUniversalBundle # Universal
   name:  uplink-security-universal-name
   description: uplink-security-universal-desc
-  productEntity: DSWeaponCaseShortUniversalExpedition
+  productEntity: WeaponCaseShortUniversalExpedition
   icon: { sprite: _DV/Objects/Weapons/Guns/Pistols/universal.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -311,7 +311,7 @@
   id: UplinkSecurityMP5Bundle # MP5
   name:  uplink-security-mp5-name
   description: uplink-security-mp5-desc
-  productEntity: DSWeaponCaseLongWeaponSMGMP5
+  productEntity: WeaponCaseLongWeaponSMGMP5
   icon: { sprite: _RMC14/Objects/Weapons/Guns/SMGs/mp5.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -327,7 +327,7 @@
   id: UplinkSecurityD18Bundle # D18
   name:  uplink-security-d18-name
   description: uplink-security-d18-desc
-  productEntity: DSWeaponCaseShortRMCWeaponPistolD18
+  productEntity: WeaponCaseShortRMCWeaponPistolD18
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/m43.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -343,7 +343,7 @@
   id: UplinkSecurityBigBuddyBundle # bigbuddy
   name:  uplink-security-bb-name
   description: uplink-security-bb-desc
-  productEntity: DSWeaponCaseLongBigBuddyBundle
+  productEntity: WeaponCaseLongBigBuddyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigBuddy.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -359,7 +359,7 @@
   id: UplinkSecurityMR8BBundle # VFD MR-8B LWMMG (8x65 SKR)
   name:  uplink-security-MR8BBundle-name
   description: uplink-security-MR8BBundle-desc
-  productEntity: DSWeaponCaseLongLMGMR8BBundle
+  productEntity: WeaponCaseLongLMGMR8BBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/mr8b.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -391,7 +391,7 @@
   id: UplinkSecurityNtsfLtrBundle # NTSF-LTR-556 (5.56x45mm)
   name:  uplink-security-NtsfLtrBundle-name
   description: uplink-security-NtsfLtrBundle-desc
-  productEntity: DSWeaponCaseLongNtsfLtrBundle
+  productEntity: WeaponCaseLongNtsfLtrBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/NTSF-LTR-556.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -407,7 +407,7 @@
 #  id: UplinkSecurityEnforcerBundle # Enforcer (4 gauge)
 #  name:  uplink-security-enforcerBundle-name
 #  description: uplink-security-enforcerBundle-desc
-#  productEntity: DSWeaponCaseLongEnforcerBundle
+#  productEntity: WeaponCaseLongEnforcerBundle
 #  icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
 #  cost:
 #    FrontierUplinkCoin: 3
@@ -423,7 +423,7 @@
   id: UplinkSecurityLecterBundle # Lecter (7.62x39mm)
   name:  uplink-security-LecterBundle-name
   description: uplink-security-LecterBundle-desc
-  productEntity: DSWeaponCaseLongLecterBundle
+  productEntity: WeaponCaseLongLecterBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 5
@@ -439,7 +439,7 @@
 #  id: UplinkSecurityWT550 # WT-550 (9x19mm)
 #  name:  uplink-security-Wt550Bundle-name
 #  description: uplink-security-Wt550Bundle-desc
-#  productEntity: DSWeaponCaseLongWt550Bundle
+#  productEntity: WeaponCaseLongWt550Bundle
 #  icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
 #  cost:
 #    FrontierUplinkCoin: 10
@@ -455,7 +455,7 @@
   id: UplinkSecurityN1984 # N1984 (.45_ACP)
   name:  uplink-security-N1984Bundle-name
   description: uplink-security-N1984Bundle-desc
-  productEntity: DSWeaponCaseShortN1984Bundle
+  productEntity: WeaponCaseShortN1984Bundle
   icon: { sprite: Objects/Weapons/Guns/Pistols/N1984.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -471,7 +471,7 @@
   id: UplinkSecurityInspectorBundle # Inspector (.45 Magnum)
   name:  uplink-security-InspectorBundle-name
   description: uplink-security-InspectorBundle-desc
-  productEntity: DSWeaponCaseShortInspectorBundle
+  productEntity: WeaponCaseShortInspectorBundle
   icon: { sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 3
@@ -509,7 +509,7 @@
   id: UplinkSecurityLRC21PPLBundle # NT-WS LRC-21 PPL
   name: uplink-security-LRC21PPLBundle-name
   description: uplink-security-LRC21PPLBundle-desc
-  productEntity: DSWeaponCaseHeavyLRC21PPLBundle
+  productEntity: WeaponCaseHeavyLRC21PPLBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/lrc21.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 10
@@ -525,7 +525,7 @@
   id: UplinkSecurityAshstorm # EM72 Ashstorm
   name:  uplink-security-ashstorm-name
   description: uplink-security-ashstorm-desc
-  productEntity: DSClothingBackpackDuffelAshstormBundle
+  productEntity: ClothingBackpackDuffelAshstormBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/cell_mg.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 10
@@ -541,7 +541,7 @@
   id: UplinkSecurityEg4 # Energy revolver EG-4
   name:  uplink-security-eg4-name
   description: uplink-security-eg4-desc
-  productEntity: DSWeaponEnergyRevolver
+  productEntity: WeaponEnergyRevolver
   cost:
     FrontierUplinkCoin: 3
   categories:
@@ -556,7 +556,7 @@
   id: UplinkSecurityLaserRifle # LaserRifle
   name:  uplink-security-laserrifle-name
   description: uplink-security-laserrifle-desc
-  productEntity: DSWeaponCaseShortN14WeaponLaserRifle
+  productEntity: WeaponCaseShortN14WeaponLaserRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -572,7 +572,7 @@
   id: UplinkSecurityUrbanPlasma # UrbanPlasma
   name:  uplink-security-urbanplasma-name
   description: uplink-security-urbanplasma-desc
-  productEntity: DSWeaponCaseShortN14WeaponUrbanPlasmaRifle
+  productEntity: WeaponCaseShortN14WeaponUrbanPlasmaRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_urban.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -588,7 +588,7 @@
   id: UplinkSecurityRechargerRifle # RechargerRifle
   name:  uplink-security-rechargerrifle-name
   description: uplink-security-rechargerrifle-desc
-  productEntity: DSWeaponCaseLongN14WeaponRechargerRifle
+  productEntity: WeaponCaseLongN14WeaponRechargerRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_rifle.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -604,7 +604,7 @@
   id: UplinkSecurityRechargerPistol # RechargerPistol
   name:  uplink-security-rechargerpistol-name
   description: uplink-security-rechargerpistol-desc
-  productEntity: DSWeaponCaseShortN14WeaponRechargerPistol
+  productEntity: WeaponCaseShortN14WeaponRechargerPistol
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/recharger_pistol.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -620,7 +620,7 @@
   id: UplinkSecurityRifleTemperature # RifleTemperature
   name:  uplink-security-rifletemperature-name
   description: uplink-security-rifletemperature-desc
-  productEntity: DSWeaponCaseLongTemperatureGunExpedition
+  productEntity: WeaponCaseLongTemperatureGunExpedition
   icon: { sprite: Objects/Weapons/Guns/Battery/temp_gun.rsi, state: icon }
   cost:
     FrontierUplinkCoin: 7
@@ -642,7 +642,7 @@
   id: UplinkSecurityMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
-  productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
+  productEntity: LuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -660,7 +660,7 @@
   id: UplinkSecurityMagazine762x39mmRubber # Mag
   name: uplink-security-Magazine762x39mmRubber-name
   description: uplink-security-Magazine762x39mmRubber-desc
-  productEntity: DSLuaBoxMagazineRifle762x39mmRubber
+  productEntity: LuaBoxMagazineRifle762x39mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -680,7 +680,7 @@
   id: UplinkSecurityMagazine556x45mmFMJ # Mag
   name: uplink-security-Magazine556x45mmFMJ-name
   description: uplink-security-Magazine556x45mmFMJ-desc
-  productEntity: DSLuaBoxMagazineRifle556x45mmFMJ
+  productEntity: LuaBoxMagazineRifle556x45mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -698,7 +698,7 @@
   id: UplinkSecurityMagazine556x45mmRubber # Mag
   name: uplink-security-Magazine556x45mmRubber-name
   description: uplink-security-Magazine556x45mmRubber-desc
-  productEntity: DSLuaBoxMagazineRifle556x45mmRubber
+  productEntity: LuaBoxMagazineRifle556x45mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -720,7 +720,7 @@
   id: UplinkSecurityMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
-  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
+  productEntity: LuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -736,7 +736,7 @@
   id: UplinkSecurityMagazine9x19mmSubMachineGunTopMountedFMJ # Mag topmount
   name: uplink-security-Magazine9x19mmSubMachineGunTopMountedFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunTopMountedFMJ-desc
-  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ
+  productEntity: LuaBoxMagazine9x19mmSubMachineGunTopMountedFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -754,7 +754,7 @@
   id: UplinkSecurityMagazine9x19mmSubMachineGunRubber # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunRubber-name
   description: uplink-security-Magazine9x19mmSubMachineGunRubber-desc
-  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunRubber
+  productEntity: LuaBoxMagazine9x19mmSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -774,7 +774,7 @@
   id: UplinkSecurityMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
-  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
+  productEntity: LuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -792,7 +792,7 @@
   id: UplinkSecurityMagazine9x19mmPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityRubber-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityRubber-desc
-  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityRubber
+  productEntity: LuaBoxMagazine9x19mmPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -814,7 +814,7 @@
   id: UplinkSecurityMagazine45_ACPSubMachineGunFMJ # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunFMJ-name
   description: uplink-security-Magazine45_ACPSubMachineGunFMJ-desc
-  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunFMJ
+  productEntity: LuaBoxMagazine45_ACPSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -832,7 +832,7 @@
   id: UplinkSecurityMagazine45_ACPSubMachineGunRubber # Mag
   name: uplink-security-Magazine45_ACPSubMachineGunRubber-name
   description: uplink-security-Magazine45_ACPSubMachineGunRubber-desc
-  productEntity: DSLuaBoxMagazine45_ACPSubMachineGunRubber
+  productEntity: LuaBoxMagazine45_ACPSubMachineGunRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -852,7 +852,7 @@
   id: UplinkSecurityMagazine45_ACPPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityFMJ-desc
-  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityFMJ
+  productEntity: LuaBoxMagazine45_ACPPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -870,7 +870,7 @@
   id: UplinkSecurityMagazine45_ACPPistolHighCapacityRubber # Mag extended
   name: uplink-security-Magazine45_ACPPistolHighCapacityRubber-name
   description: uplink-security-Magazine45_ACPPistolHighCapacityRubber-desc
-  productEntity: DSLuaBoxMagazine45_ACPPistolHighCapacityRubber
+  productEntity: LuaBoxMagazine45_ACPPistolHighCapacityRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -890,7 +890,7 @@
   id: UplinkSecuritySpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
-  productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
+  productEntity: LuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -908,7 +908,7 @@
   id: UplinkSecuritySpeedLoader45_magnumRubber # speedloader
   name: uplink-security-SpeedLoader45_magnumRubber-name
   description: uplink-security-SpeedLoader45_magnumRubber-desc
-  productEntity: DSLuaBoxSpeedLoader45_magnumRubber
+  productEntity: LuaBoxSpeedLoader45_magnumRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -928,7 +928,7 @@
   id: UplinkSecurityMagazine762x51mmFMJ # Mag
   name: uplink-security-Magazine762x51mmFMJ-name
   description: uplink-security-Magazine762x51mmFMJ-desc
-  productEntity: DSLuaBoxMagazine762x51mmFMJ
+  productEntity: LuaBoxMagazine762x51mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -944,7 +944,7 @@
   id: UplinkSecurityAmmoBox762x51mmFMJ # Mag (For VFD MR-8B LWMMG (7.62x51mm))
   name: uplink-security-AmmoBox762x51mmFMJ-name
   description: uplink-security-AmmoBox762x51mmFMJ-desc
-  productEntity: DSAmmoBox762x51mmFMJ
+  productEntity: AmmoBox762x51mmFMJ
   cost:
     Speso: 4000
   categories:
@@ -961,7 +961,7 @@
   id: UplinkSecurityMagazine762x51mmRubber # Mag
   name: uplink-security-Magazine762x51mmRubber-name
   description: uplink-security-Magazine762x51mmRubber-desc
-  productEntity: DSLuaBoxMagazine762x51mmRubber
+  productEntity: LuaBoxMagazine762x51mmRubber
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 3000
@@ -981,7 +981,7 @@
   id: UplinkSecurityMagazine8x65mmSKR # Mag
   name: uplink-security-Magazine8x65mmSKR-name
   description: uplink-security-Magazine8x65mmSKR-desc
-  productEntity: DSLuaBoxMagazine8x65mmSKR
+  productEntity: LuaBoxMagazine8x65mmSKR
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 6000
@@ -1309,7 +1309,7 @@
   id: UplinkNfsdTechfab
   name:  uplink-security-techfab-name
   description: uplink-security-techfab-desc
-  productEntity: DSNfsdTechFabCircuitboard
+  productEntity: NfsdTechFabCircuitboard
   icon: { sprite: _NF/Objects/Misc/module.rsi, state: nfsd }
   cost:
     FrontierUplinkCoin: 5

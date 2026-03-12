@@ -164,10 +164,6 @@
     damageCoefficient: 0.5
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFBaseBravo
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
@@ -212,10 +208,6 @@
     damageCoefficient: 0.3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFCommandBravo
-  - type: Inject #Lua
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
@@ -258,10 +250,6 @@
     damageCoefficient: 0.5
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFBaseCharlie
-  - type: Inject #Lua
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
@@ -303,10 +291,6 @@
     damageCoefficient: 0.3
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitFSFCommandCharlie
-  - type: Inject #Lua
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1

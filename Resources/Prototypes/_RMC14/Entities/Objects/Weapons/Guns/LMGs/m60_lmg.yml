@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseC3Contraband, DSRMCBaseWeaponLMG]
+  parent: [BaseC3Contraband, RMCBaseWeaponLMG]
   name: M60 General Purpose Machine Gun
   id: RMCWeaponLMGM60
   description: The Pig. The Action Hero's dream. Chambered in 7.62x51 NATO

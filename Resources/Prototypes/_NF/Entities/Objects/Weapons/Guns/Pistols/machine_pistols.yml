@@ -45,7 +45,7 @@
 #region DeltaV
 - type: entity
   id: NFWeaponPistolPollock
-  parent: [ NFBaseWeaponPistolChamber9x19, DSNFBaseWeaponFrameMachinePistolNanotrasen ] #Lua 35 -> 9x19
+  parent: [ NFBaseWeaponPistolChamber9x19, NFBaseWeaponFrameMachinePistolNanotrasen ] #Lua 35 -> 9x19
   name: pollock
   description: A compact and mass-produced combat pistol.
   suffix: Need balance test

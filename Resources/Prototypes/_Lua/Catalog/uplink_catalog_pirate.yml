@@ -20,7 +20,7 @@
   id: UplinkPirateCombatHardsuit
   name: uplink-pirate-combat-hardsuit-name
   description: uplink-pirate-combat-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitPirateScaf
+  productEntity: ClothingOuterHardsuitPirateScaf
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi, state: icon }
   cost:
     Doubloon: 5 #Lua 2<5
@@ -36,7 +36,7 @@
   id: UplinkViperStandardHardsuit
   name: uplink-pirate-viper-group-standard-hardsuit-name
   description: uplink-pirate-viper-group-standard-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitViperGroupStandard
+  productEntity: ClothingOuterHardsuitViperGroupStandard
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi, state: icon }
   cost:
     Doubloon: 5 #Lua 10<5
@@ -52,7 +52,7 @@
   id: UplinkViperMedicHardsuit
   name: uplink-pirate-viper-group-medic-hardsuit-name
   description: uplink-pirate-viper-group-medic-hardsuit-desc
-  productEntity: DSClothingOuterHardsuitViperGroupMedic
+  productEntity: ClothingOuterHardsuitViperGroupMedic
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_medic.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -245,7 +245,7 @@
   id: UplinkPirateAK220Bundle # NCI AK-220
   name: uplink-pirate-AK220Bundle-name
   description: uplink-pirate-AK220Bundle-desc
-  productEntity: DSWeaponCaseLongAK220Bundle
+  productEntity: WeaponCaseLongAK220Bundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -261,7 +261,7 @@
   id: UplinkPirateRatelBundle # LMGRatel
   name: uplink-pirate-RatelBundle-name
   description: uplink-pirate-RatelBundle-desc
-  productEntity: DSWeaponCaseHeavyRatelBundle
+  productEntity: WeaponCaseHeavyRatelBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/ratel/Ratel-icon.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -277,7 +277,7 @@
   id: UplinkPirateAntiMaterielBundle # AntiMateriel
   name: uplink-pirate-AMBundle-name
   description: uplink-pirate-AMBundle-desc
-  productEntity: DSWeaponCaseLongN14WeaponAntiMateriel
+  productEntity: WeaponCaseLongN14WeaponAntiMateriel
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Snipers/antimateriel.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -293,7 +293,7 @@
   id: UplinkPiratePrometheusBundle # Prometheus
   name: uplink-pirate-PrometheusBundle-name
   description: uplink-pirate-PrometheusBundle-desc
-  productEntity: DSWeaponCaseLongPrometheusBundle
+  productEntity: WeaponCaseLongPrometheusBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/prometheus.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -309,7 +309,7 @@
   id: UplinkPirateKnallstockBundle # Knallstock
   name: uplink-pirate-KnallstockBundle-name
   description: uplink-pirate-KnallstockBundle-desc
-  productEntity: DSWeaponCaseLongKnallstockBundle
+  productEntity: WeaponCaseLongKnallstockBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/knallstock.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -325,7 +325,7 @@
   id: UplinkPirateMK45Bundle # MK45
   name: uplink-pirate-MK45Bundle-name
   description: uplink-pirate-MK45Bundle-desc
-  productEntity: DSWeaponCaseShortRMCWeaponPistolMK45
+  productEntity: WeaponCaseShortRMCWeaponPistolMK45
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/mk45.rsi, state: icon }
   cost:
     Doubloon: 3
@@ -341,7 +341,7 @@
   id: UplinkPirateMLA73Bundle # Mla73
   name: uplink-typan-Mla73Bundle-name
   description: uplink-typan-Mla73Bundle-desc
-  productEntity: DSWeaponCaseLongMla73Bundle
+  productEntity: WeaponCaseLongMla73Bundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi, state: icon }
   cost:
     Doubloon: 3
@@ -357,7 +357,7 @@
   id: UplinkPirateHoldoutBundle # pistol holdout
   name: uplink-pirate-HoldoutBundle-name
   description: uplink-pirate-HoldoutBundle-desc
-  productEntity: DSWeaponCaseShortRMCWeaponPistolHoldout
+  productEntity: WeaponCaseShortRMCWeaponPistolHoldout
   icon: { sprite: _RMC14/Objects/Weapons/Guns/Pistols/holdout.rsi, state: icon }
   cost:
     Doubloon: 3
@@ -373,7 +373,7 @@
   id: UplinkPirateBidLeadyBundle # BigLeady
   name: uplink-pirate-BigLeadyBundle-name
   description: uplink-pirate-BigLeadyBundle-desc
-  productEntity: DSWeaponCaseLongBigLeadyBundle
+  productEntity: WeaponCaseLongBigLeadyBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Shotguns/BigLeady.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -389,7 +389,7 @@
 #  id: UplinkPirateBulldogBundle # Bulldog
 #  name: uplink-pirate-BulldogBundle-name
 #  description: uplink-pirate-BulldogBundle-desc
-#  productEntity: DSWeaponCaseLongBulldogBundle
+#  productEntity: WeaponCaseLongBulldogBundle
 #  icon: { sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
 #  cost:
 #    Doubloon: 15
@@ -405,7 +405,7 @@
   id: UplinkPirateRitlandBundle # Ritland
   name: uplink-pirate-RitlandBundle-name
   description: uplink-pirate-RitlandBundle-desc
-  productEntity: DSWeaponCaseShortRitlandBundle
+  productEntity: WeaponCaseShortRitlandBundle
   icon: { sprite: Objects/Weapons/Guns/Revolvers/python.rsi, state: icon }
   cost:
     Doubloon: 3
@@ -421,7 +421,7 @@
   id: UplinkPirateViperBundle # Viper
   name: uplink-pirate-ViperBundle-name
   description: uplink-pirate-ViperBundle-desc
-  productEntity: DSWeaponCaseShortViperBundle
+  productEntity: WeaponCaseShortViperBundle
   icon: { sprite: Objects/Weapons/Guns/Pistols/viper.rsi, state: icon }
   cost:
     Doubloon: 3
@@ -437,7 +437,7 @@
   id: UplinkPirateAssaultSmBundle # AK-74M
   name: uplink-pirate-AssaultSmBundle-name
   description: uplink-pirate-AssaultSmBundle-desc
-  productEntity: DSWeaponCaseLongAssaultSmBundle
+  productEntity: WeaponCaseLongAssaultSmBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/akm.rsi, state: icon }
   cost:
     Doubloon: 5
@@ -453,7 +453,7 @@
 #  id: UplinkPirateAnaconda # Anaconda
 #  name: uplink-pirate-anaconda-name
 #  description: uplink-pirate-anaconda-desc
-#  productEntity: DSWeaponPistolAnaconda
+#  productEntity: WeaponPistolAnaconda
 #  icon: { sprite: _Goobstation/Objects/Weapons/Guns/Pistols/anaconda.rsi, state: icon }
 #  cost:
 #    Doubloon: 10
@@ -469,7 +469,7 @@
 #  id: UplinkPirateWSPRBundle # WSPR
 #  name: uplink-pirate-WSPRBundle-name
 #  description: uplink-pirate-WSPRBundle-desc
-#  productEntity: DSWeaponCaseLongWSPRBundle
+#  productEntity: WeaponCaseLongWSPRBundle
 #  icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/wspr.rsi, state: icon }
 #  cost:
 #    Doubloon: 20 #Lua 15 -> 20
@@ -486,7 +486,7 @@
   name: uplink-pirate-HammerBundle-name
   description: uplink-pirate-HammerBundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/LMGs/HAMMER/hammer-icon.rsi, state: icon }
-  productEntity: DSWeaponCaseLongHammerBundle
+  productEntity: WeaponCaseLongHammerBundle
   cost:
     Doubloon: 7
   categories:
@@ -502,7 +502,7 @@
   name: uplink-pirate-AK410Bundle-name
   description: uplink-pirate-AK410Bundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/Snipers/ak410.rsi, state: icon }
-  productEntity: DSWeaponCaseLongAK410Bundle
+  productEntity: WeaponCaseLongAK410Bundle
   cost:
     Doubloon: 5
   categories:
@@ -518,7 +518,7 @@
   name: uplink-pirate-AK502Bundle-name
   description: uplink-pirate-AK502Bundle-desc
   icon: { sprite: _Mono/Objects/Weapons/Guns/Rifles/ak502.rsi, state: icon }
-  productEntity: DSWeaponCaseLongAK502Bundle
+  productEntity: WeaponCaseLongAK502Bundle
   cost:
     Doubloon: 5
   categories:
@@ -534,7 +534,7 @@
   id: UplinkPirateLaserGatlingBundle # LaserGatling
   name: uplink-pirate-LGBundle-name
   description: uplink-pirate-LGBundle-desc
-  productEntity: DSWeaponCaseLongN14WeaponLaserGatling
+  productEntity: WeaponCaseLongN14WeaponLaserGatling
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_gatling.rsi, state: icon }
   cost:
     Doubloon: 10
@@ -550,7 +550,7 @@
   id: UplinkPirateProtoRifleBundle # ProtoRifle
   name: uplink-pirate-PRBundle-name
   description: uplink-pirate-PRBundle-desc
-  productEntity: DSWeaponCaseShortN14WeaponLaserProtoRifle
+  productEntity: WeaponCaseShortN14WeaponLaserProtoRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_rifle_proto.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -566,7 +566,7 @@
   id: UplinkPiratePlasmaAutoRifleBundle # PlasmaAutoRifle
   name: uplink-pirate-PARBundle-name
   description: uplink-pirate-PARBundle-desc
-  productEntity: DSWeaponCaseShortN14WeaponPlasmaAutoRifle
+  productEntity: WeaponCaseShortN14WeaponPlasmaAutoRifle
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_autorifle.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -582,7 +582,7 @@
   id: UplinkPirateWattz3000Bundle # Wattz3000
   name: uplink-pirate-wattz3Bundle-name
   description: uplink-pirate-wattz3Bundle-desc
-  productEntity: DSWeaponCaseShortN14WeaponWattz3000
+  productEntity: WeaponCaseShortN14WeaponWattz3000
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/wattz3000.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -598,7 +598,7 @@
   id: UplinkPirateLaserPistolBundle # LaserPistol
   name: uplink-pirate-LPBundle-name
   description: uplink-pirate-LPBundle-desc
-  productEntity: DSWeaponCaseShortN14WeaponLaserPistol
+  productEntity: WeaponCaseShortN14WeaponLaserPistol
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/laser_pistol.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -614,7 +614,7 @@
   id: UplinkPiratePlasmaDefenderBundle # PlasmaDefender
   name: uplink-pirate-PDBundle-name
   description: uplink-pirate-PDBundle-desc
-  productEntity: DSWeaponCaseShortN14WeaponPlasmaDefender
+  productEntity: WeaponCaseShortN14WeaponPlasmaDefender
   icon: { sprite: _Nuclear14/Objects/Weapons/Guns/Battery/plasma_pistol.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -630,7 +630,7 @@
   id: UplinkPirateEGunFrostBundle # EnergyGunFrost
   name: uplink-pirate-EGFBundle-name
   description: uplink-pirate-EGFBundle-desc
-  productEntity: DSWeaponCaseLongEGFrostBundle
+  productEntity: WeaponCaseLongEGFrostBundle
   icon: { sprite: _Mono/Objects/Weapons/Guns/Battery/frost.rsi, state: icon }
   cost:
     Doubloon: 7
@@ -652,7 +652,7 @@
   id: UplinkPirateMagazine762x54mmRFMJ # Mag
   name: uplink-pirate-Magazine762x54mmRFMJ-name
   description: uplink-pirate-Magazine762x54mmRFMJ-desc
-  productEntity: DSLuaBoxMagazine762x54mmRFMJ
+  productEntity: LuaBoxMagazine762x54mmRFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 8000
@@ -672,7 +672,7 @@
   id: UplinkPirateMagazine762x39mmFMJ # Mag
   name: uplink-security-Magazine762x39mmFMJ-name
   description: uplink-security-Magazine762x39mmFMJ-desc
-  productEntity: DSLuaBoxMagazineRifle762x39mmFMJ
+  productEntity: LuaBoxMagazineRifle762x39mmFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 8000
@@ -688,7 +688,7 @@
   id: UplinkPirateMagazine762x39mmBox # Box mag
   name: uplink-pirate-Magazine762x39mmBox-name
   description: uplink-pirate-Magazine762x39mmBox-desc
-  productEntity: DSMagazine762x39mmFMJ
+  productEntity: Magazine762x39mmFMJ
   cost:
     Speso: 10000
   categories:
@@ -705,7 +705,7 @@
 #  id: UplinkPirateMagazine762x39mmSubsonic # Mag
 #  name: uplink-pirate-Magazine762x39mmSubsonic-name
 #  description: uplink-pirate-Magazine762x39mmSubsonic-desc
-#  productEntity: DSLuaBoxMagazine762x39mmSubsonic
+#  productEntity: LuaBoxMagazine762x39mmSubsonic
 #  icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
 #  cost:
 #    Speso: 9000
@@ -725,7 +725,7 @@
   id: UplinkPirateSpeedLoader45_magnumFMJ # speedloader
   name: uplink-security-SpeedLoader45_magnumFMJ-name
   description: uplink-security-SpeedLoader45_magnumFMJ-desc
-  productEntity: DSLuaBoxSpeedLoader45_magnumFMJ
+  productEntity: LuaBoxSpeedLoader45_magnumFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 8000
@@ -745,7 +745,7 @@
   id: UplinkPirateShotgunDrum # mag
   name: uplink-pirate-bulldog-ammo-name
   description: uplink-pirate-bulldog-ammo-desc
-  productEntity: DSNFMagazineShotgunDrum
+  productEntity: NFMagazineShotgunDrum
   cost:
     Speso: 6000
   categories:
@@ -762,7 +762,7 @@
   id: UplinkPirateShotgunDrumSlug # mag
   name: uplink-pirate-bulldog-slug-ammo-name
   description: uplink-pirate-bulldog-slug-ammo-desc
-  productEntity: DSNFMagazineShotgunDrumSlug
+  productEntity: NFMagazineShotgunDrumSlug
   cost:
     Speso: 6000
   categories:
@@ -783,7 +783,7 @@
   id: UplinkPirateMagazine9x19mmSubMachineGunFMJ # Mag
   name: uplink-security-Magazine9x19mmSubMachineGunFMJ-name
   description: uplink-security-Magazine9x19mmSubMachineGunFMJ-desc
-  productEntity: DSLuaBoxMagazine9x19mmSubMachineGunFMJ
+  productEntity: LuaBoxMagazine9x19mmSubMachineGunFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 8000
@@ -803,7 +803,7 @@
   id: UplinkPirateMagazine9x19mmPistolHighCapacityFMJ # Mag extended
   name: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-name
   description: uplink-security-Magazine9x19mmPistolHighCapacityFMJ-desc
-  productEntity: DSLuaBoxMagazine9x19mmPistolHighCapacityFMJ
+  productEntity: LuaBoxMagazine9x19mmPistolHighCapacityFMJ
   icon: { sprite: _NF/Objects/Storage/boxes.rsi, state: icon-magazine }
   cost:
     Speso: 8000

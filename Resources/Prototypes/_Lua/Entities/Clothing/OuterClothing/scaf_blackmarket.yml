@@ -40,10 +40,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -89,10 +85,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -138,10 +130,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 
@@ -187,10 +175,6 @@
   - type: StaticPrice
     price: 750
     vendPrice: 2500
-  - type: Inject
-    openCloseDelay: 1
-    autoClose: true
-    autoCloseDelay: 3
   - type: ThermalCloak
     enabled: false
 

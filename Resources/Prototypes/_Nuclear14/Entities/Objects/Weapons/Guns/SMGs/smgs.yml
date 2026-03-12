@@ -381,10 +381,6 @@
     selectedMode: Fullauto
     availableModes:
     - Fullauto
-    minAngle: 8
-    maxAngle: 24
-    angleIncrease: 4
-    angleDecay: 16
 #    minAngle: 8 #comment from _Lua
 #    maxAngle: 24
 #    angleIncrease: 4

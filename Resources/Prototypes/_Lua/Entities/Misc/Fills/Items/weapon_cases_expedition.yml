@@ -206,18 +206,6 @@
 
 - type: entity
   parent: WeaponCaseShort
-  id: WeaponCaseShortN14WeaponPistol10mm
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StorageFill
-    contents:
-    - id: N14WeaponPistol10mm
-      amount: 1
-    - id: N14MagazinePistol10mm
-      amount: 3
-
-- type: entity
-  parent: WeaponCaseShort
   id: WeaponCaseShortN14WeaponPistolColt
   categories: [ HideSpawnMenu ]
   components:

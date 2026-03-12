@@ -259,7 +259,7 @@
 
 - type: entity
   name: lever action rifle
-  parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
+  parent: [BaseC1Contraband, N14WeaponSniperHunting]
   id: N14WeaponLeverRifle
   description: A long lever action repeater rifle. Uses .308 ammo.
   suffix: Need balance test
@@ -313,7 +313,7 @@
 
 - type: entity
   name: brush gun
-  parent: [BaseC1Contraband, DSN14WeaponSniperHunting]
+  parent: [BaseC1Contraband, N14WeaponSniperHunting]
   id: N14WeaponBrushGun
   description: A powerfull lever action carbine. Uses .45-70 gov't ammo.
   suffix: Need balance test

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, DSCMBaseWeaponGun] #Lua BaseGunWieldable
+  parent: [BaseItem, CMBaseWeaponGun] #Lua BaseGunWieldable
   abstract: true
   id: CMWeaponPistolBase
   components:

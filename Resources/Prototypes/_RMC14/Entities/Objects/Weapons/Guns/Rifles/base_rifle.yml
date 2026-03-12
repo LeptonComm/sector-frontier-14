@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: [ DSCMBaseWeaponGun, BaseItem ]
+  parent: [ CMBaseWeaponGun, BaseItem ]
   id: CMBaseWeaponRifle
   components:
   - type: Gun
