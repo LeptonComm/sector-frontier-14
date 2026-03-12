@@ -142,13 +142,13 @@
     - sprite: Effects/crayondecals.rsi
       state: 5
       color: red
-  - type: RandomSpawner
-    prototypes:
-#    - WeaponCaseShortEnergySwordExpedition
-#    - WeaponCaseShortEnergyCutlassExpedition
-#    - WeaponCaseShortEnergySwordDoubleExpedition
-    chance: 1.0
-    offset: 0.0
+  # - type: RandomSpawner
+  #   prototypes:
+  #   - WeaponCaseShortEnergySwordExpedition
+  #   - WeaponCaseShortEnergyCutlassExpedition
+  #   - WeaponCaseShortEnergySwordDoubleExpedition
+  #   chance: 1.0
+  #   offset: 0.0
 
 #region guns T1
 - type: entity
