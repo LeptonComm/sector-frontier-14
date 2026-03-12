@@ -521,7 +521,7 @@ WeaponPistolCobra: NFWeaponPistolCobra
 WeaponPistolEchis: NFWeaponPistolEchis
 WeaponPistolFlintlock: NFWeaponPistolFlintlock
 WeaponPistolMk58: NFWeaponPistolMk58
-WeaponPistolMk58Nonlethal: NFWeaponPistolUniversalNfsdLessLethal
+# WeaponPistolMk58Nonlethal: NFWeaponPistolUniversalNfsdLessLethal
 WeaponPistolN1984: NFWeaponPistolN1984
 WeaponPistolN1984Nonlethal: NFWeaponPistolN1984
 WeaponPistolPollock: NFWeaponPistolPollock
