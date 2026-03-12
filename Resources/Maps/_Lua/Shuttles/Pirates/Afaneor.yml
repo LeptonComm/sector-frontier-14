@@ -1131,7 +1131,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: DSAmmoTechFab
+- proto: AmmoTechFab
   entities:
   - uid: 42
     components:

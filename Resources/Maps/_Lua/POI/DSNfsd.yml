@@ -42310,14 +42310,14 @@ entities:
       parent: 6114
     - type: Physics
       canCollide: False
-- proto: DSAmmoTechFab
+- proto: AmmoTechFab
   entities:
   - uid: 10039
     components:
     - type: Transform
       pos: 0.5,13.5
       parent: 1
-- proto: DSComputerUplinkNF
+- proto: ComputerUplinkNF
   entities:
   - uid: 6222
     components:
@@ -42325,7 +42325,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,1.5
       parent: 1
-- proto: DSNfsdTechFab
+- proto: NfsdTechFab
   entities:
   - uid: 10038
     components:
