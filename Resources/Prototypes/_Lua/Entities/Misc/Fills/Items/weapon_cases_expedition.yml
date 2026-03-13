@@ -775,7 +775,7 @@
     contents:
     - id: RMCWeaponLMGM60
       amount: 1
-    - id: WeaponCaseHeavy
+    - id: Magazine8x65mmSKRBox
       amount: 2
 
 - type: entity
