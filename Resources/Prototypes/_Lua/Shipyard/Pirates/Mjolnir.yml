@@ -40,7 +40,7 @@
   id: LunaMjolnir
   name: Mjolnir
   description: Пронырливый маленький корабль, вооруженный пулеметами и тесла-пушками. Обладает неплохой броней
-  price: 80000
+  price: 75000
   category: Medium
   group: BlackMarket
   whitelist:
