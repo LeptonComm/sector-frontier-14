@@ -13,7 +13,7 @@
     - EagleMercenary
     - Caretaker
     - Hedgehog
-    - MCXeno # Kideo
+    # - MCXeno # Kideo
 
 - type: entity
   id: ComputerShipyardBASBlackMarket
