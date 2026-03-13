@@ -11896,15 +11896,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: MagazineBoxLightRifleBig
-  entities:
-  - uid: 2069
-    components:
-    - type: Transform
-      parent: 2068
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: MagazineBoxLightRifleIncendiary
   entities:
   - uid: 2072
