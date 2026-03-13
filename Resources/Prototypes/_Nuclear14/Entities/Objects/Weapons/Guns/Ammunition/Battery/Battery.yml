@@ -183,6 +183,10 @@
       - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
         state: o2
         shader: unshaded
+  - type: Storage #Lua
+    maxItemSize: Small
+    grid:
+    - 0,0,1,1
   - type: Tag
     tags:
       - N14PowerCellFusion
