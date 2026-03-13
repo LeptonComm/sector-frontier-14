@@ -4419,7 +4419,7 @@ entities:
         627:
         - - Pressed
           - Toggle
-- proto: SMESAdvanced
+- proto: SMESBasic
   entities:
   - uid: 469
     components:
