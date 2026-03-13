@@ -11863,15 +11863,6 @@ entities:
     - type: Transform
       pos: 35.5,16.5
       parent: 1
-- proto: MagazineBoxLightRifle
-  entities:
-  - uid: 2071
-    components:
-    - type: Transform
-      parent: 2068
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: MagazineBoxLightRifleIncendiary
   entities:
   - uid: 2072
@@ -12024,15 +12015,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
   - uid: 2114
-    components:
-    - type: Transform
-      parent: 2107
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: MagazineLightRifleMaxim
-  entities:
-  - uid: 2115
     components:
     - type: Transform
       parent: 2107
@@ -20241,13 +20223,6 @@ entities:
     - type: Transform
       pos: 73.5,40
       parent: 1
-- proto: WeaponEnergyShotgun
-  entities:
-  - uid: 2161
-    components:
-    - type: Transform
-      pos: 67.5,39.5
-      parent: 1
 - proto: WeaponLaserCarbine
   entities:
   - uid: 2117
@@ -20275,13 +20250,6 @@ entities:
     components:
     - type: Transform
       pos: 67.5,37.5
-      parent: 1
-- proto: WeaponMinigun
-  entities:
-  - uid: 2205
-    components:
-    - type: Transform
-      pos: 67.5,38
       parent: 1
 - proto: WeaponRifleAk
   entities:
@@ -20352,13 +20320,6 @@ entities:
     components:
     - type: Transform
       pos: 73.5,37.5
-      parent: 1
-- proto: WeaponTaser
-  entities:
-  - uid: 2165
-    components:
-    - type: Transform
-      pos: 73.5,39
       parent: 1
 - proto: WelderExperimental
   entities:
