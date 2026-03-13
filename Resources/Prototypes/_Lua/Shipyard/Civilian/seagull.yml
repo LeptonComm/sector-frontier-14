@@ -14,6 +14,7 @@
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/seagull.yml
   guidebookPage: null
   whitelist:
+  - Luna
   - Frontier
   class:
   - Civilian

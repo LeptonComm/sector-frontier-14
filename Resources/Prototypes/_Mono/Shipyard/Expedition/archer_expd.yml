@@ -2,8 +2,8 @@
 # GitHub: starch70
 # Discord: _starch_
 
-# Shuttle Notes:
-#
+# Remaped by germanreutt (discord)
+
 - type: vessel
   id: BMArcher
   parent: BaseVessel
@@ -16,6 +16,7 @@
   shuttlePath: /Maps/_Lua/Shuttles/BlackMarket/archer.yml
   guidebookPage: Null
   whitelist:
+  - Luna
   - Frontier
   class:
   - Mercenary
@@ -36,44 +37,6 @@
       components:
         - type: StationNameSetup
           mapNameTemplate: 'BM-Archer {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-
-
-
-- type: vessel
-  id: ArcherEXPD
-  parent: BaseVessel
-  name: Archer
-  description: An Archer outfitted with a nav computer for expeditions, and a FTL drive. Other than that, functionally almost the same. This ship has a military IFF designation.
-  price: 102519 # 2000 below max
-  category: Large
-  group: Expedition
-  access: Mercenary
-  shuttlePath: /Maps/_Mono/Shuttles/Expedition/archer_expd.yml
-  guidebookPage: Null
-  whitelist:
-  - Luna
-  class:
-  - Mercenary
-  engine:
-  - Uranium
-  addComponents:
-    - type: IFF
-      color: "#ffffff"
-
-- type: gameMap
-  id: ArcherEXPD
-  mapName: 'Archer'
-  mapPath: /Maps/_Mono/Shuttles/Expedition/archer_expd.yml
-  minPlayers: 0
-  stations:
-    ArcherEXPD:
-      stationProto: StandardFrontierExpeditionVessel
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Archer {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

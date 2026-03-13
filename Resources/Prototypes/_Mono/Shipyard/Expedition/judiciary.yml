@@ -2,8 +2,8 @@
 # GitHub: OneZerooo0
 # Discord: onezero00
 
-# Shuttle Notes:
-#
+# Remaped by germanreutt (discord)
+
 - type: vessel
   id: Judiciary
   parent: BaseVessel
@@ -15,6 +15,7 @@
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/judiciary.yml
   guidebookPage: Null
   whitelist:
+  - Luna
   - Frontier
   class:
   - Civilian
@@ -29,41 +30,6 @@
   minPlayers: 0
   stations:
     Judiciary:
-      stationProto: StandardFrontierExpeditionVessel
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Judiciary {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-
-
-
-- type: vessel
-  id: LunaJudiciary
-  parent: BaseVessel
-  name: Judiciary
-  description: A refitted research vessel armed with expedition-rated combat equipment.
-  price: 70000 #Lua
-  category: Medium
-  group: Expedition
-  shuttlePath: /Maps/_Lua/Shuttles/Luna/judiciary.yml
-  guidebookPage: Null
-  whitelist:
-  - Luna
-  class:
-  - Civilian
-  - Expedition
-  engine:
-  - AME
-
-- type: gameMap
-  id: LunaJudiciary
-  mapName: 'Judiciary'
-  mapPath: /Maps/_Lua/Shuttles/Luna/judiciary.yml
-  minPlayers: 0
-  stations:
-    LunaJudiciary:
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup

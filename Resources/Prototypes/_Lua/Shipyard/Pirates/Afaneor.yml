@@ -13,6 +13,7 @@
   category: Large
   group: BlackMarket
   whitelist:
+  - Luna
   - Frontier
   class:
   - Pirate

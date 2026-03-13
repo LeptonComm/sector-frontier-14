@@ -11,6 +11,7 @@
   category: Medium
   group: BlackMarket
   whitelist:
+  - Luna
   - Frontier
   class:
   - Pirate
@@ -25,39 +26,6 @@
   minPlayers: 0
   stations:
     Mjolnir:
-      stationProto: StandardFrontierVessel
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Mjolnir {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
-
-
-
-- type: vessel
-  parent: BaseVessel
-  id: LunaMjolnir
-  name: Mjolnir
-  description: Пронырливый маленький корабль, вооруженный пулеметами и тесла-пушками. Обладает неплохой броней
-  price: 75000
-  category: Medium
-  group: BlackMarket
-  whitelist:
-  - Frontier
-  class:
-  - Pirate
-  engine:
-  - Singularity
-  shuttlePath: /Maps/_Lua/Shuttles/Luna/Mjolnir.yml
-
-- type: gameMap
-  id: LunaMjolnir
-  mapName: 'Mjolnir'
-  mapPath: /Maps/_Lua/Shuttles/Luna/Mjolnir.yml
-  minPlayers: 0
-  stations:
-    LunaMjolnir:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
