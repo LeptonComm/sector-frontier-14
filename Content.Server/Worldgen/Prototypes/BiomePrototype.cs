@@ -65,22 +65,15 @@ public sealed partial class BiomePrototype : IPrototype, IInheritingPrototype
     ///     Higher priority biomes get picked before lower priority ones.
     /// </summary>
     [DataField("priority", required: true)]
-<<<<<<< HEAD
     public int Priority { get; private set; }
-=======
-    public int Priority { get; }
->>>>>>> e91fc652a3 (Dynamic space world generation and debris. (#15120))
 
     /// <summary>
     ///     The components that get added to the target map.
     /// </summary>
     [DataField("chunkComponents")]
     [AlwaysPushInheritance]
-<<<<<<< HEAD
     public ComponentRegistry ChunkComponents = new();
-=======
     public EntityPrototype.ComponentRegistry ChunkComponents { get; } = new();
->>>>>>> e91fc652a3 (Dynamic space world generation and debris. (#15120))
 
     //TODO: Get someone to make this a method on componentregistry that does it Correctly.
     /// <summary>
@@ -92,10 +85,6 @@ public sealed partial class BiomePrototype : IPrototype, IInheritingPrototype
         foreach (var data in ChunkComponents.Values)
         {
             var comp = (Component) serialization.CreateCopy(data.Component, notNullableOverride: true);
-<<<<<<< HEAD
-=======
-            comp.Owner = target; // look im sorry ok this .owner has to live until engine api exists
->>>>>>> e91fc652a3 (Dynamic space world generation and debris. (#15120))
             entityManager.AddComponent(target, comp);
         }
     }
