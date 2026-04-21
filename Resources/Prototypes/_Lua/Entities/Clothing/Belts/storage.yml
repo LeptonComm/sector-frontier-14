@@ -4,7 +4,7 @@
 
 - type: entity
   parent: [ClothingBeltStorageBase, BaseC1SyndicateContraband]
-  id: ClothingBeltPlantOutpostSyndicate
+  id: ClothingBeltPlantOutpostTypan
   name: пояс ботаника синдиката
   description: Пояс, используемый для хранения основных принадлежностей для гидропоники. На удивление, не чёрный.
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: [ClothingBeltSecurity, BaseC1SyndicateContraband]
-  id: ClothingBeltOutpostSyndicateSecurityWebbing
+  id: ClothingBeltOutpostTypanSecurityWebbing
   name: РПС синдиката
   description: Ременно-плечевая система тактических ремней, которую носят представители военных структур синдиката.
   components:

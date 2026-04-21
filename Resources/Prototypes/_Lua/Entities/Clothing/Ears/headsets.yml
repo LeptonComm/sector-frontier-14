@@ -23,7 +23,7 @@
 
 - type: entity
   parent: [ClothingHeadsetAlt, BaseC1SyndicateContraband]
-  id: ClothingHeadsetAltOutpostSyndicate
+  id: ClothingHeadsetAltOutpostTypan
   name: полноразмерная кроваво - красная гарнитура
   description: Модифицированный модульный интерком синдиката.
   components:

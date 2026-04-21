@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitWarlord
   name: Warlord Elite Hardsuit
   description: Довольно дорогая модель легкого боевого скафандра, не так давно появившаяся на Черном Рынке. Краска цвета хаки не имеет ни одного скола.
@@ -42,7 +42,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitUSSPCombat
   name: USSP Combat Hardsuit
   description: Старый боевой скафандр СССП, изрядно поношенный и потрепанный. Судя по всему, был взят с какого-то заброшенного боевого корабля.
@@ -85,7 +85,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitUSSPLightOfficer
   name: USSP Light Officer Hardsuit
   description: Старый боевой скафандр СССП, изрядно поношенный и потрепанный. Судя по всему, был взят с какого-то заброшенного боевого корабля.
@@ -128,7 +128,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, HardsuitIdentify]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitUSSPLightMK2
   name: USSP Light Hardsuit mk-2
   description: Старый боевой скафандр СССП, изрядно поношенный и потрепанный. Судя по всему, был взят с какого-то заброшенного боевого корабля.
@@ -171,7 +171,7 @@
     vendPrice: 2500
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitWarlord
   name: Warlord hardsuit helmet
   description: warlord hardsuit helmet
@@ -201,7 +201,7 @@
     - HeadSide
 
 - type: entity
-  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseC3SyndicateContraband]
+  parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitUSSPCombat
   name: ussp combat hardsuit helmet
   description: ussp combat harsuit helmet
