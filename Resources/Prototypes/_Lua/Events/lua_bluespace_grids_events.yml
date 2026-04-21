@@ -14,7 +14,7 @@
     weight: 5
     duration: 1350
     maxDuration: 1560
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 30 #Lua 6<0.5 hours
     requiredJobs:
       Sheriff: 1
   - type: BluespaceErrorRule
@@ -59,7 +59,7 @@
     weight: 5
     duration: 1350
     maxDuration: 1560
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 30 #Lua 6<0.5 hours
     requiredJobs:
       Sheriff: 1
   - type: BluespaceErrorRule
@@ -103,7 +103,7 @@
     weight: 3
     duration: 2100
     maxDuration: 2400
-    reoccurrenceDelay: 240 # once per 4 hours
+    reoccurrenceDelay: 30 #Lua 6<0.5 hours
     requiredJobs:
       Sheriff: 1
   - type: BluespaceErrorRule

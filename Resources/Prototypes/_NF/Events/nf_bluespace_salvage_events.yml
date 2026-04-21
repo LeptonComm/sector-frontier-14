@@ -123,13 +123,14 @@
     weight: 5
     duration: 1800 # 30 minutes
     maxDuration: 1800 # 30 minutes
+    reoccurrenceDelay: 15 # 15 minutes
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
         nameDataset: NamesCustomScrap
         nameDatasetType: Nanotrasen # they're shuttles
-        minCount: 2
-        maxCount: 3
+        minCount: 3
+        maxCount: 5
         minimumDistance: 1000
         maximumDistance: 2000
         addComponents:
@@ -171,14 +172,15 @@
     weight: 5
     duration: 1800 # 30 minutes
     maxDuration: 1800 # 30 minutes
+    reoccurrenceDelay: 15 # 15 minutes
   - type: BluespaceErrorRule
     asteroid: true
     groups:
       grid: !type:GridSpawnGroup
         nameDataset: NamesCustomScrap
         nameDatasetType: Nanotrasen # they're shuttles
-        minCount: 2
-        maxCount: 3
+        minCount: 3
+        maxCount: 5
         minimumDistance: 1000
         maximumDistance: 2000
         addComponents:
