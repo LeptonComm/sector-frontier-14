@@ -26,8 +26,8 @@
   - type: Matchbox
 
 - type: entity
-  parent: ClothingShoesMilitaryBase
-  id: ClothingShoesBootsCombatOutpostTypan
+  parent: [ClothingShoesMilitaryBase, BaseC1SyndicateContrabandNoValue]
+  id: ClothingShoesBootsCombatOutpostSyndicate
   name: ботинки синдиката
   description: Ботинки для боевых операций или боевых действий.
   components:

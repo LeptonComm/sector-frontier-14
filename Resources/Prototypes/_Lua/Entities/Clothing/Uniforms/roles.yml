@@ -140,8 +140,8 @@
 # region Typan
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpskirtOutpostTypanChef
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpskirtOutpostSyndicateChef
   name: юбка-комбинезон шеф-повара синдиката
   description: Без неё ничего и никого не приготовить.
   components:
@@ -151,8 +151,8 @@
     sprite: _Lua/Clothing/Uniforms/chefskirt.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpskirtOutpostTypanMedic
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpskirtOutpostSyndicateMedic
   name: юбка-комбинезон медика синдиката
   description: Практичность юбки обусловлена тяжестью стирания крови.
   components:
@@ -162,8 +162,8 @@
     sprite: _Lua/Clothing/Uniforms/medicalskirt.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpsuitOutpostTypanBotanist
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpsuitOutpostSyndicateBotanist
   name: комбинезон ботаника синдиката
   description: Имеет сильный запах земли. Будем надеяться, что он просто грязный, а не весь в земле.
   components:
@@ -173,8 +173,8 @@
     sprite: _Lua/Clothing/Uniforms/suitbotanist.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpsuitOutpostTypanCargotech
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpsuitOutpostSyndicateCargotech
   name: комбинезон карготехника синдиката
   description: Удобный прочный комбинезон.
   components:
@@ -184,8 +184,8 @@
     sprite: _Lua/Clothing/Uniforms/suitcargotech.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpsuitOutpostTypanChef
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpsuitOutpostSyndicateChef
   name: комбинезон шеф-повара синдиката
   description: Без него ничего и никого не приготовить.
   components:
@@ -195,8 +195,8 @@
     sprite: _Lua/Clothing/Uniforms/suitchef.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpsuitOutpostTypanDirectory
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpsuitOutpostSyndicateDirectory
   name: парадная форма директора исследований синдиката
   description: Роскошная униформа директора исследований, для особых случаев.
   components:
@@ -206,8 +206,8 @@
     sprite: _Lua/Clothing/Uniforms/directory.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpsuitOutpostTypanMedic
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpsuitOutpostSyndicateMedic
   name: комбинезон медика синдиката
   description: Удобный комбинезон для оказания различного рода медицинских услуг
   components:
@@ -217,8 +217,8 @@
     sprite: _Lua/Clothing/Uniforms/suitmedical.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformScienceRDOutpostTypan
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformScienceRDOutpostSyndicate
   name: униформа директора исследований
   description: Слегка выцветшая от химикатов униформа.
   components:
@@ -228,8 +228,8 @@
     sprite: ADT/Clothing/Uniforms/Jumpsuit/uniform_ili.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformScienceOutpostTypan
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformScienceOutpostSyndicate
   name: комбинезон ученого синдиката
   description: Черный тактический комбинезон, подходящий для всех видов исследований.
   components:
@@ -239,8 +239,8 @@
     sprite: ADT/Clothing/Uniforms/Jumpsuit/investigator_suit.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpskirtOutpostTypanBotanist
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpskirtOutpostSyndicateBotanist
   name: юбка-комбинезон ботаника синдиката
   description: Имеет сильный запах земли. Будем надеяться, что она просто грязная, а не вся в земле.
   components:
@@ -250,8 +250,8 @@
     sprite: _Lua/Clothing/Uniforms/botanistskirt.rsi
 
 - type: entity
-  parent: ClothingSyndieBaseOutpostTypan
-  id: ClothingUniformJumpskirtOutpostTypanCargotech
+  parent: [ClothingSyndieBaseOutpostSyndicate, BaseC1SyndicateContrabandNoValue]
+  id: ClothingUniformJumpskirtOutpostSyndicateCargotech
   name: юбка-комбинезон карготехника синдиката
   description: Удобный прочный комбинезон, теперь с юбкой.
   components:
